@@ -1,25 +1,33 @@
-<<<<<<< HEAD
 jQuery(document).ready(function($){
-
-    //fix for stupid ie object cover
-    if (document.documentMode || /Edge/.test(navigator.userAgent)) {
-      jQuery('.featured-box-img-cover').each(function(){
-          var t = jQuery(this),
-              s = 'url(' + t.attr('src') + ')',
-              p = t.parent(),
-              d = jQuery('<div></div>');
-  
-          p.append(d);
-          d.css({
-              'height'                : '290',
-              'background-size'       : 'cover',
-              'background-repeat'     : 'no-repeat',
-              'background-position'   : '50% 20%',
-              'background-image'      : s
-          });
-          t.hide();
-      });
+    
+ 
+    if ($(".hideshare")[0]){
+        var topOfOthDiv = $(".hideshare").offset().top;
+        $(window).scroll(function() {
+          if($(window).scrollTop() > topOfOthDiv) { //scrolled past the other div?
+              $(".share").hide(); //reached the desired point -- show div
+          }
+          else{
+            $(".share").show();
+          }
+        });
     }
+    
+    var offset = 1250; 
+    var duration = 800; 
+    jQuery(window).scroll(function() { 
+        if (jQuery(this).scrollTop() > offset) { 
+        jQuery('.back-to-top').fadeIn(duration); 
+        } else { 
+        jQuery('.back-to-top').fadeOut(duration); 
+        }
+    });
+    jQuery('.back-to-top').click(function(event) { 
+    event.preventDefault(); 
+    jQuery('html, body').animate({scrollTop: 0}, duration); 
+    return false; 
+    })
+
 
     // alertbar later
     $(document).scroll(function () {
@@ -31,83 +39,60 @@ jQuery(document).ready(function($){
         }
     });
 
-
-    // Smooth on external page
-    $(function() {
-      // setTimeout(function() {
-      //   if (location.hash) {
-      //     /* we need to scroll to the top of the window first, because the browser will always jump to the anchor first before JavaScript is ready, thanks Stack Overflow: http://stackoverflow.com/a/3659116 */
-      //     window.scrollTo(0, 0);
-      //     target = location.hash.split('#');
-      //     smoothScrollTo($('#'+target[1]));
-      //   }
-      // }, 1);
-
-      // taken from: https://css-tricks.com/snippets/jquery/smooth-scrolling/
-      // $('a[href*=\\#]:not([href=\\#])').click(function() {
-      //   if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      //     smoothScrollTo($(this.hash));
-      //     return false;
-      //   }
-      // });
-
-      // function smoothScrollTo(target) {
-      //   target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-
-      //   if (target.length) {
-      //     $('html,body').animate({
-      //       scrollTop: target.offset().top
-      //     }, 1000);
-      //   }
-      // }
-
-      /// ChatGPT
-      if (location.hash) {
-        // 브라우저의 기본 점프보다 먼저 화면을 맨 위로
-        window.scrollTo(0, 0);
-      
-        setTimeout(function () {
-          const decoded = decodeURIComponent(location.hash.slice(1));
-          const target = document.getElementById(decoded) || document.getElementsByName(decoded)[0];
-      
-          if (target) {
-            target.scrollIntoView({ behavior: 'smooth' });
-          } else {
-            console.warn('Target not found:', decoded);
-          }
-        }, 1);
-      }
-
-      $('a[href*=\\#]:not([href=\\#])').click(function(e) {
-        if (
-          location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') &&
-          location.hostname === this.hostname
-        ) {
-          e.preventDefault(); // 기본 점프 막고
-          smoothScrollToHash(this.hash); // 안전하게 점프
-        }
+     // masonry
+    if ($('.masonrygrid').length){
+      var $grid = $('.masonrygrid').masonry({
+      itemSelector: '.grid-item'
       });
+      $grid.imagesLoaded().progress( function() {
+        $grid.masonry();
+      });
+    }
 
-      function smoothScrollToHash(rawHash) {
-        if (!rawHash) return;
-      
-        const decoded = decodeURIComponent(rawHash.slice(1));
-        const target = document.getElementById(decoded) || document.getElementsByName(decoded)[0];
-      
-        if (target) {
-          target.scrollIntoView({ behavior: 'smooth' });
-        } else {
-          console.warn('Target not found:', decoded);
-        }
-      }
-    });
+ 
+        // Smooth scroll to an anchor
+        $('a.smoothscroll[href*="#"]')
+          // Remove links that don't actually link to anything
+          .not('[href="#"]')
+          .not('[href="#0"]')
+          .click(function(event) {
+            // On-page links
+            if (
+              location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+              &&
+              location.hostname == this.hostname
+            ) {
+              // Figure out element to scroll to
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+              // Does a scroll target exist?
+              if (target.length) {
+                // Only prevent default if animation is actually gonna happen
+                event.preventDefault();
+                $('html, body').animate({
+                  scrollTop: target.offset().top
+                }, 1000, function() {
+                  // Callback after animation
+                  // Must change focus!
+                  var $target = $(target);
+                  $target.focus();
+                  if ($target.is(":focus")) { // Checking if the target was focused
+                    return false;
+                  } else {
+                    $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+                    $target.focus(); // Set focus again
+                  };
+                });
+              }
+            }
+          });
     
     
     // Hide Header on on scroll down
     var didScroll;
     var lastScrollTop = 0;
     var delta = 5;
-    var navbarHeight = $('nav').outerHeight();
+    var navbarHeight = $('header').outerHeight();
 
     $(window).scroll(function(event){
         didScroll = true;
@@ -122,6 +107,7 @@ jQuery(document).ready(function($){
 
     function hasScrolled() {
         var st = $(this).scrollTop();
+        var brandrow = $('.brandrow').css("height");
         
         // Make sure they scroll more than delta
         if(Math.abs(lastScrollTop - st) <= delta)
@@ -131,53 +117,24 @@ jQuery(document).ready(function($){
         // This is necessary so you never see what is "behind" the navbar.
         if (st > lastScrollTop && st > navbarHeight){
             // Scroll Down            
-            $('nav').removeClass('nav-down').addClass('nav-up'); 
-            $('.nav-up').css('top', - $('nav').outerHeight() + 'px');
+            $('header').removeClass('nav-down').addClass('nav-up'); 
+            $('.nav-up').css('top', - $('header').outerHeight() + 'px');
            
         } else {
             // Scroll Up
             if(st + $(window).height() < $(document).height()) {               
-                $('nav').removeClass('nav-up').addClass('nav-down');
+                $('header').removeClass('nav-up').addClass('nav-down');
                 $('.nav-up, .nav-down').css('top', '0px');             
             }
         }
 
         lastScrollTop = st;
     }
-        
-    $('.site-content').css('margin-top', $('header').outerHeight() + 'px');  
     
-    // spoilers
-     $(document).on('click', '.spoiler', function() {
-        $(this).removeClass('spoiler');
-     });
     
- });   
+    $('.site-content').css('margin-top', $('header').outerHeight() + 'px');
 
-// deferred style loading
-var loadDeferredStyles = function () {
-	var addStylesNode = document.getElementById("deferred-styles");
-	var replacement = document.createElement("div");
-	replacement.innerHTML = addStylesNode.textContent;
-	document.body.appendChild(replacement);
-	addStylesNode.parentElement.removeChild(addStylesNode);
-};
-var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
-	window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
-if (raf) raf(function () {
-	window.setTimeout(loadDeferredStyles, 0);
-});
-else window.addEventListener('load', loadDeferredStyles);
-=======
-$(function(){
-  var topOfOthDiv = $(".hideshare").offset().top;
-  $(window).scroll(function() {
-      if($(window).scrollTop() > topOfOthDiv) { //scrolled past the other div?
-          $(".share").hide(); //reached the desired point -- show div
-      }
-      else{
-        $(".share").show();
-      }
-  });
+
+
 });
 >>>>>>> 01d971e ("Initial".)
