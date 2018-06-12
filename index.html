@@ -14,7 +14,7 @@ image: /assets/images/title-image.jpeg
     <div class="section-title">
         <h2><span>Featured</span></h2>
     </div>
-    <div class="row listfeaturedtag">
+    <div class="row">
         
     {% for post in site.posts %}
 
@@ -34,22 +34,23 @@ image: /assets/images/title-image.jpeg
 <!-- Posts Index
 ================================================== -->
 <section class="recent-posts">
+    
     <div class="section-title">
-        <h2><span>All Stories</span></h2>
-    </div>
-    <div class="masonrygrid row listrecent">
         
-    {% for post in paginator.posts %}
-
-        {% unless post.featured == true %}
-
-            {% include postbox.html %}
-
-        {% endunless %}
-
-    {% endfor %}
-
+        <h2><span>All Stories</span></h2>
+        
     </div>
+    
+    <div class="row listrecent">
+
+        {% for post in paginator.posts %}
+
+               {% include postbox.html %}          
+
+        {% endfor %}
+        
+    </div>
+    
 </section>
 
 <!-- Pagination
