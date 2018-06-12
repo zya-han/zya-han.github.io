@@ -18,7 +18,7 @@
     - Google Analaytics
     - Mailchimp Integration
 - Design Features:
-    - Bootstrap v4.0.0-alpha.6
+    - Bootstrap v4.1
     - Font Awesome
     - Masonry
 - Layouts:
@@ -41,8 +41,9 @@ Download or Fork *Mediumish for Jekyll*.
 - Edit the menu and footer copyrights in <code>default.html</code>
 - Start by adding your .md files in <code>_posts</code>. Mediumish already has a few as an example. 
 - YAML front matter
-    - post featured - <code>featured:true</code>
-    - post featured image - <code>image: assets/images/mypic.jpg</code>
+    - featured post - <code>featured:true</code>
+    - exclude featured post from "All stories" loop to avoid duplicated posts - <code>hidden:true</code>
+    - post image - <code>image: assets/images/mypic.jpg</code>
     - page comments - <code>comments:true</code>
     - meta description (optional) - <code>description: "this is my meta description"</code>
     
@@ -71,9 +72,10 @@ comments: true
 
 Copyright (C) 2018 WowThemes.net.
 
-**Mediumish for Jekyll** is designed and developed by WowThemes.net and it is *free* for personal use.
+**Mediumish for Jekyll** is designed and developed by [Sal](https://www.wowthemes.net) and it is *free* under MIT license. 
 
-For commercial use, please, [purchase a license ($10)](https://gum.co/mediumish-jekyll-template).
+<a href="https://www.buymeacoffee.com/sal" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+
 
 -----------------
 
