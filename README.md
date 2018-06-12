@@ -20,7 +20,7 @@
     - Google Analaytics
     - Mailchimp Integration
 - Design Features:
-    - Bootstrap v4.0.0-alpha.6
+    - Bootstrap v4.x
     - Font Awesome
     - Masonry
 - Layouts:
