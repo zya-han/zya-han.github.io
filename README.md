@@ -70,7 +70,13 @@ Copyright (C) 2018 WowThemes.net.
 
 **Mediumish for Jekyll** is designed and developed by [Sal](https://www.wowthemes.net) and it is *free* under MIT license. If this project helps you reduce time to develop or you want to remove the attribution, you can give me a cup of coffee :)
 
-For commercial use, please, [purchase a license ($10)](https://gum.co/mediumish-jekyll-template).
+<a href="https://www.buymeacoffee.com/sal" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+
+### Contribute
+
+- [Clone the repo](https://github.com/wowthemesnet/mediumish-theme-jekyll).
+- Create a branch off of master and give it a meaningful name (e.g. my-new-mediumish-feature).
+- Open a pull request on GitHub and describe the feature or fix.
 
 -----------------
 
