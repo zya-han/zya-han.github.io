@@ -56,8 +56,10 @@ Download or Fork *Mediumish for Jekyll*.
 - Edit the menu and footer copyrights in <code>default.html</code>
 - Start by adding your .md files in <code>_posts</code>. Mediumish already has a few as an example. 
 - YAML front matter
-    - post featured - <code>featured:true</code>
-    - post featured image - <code>image: assets/images/mypic.jpg</code>
+    - featured post - <code>featured:true</code>
+    - exclude featured post from "All stories" loop to avoid duplicated posts - <code>hidden:true</code>
+    - post image - <code>image: assets/images/mypic.jpg</code>
+    - external post image - <code>image: "https://externalwebsite.com/image4.jpg" </code>
     - page comments - <code>comments:true</code>
     - meta description (optional) - <code>description: "this is my meta description"</code>
     
