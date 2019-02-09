@@ -1,97 +1,22 @@
-# Jekyll Template - Mediumish by WowThemes.net
+# Mediumish - Jekyll Theme
 
-![enter image description here](assets/images/mediumish-jekyll-template.png)
+[Live Demo](https://wowthemesnet.github.io/mediumish-theme-jekyll/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip) &nbsp; | &nbsp; [Features](https://wowthemesnet.github.io/mediumish-theme-jekyll/about#features) &nbsp; |  &nbsp; [Docs](https://wowthemesnet.github.io/mediumish-theme-jekyll/about#usingmediumish)
 
-### Features
-
-- Built for Jekyll
-- Compatible with Github pages
-- Featured Posts
-- Index Pagination
-- Post Share
-- Post Categories
-- Prev/Next Link
-- Category Archives
-- Jumbotron Categories
-- Integrations:
-    - Disqus Comments
-    - Google Analaytics
-    - Mailchimp Integration
-- Design Features:
-    - Bootstrap v4.x
-    - Font Awesome
-    - Masonry
-- Layouts:
-    - Default
-    - Post
-    - Page
-    - Archive
-    
-### How to Use
-
-If you aren't familiar with Jekyll yet, you should know that it is a static site generator. It will transform your plain text into static websites and blogs. No more databases, slow loading websites, risk of being hacked...just your content. And not only that, with Jekyll you get free hosting with GitHub Pages! This page itself is free hosted on Github with the help of Jekyll and Mediumish template that you're currently previewing. If you are a beginner we recommend you start with [Jekyll's Docs](https://jekyllrb.com/docs/installation/){:target="_blank"}. Now if you know how to use Jekyll, let's move on to using Mediumish template in Jekyll:
-
-### Using Mediumish
-
-- Open `_config.yml`. If your site is in root, for `baseurl`, make sure this is set to `baseurl: ''`. Also, change your Google Analytics code, disqus username, authors, Mailchimp list etc.
-- Mediumish requires 2 plugins: 
-    - `$ gem install jekyll-paginate`
-    - `$ gem install jekyll-archives`.
-- Edit the menu and footer copyrights in `default.html`
-- Start by adding your .md files in `_posts`. Mediumish already has a few as an example. 
-- YAML front matter
-    - featured post - `featured:true`
-    - exclude featured post from "All stories" loop to avoid duplicated posts - `hidden:true`
-    - post image - `image: assets/images/mypic.jpg`
-    - page comments - `comments:true`
-    - meta description (optional) - `description: "this is my meta description"`
-    
-YAML Post Example:
-
-```
----
-layout: post
-title:  "We all wait for summer"
-author: john
-categories: [ Jekyll, tutorial ]
-image: assets/images/5.jpg
-featured: true
----
-```
-
-Use `comments: false` to disable comments in posts!
-Use `image: "https://www.myexternal.com/image.jpg"`  for external featured image
-    
-YAML Page Example:
-
-```
----
-layout: page
-title: Mediumish Template for Jekyll
-comments: true
----
-```
+![mediumish](assets/images/mediumish-jekyll-template.png)
 
 ### Copyright
 
-Copyright (C) 2018 WowThemes.net.
+Copyright (C) 2019 Sal, https://www.wowthemes.net
 
 **Mediumish for Jekyll** is designed and developed by [Sal](https://www.wowthemes.net) and it is *free* under MIT license. 
 
-<a href="https://www.buymeacoffee.com/sal" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+<a href="https://wowthemesnet.github.io/mediumish-theme-jekyll/about" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
 ### Contribute
 
-- [Clone the repo](https://github.com/wowthemesnet/mediumish-theme-jekyll).
-- Create a branch off of master and give it a meaningful name (e.g. my-new-mediumish-feature).
-- Open a pull request on GitHub and describe the feature or fix.
+1. [Fork the repo](https://github.com/wowthemesnet/mediumish-theme-jekyll).
+2. Clone a copy of your fork on your local
+3. Create a branch off of master and give it a meaningful name (e.g. my-new-mediumish-feature).
+4. Make necessary changes, commit, push and open a pull request on GitHub.
 
-Thank you so much for your contribution!
-
------------------
-
-## Contribute
-
-- Clone the repo.
-- Create a branch off of master and give it a meaningful name (e.g. my-new-mediumish-feature).
-- Open a pull request on GitHub and describe the feature or fix.
+Thank you!
