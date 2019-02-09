@@ -1,32 +1,4 @@
 jQuery(document).ready(function($){
-    
- 
-    if ($(".hideshare")[0]){
-        var topOfOthDiv = $(".hideshare").offset().top;
-        $(window).scroll(function() {
-          if($(window).scrollTop() > topOfOthDiv) { //scrolled past the other div?
-              $(".share").hide(); //reached the desired point -- show div
-          }
-          else{
-            $(".share").show();
-          }
-        });
-    }
-    
-    var offset = 1250; 
-    var duration = 800; 
-    jQuery(window).scroll(function() { 
-        if (jQuery(this).scrollTop() > offset) { 
-        jQuery('.back-to-top').fadeIn(duration); 
-        } else { 
-        jQuery('.back-to-top').fadeOut(duration); 
-        }
-    });
-    jQuery('.back-to-top').click(function(event) { 
-    event.preventDefault(); 
-    jQuery('html, body').animate({scrollTop: 0}, duration); 
-    return false; 
-    })
 
 
     // alertbar later
@@ -39,53 +11,36 @@ jQuery(document).ready(function($){
         }
     });
 
-     // masonry
-    if ($('.masonrygrid').length){
-      var $grid = $('.masonrygrid').masonry({
-      itemSelector: '.grid-item'
-      });
-      $grid.imagesLoaded().progress( function() {
-        $grid.masonry();
-      });
-    }
 
- 
-        // Smooth scroll to an anchor
-        $('a.smoothscroll[href*="#"]')
-          // Remove links that don't actually link to anything
-          .not('[href="#"]')
-          .not('[href="#0"]')
-          .click(function(event) {
-            // On-page links
-            if (
-              location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-              &&
-              location.hostname == this.hostname
-            ) {
-              // Figure out element to scroll to
-              var target = $(this.hash);
-              target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-              // Does a scroll target exist?
-              if (target.length) {
-                // Only prevent default if animation is actually gonna happen
-                event.preventDefault();
-                $('html, body').animate({
-                  scrollTop: target.offset().top
-                }, 1000, function() {
-                  // Callback after animation
-                  // Must change focus!
-                  var $target = $(target);
-                  $target.focus();
-                  if ($target.is(":focus")) { // Checking if the target was focused
-                    return false;
-                  } else {
-                    $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-                    $target.focus(); // Set focus again
-                  };
-                });
-              }
-            }
-          });
+    // Smooth on external page
+    $(function() {
+      setTimeout(function() {
+        if (location.hash) {
+          /* we need to scroll to the top of the window first, because the browser will always jump to the anchor first before JavaScript is ready, thanks Stack Overflow: http://stackoverflow.com/a/3659116 */
+          window.scrollTo(0, 0);
+          target = location.hash.split('#');
+          smoothScrollTo($('#'+target[1]));
+        }
+      }, 1);
+
+      // taken from: https://css-tricks.com/snippets/jquery/smooth-scrolling/
+      $('a[href*=\\#]:not([href=\\#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          smoothScrollTo($(this.hash));
+          return false;
+        }
+      });
+
+      function smoothScrollTo(target) {
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+        }
+      }
+    });
     
     
     // Hide Header on on scroll down
@@ -107,7 +62,6 @@ jQuery(document).ready(function($){
 
     function hasScrolled() {
         var st = $(this).scrollTop();
-        var brandrow = $('.brandrow').css("height");
         
         // Make sure they scroll more than delta
         if(Math.abs(lastScrollTop - st) <= delta)
@@ -130,11 +84,7 @@ jQuery(document).ready(function($){
 
         lastScrollTop = st;
     }
+        
+    $('.site-content').css('margin-top', $('header').outerHeight() + 'px');  
     
-    
-    $('.site-content').css('margin-top', $('header').outerHeight() + 'px');
-
-
-
-});
->>>>>>> 01d971e ("Initial".)
+ });   
