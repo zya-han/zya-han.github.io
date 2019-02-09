@@ -160,14 +160,15 @@ ga('send', 'pageview');
 <!-- Begin Footer
 ================================================== -->
 <footer class="footer">
-    <p class="pull-left">
-         Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
-    </p>
-    <p class="pull-right">
-    <!-- Please, leave credit to author unless you make a donation: https://www.wowthemes.net/freebies-license/ --> 
-        <a target="_blank" href="https://www.wowthemes.net">Mediumish Theme</a> by WowThemes.net
-    </p>
-    <div class="clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 text-center text-lg-left">
+                 Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
+            </div>
+            <div class="col-md-6 col-sm-6 text-center text-lg-right">    
+                <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> by WowThemes.net
+            </div>
+        </div>
     </div>
 </footer>
 <!-- End Footer
