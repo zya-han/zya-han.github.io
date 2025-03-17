@@ -27,7 +27,7 @@ pre {
     border: #E3EDF3 1px solid;
     width: 100%;
     padding: 7px;
-    font-family: monospace, sans-serif;
+    font-family: "IBM Plex Sans KR", sans-serif;
     font-size: .9rem;
     white-space: pre;
     overflow: auto;
@@ -685,7 +685,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: -apple-system, system-ui, fBlinkMacSystemFont, "IBM Plex Sans KR", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .article-post .h1,
@@ -711,7 +711,7 @@ h6 {
 }
 
 .layout-page .article-post {
-    font-family: -apple-system, "Song Myung", BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: -apple-system, BlinkMacSystemFont, "IBM Plex Sans KR", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1rem;
 }
 
@@ -874,7 +874,7 @@ iframe {
     line-height: 1;
     padding: 2px 3px;
     width: 150px;
-    font-family: Arial;
+    font-family: "IBM Plex Sans KR";
     text-align: center;
     border-radius: 3px;
     transition: all .4s;
