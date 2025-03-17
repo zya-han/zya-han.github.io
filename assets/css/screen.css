@@ -305,7 +305,7 @@ span.post-read-more a:hover {
 }
 
 .mainheading h1.sitetitle {
-    font-family: "Song Myung";
+    font-family: "Song Myung", serif;
 }
 
 .mainheading h1.posttitle {
@@ -330,7 +330,7 @@ span.post-read-more a:hover {
 }
 
 .article-post {
-    font-family: "Gowun Batang";
+    font-family: "Gowun Batang", serif;
     font-size: 1.1rem;
     line-height: 1.84;
     color: rgba(0, 0, 0, .8);
