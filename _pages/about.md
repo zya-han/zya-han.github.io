@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mediumish Template for Jekyll
+title: 주아
 permalink: /about
 comments: true
 ---
