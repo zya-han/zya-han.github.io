@@ -4,7 +4,7 @@ title: "Hanshu"
 description: "《한서》의 세계에 관해 이야기합니다."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: ''
+baseurl: 'https://zya-han.github.io'
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
 include: ["_pages"]
