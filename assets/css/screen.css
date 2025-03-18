@@ -685,7 +685,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: -apple-system, system-ui, fBlinkMacSystemFont, "Gowun Dodum", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: "Gowun Dodum", -apple-system, system-ui, fBlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .article-post .h1,
@@ -711,7 +711,7 @@ h6 {
 }
 
 .layout-page .article-post {
-    font-family: -apple-system, BlinkMacSystemFont, "Gowun Dodum", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Gowun Dodum", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1rem;
 }
 
