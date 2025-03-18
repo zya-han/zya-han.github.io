@@ -28,8 +28,8 @@ idx.field('title', { boost: 10 });
 idx.field('body');
 
 documents.forEach(function (doc) {
-    this.add(doc)
-}, this);
+    idx.add(doc)
+}, idx);
 function lunr_search(term) {
     document.getElementById('lunrsearchresults').innerHTML = '<ul></ul>';
     if(term) {
