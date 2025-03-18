@@ -37,20 +37,7 @@
  * @see {@link lunr.stemmer}
  * @namespace {function} lunr
  */
-  @example
-  var idx = lunr(function () {
-    this.use(lunr.multi)
-    this.field('title')
-    this.field('body')
-    this.ref('id')
- 
-    documents.forEach(function (doc) {
-      this.add(doc)
-    }, this)
-  })
-
-  
-  var lunr = function (config) {
+var lunr = function (config) {
   var builder = new lunr.Builder
 
   builder.pipeline.add(
