@@ -21,12 +21,6 @@ var documents = [{% for page in site.pages %}{% if page.url contains '.xml' or p
     "body": "{{ page.date | date: "%Y/%m/%d" }} - {{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
     }{% if forloop.last %}{% else %}, {% endif %}{% endfor %}];
 
-var lunr = require('./lunr.js');
-require('./lunr.stemmer.support.js')(lunr);
-require('./lunr.ko.js')(lunr);
-require('./lunr.zh.js')(lunr);
-require('./lunr.multi.js')(lunr);
-
 var idx = lunr(function () {
     this.use(lunr.multiLanguage('en', 'ko', 'zh'));
     this.ref('id')
