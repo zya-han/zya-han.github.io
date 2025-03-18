@@ -5,12 +5,13 @@
 
 /* We need to add display:inline in order to align the '>>' of the 'read more' link */
 .post-excerpt p {
-    overflow: hidden;
-    text-overflow: ellipsis;
+	display: block;
+	overflow: hidden;
+        text-overflow: ellipsis;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
 	"syntax",
-    "starsnonscss"
+        "starsnonscss"
 ;
