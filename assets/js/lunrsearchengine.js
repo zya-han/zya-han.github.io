@@ -22,14 +22,14 @@ var documents = [{% for page in site.pages %}{% if page.url contains '.xml' or p
     }{% if forloop.last %}{% else %}, {% endif %}{% endfor %}];
 
 var idx = lunr(function () {
-    this.use(lunr.multiLanguage('en', 'ko'));
-    this.ref('id');
-    this.field('title');
-    this.field('body');
+    this.use(lunr.multiLanguage('en', 'ko', 'zh'))
+    this.ref('id')
+    this.field('title')
+    this.field('body')
 
     documents.forEach(function (doc) {
         this.add(doc)
-    }, this);
+    }, this)
 });
 function lunr_search(term) {
     document.getElementById('lunrsearchresults').innerHTML = '<ul></ul>';
