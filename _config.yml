@@ -8,7 +8,8 @@ baseurl: 'https://zya-han.github.io'
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
 include: ["_pages"]
-permalink: /:title/
+permalink: :title/
+excerpt_separator: <!--more-->
 
 # Authors
 authors:
