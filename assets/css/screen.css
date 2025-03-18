@@ -27,7 +27,7 @@ pre {
     border: #E3EDF3 1px solid;
     width: 100%;
     padding: 7px;
-    font-family: "Gowun Dodum", sans-serif;
+    font-family: monoscape, sans-serif;
     font-size: .9rem;
     white-space: pre;
     overflow: auto;
@@ -309,7 +309,7 @@ span.post-read-more a:hover {
 }
 
 .mainheading p.lead {
-    font-family: "Song Myung", serif;
+    font-family: "42dot Sans", sans-serif;
 }
 
 .mainheading h1.posttitle {
@@ -334,7 +334,7 @@ span.post-read-more a:hover {
 }
 
 .article-post {
-    font-family: "Gowun Batang", serif;
+    font-family: "Iansui", "Gowun Batang", serif;
     font-size: 1.1rem;
     line-height: 1.84;
     color: rgba(0, 0, 0, .8);
