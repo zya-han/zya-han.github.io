@@ -310,6 +310,7 @@ span.post-read-more a:hover {
 
 .mainheading p.lead {
     font-family: "42dot Sans", sans-serif;
+    font-weight: 300;
 }
 
 .mainheading h1.posttitle {
