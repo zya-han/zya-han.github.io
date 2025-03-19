@@ -63,3 +63,11 @@ adsense-data-ad-slot: "1363087678"
 lazyimages: "disabled"
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      author: zya
+      image: 'assets/images/title-image.jpeg'
