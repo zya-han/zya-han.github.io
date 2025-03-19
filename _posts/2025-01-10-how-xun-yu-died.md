@@ -5,7 +5,7 @@ author: zya
 categories: [ 한나라 설정집, 정보 ]
 tags: [ 순욱, 병사, 근심, 삼국지 ]
 date: 2025-01-10 20:14:00 +0900
-image: assets/images/bronze-mirror.jpeg
+image: assets/images/bronze-mirror.jpg
 description: "역사서에서 ‘근심으로 인해 죽다’를 어떻게 해석할 것인가?"
 featured: false
 hidden: false
