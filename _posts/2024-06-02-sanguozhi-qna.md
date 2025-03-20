@@ -21,7 +21,7 @@ hidden: true
 ### 참여 방법
 
 1. 구글에 로그인합니다.
-1. 다음 링크에 접속합니다. https://docs.google.com/document/d/13M2H3LicpHjRL0gDCxn31rMoGYDOYdT-7gR6PlWOX08
+1. 다음 링크에 접속합니다. [https://docs.google.com/document/d/13M2H3LicpHjRL0gDCxn31rMoGYDOYdT-7gR6PlWOX08](https://docs.google.com/document/d/13M2H3LicpHjRL0gDCxn31rMoGYDOYdT-7gR6PlWOX08)
 1. [메일(선택사항)]에 닉네임을 쓰고 [액세스 요청]을 누릅니다.
 1. 편집자 권한을 받아 질문을 작성합니다.
 
