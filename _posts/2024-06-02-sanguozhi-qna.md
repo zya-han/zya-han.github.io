@@ -25,6 +25,8 @@ hidden: true
 1. [메일(선택사항)]에 닉네임을 쓰고 [액세스 요청]을 누릅니다.
 1. 편집자 권한을 받아 질문을 작성합니다.
 
+![qna-guide]({{ site.baseurl }}/assets/images/qna-guide.jpg)
+
 ### 참고 사항
 
 1. 정해진 마감 없이 상시로 질문을 받고 있습니다.
