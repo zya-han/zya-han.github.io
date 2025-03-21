@@ -16,7 +16,8 @@
 <meta property="og:title" content="미남과 오컬트와 자살">
 <meta property="twitter:title" content="미남과 오컬트와 자살">
 
-<title>{{ page.page_title | default: page.title }}</title><!-- 수동 -->
+<title>{{ page.page_title | default: page.title | append: " | " | append: site.title }}</title>
+ <!-- 수동 -->
 {% seo title=false %} <!-- 자동 <title> 생성을 끔 -->
 
 <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
