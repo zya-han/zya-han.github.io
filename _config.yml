@@ -9,8 +9,10 @@ baseurl: ''
 url: 'https://zya-han.github.io'
 google_analytics: 'G-BGPF88VHK2'
 disqus: 'demowebsite'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
-include: ["_pages"]
+include:
+  - _pages
+  - _headers
+  - assets
 permalink: /:title/
 
 # Authors
@@ -72,3 +74,18 @@ adsense-data-ad-slot: "1363087678"
 lazyimages: "disabled"
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+
+# set timezone
+timezone: Asia/Seoul
+
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      author: zya
+      image: 'assets/images/title-image.jpeg'
+      headers:
+        Content-Security-Policy: "script-src 'self' https://*.disqus.com https://*.disquscdn.com https://*.disqus.net;"
+
