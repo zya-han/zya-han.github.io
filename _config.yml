@@ -79,3 +79,6 @@ defaults:
     values:
       author: zya
       image: 'assets/images/title-image.jpeg'
+      headers:
+        Content-Security-Policy: "script-src 'self' https://*.disqus.com https://*.disquscdn.com https://*.disqus.net;"
+
