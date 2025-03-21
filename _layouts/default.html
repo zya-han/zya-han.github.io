@@ -194,18 +194,17 @@
 
 {% if page.title == 'Tags' %}
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const rawHash = window.location.hash;
-    if (rawHash) {
-      const decoded = decodeURIComponent(rawHash.slice(1));
-      const el = document.getElementById(decoded);
-    if (el) {
-      el.scrollIntoView({ behavior: "smooth" });
-    } else {
-      console.warn("ID not found:", decoded);
+$(document).ready(function() {
+  var hash = window.location.hash;
+  if (hash) {
+    var decodedHash = decodeURIComponent(hash);
+    var targetElement = $(decodedHash);
+    if (targetElement.length) {
+      // 요소가 존재하면 스크롤 등 원하는 동작 수행
+      targetElement.scrollIntoView({ behavior: "smooth" });
     }
-    }
-  });
+  }
+});
 </script>
 {% endif %}
 
