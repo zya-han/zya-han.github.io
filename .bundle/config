@@ -1,3 +1,0 @@
----
-BUNDLE_BUILD__EVENTMACHINE: "--with-cppflags=-I/opt/homebrew/include"
-BUNDLE_BUILD__HTTP_PARSER__RB: "--with-cppflags=-I/opt/homebrew/include"
