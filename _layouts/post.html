@@ -45,9 +45,9 @@ post_class: post-template
                 <!-- Post Date -->
                 <p>
                     <small>
-                        <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d H:i" }}">{{ page.date | date_to_string }}</time></span>           
+                        <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d %X" }}">{{ page.date | date: "%Y-%m-%d %R" }}</time></span>           
                         {% if page.last_modified_at %}
-                        (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%Y-%m-%d H:i" }}</time>)
+                        (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%Y-%m-%d %R" }}</time>)
                         {% endif %}
                     </small>
                 </p>
