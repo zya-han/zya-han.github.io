@@ -14,7 +14,7 @@ permalink: /:title/
 excerpt_separator: <!--more-->
 
 # Categories
-category_list: ["정보", "한나라 설정집", "삼국연의 읽기", "삼국지 질의응답", "잡담", "소설", "자살하기에는 너무 늦어 버려서"]
+categories: ["정보", "한나라 설정집", "삼국연의 읽기", "삼국지 질의응답", "잡담", "소설", "자살하기에는 너무 늦어 버려서"]
 
 # Authors
 authors:
