@@ -3,19 +3,6 @@ title: "Tags"
 layout: default
 permalink: "/tags.html"
 ---
-<script>
-    window.addEventListener("load", function () {
-      if (window.location.hash) {
-        const hash = decodeURIComponent(window.location.hash.slice(1));
-        const target = document.getElementById(hash);
-        if (target) {
-          setTimeout(() => {
-            target.scrollIntoView({ behavior: "smooth" });
-          }, 100); // 렌더링 기다리는 용도
-        }
-      }
-    });
-  </script>  
 
 <div class="row listrecent">
 {% for tag in site.tags %}
