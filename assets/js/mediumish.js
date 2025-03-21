@@ -43,20 +43,44 @@ jQuery(document).ready(function($){
       }, 1);
 
       // taken from: https://css-tricks.com/snippets/jquery/smooth-scrolling/
-      $('a[href*=\\#]:not([href=\\#])').click(function() {
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-          smoothScrollTo($(this.hash));
-          return false;
+      // $('a[href*=\\#]:not([href=\\#])').click(function() {
+      //   if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      //     smoothScrollTo($(this.hash));
+      //     return false;
+      //   }
+      // });
+
+      // function smoothScrollTo(target) {
+      //   target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+
+      //   if (target.length) {
+      //     $('html,body').animate({
+      //       scrollTop: target.offset().top
+      //     }, 1000);
+      //   }
+      // }
+
+      /// ChatGPT
+      $('a[href*=\\#]:not([href=\\#])').click(function(e) {
+        if (
+          location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') &&
+          location.hostname === this.hostname
+        ) {
+          e.preventDefault(); // 기본 점프 막고
+          smoothScrollToHash(this.hash); // 안전하게 점프
         }
       });
 
-      function smoothScrollTo(target) {
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-
-        if (target.length) {
-          $('html,body').animate({
-            scrollTop: target.offset().top
-          }, 1000);
+      function smoothScrollToHash(rawHash) {
+        if (!rawHash) return;
+      
+        const decoded = decodeURIComponent(rawHash.slice(1));
+        const target = document.getElementById(decoded) || document.getElementsByName(decoded)[0];
+      
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth' });
+        } else {
+          console.warn('Target not found:', decoded);
         }
       }
     });
