@@ -2,7 +2,7 @@
 layout: post
 title:  "체장부인(體長婦人)의 미궁: 원소는 도대체 어떻게 자랐나?"
 categories: [ 잡담, 정보 ]
-tags: [ 삼국지, 원소, 여장, 삼국지 ]
+tags: [ 삼국지, 원소, 여장 ]
 date: 2024-09-24 17:23:00 +0900
 image: assets/images/han-beau-figurine.jpg
 description: "원소의 체구가 여자 같았다고? 《사기》에 나오는 장량처럼 가녀린 미남인가?"
