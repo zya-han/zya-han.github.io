@@ -201,8 +201,8 @@ $(document).ready(function() {
     var decodedHash = decodeURIComponent(hash);
     var targetElement = $(decodedHash);
     if (targetElement.length) {
-      // 요소가 존재하면 스크롤 등 원하는 동작 수행
-      targetElement.scrollIntoView({ behavior: "smooth" });
+      // jQuery 객체를 DOM 요소로 변환하여 scrollIntoView 호출
+      targetElement[0].scrollIntoView({ behavior: "smooth" });
     }
   }
 });
