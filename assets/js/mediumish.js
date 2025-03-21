@@ -33,14 +33,14 @@ jQuery(document).ready(function($){
 
     // Smooth on external page
     $(function() {
-      setTimeout(function() {
-        if (location.hash) {
-          /* we need to scroll to the top of the window first, because the browser will always jump to the anchor first before JavaScript is ready, thanks Stack Overflow: http://stackoverflow.com/a/3659116 */
-          window.scrollTo(0, 0);
-          target = location.hash.split('#');
-          smoothScrollTo($('#'+target[1]));
-        }
-      }, 1);
+      // setTimeout(function() {
+      //   if (location.hash) {
+      //     /* we need to scroll to the top of the window first, because the browser will always jump to the anchor first before JavaScript is ready, thanks Stack Overflow: http://stackoverflow.com/a/3659116 */
+      //     window.scrollTo(0, 0);
+      //     target = location.hash.split('#');
+      //     smoothScrollTo($('#'+target[1]));
+      //   }
+      // }, 1);
 
       // taken from: https://css-tricks.com/snippets/jquery/smooth-scrolling/
       // $('a[href*=\\#]:not([href=\\#])').click(function() {
@@ -61,6 +61,22 @@ jQuery(document).ready(function($){
       // }
 
       /// ChatGPT
+      if (location.hash) {
+        // 브라우저의 기본 점프보다 먼저 화면을 맨 위로
+        window.scrollTo(0, 0);
+      
+        setTimeout(function () {
+          const decoded = decodeURIComponent(location.hash.slice(1));
+          const target = document.getElementById(decoded) || document.getElementsByName(decoded)[0];
+      
+          if (target) {
+            target.scrollIntoView({ behavior: 'smooth' });
+          } else {
+            console.warn('Target not found:', decoded);
+          }
+        }, 1);
+      }
+
       $('a[href*=\\#]:not([href=\\#])').click(function(e) {
         if (
           location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') &&
