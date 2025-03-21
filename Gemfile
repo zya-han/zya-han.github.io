@@ -18,3 +18,5 @@ group :jekyll_plugins do
     gem 'kramdown'
     gem 'rouge'
 end
+
+gem "kramdown-parser-gfm", "~> 1.1"
