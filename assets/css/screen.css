@@ -302,17 +302,36 @@ section.recent-posts {
  .link-dark {
      color:rgba(0,0,0,.8);
 }
- .article-post {
-     font-family:Merriweather;
-     font-size:1.1rem;
-     line-height:1.84;
-     color:rgba(0,0,0,.8);
+
+.article-post {
+    font-size: 1.1rem;
+    line-height: 1.84;
+    color: rgba(0, 0, 0, .8);
 }
- blockquote {
-     border-left:4px solid #00ab6b;
-     padding:0 20px;
-     font-style:italic;
-     color:rgba(0,0,0,.5);
+
+@font-face {
+    font-family: "HanaMinB";
+    src: url("/assets/fonts/HanaMinB.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+/* 한국어 문서용 글꼴 */
+.article-post:lang(ko) {
+    font-family: "Gowun Batang", "Iansui", "HanaMinB", serif;
+  }
+  
+/* 영어 문서용 글꼴 */
+.article-post:lang(en) {
+    font-family: "Merriweather", Georgia, "Iansui", "HanaMinB", serif;
+  }
+
+blockquote {
+    border-left: 4px solid #00ab6b;
+    padding: 0 20px;
+    font-style: italic;
+    color: rgba(0, 0, 0, .5);
 }
  .article-post p,.article-post blockquote {
      margin:0 0 1.5rem 0;
