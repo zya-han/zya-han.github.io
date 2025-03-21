@@ -5,20 +5,6 @@ archive: false
 post_class: post-template
 ---
 
-<script>
-    window.addEventListener("load", function () {
-      if (window.location.hash) {
-        const hash = decodeURIComponent(window.location.hash.slice(1));
-        const target = document.getElementById(hash);
-        if (target) {
-          setTimeout(() => {
-            target.scrollIntoView({ behavior: "smooth" });
-          }, 100); // 렌더링 기다리는 용도
-        }
-      }
-    });
-</script>  
-
 <!-- Begin Article
 ================================================== -->
 <div class="container">
@@ -129,8 +115,7 @@ post_class: post-template
                     {% assign sortedTags = page.tags | sort %}
                     {% for tag in sortedTags %}
                     <li>
-                        <!-- <a class="smoothscroll" href="{{site.baseurl}}/tags#{{ tag | url_encode | strip | replace: " ","-" }}">#{{ tag }}</a> -->
-                        <a class="smoothscroll" href="{{site.baseurl}}/tags#{{ tag  | strip | replace: " ","-" }}">#{{ tag }}</a>
+                        <a class="smoothscroll" href="{{site.baseurl}}/tags#{{ tag | url_encode | strip | replace: " ","-" }}">#{{ tag }}</a>
                     </li>
                     {% endfor %}
                 </ul>
