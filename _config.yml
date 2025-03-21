@@ -10,7 +10,7 @@ baseurl: ''
 url: 'https://zya-han.github.io'
 google_analytics: 'G-BGPF88VHK2'
 disqus: 'demowebsite'
-include: ["_pages", "assets"]
+include: ["_pages", "_headers", "assets"]
 permalink: /:title/
 excerpt_separator: <!--more-->
 
