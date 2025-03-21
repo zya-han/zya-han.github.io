@@ -193,22 +193,5 @@
 <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
 {% endif %}
 
-<!-- {% if page.title == 'Tags' %} -->
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const rawHash = window.location.hash;
-    if (rawHash) {
-      const decoded = decodeURIComponent(rawHash.slice(1));
-      const el = document.getElementById(decoded);
-      if (el) {
-        el.scrollIntoView({ behavior: "smooth" });
-      } else {
-        console.warn("ID not found:", decoded);
-      }
-    }
-  });
-</script>
-<!-- {% endif %} -->
-
 </body>
 </html>
