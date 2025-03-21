@@ -194,17 +194,18 @@
 
 <!-- {% if page.title == 'Tags' %} -->
 <script>
-$(document).ready(function() {
-  var hash = window.location.hash;
-  if (hash) {
-    var decodedHash = decodeURIComponent(hash);
-    var targetElement = $(decodedHash);
-    if (targetElement.length) {
-      // jQuery 객체를 DOM 요소로 변환하여 scrollIntoView 호출
-      targetElement[0].scrollIntoView({ behavior: "smooth" });
+  document.addEventListener("DOMContentLoaded", function () {
+    const rawHash = window.location.hash;
+    if (rawHash) {
+      const decoded = decodeURIComponent(rawHash.slice(1));
+      const el = document.getElementById(decoded);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth" });
+      } else {
+        console.warn("ID not found:", decoded);
+      }
     }
-  }
-});
+  });
 </script>
 <!-- {% endif %} -->
 
