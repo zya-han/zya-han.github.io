@@ -64,6 +64,10 @@ lazyimages: "enabled"
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
 
+# set timezone
+timezone: Asia/Seoul
+
+
 defaults:
   -
     scope:
