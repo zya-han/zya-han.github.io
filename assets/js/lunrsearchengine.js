@@ -182,7 +182,7 @@ var documents = [{
     }];
 
 var idx = lunr(function () {
-    this.use(lunr.multiLanguage('en', 'ko', 'zh'));
+    this.use(lunr.multiLanguage('en', 'ko', 'zh'))
     this.ref('id')
     this.field('title')
     this.field('body')
