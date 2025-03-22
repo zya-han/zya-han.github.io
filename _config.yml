@@ -25,7 +25,7 @@ categories: ["정보", "한나라 설정집", "삼국연의 읽기", "삼국지 
 # Authors
 authors:
   zya:
-    name: zya
+    name: 주아
     display_name: 주아
     avatar: 'assets/images/zya.png'
     email: chiclaxica@gmail.com
@@ -50,7 +50,7 @@ jekyll-archives:
     category: '/category/:name/'
     
 # Pagination 
-paginate: 12
+paginate: 6
 paginate_path: /page:num/
     
 # Other
