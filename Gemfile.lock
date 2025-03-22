@@ -77,11 +77,14 @@ DEPENDENCIES
   jekyll-archives
   jekyll-feed
   jekyll-paginate
-  jekyll-seo-tag (~> 2.8)
+  jekyll-seo-tag
   jekyll-sitemap
   kramdown
   kramdown-parser-gfm (~> 1.1)
   rouge
+
+RUBY VERSION
+   ruby 3.2.2p53
 
 BUNDLED WITH
    2.4.10
