@@ -40,7 +40,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-  - jekyll-lunr-js-search
     
 # Archives
 jekyll-archives:
