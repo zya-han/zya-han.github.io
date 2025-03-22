@@ -102,7 +102,7 @@ post_class: post-template
                     {% for category in sortedCategories %}
                     <li>
                         <!-- <a class="smoothscroll" href="{{site.baseurl}}/categories#{{ category | url_encode | strip | replace: " ","-" }}">{{ category }}</a> -->
-                        <a class="smoothscroll" href="{{site.baseurl}}/category/{{ category}}">{{ category }}</a>
+                        <a class="smoothscroll" href="{{site.baseurl}}/category/{{ category | replace: ' ', '-' }}">{{ category }}</a>
                     </li>
                     {% endfor %}
                 </ul>
