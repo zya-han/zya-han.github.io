@@ -32,4 +32,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
-          p`ublish_branch: gh-pages
+          publish_branch: gh-pages
