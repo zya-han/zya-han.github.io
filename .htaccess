@@ -1,4 +1,0 @@
-<FilesMatch "sitemap.xml">
-  Header set Content-Type "application/xml"
-  Header set Cache-Control "max-age=600"
-</FilesMatch>

@@ -33,70 +33,30 @@ jQuery(document).ready(function($){
 
     // Smooth on external page
     $(function() {
-      // setTimeout(function() {
-      //   if (location.hash) {
-      //     /* we need to scroll to the top of the window first, because the browser will always jump to the anchor first before JavaScript is ready, thanks Stack Overflow: http://stackoverflow.com/a/3659116 */
-      //     window.scrollTo(0, 0);
-      //     target = location.hash.split('#');
-      //     smoothScrollTo($('#'+target[1]));
-      //   }
-      // }, 1);
+      setTimeout(function() {
+        if (location.hash) {
+          /* we need to scroll to the top of the window first, because the browser will always jump to the anchor first before JavaScript is ready, thanks Stack Overflow: http://stackoverflow.com/a/3659116 */
+          window.scrollTo(0, 0);
+          target = location.hash.split('#');
+          smoothScrollTo($('#'+target[1]));
+        }
+      }, 1);
 
       // taken from: https://css-tricks.com/snippets/jquery/smooth-scrolling/
-      // $('a[href*=\\#]:not([href=\\#])').click(function() {
-      //   if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      //     smoothScrollTo($(this.hash));
-      //     return false;
-      //   }
-      // });
-
-      // function smoothScrollTo(target) {
-      //   target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-
-      //   if (target.length) {
-      //     $('html,body').animate({
-      //       scrollTop: target.offset().top
-      //     }, 1000);
-      //   }
-      // }
-
-      /// ChatGPT
-      if (location.hash) {
-        // 브라우저의 기본 점프보다 먼저 화면을 맨 위로
-        window.scrollTo(0, 0);
-      
-        setTimeout(function () {
-          const decoded = decodeURIComponent(location.hash.slice(1));
-          const target = document.getElementById(decoded) || document.getElementsByName(decoded)[0];
-      
-          if (target) {
-            target.scrollIntoView({ behavior: 'smooth' });
-          } else {
-            console.warn('Target not found:', decoded);
-          }
-        }, 1);
-      }
-
-      $('a[href*=\\#]:not([href=\\#])').click(function(e) {
-        if (
-          location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') &&
-          location.hostname === this.hostname
-        ) {
-          e.preventDefault(); // 기본 점프 막고
-          smoothScrollToHash(this.hash); // 안전하게 점프
+      $('a[href*=\\#]:not([href=\\#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          smoothScrollTo($(this.hash));
+          return false;
         }
       });
 
-      function smoothScrollToHash(rawHash) {
-        if (!rawHash) return;
-      
-        const decoded = decodeURIComponent(rawHash.slice(1));
-        const target = document.getElementById(decoded) || document.getElementsByName(decoded)[0];
-      
-        if (target) {
-          target.scrollIntoView({ behavior: 'smooth' });
-        } else {
-          console.warn('Target not found:', decoded);
+      function smoothScrollTo(target) {
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
         }
       }
     });
@@ -147,23 +107,11 @@ jQuery(document).ready(function($){
     $('.site-content').css('margin-top', $('header').outerHeight() + 'px');  
     
     // spoilers
-     $(document).on('click', '.spoiler', function() {
-        $(this).removeClass('spoiler');
-     });
+    $("span.spoiler").hide();	
+    $('<a class="reveal">Reveal Spoiler &gt;&gt;</a> ').insertBefore('.spoiler');
+	$("a.reveal").click(function(){
+		$(this).parents("p").children("span.spoiler").fadeIn(1500);
+		$(this).parents("p").children("a.reveal").fadeOut(0);
+	});
     
  });   
-
-// deferred style loading
-var loadDeferredStyles = function () {
-	var addStylesNode = document.getElementById("deferred-styles");
-	var replacement = document.createElement("div");
-	replacement.innerHTML = addStylesNode.textContent;
-	document.body.appendChild(replacement);
-	addStylesNode.parentElement.removeChild(addStylesNode);
-};
-var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
-	window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
-if (raf) raf(function () {
-	window.setTimeout(loadDeferredStyles, 0);
-});
-else window.addEventListener('load', loadDeferredStyles);
