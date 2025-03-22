@@ -1,3 +1,0 @@
-Content-Security-Policy: default-src 'self';
-Content-Security-Policy: script-src 'self' https://*.disqus.com https://*.disquscdn.com https://*.disqus.net;
-Content-Security-Policy: frame-src 'self' https://*.disqus.com https://*.disquscdn.com;
