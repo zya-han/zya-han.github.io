@@ -196,7 +196,6 @@ var idx = lunr(function () {
         this.add(doc)
     }, this)
 });
-
 function lunr_search(term) {
     document.getElementById('lunrsearchresults').innerHTML = '<ul></ul>';
     if(term) {
