@@ -14,6 +14,12 @@ include:
   - _headers
   - assets
 permalink: /:title/
+encoding: utf-8
+slugify: none
+excerpt_separator: <!--more-->
+
+# Categories
+categories: ["한나라 설정집", "삼국연의 읽기", "삼국지 질의응답", "잡담", "자살하기에는 너무 늦어 버려서"]
 
 # Authors
 authors:
@@ -38,7 +44,7 @@ authors:
 # Plugins
 plugins:
   - jekyll-paginate
-  - jekyll-sitemap
+  # - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
@@ -73,7 +79,7 @@ adsense-data-ad-slot: "1363087678"
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "disabled"
 
-exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock, naver17d7a003d22fee8ea03c0fe52809be3b.html, googlec0292155b7221008.html]
 
 # set timezone
 timezone: Asia/Seoul
