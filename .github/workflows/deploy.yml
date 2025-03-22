@@ -18,7 +18,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2' # 프로젝트에 맞게 수정
+          ruby-version: '3.2.7' # 프로젝트에 맞게 수정
           bundler-cache: true
 
       - name: Install dependencies
