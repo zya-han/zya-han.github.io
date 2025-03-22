@@ -71,7 +71,7 @@ adsense-data-ad-slot: "4579626302"
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "disabled"
 
-exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock, naver17d7a003d22fee8ea03c0fe52809be3b.html, googlec0292155b7221008.html]
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock, naver17d7a003d22fee8ea03c0fe52809be3b.html, googlec0292155b7221008.html, vendor]
 
 # set timezone
 timezone: Asia/Seoul
