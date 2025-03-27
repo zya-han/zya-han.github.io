@@ -391,11 +391,58 @@ span.post-read-more a:hover {
     font-family: "Merriweather", Georgia, "Iansui", "HanaMinB", serif;
   }
 
+
+/* https://codepen.io/bharanim/pen/BoLNdd */
 blockquote {
+    color: rgba(0, 0, 0, .88);
+
+    padding: 20px;
+    padding-left: 50px;
+    
+    position: relative;
+    overflow: hidden;
+    
+    p {
+      font-size: 1rem;
+      margin: 0;
+      max-width: 80%;
+    }
+    
+    cite {
+      font-size: 0.8rem;
+      display: block;
+      color: rgba(0, 0, 0, .66);
+    }
+    
+    &:before {
+      font-family: Georgia, serif;
+      content: "“";
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      font-size: 5em;
+      color: #00ab6b;
+      font-weight: normal;
+    }
+    
+    &:after {
+      font-family: Georgia, serif;
+      content: "”";
+      position: absolute;
+      bottom: -110px;
+      line-height: 100px;
+      right: -32px;
+      font-size: 25em;
+      color: #00ab6b;
+      font-weight: normal;
+    }
+} 
+
+/* blockquote {
     border-left: 4px solid #00ab6b;
     padding: 0 20px;
     color: rgba(0, 0, 0, .88);
-}
+} */
 
   
 /* 영어 문서에서만 인용문을 이탤릭 처리 */
