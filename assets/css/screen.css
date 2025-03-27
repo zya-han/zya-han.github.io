@@ -412,6 +412,7 @@ blockquote {
     
     cite {
       font-size: 0.8rem;
+      margin-top: 0.6rem;
       display: block;
       color: rgba(0, 0, 0, .66);
     }
@@ -422,7 +423,7 @@ blockquote {
       position: absolute;
       top: 10px;
       left: 10px;
-      font-size: 5em;
+      font-size: 3em;
       color: #00ab6b;
       font-weight: normal;
     }
@@ -434,7 +435,7 @@ blockquote {
       bottom: -110px;
       line-height: 100px;
       right: -32px;
-      font-size: 25em;
+      font-size: 15em;
       color: #00ab6b;
       font-weight: normal;
     }
