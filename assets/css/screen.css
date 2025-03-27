@@ -394,6 +394,7 @@ span.post-read-more a:hover {
 
 /* https://codepen.io/bharanim/pen/BoLNdd */
 blockquote {
+    background-color: #fafafa;
     color: rgba(0, 0, 0, .88);
 
     padding: 20px;
@@ -421,7 +422,7 @@ blockquote {
       font-family: Georgia, serif;
       content: "“";
       position: absolute;
-      top: -12px;
+      top: -16px;
       left: 10px;
       font-size: 4em;
       color: #00ab6b;
