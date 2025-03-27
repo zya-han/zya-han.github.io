@@ -402,7 +402,7 @@ blockquote {
     
     position: relative;
     overflow: hidden;
-    min-height: 120px;
+    min-height: 3rem;
     
     p {
       font-size: 1rem;
