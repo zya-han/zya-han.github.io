@@ -421,7 +421,7 @@ blockquote {
       font-family: Georgia, serif;
       content: "“";
       position: absolute;
-      top: -24px;
+      top: -16px;
       left: 10px;
       font-size: 4em;
       color: #00ab6b;
@@ -432,9 +432,9 @@ blockquote {
       font-family: Georgia, serif;
       content: "”";
       position: absolute;
-      bottom: -110px;
+      bottom: -100px;
       line-height: 100px;
-      right: -32px;
+      right: -24px;
       font-size: 20em;
       color: #00ab6b;
       font-weight: normal;
