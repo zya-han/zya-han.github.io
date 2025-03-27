@@ -402,7 +402,7 @@ blockquote {
     
     position: relative;
     overflow: hidden;
-    min-height: 3rem;
+    min-height: 100px;
     
     p {
       font-size: 1rem;
@@ -421,7 +421,7 @@ blockquote {
       font-family: Georgia, serif;
       content: "“";
       position: absolute;
-      top: -16px;
+      top: -8px;
       left: 10px;
       font-size: 4em;
       color: #00ab6b;
@@ -432,7 +432,7 @@ blockquote {
       font-family: Georgia, serif;
       content: "”";
       position: absolute;
-      bottom: -100px;
+      bottom: -108px;
       line-height: 100px;
       right: -24px;
       font-size: 20em;
