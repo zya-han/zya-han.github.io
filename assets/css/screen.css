@@ -398,9 +398,11 @@ blockquote {
 
     padding: 20px;
     padding-left: 50px;
+    box-sizing: border-box;
     
     position: relative;
     overflow: hidden;
+    min-height: 120px;
     
     p {
       font-size: 1rem;
