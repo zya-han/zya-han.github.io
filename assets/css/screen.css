@@ -12,6 +12,7 @@ License: https://www.wowthemes.net/freebies-license/
 
 table {    
     border-collapse: collapse;
+    margin-bottom: 2rem;
     thead {
         background: rgba(0, 0, 0, .05);
         th {
@@ -36,6 +37,7 @@ th, tr, td {
     border-radius: 8px;
     text-align: center;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     font-weight: bold;
     font-family: "42dot Sans", sans-serif;
 }
