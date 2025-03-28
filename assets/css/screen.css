@@ -955,7 +955,7 @@ span.navigation {
     border-radius: 4px;
 }
   
-.pagination-inline span.page.current {
+.pagination-inline .current {
     background-color: #00ab6b;
     color: #fff;
     border: none; /* 👉 현재 페이지도 테두리는 없음 */
