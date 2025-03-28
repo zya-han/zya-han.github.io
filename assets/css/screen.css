@@ -271,9 +271,14 @@ span.post-read {
     color: rgba(0, 0, 0, .66) !important; 
 }
 
-span.post-comments a span.disqus-comment-count {
+/* span.post-comments a span.disqus-comment-count {
+    color: rgba(0, 0, 0, .66) !important;
+} */
+
+span.post-comments a {
     color: rgba(0, 0, 0, .66) !important;
 }
+
 
 span.post-read-more {
     align-items: center;
