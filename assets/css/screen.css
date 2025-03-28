@@ -41,7 +41,7 @@ th, tr, td {
     width: fit-content;
     font-weight: bold;
     font-family: "42dot Sans", sans-serif;
-    /* box-shadow: 0 4px 6px rgba(0,0,0,0.1); */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
   
 .buy-button a {
@@ -50,15 +50,17 @@ th, tr, td {
 }
   
 .buy-button a:hover {
+    background: #00c583;
     color: #fff;
     text-decoration: underline;
 }
 
 .card-button .btn-card {
     display: inline-block;
-    background: #f2c94c;
-    color: #000;
+    background: #00ab6b;           /* 메인 색상 */
+    color: #fff;                   /* 텍스트는 흰색으로 대비 */
     font-weight: 600;
+    font-family: "42dot Sans", sans-serif;
     padding: 0.75rem 1.5rem;
     border-radius: 0.75rem;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -67,8 +69,8 @@ th, tr, td {
 }
   
 .card-button .btn-card:hover {
-    background: #ffd94d;
-    color: #000;
+    background: #00c583;           /* 호버 시 살짝 밝은 초록 */
+    color: #fff;
     transform: translateY(-2px);
     box-shadow: 0 6px 14px rgba(0,0,0,0.15);
 }
