@@ -54,6 +54,25 @@ th, tr, td {
     text-decoration: underline;
 }
 
+.card-button .btn-card {
+    display: inline-block;
+    background: #f2c94c;
+    color: #000;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+  
+.card-button .btn-card:hover {
+    background: #ffd94d;
+    color: #000;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
 /* .buy-button {
     background: #00ab6b;
     padding: 1rem;
