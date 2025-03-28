@@ -36,12 +36,9 @@ th, tr, td {
     border-radius: 8px;
     text-align: center;
     margin-top: 2rem;
+    font-size: 2rem;
     font-weight: bold;
-}
-  
-.buy-button a {
-    color: #d94f4f;
-    text-decoration: none;
+    font-family: "42dot Sans", sans-serif;
 }
 
 .mainheading {
