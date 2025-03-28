@@ -34,8 +34,7 @@ th, tr, td {
     background: #f4f4f4;
     padding: 1rem;
     border-radius: 8px;
-    border-width: 2px;
-    border: #999;
+    border: solid #999 2px;
     text-align: center;
     margin-top: 2rem;
     font-weight: bold;
