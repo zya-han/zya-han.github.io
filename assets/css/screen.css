@@ -934,7 +934,7 @@ span.navigation {
     align-items: center; /* 이 줄이 중요! */
     justify-content: center;
     flex-wrap: wrap;
-    gap: 0.5em;
+    gap: 0.1em;
     margin-top: 2em;
 }
   
