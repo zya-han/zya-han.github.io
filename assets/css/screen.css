@@ -938,8 +938,7 @@ span.navigation {
     margin-top: 2em;
 }
   
-.pagination-inline a,
-.pagination-inline span {
+.pagination-link {
     display: inline-block;
     padding: 0.4em 0.8em;
     text-decoration: none;
@@ -950,12 +949,12 @@ span.navigation {
     line-height: 1.4; /* 동일한 라인 높이 보장 */
 }
   
-.pagination-inline a:hover {
+.pagination-link:hover {
     background: #f0f0f0; /* 👉 마우스 호버 시 배경색 */
     border-radius: 4px;
 }
   
-.pagination-inline .current {
+.pagination-link.active {
     background-color: #00ab6b;
     color: #fff;
     border: none; /* 👉 현재 페이지도 테두리는 없음 */
@@ -963,37 +962,12 @@ span.navigation {
     font-weight: bold;
 }
   
-.pagination-inline .ellipsis {
+.pagination-dots {
     border: none;
     background: none;
     color: #999;
     padding: 0.4em;
 }
-
-@media screen and (max-width:768px) {
-    .pagination-inline {
-      gap: 4px;
-      font-size: 14px;
-      flex-wrap: nowrap;
-      overflow-x: auto;
-      white-space: nowrap;
-    }
-  
-    .pagination-link,
-    .pagination-item a,
-    .pagination-dots {
-      padding: 4px 6px;
-    }
-  
-    /* 페이지 번호 중 1, 현재, 마지막만 표시하고 나머지는 숨기기 (선택 사항) */
-    .pagination-link:not(.active):not(:first-of-type):not(:last-of-type) {
-      display: none;
-    }
-  
-    .pagination-dots {
-      display: none;
-    }
-  }
 
 iframe {
     max-width: 100%;
