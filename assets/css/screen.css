@@ -34,9 +34,9 @@ th, tr, td {
     background: #f4f4f4;
     padding: 1rem;
     border-radius: 8px;
+    border: #999;
     text-align: center;
     margin-top: 2rem;
-    font-size: 2rem;
     font-weight: bold;
     font-family: "42dot Sans", sans-serif;
 }
