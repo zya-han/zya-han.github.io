@@ -970,6 +970,31 @@ span.navigation {
     padding: 0.4em;
 }
 
+@media screen and (max-width:768px) {
+    .pagination-inline {
+      gap: 4px;
+      font-size: 14px;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  
+    .pagination-link,
+    .pagination-item a,
+    .pagination-dots {
+      padding: 4px 6px;
+    }
+  
+    /* 페이지 번호 중 1, 현재, 마지막만 표시하고 나머지는 숨기기 (선택 사항) */
+    .pagination-link:not(.active):not(:first-of-type):not(:last-of-type) {
+      display: none;
+    }
+  
+    .pagination-dots {
+      display: none;
+    }
+  }
+
 iframe {
     max-width: 100%;
 }
