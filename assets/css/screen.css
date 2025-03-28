@@ -924,6 +924,33 @@ span.navigation {
     display: block;
 }
 
+/* 모바일: 페이지 번호 숨기고 ...만 표시 */
+@media (max-width: 767px) {
+    .pagination .page-number:not(.current) {
+        display: none;
+    }
+  
+    .pagination .dots {
+        display: none;
+    }
+  
+    .pagination .prev,
+    .pagination .next {
+        display: inline-block;
+    }
+  }
+  
+/* 데스크톱: 모든 페이지 번호 표시 */
+@media (min-width: 768px) {
+    .pagination .page-number {
+        display: inline-block;
+    }
+  
+    .pagination .dots {
+        display: inline-block;
+    }
+}
+
 iframe {
     max-width: 100%;
 }
