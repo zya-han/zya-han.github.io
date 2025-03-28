@@ -931,9 +931,10 @@ span.navigation {
   
 .pagination-inline {
     display: flex;
-    flex-wrap: wrap;
+    align-items: center; /* 이 줄이 중요! */
     justify-content: center;
-    gap: 0.5em; /* 항목 간 여백 */
+    flex-wrap: wrap;
+    gap: 0.5em;
     margin-top: 2em;
 }
   
@@ -944,8 +945,9 @@ span.navigation {
     text-decoration: none;
     border: 1px solid #ccc;
     border-radius: 4px;
-    color: #007bff;
+    color: #00ab6b;
     background: #fff;
+    line-height: 1.4; /* 동일한 라인 높이 보장 */
 }
   
 .pagination-inline a:hover {
