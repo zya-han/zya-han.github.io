@@ -929,24 +929,41 @@ span.navigation {
     margin-top: 2rem;
 }
   
-.page-number,
-.prev,
-.next,
-.dots {
+.pagination-inline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5em; /* 항목 간 여백 */
+    margin-top: 2em;
+}
+  
+.pagination-inline a,
+.pagination-inline span {
     display: inline-block;
-    margin: 0 5px;
-    /* color: #0077cc; */
+    padding: 0.4em 0.8em;
     text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #007bff;
+    background: #fff;
 }
   
-.page-number.current {
+.pagination-inline a:hover {
+    background: #f0f0f0;
+}
+  
+.pagination-inline .current {
+    background-color: #00ab6b;
+    color: #fff;
+    border-color: #00ab6b;
     font-weight: bold;
-    color:#038252;
 }
   
-.dots {
-    color: rgba(0, 0, 0, 0.4);
-    cursor: default;
+.pagination-inline .ellipsis {
+    border: none;
+    background: none;
+    color: #999;
+    padding: 0.4em;
 }
 
 iframe {
