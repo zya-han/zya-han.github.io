@@ -33,7 +33,7 @@ th, tr, td {
 
 
 .buy-button {
-    background-color: #ffdd00;
+    background-color: #00ab6b;
     border-radius: 8px;
     padding: 1em 1.5em;
     text-align: center;
@@ -41,16 +41,16 @@ th, tr, td {
     width: fit-content;
     font-weight: bold;
     font-family: "42dot Sans", sans-serif;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    /* box-shadow: 0 4px 6px rgba(0,0,0,0.1); */
 }
   
 .buy-button a {
-    color: #333;
+    color: #ccc;
     text-decoration: none;
 }
   
 .buy-button a:hover {
-    color: #000;
+    color: #fff;
     text-decoration: underline;
 }
 
