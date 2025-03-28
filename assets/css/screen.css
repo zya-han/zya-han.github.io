@@ -937,29 +937,29 @@ span.navigation {
     gap: 0.1em;
     margin-top: 2em;
 }
-  
+
+.pagination-inline a:hover {
+    background: #f0f0f0; /* 👉 마우스 호버 시 배경색 */
+    border-radius: 4px;
+}
+
 .pagination-inline a,
-.pagination-inline span.page {
+.pagination-inline .current {
     display: inline-block;
     padding: 0.4em 0.8em;
     text-decoration: none;
     border: none; /* 👉 모든 border 제거 */
     border-radius: 4px;
-    color: #00ab6b;
-    background: transparent; /* 👉 배경 제거 */
     line-height: 1.4; /* 동일한 라인 높이 보장 */
 }
   
-.pagination-inline a:hover {
-    background: #f0f0f0; /* 👉 마우스 호버 시 배경색 */
-    border-radius: 4px;
+.pagination-inline a {
+    background: transparent; /* 👉 배경 제거 */
 }
   
 .pagination-inline .current {
     background-color: #00ab6b;
     color: #fff;
-    border: none; /* 👉 현재 페이지도 테두리는 없음 */
-    border-radius: 4px;
     font-weight: bold;
 }
   
