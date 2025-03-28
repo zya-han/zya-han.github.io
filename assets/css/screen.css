@@ -31,7 +31,30 @@ th, tr, td {
     padding: 0rem .5rem 0rem .5rem;
 }
 
+
 .buy-button {
+    background-color: #ffdd00;
+    border-radius: 8px;
+    padding: 1em 1.5em;
+    text-align: center;
+    margin: 2rem auto;
+    width: fit-content;
+    font-weight: bold;
+    font-family: "42dot Sans", sans-serif;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+  
+.buy-button a {
+    color: #333;
+    text-decoration: none;
+}
+  
+.buy-button a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* .buy-button {
     background: #00ab6b;
     padding: 1rem;
     border-radius: 8px;
@@ -39,7 +62,7 @@ th, tr, td {
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-weight: bold;
-    font-family: "42dot Sans", sans-serif;
+    
 }
 
 .buy-button a {
@@ -48,7 +71,7 @@ th, tr, td {
 
 .buy-button a:hover {
     color: #fff;
-}
+} */
 
 .mainheading {
     padding: 1rem 0rem;
