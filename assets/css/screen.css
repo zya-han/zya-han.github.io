@@ -924,31 +924,28 @@ span.navigation {
     display: block;
 }
 
-/* 모바일: 페이지 번호 숨기고 ...만 표시 */
-@media (max-width: 767px) {
-    .pagination .page-number:not(.current) {
-        display: none;
-    }
+.pagination {
+    text-align: center;
+    margin-top: 2rem;
+}
   
-    .pagination .dots {
-        display: none;
-    }
+.page-number,
+.prev,
+.next,
+.dots {
+    display: inline-block;
+    margin: 0 5px;
+    /* color: #0077cc; */
+    text-decoration: none;
+}
   
-    .pagination .prev,
-    .pagination .next {
-        display: inline-block;
-    }
-  }
+.page-number.current {
+    font-weight: bold;
+}
   
-/* 데스크톱: 모든 페이지 번호 표시 */
-@media (min-width: 768px) {
-    .pagination .page-number {
-        display: inline-block;
-    }
-  
-    .pagination .dots {
-        display: inline-block;
-    }
+.dots {
+    color: rgba(0, 0, 0, 0.4);
+    cursor: default;
 }
 
 iframe {
