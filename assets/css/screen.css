@@ -31,14 +31,17 @@ th, tr, td {
 }
 
 .buy-button {
-    background: #f4f4f4;
+    background: #00ab6b;
     padding: 1rem;
     border-radius: 8px;
-    border: solid #999 2px;
     text-align: center;
     margin-top: 2rem;
     font-weight: bold;
     font-family: "42dot Sans", sans-serif;
+}
+
+.buy-button a {
+    color: #f4f4f4;
 }
 
 .mainheading {
