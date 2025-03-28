@@ -938,7 +938,8 @@ span.navigation {
     margin-top: 2em;
 }
   
-.pagination-link {
+.pagination-inline a,
+.pagination-inline span.page {
     display: inline-block;
     padding: 0.4em 0.8em;
     text-decoration: none;
@@ -949,12 +950,12 @@ span.navigation {
     line-height: 1.4; /* 동일한 라인 높이 보장 */
 }
   
-.pagination-link:hover {
+.pagination-inline a:hover {
     background: #f0f0f0; /* 👉 마우스 호버 시 배경색 */
     border-radius: 4px;
 }
   
-.pagination-link.active {
+.pagination-inline span.page.current {
     background-color: #00ab6b;
     color: #fff;
     border: none; /* 👉 현재 페이지도 테두리는 없음 */
@@ -962,7 +963,7 @@ span.navigation {
     font-weight: bold;
 }
   
-.pagination-dots {
+.pagination-inline .ellipsis {
     border: none;
     background: none;
     color: #999;
