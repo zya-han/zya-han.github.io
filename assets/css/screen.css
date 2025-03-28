@@ -941,6 +941,7 @@ span.navigation {
   
 .page-number.current {
     font-weight: bold;
+    color:#038252;
 }
   
 .dots {
