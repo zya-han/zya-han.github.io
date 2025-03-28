@@ -30,6 +30,20 @@ th, tr, td {
     padding: 0rem .5rem 0rem .5rem;
 }
 
+.buy-button {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+  
+.buy-button a {
+    color: #d94f4f;
+    text-decoration: none;
+}
+
 .mainheading {
     padding: 1rem 0rem;
 }
