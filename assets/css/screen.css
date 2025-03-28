@@ -32,27 +32,29 @@ th, tr, td {
 }
 
 
-.buy-button {
-    background-color: #00ab6b;
-    border-radius: 8px;
-    padding: 1em 1.5em;
-    text-align: center;
-    margin: 2rem auto;
-    width: fit-content;
-    font-weight: bold;
-    font-family: "42dot Sans", sans-serif;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-  
 .buy-button a {
-    color: #fafafa;
+    display: inline-block;
+    background-color: #00ab6b;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "42dot Sans", sans-serif;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.75rem;
     text-decoration: none;
-}
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
   
 .buy-button a:hover {
-    background: #00c583;
-    color: #fff;
-    text-decoration: underline;
+    background-color: #00c583;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+  
+.buy-button {
+    text-align: center;
+    margin: 2rem 0;
 }
 
 .card-button .btn-card {
@@ -74,25 +76,6 @@ th, tr, td {
     transform: translateY(-2px);
     box-shadow: 0 6px 14px rgba(0,0,0,0.15);
 }
-
-/* .buy-button {
-    background: #00ab6b;
-    padding: 1rem;
-    border-radius: 8px;
-    text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    font-weight: bold;
-    
-}
-
-.buy-button a {
-    color: #f4f4f4;
-}
-
-.buy-button a:hover {
-    color: #fff;
-} */
 
 .mainheading {
     padding: 1rem 0rem;
