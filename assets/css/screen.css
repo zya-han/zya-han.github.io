@@ -134,19 +134,11 @@ th, tr, td {
     color: #00ab6b;
 }
   
-.post-date {
+.category-post-date {
     margin-left: 0.5rem;
     color: #888;
     font-size: 0.9rem;
 }
-  
-.post-date {
-    display: block;
-    font-size: 0.9rem;
-    color: #aaa;
-    margin-top: 0.3rem;
-}
-
 
 .mainheading {
     padding: 1rem 0rem;
