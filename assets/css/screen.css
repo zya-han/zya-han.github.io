@@ -112,6 +112,7 @@ th, tr, td {
     max-width: 800px;
     margin: 2rem auto;
     padding: 0 1rem;
+    font-family: "42dot Sans", sans-serif;
 }
   
 .category-posts ul {
@@ -124,8 +125,7 @@ th, tr, td {
 }
   
 .category-posts a {
-    font-family: "42dot Sans", sans-serif;
-    font-weight: bold;
+    /* font-weight: bold; */
     text-decoration: none;
     color: #333;
 }
