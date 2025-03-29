@@ -555,15 +555,22 @@
   </url>
   
   <url>
-    <loc>https://zya-han.github.io/cao-cao-07/</loc>
-    <lastmod>2020-07-05T16:42:00+09:00</lastmod>
+    <loc>https://zya-han.github.io/musical-instruments-in-battle/</loc>
+    <lastmod>2020-07-25T18:02:00+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://zya-han.github.io/summer-vacations/</loc>
-    <lastmod>2020-06-30T17:26:00+09:00</lastmod>
+    <lastmod>2020-07-18T20:23:00+09:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zya-han.github.io/cao-cao-07/</loc>
+    <lastmod>2020-07-05T16:42:00+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
