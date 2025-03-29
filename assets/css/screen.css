@@ -124,6 +124,7 @@ th, tr, td {
 }
   
 .category-posts a {
+    font-family: "42dot Sans", sans-serif;
     font-weight: bold;
     text-decoration: none;
     color: #333;
