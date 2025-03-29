@@ -1,6 +1,3 @@
-User-agent: *
-Disallow: /
-
 User-agent: Googlebot
 Disallow:
 
@@ -15,5 +12,8 @@ Disallow:
 
 User-agent: Slurp
 Disallow:
+
+User-agent: *
+Disallow: /
 
 Sitemap: https://zya-han.github.io/sitemap.xml
