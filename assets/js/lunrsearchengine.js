@@ -1146,19 +1146,19 @@ function lunr_search(term) {
                 var item = documents[result.ref];
                 var listItem = document.createElement("li");
 
-                // 제목 링크
+                // 제목
                 var link = document.createElement("a");
                 link.href = item.url;
-                link.textContent = item.title;
+                link.innerHTML = highlightSearchTerm(item.title, cleanTerm);
                 link.style.display = "block";
                 link.style.fontWeight = "bold";
-                link.style.fontSize = "1.2rem";
+                link.style.fontSize = "1rem";
                 listItem.appendChild(link);
 
                 // URL 표시
                 var urlText = document.createElement("span");
                 urlText.textContent = item.url;
-                urlText.style.fontSize = "0.85rem";
+                urlText.style.fontSize = "0.8rem";
                 urlText.style.color = "rgba(0, 0, 0, .66);";
                 urlText.style.display = "block";
                 urlText.style.marginBottom = "0.25rem";
@@ -1167,6 +1167,8 @@ function lunr_search(term) {
                 // 하이라이트된 텍스트 일부 보여주기
                 var excerpt = document.createElement("p");
                 excerpt.className = "search-excerpt";
+                excerpt.style.fontSize = "0.9rem";
+                excerpt.style.color = "rgba(0, 0, 0, .8);";
                 excerpt.innerHTML = highlightSearchTerm(extractExcerpt(item.body, cleanTerm), cleanTerm);
                 listItem.appendChild(excerpt);
                 
