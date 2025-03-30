@@ -140,6 +140,48 @@ th, tr, td {
     font-size: 0.9rem;
 }
 
+.related-card {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    transition: box-shadow 0.3s;
+    background-color: #fff;
+}
+  
+.related-card:hover {
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+  
+.related-card img {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+  
+.related-card-content {
+    padding: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .related-card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0 0 0.3rem;
+    color: #00ab6b;
+}
+  
+.related-card-desc {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 0;
+}
+
 .mainheading {
     padding: 1rem 0rem;
 }
