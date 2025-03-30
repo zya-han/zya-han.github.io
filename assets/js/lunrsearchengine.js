@@ -1303,13 +1303,16 @@ function lunr_search(term) {
             header.appendChild(closeBtn);
 
             results.forEach(function(result) {
-                var item = documents[result.ref];
+                var item = documents.find(doc => doc.id == result.ref);
+                if (!item) return; // 안전하게 건너뜀
+                
                 var listItem = document.createElement("li");
 
                 // 제목
                 var link = document.createElement("a");
                 link.href = item.url;
-                link.innerHTML = highlightSearchTerm(item.title, terms);
+                // link.innerHTML = highlightSearchTerm(item.title, terms);
+                link.innerHTML = item.title;
                 link.style.display = "block";
                 link.style.fontWeight = "bold";
                 link.style.fontSize = "1rem";
