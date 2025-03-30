@@ -672,88 +672,69 @@ var documents = [{
     }];
 
 var idx = lunr(function () {
-    this.use(lunr.multiLanguage('en', 'ko', 'zh'));
-    this.ref('id');
-    this.field('title');
-    this.field('body');
+    this.use(lunr.multiLanguage('en', 'ko', 'zh'))
+    this.ref('id')
+    this.field('title')
+    this.field('body')
 
     documents.forEach(function (doc) {
-    this.add(doc);
-    }, this);
+        this.add(doc)
+    }, this)
 });
-
-// 하이라이팅 함수
-function highlight(text, term) {
-    var regex = new RegExp("(" + term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ")", "gi");
-    return text.replace(regex, "<mark>$1</mark>");
-}
-
 function lunr_search(term) {
-    $('#lunrsearchresults').show(400);
-    $("body").addClass("modal-open");
-
-    // 검색어 정리 (와일드카드 제거용)
-    let cleanTerm = term.replace(/\*/g, "").toLowerCase();
-
-    document.getElementById('lunrsearchresults').innerHTML = `
-    <div id="resultsmodal" class="modal fade show d-block" tabindex="-1" role="dialog" aria-labelledby="resultsmodal">
-        <div class="modal-dialog shadow-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header" id="modtit">
-            <h5 class='modal-title'>Search results for '${term}'</h5>
-            <button type="button" class="close" id="btnx" data-dismiss="modal" aria-label="Close">&times;</button>
-            </div>
-            <div class="modal-body"><ul class="mb-0"></ul></div>
-            <div class="modal-footer">
-            <button id="btnx" type="button" class="btn btn-sm" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-        </div>
-    </div>`;
-
-    if (term) {
-    var results = idx.search(term);
-    if (results.length > 0) {
-        results.forEach(function (result) {
-        var doc = documents[result.ref];
-        var url = doc.url;
-        var title = highlight(doc.title, cleanTerm);
-        var excerpt = doc.body;
-
-        // 검색어가 본문에 있다면 그 부분 중심으로 추출
-        var index = excerpt.toLowerCase().indexOf(cleanTerm);
-        var snippet = "";
-
-        if (index >= 0) {
-            var start = Math.max(0, index - 40);
-            var end = Math.min(excerpt.length, index + 40);
-            snippet = excerpt.substring(start, end) + "...";
+    document.getElementById('lunrsearchresults').innerHTML = '<ul></ul>';
+    if(term) {
+        document.getElementById('lunrsearchresults').innerHTML = "<p>Search results for '" + term + "'</p>" + document.getElementById('lunrsearchresults').innerHTML;
+        //put results on the screen.
+        var results = idx.search(term);
+        if(results.length>0){
+            //console.log(idx.search(term));
+            //if results
+            for (var i = 0; i < results.length; i++) {
+                // more statements
+                var ref = results[i]['ref'];
+                var url = documents[ref]['url'];
+                var title = documents[ref]['title'];
+                var body = documents[ref]['body'].substring(0,160)+'...';
+                document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'><span class='title'>" + title + "</span><br /><span class='body'>"+ body +"</span><br /><span class='url'>"+ url +"</span></a></li>";
+            }
         } else {
-            snippet = excerpt.substring(0, 160) + "...";
+            document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = "<li class='lunrsearchresult'>No results found...</li>";
         }
-
-        snippet = highlight(snippet, cleanTerm);
-
-        document.querySelector("#lunrsearchresults ul").innerHTML +=
-            `<li class='lunrsearchresult'>
-                <a href='${url}'>
-                <span class='title'>${title}</span><br />
-                <small><span class='body'>${snippet}</span><br />
-                <span class='url'>${url}</span></small>
-                </a>
-            </li>`;
-        });
-    } else {
-        document.querySelector("#lunrsearchresults ul").innerHTML =
-        "<li class='lunrsearchresult'>Sorry, no results found. Close & try a different search!</li>";
-    }
     }
     return false;
 }
 
-$(function () {
+function lunr_search(term) {
+    $('#lunrsearchresults').show( 400 );
+    $( "body" ).addClass( "modal-open" );
+    
+    document.getElementById('lunrsearchresults').innerHTML = '<div id="resultsmodal" class="modal fade show d-block"  tabindex="-1" role="dialog" aria-labelledby="resultsmodal"> <div class="modal-dialog shadow-lg" role="document"> <div class="modal-content"> <div class="modal-header" id="modtit"> <button type="button" class="close" id="btnx" data-dismiss="modal" aria-label="Close"> &times; </button> </div> <div class="modal-body"> <ul class="mb-0"> </ul>    </div> <div class="modal-footer"><button id="btnx" type="button" class="btn btn-sm" data-dismiss="modal">Close</button></div></div> </div></div>';
+    if(term) {
+        document.getElementById('modtit').innerHTML = "<h5 class='modal-title'>Search results for '" + term + "'</h5>" + document.getElementById('modtit').innerHTML;
+        //put results on the screen.
+        var results = idx.search(term);
+        if(results.length>0){
+            //console.log(idx.search(term));
+            //if results
+            for (var i = 0; i < results.length; i++) {
+                // more statements
+                var ref = results[i]['ref'];
+                var url = documents[ref]['url'];
+                var title = documents[ref]['title'];
+                var body = documents[ref]['body'].substring(0,160)+'...';
+                document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'><span class='title'>" + title + "</span><br /><small><span class='body'>"+ body +"</span><br /><span class='url'>"+ url +"</span></small></a></li>";
+            }
+        } else {
+            document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = "<li class='lunrsearchresult'>Sorry, no results found. Close & try a different search!</li>";
+        }
+    }
+    return false;
+}
+    
+$(function() {
     $("#lunrsearchresults").on('click', '#btnx', function () {
-    $('#lunrsearchresults').hide(5);
-    $("body").removeClass("modal-open");
+        $('#lunrsearchresults').hide( 5 );
+        $( "body" ).removeClass( "modal-open" );
     });
 });
