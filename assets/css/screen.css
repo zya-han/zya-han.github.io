@@ -148,7 +148,7 @@ th, tr, td {
     overflow: hidden;
     margin-bottom: 1.5rem;
     background-color: #fff;
-    height: 140px; /* 고정 높이 지정 */
+    height: 120px; /* 고정 높이 지정 */
 }
   
 .related-card-image {
@@ -173,10 +173,12 @@ th, tr, td {
     justify-content: center; /* 텍스트 수직 가운데 정렬 */
 }
 
-
-.related-card-text {
-    padding: 1rem;
-    flex: 1;
+.related-card-text p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
   
 .related-card-text h4 {
