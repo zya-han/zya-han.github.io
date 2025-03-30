@@ -1119,40 +1119,32 @@ function lunr_search(term) {
     </div>`;
 
     if (term) {
-    var results = idx.search(term);
+    // 기존 검색 결과 지우기
+    document.querySelector(".modal-body ul").innerHTML = '';
+
+    // 검색어 표시 영역
     if (results.length > 0) {
-        results.forEach(function (result) {
-        var doc = documents[result.ref];
-        var url = doc.url;
-        var title = highlight(doc.title, cleanTerm);
-        var excerpt = doc.body;
-
-        // 검색어가 본문에 있다면 그 부분 중심으로 추출
-        var index = excerpt.toLowerCase().indexOf(cleanTerm);
-        var snippet = "";
-
-        if (index >= 0) {
-            var start = Math.max(0, index - 40);
-            var end = Math.min(excerpt.length, index + 40);
-            snippet = excerpt.substring(start, end) + "...";
-        } else {
-            snippet = excerpt.substring(0, 160) + "...";
-        }
-
-        snippet = highlight(snippet, cleanTerm);
-
-        document.querySelector("#lunrsearchresults ul").innerHTML +=
-            `<li class='lunrsearchresult'>
-                <a href='${url}'>
-                <span class='title'>${title}</span><br />
-                <small><span class='body'>${snippet}</span><br />
-                <span class='url'>${url}</span></small>
-                </a>
-            </li>`;
-        });
+    document.getElementById('modtit').innerHTML = "'<span style='color:#00ab6b'>" + query + "</span>' 검색 결과 총 " + results.length + "건)";
+    
+    results.forEach(function(result) {
+        var item = documents[result.ref];
+        var listItem = document.createElement("li");
+        var link = document.createElement("a");
+        link.href = item.url;
+        link.textContent = item.title;
+        listItem.appendChild(link);
+        
+        // 하이라이트된 텍스트 일부 보여주기
+        var excerpt = document.createElement("p");
+        excerpt.className = "search-excerpt";
+        excerpt.innerHTML = highlightSearchTerm(item.body, query);
+        listItem.appendChild(excerpt);
+        
+        document.querySelector(".modal-body ul").appendChild(listItem);
+    });
     } else {
-        document.querySelector("#lunrsearchresults ul").innerHTML =
-        "<li class='lunrsearchresult'>Sorry, no results found. Close & try a different search!</li>";
+    // 검색 결과 없음
+    document.getElementById('modtit').innerHTML = "검색 결과 없음 😢";
     }
     }
     return false;
