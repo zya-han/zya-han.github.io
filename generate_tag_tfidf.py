@@ -66,10 +66,13 @@ def compute_tfidf():
     post_tfidf = {}
     for url, tag_counts in post_tag_counts.items():
         total_tags = sum(tag_counts.values())
-        tfidf = {}
+        raw_tfidf = {}
         for tag, count in tag_counts.items():
             tf = count / total_tags
-            tfidf[tag] = round(tf * idf_scores.get(tag, 0), 6)
+            raw_tfidf[tag] = tf * idf_scores.get(tag, 0)
+
+        norm = sum(v * v for v in raw_tfidf.values()) ** 0.5 or 1.0
+        tfidf = {tag: round(value / norm, 6) for tag, value in raw_tfidf.items()}
         post_tfidf[url] = tfidf
 
     return tag_document_frequency, post_tfidf
