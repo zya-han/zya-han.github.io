@@ -145,14 +145,13 @@ th, tr, td {
     align-items: stretch;
     border: 1px solid #ccc;
     border-radius: 6px;
-    overflow: hidden;
     margin-bottom: 1.5rem;
     background-color: #fff;
-    height: 120px; /* 고정 높이 지정 */
+    height: 100px; /* 고정 높이 지정 */
 }
   
 .related-card-image {
-    width: 120px;
+    width: 100px;
     flex-shrink: 0;
     height: 100%;
 }
@@ -167,9 +166,7 @@ th, tr, td {
 .related-card-text {
     padding: 1rem;
     flex: 1;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
+    display: block;
     justify-content: center; /* 텍스트 수직 가운데 정렬 */
 }
 
@@ -202,29 +199,26 @@ th, tr, td {
     white-space: nowrap;
 }
 
+/* 모바일 대응 */
 @media (max-width: 600px) {
     .related-card {
-      flex-direction: column;
-      align-items: flex-start;
+        flex-direction: column; /* 수직 배치 */
+        max-height: none; /* 높이 제한 해제 */
     }
   
-    .related-card .related-card-image {
-      width: 100%;
-      height: auto;
-    }
-  
-    .related-card .related-card-image img {
-      width: 100%;
-      height: auto;
-      max-height: none;
-      border-radius: 6px 6px 0 0;
+    .card-image img {
+        width: 100%;     /* 카드 전체 너비 */
+        height: auto;    /* 비율 유지 */
     }
   
     .related-card-text {
-      padding: 1rem;
+        padding: 0.8rem 1rem;
+    }
+  
+    .related-card-text p {
+        -webkit-line-clamp: 2; /* 모바일에선 줄 수도 줄이기 */
     }
 }
-
 
 .mainheading {
     padding: 1rem 0rem;
