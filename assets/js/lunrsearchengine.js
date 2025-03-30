@@ -1176,9 +1176,12 @@ function lunr_search(term) {
             });
         } else {
         // 검색 결과 없음
-        document.getElementById('modtit').innerHTML = `
-            '<span style="color:#00ab6b">${cleanTerm}</span>' 검색 결과 없음 😢
-        `;
+            document.getElementById('modtit').innerHTML = `
+                <h2 style="text-align: left; flex: 1; margin: 0;">
+                    '<span style="color:#00ab6b">${cleanTerm}</span>' 검색 결과 없음 😢
+                </h2>
+                <button type="button" class="close" id="btnx" data-dismiss="modal" aria-label="Close">&times;</button>
+            `;
         }
     }
     return false;
@@ -1189,4 +1192,15 @@ $(function () {
     $('#lunrsearchresults').hide(5);
     $("body").removeClass("modal-open");
     });
+});
+
+// ESC 키로 닫기 기능 추가
+document.addEventListener("keydown", function(event) {
+    if (event.key === "Escape") {
+        const modal = document.getElementById('lunrsearchresults');
+        if (modal && modal.style.display !== "none") {
+            modal.style.display = "none";
+            document.body.classList.remove("modal-open");
+        }
+    }
 });
