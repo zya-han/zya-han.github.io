@@ -456,6 +456,10 @@ span.post-read-more a:hover {
     font-family: "Song Myung", serif;
 }
 
+.mainheading a.sitetitle {
+    font-family: "Song Myung", serif;
+}
+
 .mainheading p.lead {
     font-family: "42dot Sans", sans-serif;
     font-weight: 300;
