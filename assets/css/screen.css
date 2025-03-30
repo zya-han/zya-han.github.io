@@ -163,7 +163,7 @@ th, tr, td {
     transform: translateY(-3px);
 }
   
-.card-image img {
+.related-card-image img {
     width: 120px;
     height: 80px;
     object-fit: cover;
@@ -171,28 +171,28 @@ th, tr, td {
 }
   
 @media (max-width: 600px) {
-    .card-image img {
+    .related-card-image img {
       width: 100%;
       height: auto;
       max-height: 200px;
     }
 }  
-.card-text {
+.related-card-text {
     padding: 0.5rem 1rem;
 }
   
-.card-text h4 {
+.related-card-text h4 {
     margin: 0 0 0.3rem;
     font-size: 1.1rem;
     color: #333;
 }
   
-.card-text a {
+.related-card-text a {
     text-decoration: none;
     color: #00ab6b;
 }
   
-.card-text p {
+.related-card-text p {
     margin: 0;
     font-size: 0.9rem;
     color: #555;
