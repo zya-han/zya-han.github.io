@@ -1214,9 +1214,14 @@ function extractExcerpt(text, keyword, length = 60) {
 
 // 하이라이팅 함수
 function highlightSearchTerm(text, term) {
-    const escapedTerm = term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-    const regex = new RegExp(`(${escapedTerm})`, "gi");
-    return text.replace(regex, "<mark>$1</mark>");
+    let terms = term.trim().toLowerCase().split(/\s+/); // '조조 순욱' → ['조조', '순욱']
+    terms.forEach(t => {
+      if (t) {
+        let regex = new RegExp(`(${t})`, 'gi');
+        text = text.replace(regex, '<mark>$1</mark>');
+      }
+    });
+    return text;
 }
 
 function lunr_search(term) {
@@ -1252,7 +1257,7 @@ function lunr_search(term) {
         // 모든 어절에 * 붙이기
         let query = term
             .split(/\s+/)
-            .map(t => `*${t}*`)
+            .map(t => `+*${t}*`)
             .join(' ');
         let cleanTerm = term.replace(/\*/g, "").toLowerCase(); // 검색어에서 와일드카드 제거
         let results = idx.search(query); // lunr 검색 수행    
