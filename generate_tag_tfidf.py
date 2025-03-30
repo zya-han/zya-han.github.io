@@ -20,15 +20,16 @@ def extract_tags(filepath):
     if isinstance(tags, str):
         tags = [tags]
     
-    rel_path = Path(filepath).relative_to(POSTS_DIR)
-    slug = rel_path.stem  # remove .md
-    parts = slug.split('-')  # e.g. 2024-03-31-my-post
-    if len(parts) >= 4:
-        year, month, day = parts[:3]
-        rest = '-'.join(parts[3:])
-        url = f"/{year}/{month}/{day}/{rest}.html"
-    else:
-        url = f"/{slug}.html"
+    url = front_matter.get("permalink")
+    if not url:
+        rel_path = Path(filepath).relative_to(POSTS_DIR)
+        slug = rel_path.stem
+        parts = slug.split('-')  # e.g. 2024-12-01-intelligent-women
+        if len(parts) >= 4:
+            rest = '-'.join(parts[3:])
+            url = f"/{rest}/"
+        else:
+            url = f"/{slug}/"
 
     return url, tags
 
