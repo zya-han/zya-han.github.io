@@ -1204,21 +1204,30 @@ var idx = lunr(function () {
 });
 
 // 검색 결과에서 출력할 excerpt
-function extractExcerpt(text, keyword, length = 60) {
-    const index = text.toLowerCase().indexOf(keyword.toLowerCase());
-    if (index === -1) return text.slice(0, length) + '…';
-    const start = Math.max(0, index - length / 2);
-    const end = Math.min(text.length, index + length / 2);
+function extractExcerpt(text, keywords, length = 60) {
+    const lowerText = text.toLowerCase();
+    let minIndex = -1;
+  
+    keywords.forEach(keyword => {
+        const idx = lowerText.indexOf(keyword.toLowerCase());
+        if (idx !== -1 && (minIndex === -1 || idx < minIndex)) {
+            minIndex = idx;
+        }
+    });
+  
+    if (minIndex === -1) return text.slice(0, length) + '…';
+  
+    const start = Math.max(0, minIndex - length / 2);
+    const end = Math.min(text.length, minIndex + length / 2);
     return (start > 0 ? '…' : '') + text.slice(start, end) + (end < text.length ? '…' : '');
-  }
+}
 
 // 하이라이팅 함수
-function highlightSearchTerm(text, term) {
-    let terms = term.trim().toLowerCase().split(/\s+/); // '조조 순욱' → ['조조', '순욱']
+function highlightSearchTerms(text, terms) {
     terms.forEach(t => {
       if (t) {
-        let regex = new RegExp(`(${t})`, 'gi');
-        text = text.replace(regex, '<mark>$1</mark>');
+            const regex = new RegExp(`(${t})`, 'gi');
+            text = text.replace(regex, '<mark>$1</mark>');
       }
     });
     return text;
@@ -1305,14 +1314,13 @@ function lunr_search(term) {
             results.forEach(function(result) {
                 var item = documents.find(doc => doc.id == result.ref);
                 if (!item) return; // 안전하게 건너뜀
-                
+
                 var listItem = document.createElement("li");
 
                 // 제목
                 var link = document.createElement("a");
                 link.href = item.url;
-                // link.innerHTML = highlightSearchTerm(item.title, terms);
-                link.innerHTML = item.title;
+                link.innerHTML = highlightSearchTerms(item.title, terms);
                 link.style.display = "block";
                 link.style.fontWeight = "bold";
                 link.style.fontSize = "1rem";
@@ -1332,7 +1340,7 @@ function lunr_search(term) {
                 excerpt.className = "search-excerpt";
                 excerpt.style.fontSize = "0.9rem";
                 excerpt.style.color = "rgba(0, 0, 0, .8);";
-                excerpt.innerHTML = highlightSearchTerm(extractExcerpt(item.body, terms), terms);
+                excerpt.innerHTML = highlightSearchTerms(extractExcerpt(item.body, terms), terms);
                 listItem.appendChild(excerpt);
                 
                 document.querySelector(".modal-body ul").appendChild(listItem);
