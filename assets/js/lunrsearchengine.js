@@ -1150,7 +1150,7 @@ function lunr_search(term) {
                 var link = document.createElement("a");
                 link.href = item.url;
                 link.textContent = item.title;
-                ink.style.display = "block";
+                link.style.display = "block";
                 link.style.fontWeight = "bold";
                 link.style.fontSize = "1.2rem";
                 listItem.appendChild(link);
@@ -1158,8 +1158,8 @@ function lunr_search(term) {
                 // URL 표시
                 var urlText = document.createElement("span");
                 urlText.textContent = item.url;
-                urlText.style.fontSize = "0.85em";
-                urlText.style.color = "#888";
+                urlText.style.fontSize = "0.85rem";
+                urlText.style.color = "rgba(0, 0, 0, .66);";
                 urlText.style.display = "block";
                 urlText.style.marginBottom = "0.25rem";
                 listItem.appendChild(urlText);
