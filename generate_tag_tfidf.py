@@ -49,8 +49,9 @@ def compute_tfidf():
             body_lower = body.lower()
             tag_counts = Counter()
             for tag in tags:
-                matches = re.findall(r'\b' + re.escape(tag.lower()), body_lower)
-                tag_counts[tag.lower()] = len(matches) if matches else 1
+                tag = tag.strip().lower()
+                matches = re.findall(r'\b' + re.escape(tag), body_lower)
+                tag_counts[tag] = len(matches) if matches else 1
             post_tag_counts[url] = tag_counts
             for tag in set(tag_counts.keys()):
                 tag_document_frequency[tag] += 1
