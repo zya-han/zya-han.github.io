@@ -143,7 +143,7 @@ th, tr, td {
 .related-card {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center; /* 이미지와 텍스트 수직 정렬 고정 */
     border: 1px solid #ddd;
     border-radius: 8px;
     margin-bottom: 1rem;
@@ -152,32 +152,48 @@ th, tr, td {
     transition: transform 0.2s;
 }
 
+.related-card:hover {
+    transform: translateY(-3px);
+}
+
+.related-card .related-card-image {
+    flex-shrink: 0;
+    width: 120px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 6px;
+  }
+
+.related-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
 @media (max-width: 600px) {
     .related-card {
       flex-direction: column;
       align-items: flex-start;
     }
-}
-
-.related-card:hover {
-    transform: translateY(-3px);
-}
   
-.related-card-image img {
-    width: 120px;
-    height: 80px;
-    object-fit: cover;
-    display: block;
-}
-  
-@media (max-width: 600px) {
-    .related-card-image img {
+    .related-card .related-card-image {
       width: 100%;
       height: auto;
-      max-height: 200px;
     }
-}  
-.related-card-text {
+  
+    .related-card .related-card-image img {
+      width: 100%;
+      height: auto;
+      max-height: none;
+      border-radius: 6px 6px 0 0;
+    }
+  
+    .related-card-text {
+      padding: 1rem;
+    }
+}
+
+  .related-card-text {
     padding: 0.5rem 1rem;
 }
   
