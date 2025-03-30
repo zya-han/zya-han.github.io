@@ -1089,6 +1089,15 @@ var idx = lunr(function () {
     }, this);
 });
 
+// 검색 결과에서 출력할 excerpt
+function extractExcerpt(text, keyword, length = 60) {
+    const index = text.toLowerCase().indexOf(keyword.toLowerCase());
+    if (index === -1) return text.slice(0, length) + '…';
+    const start = Math.max(0, index - length / 2);
+    const end = Math.min(text.length, index + length / 2);
+    return (start > 0 ? '…' : '') + text.slice(start, end) + (end < text.length ? '…' : '');
+  }
+
 // 하이라이팅 함수
 function highlightSearchTerm(text, term) {
     const escapedTerm = term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -1126,27 +1135,48 @@ function lunr_search(term) {
 
         // 검색어 표시 영역
         if (results.length > 0) {
-            document.getElementById('modtit').innerHTML = "'<span style='color:#00ab6b'>" + query + "</span>' 검색 결과 총 " + results.length + "건";
+            document.getElementById('modtit').innerHTML = `
+                <h2 style="text-align: left; flex: 1; margin: 0;">
+                    '<span style="color:#00ab6b">${cleanTerm}</span>' 검색 결과 총 ${results.length}건
+                </h2>
+                <button type="button" class="close" id="btnx" data-dismiss="modal" aria-label="Close">&times;</button>
+            `;
         
             results.forEach(function(result) {
                 var item = documents[result.ref];
                 var listItem = document.createElement("li");
+
+                // 제목 링크
                 var link = document.createElement("a");
                 link.href = item.url;
                 link.textContent = item.title;
+                ink.style.display = "block";
+                link.style.fontWeight = "bold";
+                link.style.fontSize = "1.2rem";
                 listItem.appendChild(link);
-                
+
+                // URL 표시
+                var urlText = document.createElement("span");
+                urlText.textContent = item.url;
+                urlText.style.fontSize = "0.85em";
+                urlText.style.color = "#888";
+                urlText.style.display = "block";
+                urlText.style.marginBottom = "0.25rem";
+                listItem.appendChild(urlText);
+
                 // 하이라이트된 텍스트 일부 보여주기
                 var excerpt = document.createElement("p");
                 excerpt.className = "search-excerpt";
-                excerpt.innerHTML = highlightSearchTerm(item.body, cleanTerm);
+                excerpt.innerHTML = highlightSearchTerm(extractExcerpt(item.body, cleanTerm), cleanTerm);
                 listItem.appendChild(excerpt);
                 
                 document.querySelector(".modal-body ul").appendChild(listItem);
             });
         } else {
         // 검색 결과 없음
-        document.getElementById('modtit').innerHTML = "검색 결과 없음 😢";
+        document.getElementById('modtit').innerHTML = `
+            '<span style="color:#00ab6b">${cleanTerm}</span>' 검색 결과 없음 😢
+        `;
         }
     }
     return false;
