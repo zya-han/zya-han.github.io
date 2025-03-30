@@ -1254,23 +1254,54 @@ function lunr_search(term) {
         // const isCJK = /[ㄱ-ㅎㅏ-ㅣ가-힣\u4E00-\u9FFF]/.test(term);
         // let query = isCJK ? "*" + term + "*" : term; // 검색어 앞뒤에 * 붙이기
 
-        // 모든 어절에 * 붙이기
-        let query = term
-            .split(/\s+/)
-            .map(t => `+*${t}*`)
-            .join(' ');
-        let cleanTerm = term.replace(/\*/g, "").toLowerCase(); // 검색어에서 와일드카드 제거
-        let results = idx.search(query); // lunr 검색 수행    
+        // 여러 검색어를 분리
+        let terms = term.trim().toLowerCase().split(/\s+/); // 배열로 저장
+
+        // 각 키워드에 *를 붙여서 개별 검색
+        let partialResults = terms.map(word => {
+            return idx.search(`*${word}*`).map(result => result.ref);
+        });
+
+        // 모든 검색 결과의 교집합 구하기
+        let resultRefs = partialResults.reduce((acc, curr) =>
+            acc.filter(ref => curr.includes(ref))
+        );
+
+        // 교집합 결과를 기반으로 검색 결과 렌더링
+        let results = resultRefs.map(ref => {
+            return { ref: ref };
+        });
 
         // 검색어 표시 영역
         if (results.length > 0) {
-            document.getElementById('modtit').innerHTML = `
-                <h2 style="text-align: left; flex: 1; margin: 0;">
-                    '<span style="color:#00ab6b">${cleanTerm}</span>' 검색 결과 총 ${results.length}건
-                </h2>
-                <button type="button" class="close" id="btnx" data-dismiss="modal" aria-label="Close">&times;</button>
-            `;
-        
+            const header = document.getElementById('modtit');
+            header.innerHTML = ""; // 기존 내용을 비우고
+            
+            // 제목 요소
+            const title = document.createElement("h2");
+            title.style.textAlign = "left";
+            title.style.flex = "1";
+            title.style.margin = "0";
+            title.innerHTML = `'<span style="color:#00ab6b">${terms.join(" ")}</span>' 검색 결과 총 ${results.length}건`;
+            
+            // 닫기 버튼
+            const closeBtn = document.createElement("button");
+            closeBtn.type = "button";
+            closeBtn.className = "close";
+            closeBtn.id = "btnx";
+            closeBtn.setAttribute("data-dismiss", "modal");
+            closeBtn.setAttribute("aria-label", "Close");
+            closeBtn.innerHTML = "&times;";
+            
+            // flex 컨테이너로 스타일 적용
+            header.style.display = "flex";
+            header.style.alignItems = "center";
+            header.style.justifyContent = "space-between";
+            
+            // 삽입
+            header.appendChild(title);
+            header.appendChild(closeBtn);
+
             results.forEach(function(result) {
                 var item = documents[result.ref];
                 var listItem = document.createElement("li");
@@ -1278,7 +1309,7 @@ function lunr_search(term) {
                 // 제목
                 var link = document.createElement("a");
                 link.href = item.url;
-                link.innerHTML = highlightSearchTerm(item.title, cleanTerm);
+                link.innerHTML = highlightSearchTerm(item.title, terms);
                 link.style.display = "block";
                 link.style.fontWeight = "bold";
                 link.style.fontSize = "1rem";
@@ -1298,7 +1329,7 @@ function lunr_search(term) {
                 excerpt.className = "search-excerpt";
                 excerpt.style.fontSize = "0.9rem";
                 excerpt.style.color = "rgba(0, 0, 0, .8);";
-                excerpt.innerHTML = highlightSearchTerm(extractExcerpt(item.body, cleanTerm), cleanTerm);
+                excerpt.innerHTML = highlightSearchTerm(extractExcerpt(item.body, terms), terms);
                 listItem.appendChild(excerpt);
                 
                 document.querySelector(".modal-body ul").appendChild(listItem);
@@ -1307,7 +1338,7 @@ function lunr_search(term) {
         // 검색 결과 없음
             document.getElementById('modtit').innerHTML = `
                 <h2 style="text-align: left; flex: 1; margin: 0;">
-                    '<span style="color:#00ab6b">${cleanTerm}</span>' 검색 결과 없음 😢
+                    '<span style="color:#00ab6b">${terms.join(" ")}</span>' 검색 결과 없음 😢
                 </h2>
                 <button type="button" class="close" id="btnx" data-dismiss="modal" aria-label="Close">&times;</button>
             `;
