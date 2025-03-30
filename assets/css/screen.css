@@ -193,21 +193,31 @@ th, tr, td {
 /* 모바일 대응 */
 @media (max-width: 600px) {
     .related-card {
-        flex-direction: column; /* 수직 배치 */
-        max-height: none; /* 높이 제한 해제 */
+      flex-direction: column;
+      height: auto; /* 고정 높이 해제 */
     }
   
-    .card-image img {
-        width: 100%;     /* 카드 전체 너비 */
-        height: auto;    /* 비율 유지 */
+    .related-card-image {
+      width: 100%;
+      height: auto;
+    }
+  
+    .related-card-image img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
     }
   
     .related-card-text {
-        padding: 0.8rem 1rem;
+      padding: 1rem;
     }
   
     .related-card-text p {
-        -webkit-line-clamp: 2; /* 모바일에선 줄 수도 줄이기 */
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
 }
 
