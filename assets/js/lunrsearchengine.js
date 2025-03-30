@@ -1239,13 +1239,23 @@ function lunr_search(term) {
         </div>
     </div>`;
 
+    term = term.trim(); // 앞뒤 공백 제거
+
     if (term) {
         // 기존 검색 결과 지우기
         document.querySelector(".modal-body ul").innerHTML = '';
 
-        let query = term; // 검색어 저장
+        // 한글 또는 한자 포함 여부 확인
+        // const isCJK = /[ㄱ-ㅎㅏ-ㅣ가-힣\u4E00-\u9FFF]/.test(term);
+        // let query = isCJK ? "*" + term + "*" : term; // 검색어 앞뒤에 * 붙이기
+
+        // 모든 어절에 * 붙이기
+        let query = term
+            .split(/\s+/)
+            .map(t => `*${t}*`)
+            .join(' ');
         let cleanTerm = term.replace(/\*/g, "").toLowerCase(); // 검색어에서 와일드카드 제거
-        let results = idx.search(term); // lunr 검색 수행    
+        let results = idx.search(query); // lunr 검색 수행    
 
         // 검색어 표시 영역
         if (results.length > 0) {
