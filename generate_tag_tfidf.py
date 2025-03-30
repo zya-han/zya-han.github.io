@@ -9,12 +9,12 @@ POSTS_DIR = "_posts"
 TAG_COUNT_FILE = "_data/tag_counts.yml"
 TFIDF_FILE = "_data/tag_tfidf.yml"
 
-def extract_tags(filepath):
+def extract_tags_and_body(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
     match = re.match(r'^---\n(.*?)\n---\n', content, re.DOTALL)
     if not match:
-        return None, []
+        return None, [], content
     front_matter = yaml.safe_load(match.group(1))
     tags = front_matter.get("tags", [])
     if isinstance(tags, str):
@@ -31,7 +31,7 @@ def extract_tags(filepath):
         else:
             url = f"/{slug}/"
 
-    return url, tags
+    return url, tags, content
 
 def compute_tfidf():
     tag_document_frequency = Counter()
@@ -43,12 +43,17 @@ def compute_tfidf():
             if not file.endswith((".md", ".markdown")):
                 continue
             path = os.path.join(root, file)
-            url, tags = extract_tags(path)
+            url, tags, body = extract_tags_and_body(path)
             if not url or not tags:
                 continue
-            tag_counts = Counter(tags)
+            body_lower = body.lower()
+            tag_counts = Counter()
+            for tag in tags:
+                matches = re.findall(r'\b' + re.escape(tag.lower()), body_lower)
+                if matches:
+                    tag_counts[tag.lower()] = len(matches)
             post_tag_counts[url] = tag_counts
-            for tag in set(tags):
+            for tag in set(tag_counts.keys()):
                 tag_document_frequency[tag] += 1
             total_docs += 1
 
