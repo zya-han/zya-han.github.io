@@ -1090,18 +1090,16 @@ var idx = lunr(function () {
 });
 
 // 하이라이팅 함수
-function highlight(text, term) {
-    var regex = new RegExp("(" + term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ")", "gi");
+function highlightSearchTerm(text, term) {
+    const escapedTerm = term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const regex = new RegExp(`(${escapedTerm})`, "gi");
     return text.replace(regex, "<mark>$1</mark>");
 }
 
 function lunr_search(term) {
     $('#lunrsearchresults').show(400);
     $("body").addClass("modal-open");
-
-    // 검색어 정리 (와일드카드 제거용)
-    let cleanTerm = term.replace(/\*/g, "").toLowerCase();
-
+    
     document.getElementById('lunrsearchresults').innerHTML = `
     <div id="resultsmodal" class="modal fade show d-block" tabindex="-1" role="dialog" aria-labelledby="resultsmodal">
         <div class="modal-dialog shadow-lg" role="document">
@@ -1112,40 +1110,44 @@ function lunr_search(term) {
             </div>
             <div class="modal-body"><ul class="mb-0"></ul></div>
             <div class="modal-footer">
-            <button id="btnx" type="button" class="btn btn-sm" data-dismiss="modal">Close</button>
+            <button id="btnx" type="button" class="btn btn-sm" data-dismiss="modal">닫기</button>
             </div>
         </div>
         </div>
     </div>`;
 
     if (term) {
-    // 기존 검색 결과 지우기
-    document.querySelector(".modal-body ul").innerHTML = '';
+        // 기존 검색 결과 지우기
+        document.querySelector(".modal-body ul").innerHTML = '';
 
-    // 검색어 표시 영역
-    if (results.length > 0) {
-    document.getElementById('modtit').innerHTML = "'<span style='color:#00ab6b'>" + query + "</span>' 검색 결과 총 " + results.length + "건)";
-    
-    results.forEach(function(result) {
-        var item = documents[result.ref];
-        var listItem = document.createElement("li");
-        var link = document.createElement("a");
-        link.href = item.url;
-        link.textContent = item.title;
-        listItem.appendChild(link);
+        let query = term; // 검색어 저장
+        let cleanTerm = term.replace(/\*/g, "").toLowerCase(); // 검색어에서 와일드카드 제거
+        let results = idx.search(term); // lunr 검색 수행    
+
+        // 검색어 표시 영역
+        if (results.length > 0) {
+            document.getElementById('modtit').innerHTML = "'<span style='color:#00ab6b'>" + query + "</span>' 검색 결과 총 " + results.length + "건";
         
-        // 하이라이트된 텍스트 일부 보여주기
-        var excerpt = document.createElement("p");
-        excerpt.className = "search-excerpt";
-        excerpt.innerHTML = highlightSearchTerm(item.body, query);
-        listItem.appendChild(excerpt);
-        
-        document.querySelector(".modal-body ul").appendChild(listItem);
-    });
-    } else {
-    // 검색 결과 없음
-    document.getElementById('modtit').innerHTML = "검색 결과 없음 😢";
-    }
+            results.forEach(function(result) {
+                var item = documents[result.ref];
+                var listItem = document.createElement("li");
+                var link = document.createElement("a");
+                link.href = item.url;
+                link.textContent = item.title;
+                listItem.appendChild(link);
+                
+                // 하이라이트된 텍스트 일부 보여주기
+                var excerpt = document.createElement("p");
+                excerpt.className = "search-excerpt";
+                excerpt.innerHTML = highlightSearchTerm(item.body, cleanTerm);
+                listItem.appendChild(excerpt);
+                
+                document.querySelector(".modal-body ul").appendChild(listItem);
+            });
+        } else {
+        // 검색 결과 없음
+        document.getElementById('modtit').innerHTML = "검색 결과 없음 😢";
+        }
     }
     return false;
 }
