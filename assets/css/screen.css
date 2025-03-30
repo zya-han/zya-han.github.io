@@ -164,6 +164,7 @@ th, tr, td {
 }
   
 .related-card-text {
+    font-size: 0.8rem;
     padding: 1rem;
     flex: 1;
     display: block;
@@ -180,23 +181,13 @@ th, tr, td {
   
 .related-card-text h4 {
     margin: 0 0 0.3rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #333;
 }
   
 .related-card-text a {
     text-decoration: none;
     color: #00ab6b;
-}
-  
-.related-card-text p {
-    margin: 0;
-    font-size: 0.9rem;
-    color: #555;
-    line-height: 1.3;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
 }
 
 /* 모바일 대응 */
