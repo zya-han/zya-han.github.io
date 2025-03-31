@@ -151,11 +151,28 @@ th, tr, td {
   
 .related-posts-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(3, 1fr);  /* 💡 1줄에 무조건 3개 */
     gap: 1.5rem;
+    max-width: 960px;
+    margin: 0 auto;
+}
+  
+@media (max-width: 768px) {
+    .related-posts-grid {
+      grid-template-columns: repeat(2, 1fr);  /* 태블릿 이하에서는 2열 */
+    }
+}
+  
+@media (max-width: 480px) {
+    .related-posts-grid {
+      grid-template-columns: 1fr;  /* 모바일에서는 1열 */
+    }
 }
   
 .related-post-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     background: #fff;
     border: 1px solid #eaeaea;
     border-radius: 12px;
@@ -169,28 +186,34 @@ th, tr, td {
   
 .related-post-thumb {
     width: 100%;
-    aspect-ratio: 1 / 1;        /* 정사각형 비율 유지 */
-    object-fit: cover;          /* 이미지 꽉 채우기 */
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
     display: block;
 }
   
 .related-post-content {
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
   
 .related-post-title {
     font-size: 1.1rem;
     font-weight: 600;
-    margin: 0 0 0.5rem 0;
+    margin-bottom: 0.5rem;
     color: #333;
 }
   
 .related-post-excerpt {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     color: #666;
     line-height: 1.4;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;   /* 💡 최대 5줄까지만 표시 */
+    -webkit-box-orient: vertical;
 }
-
 
 .mainheading {
     padding: 1rem 0rem;
