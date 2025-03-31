@@ -60,17 +60,14 @@ for post in posts:
     current_url = post["url"]
     current_tags = set(post["tags"])
     current_tf = post["tf"]
-    manual_related = post.get("related_posts", [])
+    manual_related = post.get("related_posts", []) or []
 
-    if manual_related:
-        # ✅ 수동 추천이 존재하면 그대로 사용 (최대 3개만)
-        related_dict[current_url] = manual_related[:MAX_RELATED]
-        continue
-
-    # 아니면 기존 TF-IDF 계산
+    # 중복 방지를 위한 셋
+    seen = set(manual_related)
+    
     scores = []
     for other in posts:
-        if other["url"] == current_url:
+        if other["url"] == current_url or other["url"] in seen:
             continue
 
         score = 0.0
@@ -83,7 +80,11 @@ for post in posts:
             scores.append((other["url"], score))
 
     scores.sort(key=lambda x: x[1], reverse=True)
-    related_dict[current_url] = [url for url, _ in scores[:MAX_RELATED]]
+    fill_from_auto = [url for url, _ in scores if url not in seen]
+
+    # 최대 3개까지만
+    final_related = manual_related + fill_from_auto[:MAX_RELATED - len(manual_related)]
+    related_dict[current_url] = final_related
 
 
 # 3. YAML로 저장
