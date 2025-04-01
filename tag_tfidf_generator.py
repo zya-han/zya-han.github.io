@@ -39,7 +39,7 @@ for filepath in glob.glob(os.path.join(POSTS_DIR, "*.md")):
     all_tags.extend(tags)
 
     # 검색 범위: 제목 + 본문 + 태그
-    text = f'{post_data.metadata.get("title")} {post_data.content} {" ".join(tags)}'
+    text = f'{post_data.metadata.get("title")} {post_data.metadata.get("subtitle", "")} {post_data.content} {" ".join(tags)}'
 
     # TF 계산: 태그가 본문에 얼마나 등장했는지
     tf_dict = {}

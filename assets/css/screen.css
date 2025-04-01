@@ -545,6 +545,14 @@ span.post-read-more a:hover {
     margin-bottom: 1rem;
 }
 
+.post-subtitle {
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, .66);
+    /* margin-top: -0.5rem; */
+    margin-bottom: 1rem;
+    /* font-style: italic; */
+}
+
 .footer {
     border-top: 1px solid rgba(0, 0, 0, .05) !important;
     padding-top: 15px;
