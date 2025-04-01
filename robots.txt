@@ -11,7 +11,7 @@ User-agent: Yeti
 Allow: /
 
 User-agent: Daumoa
-Disallow:
+Allow: /
 
 User-agent: Slurp
 Allow: /
