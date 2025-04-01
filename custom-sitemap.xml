@@ -611,6 +611,13 @@
   </url>
   
   <url>
+    <loc>https://zya-han.github.io/shishuo/</loc>
+    <lastmod>2020-09-13T11:45:00+09:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://zya-han.github.io/cao-cao-08/</loc>
     <lastmod>2020-09-06T19:49:00+09:00</lastmod>
     <changefreq>daily</changefreq>
