@@ -590,6 +590,13 @@
   </url>
   
   <url>
+    <loc>https://zya-han.github.io/too-late-3-1-revised/</loc>
+    <lastmod>2020-12-09T18:32:00+09:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://zya-han.github.io/zhiming/</loc>
     <lastmod>2020-11-01T15:07:00+09:00</lastmod>
     <changefreq>daily</changefreq>
@@ -681,6 +688,13 @@
   </url>
   
   <url>
+    <loc>https://zya-han.github.io/too-late-2-2-1-spinoff/</loc>
+    <lastmod>2020-08-01T10:55:00+09:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://zya-han.github.io/birthday-party-in-ancient-china/</loc>
     <lastmod>2020-07-26T20:55:00+09:00</lastmod>
     <changefreq>daily</changefreq>
@@ -704,6 +718,13 @@
   <url>
     <loc>https://zya-han.github.io/promise/</loc>
     <lastmod>2020-07-15T20:15:00+09:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zya-han.github.io/too-late-1-5-1-spinoff/</loc>
+    <lastmod>2020-07-12T11:32:00+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
