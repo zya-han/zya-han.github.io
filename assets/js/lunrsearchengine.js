@@ -83,6 +83,8 @@ var documents = [
         
     
         
+    
+        
             {
                 "id": 1,
                 "url": "https://zya-han.github.io/membership/",
@@ -294,6 +296,17 @@ var documents = [
         
             {
                 "id": 20,
+                "url": "https://zya-han.github.io/too-late-spinoff-hair/",
+                "title": "외전. 《한서》 〈유림전〉에서 〈왕식전〉을 보세요",
+                "subtitle": "",
+                "body": "진궁은 조조가 뇌까린 말을 못 들은 듯했다. 조조는 소리를 조금 높여 다시 말했다. “마음에 안 들어…” “네?” “마음에 안 든다…” 진궁은 반성하는 기색이 없었다. “뭔진 모르겠지만 공公의 마음에 안 든다니까 잘된 일이네요. ” “마음에 안 든다고…” “그럼 이참에 좀… 아야. ” 조조는 진궁의 머리카락을 한 꼬집 집고 당겼다. “이 머리카락 말이야…” 진궁은 머리를 잡힌 채 되물었다. “내 머리는 몇 년째 이 모양인데 뭐가 문제예요?” 조조는 머리카락을 잡은 손을 흔들었다. “바로 그게 문제지. 고孤는 애초에 이런 꼴을 허락한 적이 없어. ” 진궁은 말꼬리를 잡았다. “애초에 금지한 적도 없잖아요. ” 하지만 조조는 좋게 타일렀다. “멀쩡한 사람이면 알아서 멀쩡한 모습을 해야지. ” 진궁은 혀를 찼다. “내가 멀쩡한 사람이 아닌데 어떻게 멀쩡하게 꾸미겠어요?” 조조는 도저히 ‘멀쩡한 사람 맞잖아!’라고 말하지 못했다. 대신 소리를 높였다. “머리라도 좀 멀쩡하게 해 봐!“ 진궁은 움츠러들기는커녕 건방지게 조조에게 눈을 흘겼다. “정말이에요? 공公은 진짜로 내가 머리 묶고 관 쓴 걸 보고 싶어요?” 조조는 반사적으로 외쳤다. “당연하지!” 진궁은 자기 머리카락을 만지는 조조의 손가락을 잡고 조조를 똑바로 쳐다보았다. “못 믿겠는데요. ” 조조는 양심에 거리낄 것이 없었다. “고孤가 언제 거짓말하는 거 봤어?” 진궁은 조조의 손가락을 잡은 손아귀에 힘을 주었다. “그러면 삼량관 주셔야 돼요. ” 조조는 손가락이 아팠지만 진궁을 공연히 자극하지 않기 위해 관대하게 참았다. “알았어. ”    며칠 뒤. 진궁은 조조가 미리 보낸 일량짜리 진현관을 쓰고 나와 계단 아래에 서 있었다. 늘 걷어붙이고 있던 소매도 얌전히 손목을 덮고 있었다. “왜 나와 있어?“ 진궁은 엄숙한 얼굴로 말했다. “먼저 올라가십시오. “ 조조는 뭔가 찜찜한 기분을 억누르며 계단을 앞서 올라갔다. 진궁이 뒤따라 올라갔다. 지팡이로 바닥을 쿵쿵 찧던 여느 때와 달리 지팡이 소리를 안 내려고 애쓰는 것이 느껴졌다. 조조는 의아하고 불편했다. ‘왜 평소에 안 하던 짓을 하지?’ 진궁은 급기야 조조의 앞에 무릎을 꿇고 손수 방석을 펼쳤다. 동작은 느렸지만 흠 잡을 데가 없었다. “먼저 자리에 앉으십시오. “ 조조는 숨이 막혔다. 진궁은 다시 조심스럽게 지팡이를 짚고 일어났다. 수 년 전 젊은 진궁이 이렇게 예의를 차릴 때는 귀여웠었다. 하지만 지금 와서 진궁이 신하 흉내를 내는 것은 왠지 모르게 견딜 수 없었다. 조조는 이것을 인정할 수밖에 없었다. “어… 그냥 원래대로 하자. “ “궁宮도 감히 앉겠습니다. ” “불편하잖아. 머리 풀고 편하게 앉아도 괜찮아. ” 진궁은 반응하지 않았다. 어쩔 수 없이 조조는 자기 입으로 명령했다. “관 벗으라고. “ 진궁은 그제서야 고개를 쳐들고 조조를 내려다보았다. ”거짓말쟁이. “    다시 며칠 뒤. 조조가 찾아갔을 때 진궁은 원래 모습으로 돌아가서 드러누워 있었다. “공公은 정말 나쁜 사람이에요. ” 조조는 안심했다. “공대가 나쁜 아이니까 그렇지. ” “나쁜 아이 할 테니까 맛있는 거 먹여 주세요. “ ",
+                "tags": "삼국지 감금 참좌지 육형 진궁 조조 조조진궁 의관 산발 헤어스타일"
+            }, 
+        
+    
+        
+            {
+                "id": 21,
                 "url": "https://zya-han.github.io/aweng/",
                 "title": "아옹(阿翁)의 해석 문제: 어린 조간은 과연 맏형 조비를 ‘할아버지’라고 불렀나?",
                 "subtitle": "",
@@ -304,7 +317,7 @@ var documents = [
     
         
             {
-                "id": 21,
+                "id": 22,
                 "url": "https://zya-han.github.io/yeyousijun-oc-new/",
                 "title": "《시경》 〈야유사균〉 “들판에는 죽은 노루” 상고한어 노래 새 편곡 [멤버십 전용]",
                 "subtitle": "",
@@ -315,7 +328,7 @@ var documents = [
     
         
             {
-                "id": 22,
+                "id": 23,
                 "url": "https://zya-han.github.io/yeyousijun-oc/",
                 "title": "《시경》 〈야유사균〉 “들판에는 죽은 노루” 상고한어 노래 영상",
                 "subtitle": "",
@@ -326,7 +339,7 @@ var documents = [
     
         
             {
-                "id": 23,
+                "id": 24,
                 "url": "https://zya-han.github.io/liu-xiang-hated-beautiful-women/",
                 "title": "미녀를 혐오한 남자: 《열녀전》 창시자 유향의 취향",
                 "subtitle": "",
@@ -337,7 +350,7 @@ var documents = [
     
         
             {
-                "id": 24,
+                "id": 25,
                 "url": "https://zya-han.github.io/anong/",
                 "title": "농, 농, 아농(阿儂)에서 아농(我儂)까지",
                 "subtitle": "",
@@ -348,7 +361,7 @@ var documents = [
     
         
             {
-                "id": 25,
+                "id": 26,
                 "url": "https://zya-han.github.io/taoyao-oc-new/",
                 "title": "《시경》 〈도요〉 “복사나무 소담하니” 상고한어 노래 새 편곡 [멤버십 전용]",
                 "subtitle": "",
@@ -359,7 +372,7 @@ var documents = [
     
         
             {
-                "id": 26,
+                "id": 27,
                 "url": "https://zya-han.github.io/taoyao-oc/",
                 "title": "《시경》 〈도요〉 “복사나무 소담하니” 상고한어 노래 영상",
                 "subtitle": "",
@@ -370,7 +383,7 @@ var documents = [
     
         
             {
-                "id": 27,
+                "id": 28,
                 "url": "https://zya-han.github.io/dogs-in-later-han/",
                 "title": "후한 말 학자들의 개 이야기",
                 "subtitle": "",
@@ -381,7 +394,7 @@ var documents = [
     
         
             {
-                "id": 28,
+                "id": 29,
                 "url": "https://zya-han.github.io/sanguo-pocket-06/",
                 "title": "삼국지포켓북 6. 아이들의 놀이와 노래 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -392,7 +405,7 @@ var documents = [
     
         
             {
-                "id": 29,
+                "id": 30,
                 "url": "https://zya-han.github.io/sanguo-pocket-05/",
                 "title": "삼국지포켓북 5. 의사와 음악가의 공통점은? [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -403,7 +416,7 @@ var documents = [
     
         
             {
-                "id": 30,
+                "id": 31,
                 "url": "https://zya-han.github.io/sanguo-pocket-04/",
                 "title": "삼국지포켓북 4. 육형 부활 논의에 관한 시론 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -414,7 +427,7 @@ var documents = [
     
         
             {
-                "id": 31,
+                "id": 32,
                 "url": "https://zya-han.github.io/sanguo-pocket-03/",
                 "title": "삼국지포켓북 3. 향, 새로운 감각의 개척 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -425,7 +438,7 @@ var documents = [
     
         
             {
-                "id": 32,
+                "id": 33,
                 "url": "https://zya-han.github.io/sanguo-pocket-02/",
                 "title": "삼국지포켓북 2. 예의를 버리고 음식을 구하다 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -436,7 +449,7 @@ var documents = [
     
         
             {
-                "id": 33,
+                "id": 34,
                 "url": "https://zya-han.github.io/armed-women/",
                 "title": "후한 말 여성의 무장과 무예",
                 "subtitle": "",
@@ -447,7 +460,7 @@ var documents = [
     
         
             {
-                "id": 34,
+                "id": 35,
                 "url": "https://zya-han.github.io/sanguo-pocket-01/",
                 "title": "삼국지포켓북 1. 호칭어 가이드 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -458,7 +471,7 @@ var documents = [
     
         
             {
-                "id": 35,
+                "id": 36,
                 "url": "https://zya-han.github.io/chengxiangfu/",
                 "title": "승상부 사람들",
                 "subtitle": "",
@@ -469,7 +482,7 @@ var documents = [
     
         
             {
-                "id": 36,
+                "id": 37,
                 "url": "https://zya-han.github.io/alcohol-and-sex/",
                 "title": "“주색“ 넘치는 향연",
                 "subtitle": "",
@@ -480,7 +493,7 @@ var documents = [
     
         
             {
-                "id": 37,
+                "id": 38,
                 "url": "https://zya-han.github.io/sanguozhi-qna/",
                 "title": "삼국지 질문 응모를 받습니다",
                 "subtitle": "",
@@ -491,7 +504,7 @@ var documents = [
     
         
             {
-                "id": 38,
+                "id": 39,
                 "url": "https://zya-han.github.io/on-historical-accuracy-3/",
                 "title": "역사/시대 고증의 목적은 과거의 한 장면을 재연하는 것인가?",
                 "subtitle": "",
@@ -502,7 +515,7 @@ var documents = [
     
         
             {
-                "id": 39,
+                "id": 40,
                 "url": "https://zya-han.github.io/greetings-in-han/",
                 "title": "한나라 사람들의 인사와 신체 접촉 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -513,7 +526,7 @@ var documents = [
     
         
             {
-                "id": 40,
+                "id": 41,
                 "url": "https://zya-han.github.io/ta-bom/",
                 "title": "👍 ‘따봉’, 엄지척이 중국 전통에도 있었을까?",
                 "subtitle": "",
@@ -524,7 +537,7 @@ var documents = [
     
         
             {
-                "id": 41,
+                "id": 42,
                 "url": "https://zya-han.github.io/xiao-wangzhi/",
                 "title": "소망지의 생애",
                 "subtitle": "",
@@ -535,7 +548,7 @@ var documents = [
     
         
             {
-                "id": 42,
+                "id": 43,
                 "url": "https://zya-han.github.io/interpret-and-translate/",
                 "title": "통역과 번역이 모두 ‘역’으로 끝나는 까닭: 역(譯)의 의미 확장",
                 "subtitle": "",
@@ -546,7 +559,7 @@ var documents = [
     
         
             {
-                "id": 43,
+                "id": 44,
                 "url": "https://zya-han.github.io/yang-as-deceit/",
                 "title": "양동작전의 수수께끼: 중국 고대의 음양 개념 변천",
                 "subtitle": "",
@@ -557,7 +570,7 @@ var documents = [
     
         
             {
-                "id": 44,
+                "id": 45,
                 "url": "https://zya-han.github.io/relay-translation/",
                 "title": "중역(重譯)의 환상",
                 "subtitle": "",
@@ -568,7 +581,7 @@ var documents = [
     
         
             {
-                "id": 45,
+                "id": 46,
                 "url": "https://zya-han.github.io/cao-cao-12/",
                 "title": "12. 조조의 아명 아만(阿瞞)의 의미는 거짓말쟁이다? [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -579,7 +592,7 @@ var documents = [
     
         
             {
-                "id": 46,
+                "id": 47,
                 "url": "https://zya-han.github.io/cao-cao-11/",
                 "title": "11. 조조가 유비를 일컫는 말의 변화: ‘명사군’부터 ‘짚신가게 새끼’까지 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -590,7 +603,7 @@ var documents = [
     
         
             {
-                "id": 47,
+                "id": 48,
                 "url": "https://zya-han.github.io/brothers-are-hands/",
                 "title": "형제는 손발, 처자는 의복?: “연의”가 진짜로 “왜곡”한 것",
                 "subtitle": "",
@@ -601,7 +614,7 @@ var documents = [
     
         
             {
-                "id": 48,
+                "id": 49,
                 "url": "https://zya-han.github.io/zhuge-liang-s-meal/",
                 "title": "식소사번의 진실: 제갈량은 밥을 얼마나 적게 먹었나?",
                 "subtitle": "",
@@ -612,7 +625,29 @@ var documents = [
     
         
             {
-                "id": 49,
+                "id": 50,
+                "url": "https://zya-han.github.io/too-late-spinoff-ginger/",
+                "title": "외전. 만다린 진저 티",
+                "subtitle": "화이트 크리스마스",
+                "body": "진궁은 마루에 나와 화로 옆에 앉아 있었다. 마당에 눈이 쌓이는 동안 그의 눈은 줄곧 외진 구석을 향했다. 그의 의지로 열릴 일이 없는 대문 쪽으로는 아예 시선을 돌리지 않는 것이 진궁의 버릇이었다. “공대, 오늘이 며칠이지?” “음… 12월 24일…” 무심코 대답하던 진궁은 뒤늦게 비명을 질렀다. “너… 군이 대체 무슨 일로 오셨어요?” 순욱은 진궁의 허락을 구하지 않고 실내로 들어와서는 시자가 준비한 방석에 앉았다. “날도 날이고 해서 확인 좀 하려고. ” 진궁은 불안한 기색으로 물었다. “오늘이 무슨 날인데요?” 순욱은 되물었다. “설마 잊어버렸나?” “형여의 몸이 무지해서 모르겠습니다. ” “여씨 기제삿날. ” 진궁은 굳은 얼굴로 뇌까렸다. “궁이 죽었어야 하는 날이군. ” “그건 매일이 그렇지. ” “군은…” 진궁이 반박하거나 말거나 순욱은 허리에 차고 있던 작은 주머니를 열고 향료를 덜어서 화로에 털어 넣었다. 진궁은 곧 눈살을 찌푸렸다. “너무 매워요. ” “그렇겠지. 10년 묵은 생강이니까. ” “대체 군은 왜 이런 냄새를 맡고도 멀쩡한 건데요?” 순욱은 대답하지 않고 다음 선물을 꺼냈다. 시자가 가져온 그릇에는 껍질을 벗긴 귤이 들어 있었다. “격에 안 맞지만 먹어 봐. ” 진궁은 마지못해 한 조각을 집어 입에 넣었다가… 한 번 씹자마자 뱉을 뻔했다. “이건 너무 시잖아요. 10년 묵은 귤이에요?” 순욱은 근엄하게 말했다. “아쉽지만 그 정도는 아니야. 독 안 들었으니까 다 먹어. ” “군이 명령하시면 형여의 몸이 감히 어쩌겠어요. ” 진궁은 한숨을 내쉬고는 남은 귤 조각을 입 안에 한꺼번에 털어놓고 억지로 씹어 삼켰다. “울어?” “안 울어요. ” “눈물을 흘리고 있는데?” “군이 신 걸 먹였으니까 그렇죠. ” 순욱은 어울리지 않게 자상하게 말했다. “공대, 울고 싶으면 울어도 돼. 조공껜 말 안 할 테니까. ” 진궁은 훌쩍거리며 말했다. “우는 거 아니라고. ” ",
+                "tags": "삼국지 감금 참좌지 육형 진궁 순욱 크리스마스이브 생강 귤"
+            }, 
+        
+    
+        
+            {
+                "id": 51,
+                "url": "https://zya-han.github.io/too-late-spinoff-bittersweet/",
+                "title": "외전. 달콤쌉쌀한 스몰토크",
+                "subtitle": "",
+                "body": "처음에 진궁은 대수롭지 않게 말을 꺼냈다. “오늘따라 공한테서 특이한 향이 나네요. ” “응?” “약초 비슷한 냄새가 나요. ” 조조는 가슴께를 더듬었다. 평소에 품 안에 넣고 다니던 궁궁이풀이 오늘은 없었다. “고孤도 모르겠는데. ” 진궁은 조조의 허리에 찬 가죽 주머니를 가리켰다. “여기서 나는 것 같아요. ” 조조는 무심코 주머니를 열었다. 길이가 한 뼘쯤 되는 풀뿌리가 나왔다. ‘아차. ’ 진궁은 목을 길게 빼고 물었다. “그거 뭐예요?” 조조는 왼손으로 진궁을 밀치고는 오른손으로 다급히 약초를 입에 넣고 씹었다. 진궁은 당황하면서 물었다. “왜 그래요? 내가 빼앗아 먹을 것 같아요?” 조조는 입안에 가득한 쓴맛을 간신히 참고 삼킨 뒤 말했다. “빼앗아 먹다니, 큰일 날 소리 하지 마. ” 진궁은 굳어진 얼굴로 차갑게 대답했다. “네, 형여의 몸이 어떻게 삼공께서 드시는 간식에 감히 손을 대겠어요. ” 조조는 이런 분위기를 제일 피하고 싶었다. 진궁의 손을 잡고 부드럽게 말했다. “그게 아니고… 귀여운 아기는 이런 거 먹으면 안 돼. ” “왜요? 독이라도 들었어요?” 하마터면 사실대로 ‘응. ’이라고 답할 뻔했다. 진궁이 칡을 알아보지 못해서 다행이었다. 슬슬 배가 아파져 왔다. 조조는 최대한 조심스럽게 진궁의 손을 놓으면서 말했다. “고孤는 옷 좀 갈아입고 올게. ” 조조는 화장실에서 오랫동안 손을 씻으면서 놀란 가슴을 진정시켰다. 진궁과 놀아 주는 동안은 좋은 시절로 돌아간 것 같았다. 그 여포를 전쟁에서 무찌르고 마냥 자랑스러울 때. 진궁의 시간도 거기에 멈추어 있었으면 했다. 독살이 두려워서 독에 대한 내성을 키우겠다고 몰래 조금씩 독을 씹게 된 지금의 모습은 진궁이 모르기를 바랐다. 하지만 새 옷을 입고 돌아온 조조에게 진궁은 아이처럼 또 캐묻는 것이었다. “그런데 아까 그 풀, 진짜로 독이에요?” “너, 왜 이렇게 집착해?” “공이 격하게 발끈하니까 더 궁금하잖아요. ” “이 얘기 그만해. 명령이다. ” 조조가 반응을 더할수록 진궁에게 힌트만 더 줄 뿐이었다. 조조는 시자를 재촉해 간식을 가져오게 했다. “경卿이 좋아하는 복숭아야. 어서 먹어. ” 진궁은 조용히 복숭아 시럽을 떠 먹었다. 조조는 진궁이 쓸데없는 생각을 못 하도록 자꾸 말을 걸었다. “복숭아가 달지? 응? 혹시 안 달아?” “달아요. ” 진궁은 모처럼 상냥하게 답했다. “다니까 공도 어서 드세요. 아까 씹으신 풀이 꽤 썼을 것 같은데. ” 조조의 얼굴이 굳어졌다. 결국 들켰다. “재미있네요. 내가 살아서 이런 것도 다 보고. ” 진궁의 얼굴은 전에 없이 발그레했다. “오늘은 살아있기 잘한 것 같아. ” “오늘은 이 정도로 하지. 한동안 고孤의 얼굴은 못 볼 줄 알아. ” 조조는 퉁명스럽게 대꾸하고 자리에서 일어났다. 어쨌든 진궁을 죽여 버릴 수는 없었다. ‘내가 바쁜 중에도 시간을 내서 자꾸 같이 놀아 주니까 공대도 버릇이 나빠졌어. 내가 오랫동안 안 찾아오면 좀 뉘우치겠지. ’ ",
+                "tags": "삼국지 감금 참좌지 육형 조조 진궁 조조진궁 칡 독초"
+            }, 
+        
+    
+        
+            {
+                "id": 52,
                 "url": "https://zya-han.github.io/jijirulvling/",
                 "title": "급급여율령: 동아시아 귀신은 처음부터 인간의 공권력에 복종했는가?",
                 "subtitle": "",
@@ -623,7 +658,7 @@ var documents = [
     
         
             {
-                "id": 50,
+                "id": 53,
                 "url": "https://zya-han.github.io/xun-yu-like-zifang/",
                 "title": "순욱은 조조의 ‘자방’이 되기를 싫어했을까?",
                 "subtitle": "",
@@ -634,7 +669,7 @@ var documents = [
     
         
             {
-                "id": 51,
+                "id": 54,
                 "url": "https://zya-han.github.io/on-historical-accuracy-2/",
                 "title": "역사/시대 고증은 창작물의 윤리성을 훼손하는가?",
                 "subtitle": "",
@@ -645,7 +680,7 @@ var documents = [
     
         
             {
-                "id": 52,
+                "id": 55,
                 "url": "https://zya-han.github.io/our-orchid-filter/",
                 "title": "현대인의 렌즈에서는 난초와 먹 냄새가 나지요",
                 "subtitle": "",
@@ -656,7 +691,7 @@ var documents = [
     
         
             {
-                "id": 53,
+                "id": 56,
                 "url": "https://zya-han.github.io/tea-vs-milk/",
                 "title": "🍵 차와 문화승리",
                 "subtitle": "",
@@ -667,7 +702,7 @@ var documents = [
     
         
             {
-                "id": 54,
+                "id": 57,
                 "url": "https://zya-han.github.io/on-historical-accuracy-1/",
                 "title": "역사/시대 고증은 창작에 필요한 상상력을 방해하는가?",
                 "subtitle": "",
@@ -678,7 +713,7 @@ var documents = [
     
         
             {
-                "id": 55,
+                "id": 58,
                 "url": "https://zya-han.github.io/white/",
                 "title": "흰색을 표현하는 여러 가지 방법",
                 "subtitle": "",
@@ -689,7 +724,7 @@ var documents = [
     
         
             {
-                "id": 56,
+                "id": 59,
                 "url": "https://zya-han.github.io/women-s-names-supplement-1/",
                 "title": "한대 여성의 이름과 자: 3년 뒤의 보론",
                 "subtitle": "",
@@ -700,7 +735,7 @@ var documents = [
     
         
             {
-                "id": 57,
+                "id": 60,
                 "url": "https://zya-han.github.io/seal-ribbons/",
                 "title": "한나라의 도장끈",
                 "subtitle": "",
@@ -711,7 +746,7 @@ var documents = [
     
         
             {
-                "id": 58,
+                "id": 61,
                 "url": "https://zya-han.github.io/sanguo-girls/",
                 "title": "삼국지 위·촉·오 의인화: 그림 @ionzaion 님",
                 "subtitle": "",
@@ -722,7 +757,7 @@ var documents = [
     
         
             {
-                "id": 59,
+                "id": 62,
                 "url": "https://zya-han.github.io/geunyeo/",
                 "title": "‘그녀’는 명예롭게 은퇴할 자격이 있다",
                 "subtitle": "",
@@ -733,7 +768,7 @@ var documents = [
     
         
             {
-                "id": 60,
+                "id": 63,
                 "url": "https://zya-han.github.io/liu-bei-zi-xuande/",
                 "title": "“유비 字 현덕”은 근본있는 표현인가? [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -744,7 +779,7 @@ var documents = [
     
         
             {
-                "id": 61,
+                "id": 64,
                 "url": "https://zya-han.github.io/drinking-culture/",
                 "title": "한나라의 음주 풍경 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -755,7 +790,7 @@ var documents = [
     
         
             {
-                "id": 62,
+                "id": 65,
                 "url": "https://zya-han.github.io/handcuffs-and-shackles/",
                 "title": "한대의 수갑과 족쇄의 형상  [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -766,7 +801,40 @@ var documents = [
     
         
             {
-                "id": 63,
+                "id": 66,
+                "url": "https://zya-han.github.io/too-late-20c-liquor/",
+                "title": "현대AU. 비싼 술의 가치",
+                "subtitle": "세 사람, 20세기 버전.",
+                "body": "순욱은 장교가 휠체어에서 포로를 안아 들고 침대로 옮겨 앉히는 동안 테이블에 놓인 술병을 연다. 임무를 마친 장교가 문 옆으로 물러나자 순욱은 침대로 다가가서 포로의 머리에 눌러 씌운 두건을 벗긴다.    포로 진궁은 숨을 들이쉬자마자 강한 향기에 아찔해졌다. “……순욱? 순 실장 맞나?” 이 향의 주인이 세상에 둘일 수 없으니 대답을 기다릴 필요도 없었다. “어떻게, 아니, 뭐 하러 왔어?” 순욱은 건조하게 대답했다. “술을 좀 먹이려고. ” 진궁은 의아해했다. “보통은 같이 마시자고 하지 않나?” “아니, 진짜로 먹일 거야. ” 순욱은 술을 담은 종이컵을 진궁의 코앞에 들이밀었다. 진궁은 킁킁거리며 냄새를 맡더니 당황했다. “잠깐만, 총통이 이 귀한 걸 따게 해 줬어?” “귀한 줄 알면 어서 마셔. ” 등 뒤로 수갑을 찬 진궁은 저항하지 못하고 순욱이 입에 부어주는 대로 꿀꺽꿀꺽 받아 마시는 수밖에 없었다. 순욱은 한 컵을 다 비우고 문간을 향해 말했다. “장료 중령도 한 잔 들어요. ” 그 순간 진궁은 아직 덜 삼킨 술을 뿜을 뻔했다. 순욱은 진궁을 놀라게 하는 데 성공해서 뿌듯했다. “나하고 같이 왔어. ” “순 실장이 조 총통을 얼마나 구워삶았기에 그 양반이 이 정도로 인심을 썼지?” 진궁은 순욱과 장료를 차례로 돌아보았다. “근데…… 사실 저쪽하고 나하고, 별로 안 친했어. 맞잖아?“ 그리고 장료가 대답하기 전에 재빨리 덧붙여 말했다. “그렇다고 안 반갑단 건 아니고. 이런 꼴을 보이게 된 건 민망하지만. ” 진궁은 다시 순욱에게 말했다. “순 실장, 당신 안경 좀 빌려줘. ” “안 돼. ” “잠시만. 장교님 얼굴 좀 제대로 보자. ” “안 돼. ” “왜? 당신 물건 내가 만지면 부정 타?” “그렇다고 치지. ” 장료가 용기를 내어 나섰다. “제가 그쪽으로 가겠습니다. ” 순욱은 즉시 손을 들어 장료를 막았다. 진궁은 투덜거렸다. “야박하네. ” “장 중령, 대화는 자유롭게 해도 괜찮습니다. ” 순욱은 침대 옆 식탁에 앉아서 노트를 펼치고 펜을 꺼내 무엇인가를 쓰기 시작했다. “일단 저도 한 잔 마시겠습니다. ” 비싼 술이라지만 장료에게는 쓰기만 했다. 장료는 목소리를 가다듬고 입을 열었다. “참모장께선—“ 진궁의 얼굴이 빨개졌다. “그렇게 부르면 큰일 나. ” “그럼 뭐라고 불러야 하겠습니까?” “순 실장한테 물어 보자. ” 순욱은 들은 체도 안 하고 펜을 잡은 손놀림만 빨리했다. 장료는 어쩔 수 없이 스스로 궁리해야 했다. “……선생님은 앞으로 어쩌실 작정입니까?” “왜 다들 나한테 결정할 권한이 있는 것처럼 말하지?” “선생님의 의사가 중요하니까요. ” “안 중요해. ” “가족분들도—” 사슬이 철컥거리며 부딪히는 소리가 났다. “안 들려. 다른 얘기 해. ” 어느새 순욱도 손을 멈추었다. 오랜 정적이 흘렀다. 한참 뒤에 진궁은 한결 차분해진 목소리로 말했다. “내가 물을게. “ “예. ” ”장교님은 내가 어쩌기를 바라는데?” “총통께 투항하시고 지금 정부에서 일하시는 겁니다. ” 장료는 심각했지만 진궁은 키득거리기 시작했다. “왜?” 장료는 목소리를 높였다. “제가 보기에 총통께선 훌륭한 지도자십니다!” 진궁은 더 참지 못하고 웃음을 터뜨렸다. “뭐, 다 좋은데… 내가 지금 법적으로 살아 있는 사람이던가?” 장료는 우물쭈물했다. “이따가 순 실장한테 얼마나 혼날 참이야. 내가 다 안쓰럽네. ” 진궁은 심호흡을 한 번 하고 말을 이었다. “아무튼 총통한테 가서 보고할 건 있어야겠지? 긴 말은 안 할게. 장교님이 군복 입은 거 다시 보니까 좋다. 또 보고 싶어. 정말로. ” 진궁에게는 흐릿하게 보일 뿐이었지만 장료는 기쁜 표정을 지었다. 너무 기쁜 나머지 진궁에게 거수경례를 해 버렸다.    장료가 나간 후 진궁은 순욱을 쏘아보았다. “야, 나 술값 했다?” “잘 했어. ” “좀 더 세게 말할 걸 그랬나?” “감 떨어진 척하지 마. 총통을 움직이려면 이 정도가 딱 적절한 거 알잖아. ” “그럼 술 한 잔 더 줘. ” “안 돼. ” 순욱은 유리잔에 술을 따라서 자기가 마셨다. ",
+                "tags": "삼국지 감금 참좌지 육형 조조 진궁 조조진궁 순욱 장료 술"
+            }, 
+        
+    
+        
+            {
+                "id": 67,
+                "url": "https://zya-han.github.io/too-late-spinoff-paradox/",
+                "title": "외전. Z의 역설",
+                "subtitle": "",
+                "body": "정월 첫째 날 새벽부터 등을 밝히고 종을 울리면서 힘차게 새해를 시작한 조조는 뭔가 허전했다. 신년을 맞이하면서 빠뜨린 것이 없는지 다시 한번 손가락을 꼽아 가며 점검했다. 하나, 오장을 튼튼하게 해 주는 오신반도 먹었고, 둘, 전염병을 막기 위해 날계란 한 알도 삼켰고, 셋, 악귀가 못 들어오도록 복숭아나무 목판에 신도와 울루를 그려서 문에 거는 것도 큰애들에게 시켰고, 넷, 산조山臊1를 쫓아내기 위해 마당에서 폭죽에 불을 붙이는 것은 작은애들이 더 신났고… 엄지부터 하나씩 접으면서 검지, 중지, 약지까지 네 가지를 세고 산조를 쫓아내는 데까지 이르자 새끼손가락이 남았다. 새끼손가락으로 관자놀이를 한참 긁적거린 끝에야 잊고 있던 것이 떠올랐다. “어떻게 공대를 까먹을 수 있지? 설마 고孤가 늙었나?!” 진궁의 존재를 잊어버린 것보다 늙는 것이 더 큰 일이었다. 조조는 화초花椒로 담근 초주椒酒를 준비하라고 시자에게 명령했다.    조조는 술통에 든 국자를 꺼내 진궁의 손에 쥐여 주었다. “새해고 경卿이 아기니까 먼저 마셔. ” 진궁은 국자로 술을 퍼서 잔에 담았다. “어서 마시라니까. ” 조조의 재촉을 받은 진궁은 한 잔을 단숨에 들이켰다. 조조는 눈을 반짝거리며 말했다. “이제 같은 잔으로 고한테도 따라 줘. ” 진궁은 새로 한 잔을 채우자마자 자기 입으로 가져가고는 순식간에 빈 잔을 내려놓았다. “이제 고가 마실 차례…” 그리고 진궁은 한 잔을 더 비웠다. ”설마 혼자 다 마실 거야?” 진궁은 정말로 한 통을 다 마셔 버렸다. 조조는 그사이에 붉은 기가 돌기 시작한 진궁의 얼굴을 보고 기가 막혀서 물었다. “술도 약하면서 초주는 왜 자꾸 마시는 건데?” “한 모금 마실 때마다 늙어서요. ” “뭐라고?” “내가 아까보다 연장자가 됐으니까 내가 이어서 마셔야죠. ” “그럼 고는 뭘 마시란 말이야?” “평소에 술 많이 드시잖아요?” 조조는 분통이 터졌다. “새해엔 특별히 어린이한테 먼저 술을 먹이는 이유가 뭔데? 어린이의 기운을 술잔에 담아서 어르신한테 전해야지!” 진궁은 지지 않고 조조를 노려보았다. “그러니깐 공은 지금 내 기운을 빨아먹으러 온 거예요?” 조조는 정곡을 찔렸지만 순순히 그렇다고 대답하기는 왠지 억울했다. “나한테 그럴 기운이 있었다면 벌써…” “벌써 뭐?” 진궁은 새빨개진 얼굴로 국자에 남은 술을 핥아 먹고 조조를 밀쳐내며 말했다. “됐으니까 공은 가서 지게미나 드세요. ” 참고 문헌:  종름 지음. 상기숙 옮김. (2015). 《형초세시기》. 지식을만드는지식.  시노다 오사무 지음. 윤서석 외 옮김. (1995). 《중국음식문화사》. 민음사. 주석:       산조山臊는 인간처럼 생겼고 발이 하나 달린 요괴입니다.  &#8617;    ",
+                "tags": "삼국지 감금 참좌지 육형 조조 진궁 조조진궁 새해 초주"
+            }, 
+        
+    
+        
+            {
+                "id": 68,
+                "url": "https://zya-han.github.io/too-late-spinoff-silver-copy/",
+                "title": "외전. 은그릇과 콩잎장아찌",
+                "subtitle": "《전삼국문》의 조조 파트를 읽다가 어이가 없어져서…",
+                "body": "진궁은 자기 앞에 놓인 밥그릇 바깥으로는 눈길도 주지 않고 밥알을 씹기만 했다. 조조가 보기에 오늘 진궁은 왠지 말을 많이 할 기분이 아닌 것 같았다. 물론 자기가 거기 맞추어서 눈치를 볼 필요는 없었다. “있잖아, 고孤가 구리 그릇으로 밥 먹는 거 본 적 있어?” 진궁은 약간 뜸을 들였지만, 조조의 뜬금없는 물음에 당황한 탓은 아닌 듯했다. 서두르지 않고 입안의 음식을 삼킨 뒤에 억양 없이 대답했다. “공公이 쓰시는 그릇 재질은 자세히 안 봐서 모르겠는데요. ” 조조는 뾰로통해졌다. “주인을 모시고 살면 관심 좀 가져. ” 다행히 진궁은 이해가 빨랐다. “알았어요. 구리 그릇이 왜요?” “원래 고孤는 금속 알러지가 있어서 구리 그릇으로 밥을 못 먹거든. 1” “그렇군요……” “그래서 은그릇을 쓴 지 오래됐는데 요즘 그걸로 구시렁거리는 새끼들이 나오는 거야. ” ”저런……” 조조는 탁 소리 나게 밥상을 두드렸다. “고孤가, 조操는 외투 한 벌로 십 년을 버티는 사람이란 말이야. 2 그런데, 남의 사정도 모르는 것들이 고작 밥 먹는 데 은그릇 쓰는 걸 가지고 사치니 뭐니 하면서……” 진궁은 조조가 입을 다문 것을 확인한 뒤에 물었다. ”그래서 오늘 나무 그릇으로 바꾸신 거예요?” 조조는 의기양양하게 대답했다. ”그럼. ” “그런데 여기 옻칠3 되어 있잖아요?” 조조는 더욱 자랑스럽게 말했다. “당연하지. 나무 그릇에 옻칠 안 하면 음식 냄새 배잖아. ” 진궁은 대꾸하지 않고 묵묵히 콩잎장아찌4를 덜었다. 빨간 반찬 그릇 바닥에 검은색으로 적힌 “군행식君幸食” 세 글자가 드러났다.       《조조집》에 실린 조조 자신의 주장입니다.  &#8617;        마찬가지로 《조조집》에 실린 조조 자신의 주장입니다.  &#8617;        한나라 때 칠기 가격은 고급 관리의 봉급과 맞먹었다고 합니다.  &#8617;        명아주와 콩잎은 가난한 살림의 상징입니다. 조조가 스스로 검소하다고 선전하기 위해 최근 상에 자주 올린다는 설정입니다. 참고로 조조는 서역의 보석으로 만든 그릇을 사용했다고 알려져 있습니다.  &#8617;    ",
+                "tags": "삼국지 감금 참좌지 육형 조조 진궁 조조진궁 은그릇 전삼국문 사치 구리그릇 나무그릇"
+            }, 
+        
+    
+        
+            {
+                "id": 69,
                 "url": "https://zya-han.github.io/summoning-the-soul/",
                 "title": "초혼의 효과",
                 "subtitle": "",
@@ -777,7 +845,7 @@ var documents = [
     
         
             {
-                "id": 64,
+                "id": 70,
                 "url": "https://zya-han.github.io/too-late-1-1-revised/",
                 "title": "개작 1-1. 자살하기에는 너무 늦어 버려서",
                 "subtitle": "",
@@ -788,7 +856,7 @@ var documents = [
     
         
             {
-                "id": 65,
+                "id": 71,
                 "url": "https://zya-han.github.io/imperial-scents/",
                 "title": "삼국지의 바탕, 후한 황실의 향: 환제의 계설향, 영제의 한건녕궁중향, 헌제의 황금향로",
                 "subtitle": "",
@@ -799,7 +867,7 @@ var documents = [
     
         
             {
-                "id": 66,
+                "id": 72,
                 "url": "https://zya-han.github.io/too-late-spinoff-tianjiu/",
                 "title": "외전. 천구(天灸)",
                 "subtitle": "혹은 동상이몽. 어느 가을 8월 14일.",
@@ -810,7 +878,7 @@ var documents = [
     
         
             {
-                "id": 67,
+                "id": 73,
                 "url": "https://zya-han.github.io/song-ming-sachets/",
                 "title": "송나라–명나라 시대 향낭에는 무엇을 넣었을까?",
                 "subtitle": "",
@@ -821,7 +889,7 @@ var documents = [
     
         
             {
-                "id": 68,
+                "id": 74,
                 "url": "https://zya-han.github.io/sanguo-yanyi-06/",
                 "title": "《삼국연의》 호칭어 노트 06: ‘거거’를 주로 쓴 사람은?",
                 "subtitle": "",
@@ -832,7 +900,7 @@ var documents = [
     
         
             {
-                "id": 69,
+                "id": 75,
                 "url": "https://zya-han.github.io/han-empresses-1/",
                 "title": "한나라의 황후들: 황후와 외척의 탄생 및 시행착오",
                 "subtitle": "",
@@ -843,7 +911,7 @@ var documents = [
     
         
             {
-                "id": 70,
+                "id": 76,
                 "url": "https://zya-han.github.io/jiuyunchunjiu/",
                 "title": "조조가 헌제에게 바쳤다는 그 술: 구온춘주에 관하여 한국어로 가장 상세한 정보를 제공하고 싶은 오타쿠의 망상",
                 "subtitle": "",
@@ -854,7 +922,7 @@ var documents = [
     
         
             {
-                "id": 71,
+                "id": 77,
                 "url": "https://zya-han.github.io/bing-in-sanguozhi/",
                 "title": "《삼국지》의 떡[餅] 이야기",
                 "subtitle": "",
@@ -865,7 +933,7 @@ var documents = [
     
         
             {
-                "id": 72,
+                "id": 78,
                 "url": "https://zya-han.github.io/wu-region/",
                 "title": "한대의 오(吳) 지역에 관하여",
                 "subtitle": "",
@@ -876,7 +944,7 @@ var documents = [
     
         
             {
-                "id": 73,
+                "id": 79,
                 "url": "https://zya-han.github.io/cao-cao-10/",
                 "title": "10. 조조가 좋아한 음식은? [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -887,7 +955,7 @@ var documents = [
     
         
             {
-                "id": 74,
+                "id": 80,
                 "url": "https://zya-han.github.io/feather-fan/",
                 "title": "제갈량 vs. 주유, 누가 깃털 부채의 원조인가?",
                 "subtitle": "",
@@ -898,7 +966,7 @@ var documents = [
     
         
             {
-                "id": 75,
+                "id": 81,
                 "url": "https://zya-han.github.io/naming-dogs/",
                 "title": "🐶 강아지 이름 짓기",
                 "subtitle": "",
@@ -909,7 +977,7 @@ var documents = [
     
         
             {
-                "id": 76,
+                "id": 82,
                 "url": "https://zya-han.github.io/sanguo-yanyi-05/",
                 "title": "《삼국연의》 호칭어 노트 05: 조적과 다른 역적들",
                 "subtitle": "",
@@ -920,7 +988,7 @@ var documents = [
     
         
             {
-                "id": 77,
+                "id": 83,
                 "url": "https://zya-han.github.io/tea-in-sanguo-yanyi/",
                 "title": "《삼국연의》에서 살펴본 차의 기능",
                 "subtitle": "",
@@ -931,7 +999,7 @@ var documents = [
     
         
             {
-                "id": 78,
+                "id": 84,
                 "url": "https://zya-han.github.io/too-late-1-2-1-spinoff/",
                 "title": "외전 1-2-1. 평화로운 사람의 날",
                 "subtitle": "건안5년 정월 7일 경신일, 관도에서.",
@@ -942,7 +1010,7 @@ var documents = [
     
         
             {
-                "id": 79,
+                "id": 85,
                 "url": "https://zya-han.github.io/incense-in-sanguo-yanyi/",
                 "title": "《삼국연의》에서 살펴본 향의 기능",
                 "subtitle": "",
@@ -953,7 +1021,7 @@ var documents = [
     
         
             {
-                "id": 80,
+                "id": 86,
                 "url": "https://zya-han.github.io/sanguo-yanyi-04/",
                 "title": "《삼국연의》 호칭어 노트 04: 연인 장익덕, 상산 조자룡, 하동 관운장?",
                 "subtitle": "",
@@ -964,7 +1032,7 @@ var documents = [
     
         
             {
-                "id": 81,
+                "id": 87,
                 "url": "https://zya-han.github.io/sanguo-yanyi-03/",
                 "title": "《삼국연의》 호칭어 노트 03: 조조, 진궁, 백문루",
                 "subtitle": "",
@@ -975,7 +1043,7 @@ var documents = [
     
         
             {
-                "id": 82,
+                "id": 88,
                 "url": "https://zya-han.github.io/sanguo-yanyi-02/",
                 "title": "《삼국연의》 호칭어 노트 02: 손책·손권 형제와 주유의 관계",
                 "subtitle": "",
@@ -986,7 +1054,7 @@ var documents = [
     
         
             {
-                "id": 83,
+                "id": 89,
                 "url": "https://zya-han.github.io/sanguo-yanyi-01/",
                 "title": "《삼국연의》 호칭어 노트 01: ‘논영회’의 그 대사",
                 "subtitle": "",
@@ -997,7 +1065,7 @@ var documents = [
     
         
             {
-                "id": 84,
+                "id": 90,
                 "url": "https://zya-han.github.io/three-excellencies/",
                 "title": "서한의 삼공",
                 "subtitle": "",
@@ -1008,7 +1076,7 @@ var documents = [
     
         
             {
-                "id": 85,
+                "id": 91,
                 "url": "https://zya-han.github.io/bronze-knots/",
                 "title": "전국 시대 청동기·옥기 매듭 메모",
                 "subtitle": "",
@@ -1019,7 +1087,7 @@ var documents = [
     
         
             {
-                "id": 86,
+                "id": 92,
                 "url": "https://zya-han.github.io/too-late-spinoff-fate/",
                 "title": "외전. 운명의 화살",
                 "subtitle": "",
@@ -1030,7 +1098,7 @@ var documents = [
     
         
             {
-                "id": 87,
+                "id": 93,
                 "url": "https://zya-han.github.io/eating-an-egg/",
                 "title": "달걀 먹기의 어려움",
                 "subtitle": "",
@@ -1041,7 +1109,7 @@ var documents = [
     
         
             {
-                "id": 88,
+                "id": 94,
                 "url": "https://zya-han.github.io/too-late-spinoff-bell/",
                 "title": "외전. 새벽 종",
                 "subtitle": "새해 복 많이 받으세요",
@@ -1052,7 +1120,7 @@ var documents = [
     
         
             {
-                "id": 89,
+                "id": 95,
                 "url": "https://zya-han.github.io/stop-procrastinating/",
                 "title": "Stop Procrastinating",
                 "subtitle": "",
@@ -1063,7 +1131,7 @@ var documents = [
     
         
             {
-                "id": 90,
+                "id": 96,
                 "url": "https://zya-han.github.io/too-late-3-1-revised/",
                 "title": "개정 3-1. 물과 물고기와 선물",
                 "subtitle": "건안10년 봄 정월, 업에서.",
@@ -1074,7 +1142,7 @@ var documents = [
     
         
             {
-                "id": 91,
+                "id": 97,
                 "url": "https://zya-han.github.io/zhiming/",
                 "title": "전4사에서 지명(知名)의 빈도와 용례 찾기 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1085,7 +1153,7 @@ var documents = [
     
         
             {
-                "id": 92,
+                "id": 98,
                 "url": "https://zya-han.github.io/cao-cao-09/",
                 "title": "9. 조조의 책 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1096,7 +1164,7 @@ var documents = [
     
         
             {
-                "id": 93,
+                "id": 99,
                 "url": "https://zya-han.github.io/zhao-feiyan-02/",
                 "title": "[조각번역] 조비연외전 2 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1107,7 +1175,7 @@ var documents = [
     
         
             {
-                "id": 94,
+                "id": 100,
                 "url": "https://zya-han.github.io/zhao-feiyan-01/",
                 "title": "[조각번역] 조비연외전 1 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1118,7 +1186,7 @@ var documents = [
     
         
             {
-                "id": 95,
+                "id": 101,
                 "url": "https://zya-han.github.io/shishuo/",
                 "title": "《세설신어(보)》의 호칭어 사용 양상",
                 "subtitle": "",
@@ -1129,7 +1197,7 @@ var documents = [
     
         
             {
-                "id": 96,
+                "id": 102,
                 "url": "https://zya-han.github.io/cao-cao-08/",
                 "title": "8. 아직도 끝나지 않은 향 이야기 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1140,7 +1208,7 @@ var documents = [
     
         
             {
-                "id": 97,
+                "id": 103,
                 "url": "https://zya-han.github.io/women-s-names/",
                 "title": "한대 여성의 이름과 자 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1151,7 +1219,7 @@ var documents = [
     
         
             {
-                "id": 98,
+                "id": 104,
                 "url": "https://zya-han.github.io/a-brief-history-of-cats/",
                 "title": "🐾 고대 중국 고양이의 아주 간략한 역사: 한나라의 고양이를 찾아서",
                 "subtitle": "",
@@ -1162,7 +1230,7 @@ var documents = [
     
         
             {
-                "id": 99,
+                "id": 105,
                 "url": "https://zya-han.github.io/real-zongjiao/",
                 "title": "총각머리의 실제 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1173,7 +1241,7 @@ var documents = [
     
         
             {
-                "id": 100,
+                "id": 106,
                 "url": "https://zya-han.github.io/rulvling/",
                 "title": "율령과 같이 처리하소서",
                 "subtitle": "",
@@ -1184,7 +1252,7 @@ var documents = [
     
         
             {
-                "id": 101,
+                "id": 107,
                 "url": "https://zya-han.github.io/new-xing/",
                 "title": "《한서》에서 새로운 성씨를 만든 사례 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1195,7 +1263,7 @@ var documents = [
     
         
             {
-                "id": 102,
+                "id": 108,
                 "url": "https://zya-han.github.io/zongjiao/",
                 "title": "손책과 주유의 총각지호(總角之好)",
                 "subtitle": "",
@@ -1206,7 +1274,7 @@ var documents = [
     
         
             {
-                "id": 103,
+                "id": 109,
                 "url": "https://zya-han.github.io/xing-and-shi-in-ancient-china/",
                 "title": "고대 중국의 성(姓)과 씨(氏) 구별 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1217,7 +1285,7 @@ var documents = [
     
         
             {
-                "id": 104,
+                "id": 110,
                 "url": "https://zya-han.github.io/too-late-2-2-1-spinoff/",
                 "title": "외전 2-2-1. 납일",
                 "subtitle": "건안7년 겨울 12월, 관도에서.",
@@ -1228,7 +1296,7 @@ var documents = [
     
         
             {
-                "id": 105,
+                "id": 111,
                 "url": "https://zya-han.github.io/birthday-party-in-ancient-china/",
                 "title": "한대의 생일 파티 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1239,7 +1307,7 @@ var documents = [
     
         
             {
-                "id": 106,
+                "id": 112,
                 "url": "https://zya-han.github.io/musical-instruments-in-battle/",
                 "title": "전투 중에 사용하는 악기의 변화 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1250,7 +1318,7 @@ var documents = [
     
         
             {
-                "id": 107,
+                "id": 113,
                 "url": "https://zya-han.github.io/summer-vacations/",
                 "title": "한대의 여름 휴가 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1261,7 +1329,7 @@ var documents = [
     
         
             {
-                "id": 108,
+                "id": 114,
                 "url": "https://zya-han.github.io/promise/",
                 "title": "향로 위의 약속",
                 "subtitle": "",
@@ -1272,7 +1340,7 @@ var documents = [
     
         
             {
-                "id": 109,
+                "id": 115,
                 "url": "https://zya-han.github.io/too-late-1-5-1-spinoff/",
                 "title": "외전 1-5-1. 낭고의 상",
                 "subtitle": "건안6년 봄 1월. 관도에서.",
@@ -1283,7 +1351,7 @@ var documents = [
     
         
             {
-                "id": 110,
+                "id": 116,
                 "url": "https://zya-han.github.io/cao-cao-07/",
                 "title": "7. 조조가 가족들에게 금지시킨 것 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1294,7 +1362,7 @@ var documents = [
     
         
             {
-                "id": 111,
+                "id": 117,
                 "url": "https://zya-han.github.io/knives-and-swords-in-hanshu/",
                 "title": "《한서》에서 도(刀)와 검(劍)의 용례 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1305,7 +1373,7 @@ var documents = [
     
         
             {
-                "id": 112,
+                "id": 118,
                 "url": "https://zya-han.github.io/cao-cao-06/",
                 "title": "6. 조조가 옷 속에 넣은 것 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1316,7 +1384,7 @@ var documents = [
     
         
             {
-                "id": 113,
+                "id": 119,
                 "url": "https://zya-han.github.io/cao-cao-05/",
                 "title": "5. 조조의 손 씻기[盥] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1327,7 +1395,7 @@ var documents = [
     
         
             {
-                "id": 114,
+                "id": 120,
                 "url": "https://zya-han.github.io/cao-cao-04/",
                 "title": "4. 조조가 특히 좋아한 음악 장르는? [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1338,7 +1406,7 @@ var documents = [
     
         
             {
-                "id": 115,
+                "id": 121,
                 "url": "https://zya-han.github.io/cao-cao-03/",
                 "title": "3. 서역의 보석을 좋아한 조조(와 아빠의 보석을 탐낸 조비) [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1349,7 +1417,7 @@ var documents = [
     
         
             {
-                "id": 116,
+                "id": 122,
                 "url": "https://zya-han.github.io/too-late-3-1-1-spinoff/",
                 "title": "외전 3-1-1. 너에게 죽은 새를 선물할게",
                 "subtitle": "건안10년 4월, 업에서.",
@@ -1360,7 +1428,7 @@ var documents = [
     
         
             {
-                "id": 117,
+                "id": 123,
                 "url": "https://zya-han.github.io/new-year-in-later-han/",
                 "title": "[조각번역] 후한 궁정의 새해맞이 행사",
                 "subtitle": "",
@@ -1371,7 +1439,7 @@ var documents = [
     
         
             {
-                "id": 118,
+                "id": 124,
                 "url": "https://zya-han.github.io/cao-cao-02/",
                 "title": "2. 《한서》 〈곽광전〉을 열심히 읽은 조조 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1382,7 +1450,7 @@ var documents = [
     
         
             {
-                "id": 119,
+                "id": 125,
                 "url": "https://zya-han.github.io/titles-for-women/",
                 "title": "한대 여성의 작위",
                 "subtitle": "",
@@ -1393,7 +1461,7 @@ var documents = [
     
         
             {
-                "id": 120,
+                "id": 126,
                 "url": "https://zya-han.github.io/cao-cao-01/",
                 "title": "1. 알록달록한 것을 좋아하는 조조 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1404,7 +1472,7 @@ var documents = [
     
         
             {
-                "id": 121,
+                "id": 127,
                 "url": "https://zya-han.github.io/too-late-references/",
                 "title": "참고 문헌",
                 "subtitle": "공대를 괴롭히는 데 사용한 재료들",
@@ -1415,7 +1483,7 @@ var documents = [
     
         
             {
-                "id": 122,
+                "id": 128,
                 "url": "https://zya-han.github.io/too-late-3-8/",
                 "title": "3-8. 적벽 [완결] [🔒 무료 미리보기]",
                 "subtitle": "건안13년 봄 정월, 업에서.",
@@ -1426,7 +1494,7 @@ var documents = [
     
         
             {
-                "id": 123,
+                "id": 129,
                 "url": "https://zya-han.github.io/too-late-3-7/",
                 "title": "3-7. 손님  [🔒 무료 미리보기]",
                 "subtitle": "건안13년 봄 정월, 업에서.",
@@ -1437,7 +1505,7 @@ var documents = [
     
         
             {
-                "id": 124,
+                "id": 130,
                 "url": "https://zya-han.github.io/too-late-3-6/",
                 "title": "3-6. 매뉴얼 작성자의 정체와 색다른 제안",
                 "subtitle": "건안12년 가을 8월, 업에서.",
@@ -1448,7 +1516,7 @@ var documents = [
     
         
             {
-                "id": 125,
+                "id": 131,
                 "url": "https://zya-han.github.io/too-late-3-5/",
                 "title": "3-5. 모주의 마지막 식사와 마지막 계책",
                 "subtitle": "건안12년 봄 2월, 동무양에서.",
@@ -1459,7 +1527,7 @@ var documents = [
     
         
             {
-                "id": 126,
+                "id": 132,
                 "url": "https://zya-han.github.io/too-late-3-4/",
                 "title": "3-4. 자루의 새로운 기능을 발견하기",
                 "subtitle": "건안12년 봄 2월, 순우에서 업으로 가는 길에.",
@@ -1470,7 +1538,7 @@ var documents = [
     
         
             {
-                "id": 127,
+                "id": 133,
                 "url": "https://zya-han.github.io/too-late-3-3/",
                 "title": "3-3. 흰머리가 없는 까닭",
                 "subtitle": "건안11년 가을 8월, 순우에서.",
@@ -1481,7 +1549,7 @@ var documents = [
     
         
             {
-                "id": 128,
+                "id": 134,
                 "url": "https://zya-han.github.io/too-late-3-2/",
                 "title": "3-2. 관찰과 계량에 근거한 예측",
                 "subtitle": "건안10년 겨울 12월, 업에서.",
@@ -1492,7 +1560,7 @@ var documents = [
     
         
             {
-                "id": 129,
+                "id": 135,
                 "url": "https://zya-han.github.io/too-late-3-1/",
                 "title": "3-1. 거울을 보는 사이에",
                 "subtitle": "건안10년 봄 정월, 업에서.",
@@ -1503,7 +1571,7 @@ var documents = [
     
         
             {
-                "id": 130,
+                "id": 136,
                 "url": "https://zya-han.github.io/too-late-2-8/",
                 "title": "2-8. 귀신을 쫓아내는 방법",
                 "subtitle": "건안9년 가을 9월, 업에서.",
@@ -1514,7 +1582,7 @@ var documents = [
     
         
             {
-                "id": 131,
+                "id": 137,
                 "url": "https://zya-han.github.io/too-late-2-7/",
                 "title": "2-7. 끈질긴 사람들",
                 "subtitle": "건안9년 봄 2월, 업 근처에서.",
@@ -1525,7 +1593,7 @@ var documents = [
     
         
             {
-                "id": 132,
+                "id": 138,
                 "url": "https://zya-han.github.io/too-late-2-6/",
                 "title": "2-6. 포상",
                 "subtitle": "건안9년 봄 1월, 허도에서.",
@@ -1536,7 +1604,7 @@ var documents = [
     
         
             {
-                "id": 133,
+                "id": 139,
                 "url": "https://zya-han.github.io/too-late-2-5/",
                 "title": "2-5. 허리를 조심하세요",
                 "subtitle": "건안8년 겨울 10월, 허도에서.",
@@ -1547,7 +1615,7 @@ var documents = [
     
         
             {
-                "id": 134,
+                "id": 140,
                 "url": "https://zya-han.github.io/too-late-2-4/",
                 "title": "2-4. 징벌",
                 "subtitle": "건안8년 가을 9월, 허도에서.",
@@ -1558,7 +1626,7 @@ var documents = [
     
         
             {
-                "id": 135,
+                "id": 141,
                 "url": "https://zya-han.github.io/fingertip/",
                 "title": "손끝의 감각",
                 "subtitle": "",
@@ -1569,7 +1637,7 @@ var documents = [
     
         
             {
-                "id": 136,
+                "id": 142,
                 "url": "https://zya-han.github.io/too-late-2-3/",
                 "title": "2-3. 복숭아나무 소담하고",
                 "subtitle": "건안8년 여름 5월, 허도에서.",
@@ -1580,7 +1648,7 @@ var documents = [
     
         
             {
-                "id": 137,
+                "id": 143,
                 "url": "https://zya-han.github.io/too-late-2-2/",
                 "title": "2-2. 상아",
                 "subtitle": "건안7년 가을 8월, 관도에서.",
@@ -1591,7 +1659,7 @@ var documents = [
     
         
             {
-                "id": 138,
+                "id": 144,
                 "url": "https://zya-han.github.io/too-late-2-1/",
                 "title": "2-1. 바질 향기",
                 "subtitle": "건안7년 여름 5월, 관도에서.",
@@ -1602,7 +1670,7 @@ var documents = [
     
         
             {
-                "id": 139,
+                "id": 145,
                 "url": "https://zya-han.github.io/too-late-1-8/",
                 "title": "1-8. 선조에게 지내는 제사",
                 "subtitle": "건안7년 봄 정월, 허도에서.",
@@ -1613,7 +1681,7 @@ var documents = [
     
         
             {
-                "id": 140,
+                "id": 146,
                 "url": "https://zya-han.github.io/too-late-1-7/",
                 "title": "1-7. 욕심 많고 잔인한 사람",
                 "subtitle": "건안6년 가을 9월, 허도에서.",
@@ -1624,7 +1692,7 @@ var documents = [
     
         
             {
-                "id": 141,
+                "id": 147,
                 "url": "https://zya-han.github.io/too-late-1-6/",
                 "title": "1-6. 세 사람",
                 "subtitle": "건안6년 봄 3월, 허도에서.",
@@ -1635,7 +1703,7 @@ var documents = [
     
         
             {
-                "id": 142,
+                "id": 148,
                 "url": "https://zya-han.github.io/too-late-1-5/",
                 "title": "1-5. 관도",
                 "subtitle": "건안5년 가을 8월, 관도에서.",
@@ -1646,7 +1714,7 @@ var documents = [
     
         
             {
-                "id": 143,
+                "id": 149,
                 "url": "https://zya-han.github.io/too-late-1-4/",
                 "title": "1-4. 갈 곳이 있는 사람",
                 "subtitle": "건안5년 여름 6월, 관도에서.",
@@ -1657,7 +1725,7 @@ var documents = [
     
         
             {
-                "id": 144,
+                "id": 150,
                 "url": "https://zya-han.github.io/too-late-1-3/",
                 "title": "1-3. 붉어진 얼굴",
                 "subtitle": "건안5년 봄 정월, 관도에서.",
@@ -1668,7 +1736,7 @@ var documents = [
     
         
             {
-                "id": 145,
+                "id": 151,
                 "url": "https://zya-han.github.io/too-late-1-2/",
                 "title": "1-2. 복날",
                 "subtitle": "건안4년 여름, 허도에서.",
@@ -1679,7 +1747,7 @@ var documents = [
     
         
             {
-                "id": 146,
+                "id": 152,
                 "url": "https://zya-han.github.io/too-late-1-1/",
                 "title": "1-1. 자살하기에는 너무 늦어 버려서",
                 "subtitle": "건안3년 12월에 백문루에서 조조가 진궁을 살리는 데 성공한 이야기. 이른바 정사 《삼국지》 기반이지만 《사기》와 《한서》와 《진서》가 더 많이 들어간.",
@@ -1690,7 +1758,7 @@ var documents = [
     
         
             {
-                "id": 147,
+                "id": 153,
                 "url": "https://zya-han.github.io/beau/",
                 "title": "한서팸플릿4 〈미남전〉 서문",
                 "subtitle": "",
