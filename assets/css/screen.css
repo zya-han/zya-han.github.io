@@ -528,7 +528,7 @@ span.post-read-more a:hover {
 }
 
 .mainheading h1.sitetitle {
-    font-family: "Song Myung", serif;
+    font-family: "Song Myung", "ZCOOL XiaoWei", serif;
 }
 
 .mainheading a.sitetitle {
@@ -574,24 +574,30 @@ span.post-read-more a:hover {
     font-size: 1.1rem;
     line-height: 1.84;
     color: rgba(0, 0, 0, .8);
-  }
+}
   
-  @font-face {
+@font-face {
     font-family: "HanaMinB";
     src: url("/assets/fonts/HanaMinB.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
-  }
+}
   
-  /* 한국어 문서용 글꼴 */
-  .article-post:lang(ko) {
+/* 한국어 문서용 글꼴 */
+.article-post:lang(ko) {
     font-family: "Gowun Batang", "Iansui", "HanaMinB", serif;
-  }
+}
   
-  /* 영어 문서용 글꼴 */
+/* 영어 문서용 글꼴 */
   .article-post:lang(en) {
     font-family: "Merriweather", Georgia, "Iansui", "HanaMinB", serif;
-  }
+}
+
+/* 중국어 문서용 글꼴 */
+.article-post:lang(zh) {
+    font-family: "Noto Sans SC", sans-serif;
+}
+
 
 
 /* https://codepen.io/bharanim/pen/BoLNdd */
