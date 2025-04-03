@@ -171,12 +171,12 @@ var documents = [{
     "body": "      {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 34,
-    "url": "https://zya-han.github.io/zh/zh/page2/index.html",
+    "url": "https://zya-han.github.io/zh/page2/index.html",
     "title": "美男与神秘与自杀 - page 2",
     "body": "      {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 35,
-    "url": "https://zya-han.github.io/zh/zh/page3/index.html",
+    "url": "https://zya-han.github.io/zh/page3/index.html",
     "title": "美男与神秘与自杀 - page 3",
     "body": "      {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
