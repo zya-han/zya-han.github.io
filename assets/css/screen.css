@@ -527,9 +527,18 @@ span.post-read-more a:hover {
     margin-right: 5px;
 }
 
-.mainheading h1.sitetitle {
+/* .mainheading h1.sitetitle {
     font-family: "Song Myung", "ZCOOL XiaoWei", serif;
+} */
+
+.mainheading h1.sitetitle:lang(ko) {
+    font-family:"Song Myung", serif;
 }
+
+.mainheading h1.sitetitle:lang(zh) {
+    font-family: "ZCOOL XiaoWei", serif;
+}
+
 
 .mainheading a.sitetitle {
     color: black;
