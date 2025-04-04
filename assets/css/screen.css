@@ -185,7 +185,7 @@ th, tr, td {
   
 .related-post-thumb {
     width: 100%;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 3 / 2;
     object-fit: cover;
     display: block;
 }
