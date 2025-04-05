@@ -1,605 +1,433 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>미남과 오컬트와 자살</title>
-    <description>《한서》 이야기를 합니다.</description>
-    <link>https://zya-han.github.io/</link>
-    <atom:link href="https://zya-han.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 22 Mar 2025 07:38:41 +0900</pubDate>
-    <lastBuildDate>Sat, 22 Mar 2025 07:38:41 +0900</lastBuildDate>
-    <generator>Jekyll v3.10.0</generator>
-    
-      <item>
-        <title>삼국지 해석의 실수: 米는 rice가 아니다</title>
-        <description>&lt;p&gt;한자 문화권에서 《삼국지》는 팬이 워낙 많다 보니 해석도 그만큼 다양합니다. 그런데 한문 원문을 잘못 해석해서 일어나는 실수도 적지 않습니다. 그중 하나가 ‘米’의 해석입니다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://zyahan.blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zyahan.blog/" rel="alternate" type="text/html" hreflang="ko" /><updated>2025-04-05T11:51:55+09:00</updated><id>https://zyahan.blog/feed.xml</id><title type="html">미남과 오컬트와 자살</title><subtitle>《한서》 이야기를 합니다.</subtitle><entry xml:lang="ko"><title type="html">한나라 사람들의 세정제</title><link href="https://zyahan.blog/body-washing/" rel="alternate" type="text/html" title="한나라 사람들의 세정제" /><published>2025-04-05T09:14:00+09:00</published><updated>2025-04-05T09:14:00+09:00</updated><id>https://zyahan.blog/body-washing</id><content type="html" xml:base="https://zyahan.blog/body-washing/"><![CDATA[<h2 id="질문">질문</h2>
 
-&lt;p&gt;우리가 알고 있는 ‘米’라는 한자는 ‘미’로 읽고 쌀을 뜻합니다. 현대한국어에서 쌀이 주로 볍쌀(벼의 알곡, rice)이므로 米 또한 볍쌀로 해석하기 쉽지만, 한자 ‘米’와 한국어 ‘쌀’의 의미는 그렇게 단순하지 않습니다.&lt;/p&gt;
+<p>그 시대 사람들은 지금의 비누나 샴푸, 퐁퐁에 대응하는 물건으로 무엇을 사용했을까요?</p>
 
-&lt;h3 id=&quot;1-곡물의-껍질을-벗겨야-米가-된다&quot;&gt;1. 곡물의 껍질을 벗겨야 米가 된다&lt;/h3&gt;
+<h2 id="답변">답변</h2>
 
-&lt;p&gt;&lt;a href=&quot;https://ko.dict.naver.com/#/entry/koko/51eb228d647c402fb624cd3105e1ce06&quot;&gt;《표준국어대사전》에서 ‘쌀’을 찾아보면 세 가지 풀이가 나옵니다.&lt;/a&gt;&lt;/p&gt;
+<p>그렇습니다.
+아<sup>雅</sup>가 세정제의 역사를 알지는 못하지만 적어도 그 시대에는 비누와 계면활성제가 없었을 것입니다.
+그렇다면 한나라 사람들은 몸이나 물건을 깨끗하게 씻기 위해 어떤 물질을 사용했을까요?</p>
+
+<p>우선 한나라 사람들이 얼마나 잘 씻었는지부터 알아봅시다.
+후한 말의 한자 사전 《설문해자》에서 물과 연관된 〈수부〉를 살펴보면, 몸을 씻는 것과 관련된 표현을 다섯 개나 찾을 수 있습니다.</p>
+
+<blockquote>
+  <ul>
+    <li>목<sup>沐</sup>: 머리를 감기</li>
+    <li>매<sup>沬</sup>: 얼굴을 씻기</li>
+    <li>욕<sup>浴</sup>: 몸을 씻기</li>
+    <li>조<sup>澡</sup>: 손을 씻기</li>
+    <li>세<sup>洗</sup>: 발을 씻기</li>
+  </ul>
+
+  <p><cite> 《설문해자<sup>說文解字</sup>》 권12 〈수부<sup>水部</sup>〉</cite></p>
+</blockquote>
+
+<p>즉, 한나라 사람들은 몸을 씻는 행위를 가리킬 때 머리카락, 얼굴, 손, 발 등 부위마다 각기 다른 용어가 있었습니다.
+이런 점을 볼 때 목욕이 상당히 발달해 있었던 것 같습니다.</p>
+
+<p>또한, 한나라 사대부들에게는 성별에 따라 다른 욕실을 써야 한다는 규범이 있었습니다.</p>
+
+<blockquote>
+  <p>바깥사람(남자)과 안사람(여자)은 같은 우물을 쓰지 않고, 같은 욕실에서 목욕하지 않는다. [外內不共井，不共湢浴]
+<cite> 《예기<sup>禮記</sup>》 〈내칙<sup>內則</sup>〉 </cite></p>
+</blockquote>
+
+<p>그렇다면 얼굴과 몸을 어떻게 씻었는지에 관한 구체적인 정보가 있을까요?
+《예기》 〈내칙〉에는 윗사람을 모시는 예절 중 목욕 수발을 드는 것이 나옵니다.</p>
+
+<blockquote>
+  <p>닷새마다 물을 데우고 몸을 씻으시기를 청한다.
+사흘마다 머리를 감으실 준비를 갖춘다.
+그사이에 얼굴에 때가 있으면 <strong>쌀뜨물</strong>을 데우고 얼굴을 씻으시기를 청한다.
+발에 때가 있으면 물을 데우고 발을 씻으시기를 청한다.
+[五日，則燂湯請浴，三日具沐，其間面垢，燂潘請靧；足垢，燂湯請洗。]</p>
 
-&lt;blockquote&gt;
-  &lt;ol&gt;
-    &lt;li&gt;벼에서 껍질을 벗겨 낸 알맹이.&lt;/li&gt;
-    &lt;li&gt;멥쌀을 보리쌀 따위의 잡곡이나 찹쌀에 상대하여 이르는 말.&lt;/li&gt;
-    &lt;li&gt;볏과에 속한 &lt;strong&gt;곡식의 껍질을 벗긴 알을 통틀어 이르는 말.&lt;/strong&gt; 쌀, 보리쌀, 좁쌀 따위가 있다.&lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/blockquote&gt;
+  <p><cite> 《예기<sup>禮記</sup>》 〈내칙<sup>內則</sup>〉 </cite></p>
+</blockquote>
 
-&lt;p&gt;3번 풀이에서 알 수 있듯이, ‘쌀’이라는 말에는 이미 rice 이외의 의미가 들어 있습니다. 그리고 이 3번 풀이가 바로 《삼국지》에서의 米의 의미입니다. 즉, 米는 벼라는 특정 곡물의 알곡을 가리키는 것이 아니라 어떤 곡물이든 껍질을 벗긴 상태의 알곡을 가리키는 것입니다.&lt;/p&gt;
+<p>즉, 몸과 발은 따뜻한 물로 씻고, 얼굴은 쌀뜨물로 씻었다는 것을 알 수 있습니다.</p>
+
+<p>더욱 상세한 내용은 《예기》 〈옥조〉에서 찾을 수 있습니다.</p>
+
+<blockquote>
+  <ol>
+    <li>손은 하루에 다섯 번 씻는다. [日五盥]</li>
+    <li><strong>머리를 감을 때는 메기장을 쓰고 얼굴을 씻을 때는 기장을 쓴다.</strong> [沐稷而靧粱]</li>
+    <li>젖은 머리는 나무 빗으로 빗고 마른 머리는 상아 빗으로 빗는다. [櫛用樿櫛，發曦用象櫛]</li>
+    <li>몸을 씻을 때는 상체와 하체에 각각 다른 수건을 쓴다. [浴用二巾，上絺下綌]</li>
+  </ol>
+
+  <p><cite> 《예기<sup>禮記</sup>》 〈옥조<sup>玉藻</sup>〉 </cite></p>
+</blockquote>
+
+<p>한나라의 “군자”들은 얼굴을 씻고 머리를 감을 때 각기 다른 곡물을 사용했던 것입니다!</p>
 
-&lt;p&gt;벼를 가리키는 말은 ‘稻(도)’입니다. 마침 稻와 米의 관계를 명확히 보여주는 예시가 《삼국지》에 나옵니다.&lt;/p&gt;
+<p>아쉽게도 《예기》에 명시된 규범이 실제로 지켜졌는지에 관한 증거는 찾기 어렵습니다.
+하지만 적어도 《예기》를 편집한 전한시대 유교맨들이 씻는 것을 까다롭게 중시했다는 사실은 알게 되었습니다.</p>
+
+<h3 id="여담">여담</h3>
+
+<p>한나라 이후 진<sup>晉</sup>나라로 가면 세정제를 오용(?)한 기록을 찾을 수 있습니다.
+<a href="https://ctext.org/text.pl?node=91888&amp;if=en&amp;show=parallel">《세설신어》 〈비루〉에 나오는 일화</a>로, 진나라의 귀족 왕돈이 공주와 결혼한 뒤 저택에서 화장실에 갔을 때 시녀들이 손을 씻을 물과 조두<sup>澡豆</sup>를 내어 오자 조두를 물에 타서 마셔 버렸다는 이야기입니다.
+여기서 ‘조두’란 곡물 등으로 만든 일종의 가루비누를 말합니다.
+왕돈은 조두가 미숫가루인 줄 알았다고 말했지만, 예전 포스트 〈<a href="/alcohol-and-sex/">“주색” 넘치는 향연</a>〉의 일화를 살펴보면 자존심 센 왕돈이 공주와 일부러 기싸움을 벌인 것 같기도 합니다.</p>
 
-&lt;blockquote&gt;
-  &lt;p&gt;사람들은 처자를 이끌고 손에 넣었던 벼[稻]를 빻아서 60곡의 쌀[米]을 얻었다.
-[率妻子舂所取稻得六十斛米]&lt;/p&gt;
+<hr />
 
-  &lt;p&gt;— 《삼국지》 오지15 〈종리목전〉.&lt;/p&gt;
-&lt;/blockquote&gt;
+<p>이 게시물은 《창작자와 오타쿠를 위한 삼국지 100문 100답》에 응모된 질문에 대한 답변 예시로 작성했습니다. 평소에 삼국지 썰을 풀다가 궁금하셨던 점이 있으면 아래 링크를 참고하여 질문을 남겨 주세요!</p>
 
-&lt;p&gt;즉, 稻라는 종류의 곡물을 빻아서 껍질을 벗겨야 米가 되는 것입니다.&lt;/p&gt;
+<div class="buy-button">
+    <a href="https://zya-han.github.io/sanguozhi-qna/" target="_blank">🙋 질문 남기러 가기 </a>
+</div>]]></content><author><name>zya</name></author><category term="삼국지 질의응답" /><category term="정보" /><category term="세안" /><category term="세수" /><category term="목욕" /><category term="미용" /><category term="비누" /><category term="세정제" /><category term="설문해자" /><category term="예기" /><category term="왕돈" /><category term="쌀뜨물" /><category term="조두" /><summary type="html"><![CDATA[그 시대 사람들은 지금의 비누나 샴푸, 퐁퐁에 대응하는 물건으로 무엇을 사용했을까요?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://zyahan.blog/assets/images/cards/face-washing.jpeg" /><media:content medium="image" url="https://zyahan.blog/assets/images/cards/face-washing.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ko"><title type="html">멤버십 혜택 안내</title><link href="https://zyahan.blog/membership/" rel="alternate" type="text/html" title="멤버십 혜택 안내" /><published>2025-03-29T13:50:00+09:00</published><updated>2025-03-29T13:50:00+09:00</updated><id>https://zyahan.blog/membership</id><content type="html" xml:base="https://zyahan.blog/membership/"><![CDATA[<p>안녕하세요? 블로그 〈미남과 오컬트와 자살〉을 운영하는 주아입니다.</p>
 
-&lt;p&gt;그러므로 제갈량의 식사량 米(미) 3–4승은 이미 도정한 결과물을 말하는 것입니다. &lt;a href=&quot;https://athanor.tistory.com/451&quot;&gt;따라서 3승의 쌀에 다시 도정을 가해서 실제 식사량이 1.8승이라고 해석하는 것은 《진서》 원문에 맞지 않습니다.&lt;/a&gt;&lt;/p&gt;
+<p>2025년 3월 18일부터 기존의 <a href="https://postype.com/@hanshu">포스타입 채널</a>에서 GitHub Pages를 사용한 개인 블로그로 이전하고 있습니다. 3월 29일 현재 무료 공개 포스트는 모두 새 블로그로 옮겨 왔으며, 유료/멤버십 전용 포스트는 5월 1일 이전까지 모두 가져올 예정입니다.</p>
 
-&lt;h3 id=&quot;2-벼가-아닌-곡물도-米가-될-수-있다&quot;&gt;2. 벼가 아닌 곡물도 米가 될 수 있다&lt;/h3&gt;
+<p>새 블로그에서는 <a href="https://buymeacoffee.com/zya.han">Buy Me a Coffee 페이지</a>를 통해 유료 콘텐츠 구매 및 멤버십 후원이 가능합니다.</p>
 
-&lt;p&gt;위에서 살펴본 《삼국지》 예문에서는 벼를 빻아서 쌀을 만들었습니다. 하지만 米는 볍쌀에 한정되지 않습니다. 이것은 당나라 때 편찬된 백과전서에서 증거를 찾을 수 있습니다.&lt;/p&gt;
+<p>기존 포스타입 채널의 멤버십 전용 포스트는 새 블로그에서도 동일한 조건으로 유지할 예정입니다. 멤버십 플랜별 혜택 또한 이전과 같습니다.</p>
 
-&lt;p&gt;우선 《통전》에서는 米의 종류로 粱(량)과 稷(직)이 있다고 언급했습니다. 粱과 稷이 어떤 곡식인지에 대한 해석은 다양하지만, 확실한 것은 볍쌀이 아니라는 것입니다.&lt;/p&gt;
+<table>
+  <thead>
+    <tr>
+      <th>멤버십 혜택</th>
+      <th>🍒 앵두</th>
+      <th>🍇포도</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>[한나라 숙어 노트] 열람</td>
+      <td>⭕️</td>
+      <td>⭕️</td>
+    </tr>
+    <tr>
+      <td>[조맹덕의 TMI] 열람</td>
+      <td>⭕️</td>
+      <td>⭕️</td>
+    </tr>
+    <tr>
+      <td>[한나라 설정집] 미공개 포스트 열람</td>
+      <td>❌</td>
+      <td>⭕️</td>
+    </tr>
+    <tr>
+      <td>월 1회 포스트 리퀘스트</td>
+      <td>❌</td>
+      <td>⭕️</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="buy-button">
+    <a href="http://buymeacoffee.com/zya.han/membership" target="_blank">👉 멤버십 가입하기 </a>
+</div>
+
+<p>앞으로 새 블로그에서 꾸준히 글을 쓰고자 합니다.</p>
+
+<p>감사합니다.</p>]]></content><author><name>zya</name></author><summary type="html"><![CDATA[새 블로그에서는 [Buy Me a Coffee 페이지]를 통해 유료 콘텐츠 구매 및 멤버십 후원이 가능합니다. 기존 포스타입 채널의 멤버십 전용 포스트는 새 블로그에서도 동일한 조건으로 유지할 예정입니다. 멤버십 플랜별 혜택 또한 이전과 같습니다.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://zyahan.blog/assets/images/cards/grape.jpeg" /><media:content medium="image" url="https://zyahan.blog/assets/images/cards/grape.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ko"><title type="html">고대 중국의 마스크팩: 화타의 피부과 처방</title><link href="https://zyahan.blog/hua-tuo-s-cream-mask/" rel="alternate" type="text/html" title="고대 중국의 마스크팩: 화타의 피부과 처방" /><published>2025-03-27T12:50:00+09:00</published><updated>2025-03-27T12:50:00+09:00</updated><id>https://zyahan.blog/hua-tuo-s-cream-mask</id><content type="html" xml:base="https://zyahan.blog/hua-tuo-s-cream-mask/"><![CDATA[<p>삼국지 이야기에서 제일 유명한 의사가 누구인지 묻는다면 모두들 화타를 꼽을 것입니다.
+소설 《삼국연의》 에서 관우의 팔을 수술하고 조조에게 뇌수술을 권한 화타는 실존 인물로, 중국 후한시대 말기에 활동하여 역사책 《삼국지》와 《후한서》에 전기가 수록되어 있지요.</p>
+
+<p>그런데, 이 화타가 피부에 생기를 돋우는 마스크팩을 개발했다고 하면 믿으시겠어요? 😲</p>
+
+<p>바로 《<a href="https://jicheng.tw/tcm/book/%E8%8F%AF%E4%BD%97%E7%A5%9E%E6%96%B9/index.html">화타신방<sup>華佗神方</sup></a>》이라고 하는 책에 크림팩을 만드는 방법이 실려 있는데요, 권14 〈<a href="https://jicheng.tw/tcm/book/%E8%8F%AF%E4%BD%97%E7%A5%9E%E6%96%B9/index.html#?t=H1%5B17%5D">화타피부과신방</a>〉에서 가장 먼저 나오는 처방을 살펴볼까요?</p>
+
+<h3 id="화타신방-14-1-화타면고신방華佗面膏神方">《화타신방》 14-1. 화타면고신방<sup>華佗面膏神方</sup></h3>
+
+<p>‘화타면고신방’은 ‘화타/면고/신방’으로 끊어 읽고, 화타의 면고 처방법이라고 해석할 수 있습니다.
+면고<sup>面膏</sup>란 무엇일까요?
+면<sup>面</sup>은 얼굴, 고<sup>膏</sup>는 기름을 뜻하는 만큼 ‘면고’는 얼굴에 바르는 연고가 되겠습니다.</p>
+
+<h4 id="면고-재료">면고 재료</h4>
+
+<p>이 연고는 무엇으로 만들었을까요? 재료의 목록이 아주 화려합니다.</p>
+
+<blockquote>
+  <ul>
+    <li>두형<sup>杜蘅</sup>, 두약<sup>杜若</sup>, 방풍<sup>防風</sup>, 고본<sup>藁本</sup>, 세신<sup>細辛</sup>, 백부자<sup>白附子</sup>, 목란피<sup>木蘭皮</sup>, 당귀<sup>當歸</sup>, 백출<sup>白朮</sup>, 독활<sup>獨活</sup>, 백복령<sup>白茯苓</sup>, 위유<sup>葳蕤</sup>, 백지<sup>白芷</sup>, 천문동<sup>天門冬</sup>, 옥설<sup>玉屑</sup> 각 1냥</li>
+    <li>토사자<sup>菟絲子</sup>, 방기<sup>防己</sup>, 상륙<sup>商陸</sup>, 치자화<sup>梔子花</sup>, 귤피<sup>橘皮</sup>, 동과인<sup>冬瓜仁</sup>, 미무화<sup>蘼蕪花</sup> 각 3냥</li>
+    <li>곽향<sup>藿香</sup>, 정향<sup>丁香</sup>, 영릉향<sup>零陵香</sup>, 감송향<sup>甘松香</sup>, 청목향<sup>青木香</sup> 각 2냥</li>
+    <li>사향<sup>麝香</sup> 반 냥</li>
+    <li>흰 거위의 기름<sup>白鵝脂</sup> 반 되</li>
+    <li>흰 양의 기름<sup>白羊脂</sup>, 소의 골수<sup>牛髓</sup> 각 한 냥</li>
+    <li>양??<sup>羊𦚠三具</sup> 세 개</li>
+  </ul>
+</blockquote>
+
+<p>목록을 자세히 보면 마지막 네 가지의 동물성 재료로 연고의 제형을 만들고, 나머지 스물여덟 가지 재료가 약효나 향을 내었으리라고 추측할 수 있습니다.
+그야말로 28종의 약재를 넣은 한방<sup>漢方</sup> 연고! 인 셈입니다.</p>
+
+<h4 id="면고-사용법">면고 사용법</h4>
 
-&lt;blockquote&gt;
-  &lt;p&gt;죽은 사람의 입에 넣는 米는 임금의 경우 粱, 대부의 경우 稷, 사의 경우 粱이다.
-[米，君以粱，大夫稷，士粱]&lt;/p&gt;
+<p>이 연고는 어떻게 사용했을까요?</p>
 
-  &lt;p&gt;— 《통전》 예44 〈함〉.&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>눈처럼 하얗게 만들어서 매일 밤 얼굴에 바른다. 낮이 되면 씻어내고, [밤이 되면] 또 새롭게 바른다.
+[使白如雪，每夜塗面。晝則洗卻，更塗新者。]</p>
+</blockquote>
 
-&lt;p&gt;또 《예문유취》 권85 〈백곡〉 편의 목차로 稻는 있지만 米는 없습니다. 그뿐만 아니라, 아래와 같이 곡식의 다섯 가지 변화 중 네 번째 단계로 米를 정의했습니다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;《춘추설제사》에 따르면 곡식[粟]에는 다섯 가지 변화의 단계가 있다. 싹이 트면 苗(묘)가 되고, 이삭이 패면 禾(화)가 되고, 세 번째 변화로 제사를 지낼 때는 粟(속)이라고 부르며, 네 번째 변화는 米(미)라고 하고, 다섯 번째 변화로 쪄서 밥을 지으면 먹을 수 있다.
-[《春秋說題辭》曰：粟五變，生為苗，秀為禾，三變而祭謂之粟，四變曰米，五變而蒸飯可食。]&lt;/p&gt;
-
-  &lt;p&gt;— 《예문유취》 권85 〈백곡〉.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;그러므로 &lt;a href=&quot;https://x.com/Kasis_Quauda/status/1587254562842255361&quot;&gt;오두미도의 ‘미’를 볍쌀로 한정할 이유가 없습니다.&lt;/a&gt; 오두미도에서는 볍쌀이 아니라 도정된 곡물을 받았던 것입니다. 米는 도정하기 전의 粟과 구별됩니다.  아마도 창고에 오래 저장할 곡물이 아니라 바로 밥을 지어 먹을 수 있는 곡물을 받고자 한 것이 아닐까요?&lt;/p&gt;
-</description>
-        <pubDate>Sun, 02 Mar 2025 16:33:00 +0900</pubDate>
-        <link>https://zya-han.github.io/mi-is-not-rice/</link>
-        <guid isPermaLink="true">https://zya-han.github.io/mi-is-not-rice/</guid>
-        
-        <category>삼국지</category>
-        
-        <category>쌀</category>
-        
-        <category>오두미도</category>
-        
-        <category>통전</category>
-        
-        <category>예문유취</category>
-        
-        
-        <category>한나라 설정집</category>
-        
-        <category>정보</category>
-        
-      </item>
-    
-      <item>
-        <title>황제는 만세, 제후는 천세?</title>
-        <description>&lt;h3 id=&quot;만세와-천세의-차이&quot;&gt;만세와 천세의 차이&lt;/h3&gt;
-
-&lt;p&gt;1909년 대한제국 시절, 김구는 자기에게 부르는 ‘만세’ 소리를 듣고 기겁했습니다. 김구에게 있어 ‘만세’란 황제에게만 쓸 수 있는 말이었기 때문입니다. 하지만 정작 황제의 신하인 군수는 웃으면서 요즘 같은 시대에는 친구와 만나고 헤어질 때도 만세를 부를 수 있다고 안심시켰습니다.
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;배천 군수 전봉훈의 초청을 받았다. 읍에 못 미쳐 오리정에 군내 각 면의 주민들이 나와서 등대하다가 내가 당도한즉 군수가 선창으로, “김구 선생 만세!”를 부르니 일동이 화하여 부른다. 나는 경황실색하여 손으로 군수의 입을 막으며 그것이 망발인 것을 말하였다. &lt;strong&gt;만세라는 것은 오직 황제에 대하여서만 부르는 것이요, 황태자도 천세라고밖에 못 부르는 것이 옛 법이기 때문이다.&lt;/strong&gt; 그런 것을 일개 서민인 내게 만세를 부르니 내가 경황하지 아니할 수 없었다. 그러나 군수는 웃으며 내 손을 잡고 &lt;strong&gt;개화시대에는 친구 송영에도 만세를 부르는 법이니&lt;/strong&gt; 안심하라고 하였다.&lt;/p&gt;
-
-  &lt;p&gt;— 김구. (1947). 〈&lt;a href=&quot;https://ko.wikisource.org/wiki/%EB%B0%B1%EB%B2%94%EC%9D%BC%EC%A7%80#%EB%AF%BC%EC%A1%B1%EC%97%90_%EB%82%B4%EB%86%93%EC%9D%80_%EB%AA%B8&quot;&gt;민족에 내놓은 몸&lt;/a&gt;〉. 《백범일지 상》.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;여기서 주목할 점은 만세(萬歲)와 천세(千歲)의 차이입니다. 중국의 역사서에서는 ‘천세’라는 말을 많이 찾아보기 어렵습니다. 반면 《조선왕조실록》에는 ‘천세’가 수백 회 나옵니다. 중국에서 황제의 관료들이 만세를 불렀다면, 조선에서 왕의 관료들은 천세를 불렀고, 조선이 대한제국이 되면서 비로소 군주에게 만세를 썼던 것입니다.&lt;/p&gt;
-
-&lt;p&gt;그런데 황제와 제후왕의 위계가 만세와 천세로 구별된 것은 언제부터였을까요? 의외로 오래되지 않았습니다. &lt;a href=&quot;https://ctext.org/&quot;&gt;Chinese Text Project&lt;/a&gt;와 &lt;a href=&quot;https://hanchi.ihp.sinica.edu.tw/ihp/hanji.htm&quot;&gt;Scripta Sinica&lt;/a&gt;에서 ‘千歲’를 검색해 보면, 황제에게 만세를 부르듯이 제후에게 천세를 부른 예는 명나라 시기의 텍스트로 가야 찾을 수 있습니다. &lt;a href=&quot;https://ctext.org/fengshen-yanyi?searchu=%E5%8D%83%E6%AD%B2&quot;&gt;소설 《봉신연의》에서 등장하는 인물들은 은나라 태자 은교를 ‘전하’라고 칭하고 천세를 부릅니다.&lt;/a&gt; &lt;a href=&quot;https://www.khan.co.kr/article/201605110949011&quot;&gt;명나라 천계제 시절 황제를 능가하는 권세를 누리던 환관 위충현이 ‘구천세’를 받은 이야기도 잘 알려져 있습니다.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;그렇다면 ‘만세’는 처음부터 황제에게만 쓸 수 있는 말이었을까요?&lt;/p&gt;
-
-&lt;h3 id=&quot;감탄사-만세의-기원&quot;&gt;감탄사 ‘만세’의 기원&lt;/h3&gt;
-
-&lt;p&gt;역사서 《사기》를 보면 ‘만세’의 용례는 전국시대에서부터 찾아볼 수 있습니다. 즉, 황제라는 개념보다 만세라는 말이 먼저 존재한 것입니다. 이때 만세는 “야호!” 정도로 기쁨을 표시하는 감탄사였습니다. 예를 들어 진나라 왕이 천하의 보물 화씨벽을 손에 넣었을 때 주변에서 후궁과 신하들이 만세를 불렀고, 제나라 사람들이 연나라에 항복했을 때 연나라 군대에서 만세를 불렀습니다.&lt;/p&gt;
-
-&lt;p&gt;초한전쟁 시기에도 비슷합니다. 한나라 왕 유방이 항복하러 나온다는 소문을 듣고 초나라 군대에서 만세를 불렀고, 초나라 왕 항우가 인질로 잡고 있던 유방의 가족을 돌려보냈을 때도 한나라 군대에서 만세를 불렀습니다.&lt;/p&gt;
-
-&lt;p&gt;‘만세’에 임금의 장수를 기원하는 뜻이 생긴 것은 한나라가 통일 제국이 되고 난 뒤의 일 같습니다. 주목할 점은 전한시대에 황제가 아닌 제후왕에게도 만세를 불렀다는 것입니다. &lt;a href=&quot;https://ctext.org/xijing-zaji?searchu=%E8%90%AC%E6%AD%B2#n647221&quot;&gt;《서경잡기》를 보면 한 경제의 동생인 양나라 왕의 문객들이 부(賦)를 지을 때 ‘우리 임금 &lt;strong&gt;억만세&lt;/strong&gt;를 누리시길’이라는 말로 양왕을 높였습니다.&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;만세를-독점한-황제&quot;&gt;만세를 독점한 황제&lt;/h3&gt;
-
-&lt;p&gt;예식의 일부로서 황제에게 만세를 부르는 제도는 《후한서》 〈예의지 중·하〉에서 시작됩니다. 오직 황제에게만 만세를 불러야 한다는 규범 또한 후한시대에 찾을 수 있습니다. &lt;a href=&quot;https://ctext.org/hou-han-shu/yuan-zhang-han-zhou-lie-zhuan?searchu=%E8%90%AC%E6%AD%B2&amp;amp;searchmode=showall#result&quot;&gt;《후한서》 〈원장한주열전〉에서 신하들이 외척으로서 권력자가 된 대장군 두헌에게 만세를 부르자 한릉이라는 인물이 ‘예에는 신하에게 만세를 부르는 제도가 없다’고 비판합니다.&lt;/a&gt; 그러나 만세를 부른 신하들이나 두헌이 처벌을 받았다는 기록은 없습니다.&lt;/p&gt;
-
-&lt;p&gt;위진남북조, 수당오대를 지나 송나라로 오자 처벌 규정이 생겼습니다. &lt;a href=&quot;https://www.khan.co.kr/article/201605110949011&quot;&gt;북송 시기 구준은 자기 앞에서 만세를 부른 사람이 나왔다는 이유로 유배되었습니다.&lt;/a&gt; 또 《송회요집고》의 〈형법〉 파트를 살펴보면 남송 효종 시기 함부로 만세를 부르면 도형 2년에 처한다는 법을 개정했다는 기록이 있습니다.&lt;/p&gt;
-
-&lt;p&gt;요약하면 ‘만세’에 대한 태도는 왕조에 따라 아래와 같이 변했다고 볼 수 있습니다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;전한: 기쁠 때 만세를 불렀고, 임금의 장수를 기원하는 뜻이 생김.&lt;/li&gt;
-  &lt;li&gt;후한: 만세가 예식의 일부로 정착됨. 신하에게 만세를 부르는 것을 비판함.&lt;/li&gt;
-  &lt;li&gt;북송: 신하에게 만세를 부르면 신하를 처벌함.&lt;/li&gt;
-  &lt;li&gt;남송: 함부로 만세를 부르는 사람을 처벌하는 법령을 만듦.&lt;/li&gt;
-  &lt;li&gt;명: 황제는 만세, 제후는 천세를 부름.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;여담&quot;&gt;여담&lt;/h3&gt;
-
-&lt;p&gt;한국인으로서 가장 익숙한 만세 부르기를 꼽자면 역시 1919년 3·1 운동의 “대한 독립 만세!”입니다. 이때부터 일제는 조선인들이 만세를 부르는 것 자체를 불온하게 여긴 것 같습니다. 여기 대해서 한국종 변호사는 기쁠 때에도 만세를 부르므로 ‘만세’ 자체가 불온한 것은 아니라고 반박했습니다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;여학생들이 만세를 불렀다고 불온하다고 할 수 없다. 원래 ‘만세’란 감정의 발로이다. 삼일운동 때 ‘조선독립만세’ 또는 ‘만세’를 불렀다고 해서 보안법 위반이라고 하지만, ‘만세’가 반드시 조선 독립을 의미하는 것은 아니고 기쁠 때에도 만세를 부른다.&lt;/p&gt;
+<p>그렇습니다. 씻어내는 크림팩이었습니다.</p>
 
-  &lt;p&gt;— 이상경. (2020). 〈1930년 서울 여학생 만세운동 연구: 여학생의 「신문조서」를 활용하여〉. 《여성과 역사》 33, 191–232. &lt;a href=&quot;https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002665965&quot;&gt;https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002665965&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+<h4 id="면고의-효과">면고의 효과</h4>
 
-&lt;p&gt;만세운동에 참여한 여학생들의 형량을 줄이기 위한 수단이기는 하지만, 뜻밖에 ‘만세’의 기원에 충실한 논리이기도 합니다.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 22 Feb 2025 16:31:00 +0900</pubDate>
-        <link>https://zya-han.github.io/wansui-and-qiansui/</link>
-        <guid isPermaLink="true">https://zya-han.github.io/wansui-and-qiansui/</guid>
-        
-        <category>만세</category>
-        
-        <category>천세</category>
-        
-        <category>백범일지</category>
-        
-        <category>봉신연의</category>
-        
-        <category>위충현</category>
-        
-        <category>서경잡기</category>
-        
-        <category>후한서</category>
-        
-        <category>송회요집고</category>
-        
-        
-        <category>잡담</category>
-        
-        <category>정보</category>
-        
-      </item>
-    
-      <item>
-        <title>한나라의 광녀(狂女)들</title>
-        <description>&lt;p&gt;광녀(狂女)란 한자 그대로 풀이하면 ‘미친 여자’라는 뜻입니다. 한자문화권에서 이 말이 최초로 발견되는 문헌은 바로 《한서》입니다. 〈왕망전 중〉에는 신나라를 세우고 황제가 된 왕망을 비난하는 ‘미친 여자’가 등장합니다.&lt;/p&gt;
+<p>이 크림팩을 매일 바르면 어떤 효과가 나타났을까요?</p>
 
-&lt;blockquote&gt;
-  &lt;p&gt;이 해에 장안의 &lt;strong&gt;미친 여자[狂女子]&lt;/strong&gt; 벽(碧)이 길에서 소리쳤다. “고황제[유방]께서 크게 노하셔서 내 나라를 돌려달라고 하셨다. 돌려주지 않는다면 9월에 너를 죽일 것이다!” 왕망은 그를 잡아 죽였다.&lt;/p&gt;
+<blockquote>
+  <p>열흘이 지나면 얼굴빛이 복숭아꽃과 같을 것이다.
+[十日以後，色等桃花。]</p>
+</blockquote>
 
-  &lt;p&gt;— 《한서》 〈왕망전 중〉.&lt;/p&gt;
-&lt;/blockquote&gt;
+<p>피부에 복숭아꽃과 같은 생기가 생긴다고 합니다. 질병을 치료하는 연고가 아니었어요! 이것이 ‘피부과’ 처방의 첫 번째로 나오다니 예나 지금이나 피부과는 미용이 우선인가 봐요.</p>
 
-&lt;p&gt;이렇게 사회의 불안이 도래했음을 외치는 여자를 ‘광녀’로 기록한 사례를 찾을 수 있습니다. ‘광녀’를 주술사인 무녀(巫女)로 해석하는 설도 있다고 합니다(하라 모토코, 《&lt;a href=&quot;https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=329899755&quot;&gt;환경으로 보는 고대 중국&lt;/a&gt;》, 243면).&lt;/p&gt;
+<h3 id="화타신방에-나오는-또-다른-피부관리-비법들">《화타신방》에 나오는 또 다른 피부관리 비법들</h3>
 
-&lt;p&gt;재미있는 점은 ‘광녀’의 의미와 기준이 훗날 달라진다는 것입니다. 지금까지 이 채널에서 전한 남자 유향이 쓴 《열녀전》 이야기를 많이 한 적이 있습니다. 그런데 북송 남자 &lt;a href=&quot;https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%9B%9E_(1023%E5%B9%B4)&quot;&gt;왕회&lt;/a&gt;가 지은 〈열녀전 서〉에 따르면, 유명한 문인이자 정치가였던 &lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%99%95%EC%95%88%EC%84%9D&quot;&gt;왕안석&lt;/a&gt;은 친구 왕회가 《열녀전》을 파는 것을 놀리며 왜 “여러 광녀 이야기를 서술하여 만든 책”을 좋아하느냐고 물었다고 합니다.&lt;/p&gt;
+<p>게다가 화타의 미용 처방은 여기에서 끝나지 않습니다.</p>
 
-&lt;p&gt;일찍이 〈미녀를 혐오한 남자〉라는 포스트에서 소개했듯이, 《열녀전》에는 총 일곱 가지의 여성 유형이 나옵니다. 이 일곱 가지 중 여섯 가지가 긍정적인 내용이고, 나머지 한 가지가 유일하게 부정적인 내용입니다. 이를 보건대 《열녀전》의 저자 유향은 최대한 다양한 유형의 미덕을 가진 여성들의 이야기를 소개하고자 한 것 같습니다. 그러나 왕안석에게 있어 이들은 모두 ‘미친 여자’에 불과했던 것입니다.&lt;/p&gt;
-
-&lt;p&gt;혹시 왕안석이 부정적인 유형만을 찍어서 ‘미친 여자’라고 한 것은 아니었을까요? 아닙니다. 왕안석의 물음에 대한 왕회의 대답을 살펴보면 《열녀전》의 여자들은 악한 자[惡者]와 미친 자[狂者]로 분류되었고, 후자는 “&lt;a href=&quot;https://db.cyberseodang.or.kr/front/alphaList/BookMain.do?bnCode=jti_2g0202&amp;amp;titleId=C72&quot;&gt;비록 예의에 맞지는 않으나 한결같이 善에 뜻을 두어 행실을 규방에서 이루었다&lt;/a&gt;”라는 평가를 받았습니다. 전한 남자 유향은 《열녀전》에서 뛰어난 언변으로 작게는 가족을 살리고 크게는 나라를 구한 여자들을 칭송했습니다. 하지만 북송 남자 왕회와 왕안석은 이들의 언행이 선했음을 인정하면서도 여자가 자기 목소리를 낸 것 자체가 예의에 어긋난다고 여기고 이들에게 ‘미친 여자’라는 딱지를 붙인 것입니다.&lt;/p&gt;
-
-&lt;p&gt;즉, 한나라 남자들은 체제를 위협하는 여자들을 ‘광녀’라고 불렀지만, 송나라 남자들이 보기에는 아무리 체제에 순응하고 체제의 존속에 기여한 여자라도 일단 남자 앞에서 자기 의견을 말하면 ‘광녀’가 되었습니다.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 24 Jan 2025 15:52:00 +0900</pubDate>
-        <link>https://zya-han.github.io/mad-women/</link>
-        <guid isPermaLink="true">https://zya-han.github.io/mad-women/</guid>
-        
-        <category>광녀</category>
-        
-        <category>한서</category>
-        
-        <category>열녀전</category>
-        
-        <category>유향</category>
-        
-        <category>왕회</category>
-        
-        <category>왕안석</category>
-        
-        
-        <category>한나라 설정집</category>
-        
-        <category>정보</category>
-        
-      </item>
-    
-      <item>
-        <title>청동기에 새겨진 아름다운 글자들, 무슨 내용이었을까요?</title>
-        <description>&lt;p&gt;고대 중국의 청동기는 사진으로만 보아도 충분히 장엄합니다. 기물 자체의 모양도 그렇고, 기물에 새겨진 글자들이 신비로운 효과를 더해 주는 것 같습니다. 주나라 청동기에 새겨진 글자를 금문(金文)이라고 합니다. 그렇다면 이 금문은 어떤 내용을 담고 있었을까요? 한나라 청동기에는 또 어떤 글자가 적혀 있었을까요? 이 글에서는 청동기에 새겨진 명문(銘文)이 왕조마다 어떻게 달랐는지를 알아보고자 합니다.&lt;/p&gt;
+<ol>
+  <li>면고 만드는 방법</li>
+  <li>얼굴이 검어서 희고 맑지 않은 것을 치료(!)하는 방법
+    <ul>
+      <li>20종의 약재로 가루약을 만들어 세안에 사용합니다.</li>
+    </ul>
+  </li>
+  <li>얼굴에 기미가 많은 것을 치료하는 방법
+    <ul>
+      <li>달걀로 팩을 만들어 얼굴에 바릅니다.</li>
+    </ul>
+  </li>
+  <li>얼굴에 사마귀가 많은 것을 치료하는 방법
+    <ul>
+      <li>2종의 약재로 가루약을 만들어 복용합니다.</li>
+    </ul>
+  </li>
+  <li>얼굴에 여드름이 생긴 것을 치료하는 방법
+    <ul>
+      <li>8종의 약재와 돼지기름으로 연고를 만들어 하루에 세 번 상처에 바릅니다.</li>
+    </ul>
+  </li>
+  <li>얼굴에 붉은 뾰루지가 난 것을 치료하는 방법
+    <ul>
+      <li>14종의 약재와 돼지기름으로 연고를 만들어 얼굴에 펴 바릅니다.</li>
+    </ul>
+  </li>
+  <li>…</li>
+</ol>
 
-&lt;h3 id=&quot;0-세발솥의-무게를-묻는-것은-불경한-짓&quot;&gt;0. 세발솥의 무게를 묻는 것은 불경한 짓&lt;/h3&gt;
+<p>…피부과를 찾은 사람들은 다들 티 없이 희고 맑은 얼굴을 원했나 봅니다. 아무래도 외모가 출세에도 중요하던 시절이었으니까요.</p>
 
-&lt;p&gt;대표적인 청동기로는 정(鼎), 곧 세발솥이 있습니다. 한자 ‘鼎’의 갑골문과 금문을 보면 아래와 같이 고양이를 닮은 모양도 있는데, 사실 고양이의 뾰족한 귀처럼 보이는 것은 솥의 손잡이고, 다리처럼 보이는 것은 솥의 발입니다.&lt;/p&gt;
+<h3 id="화타신방이라는-책의-정체">《화타신방》이라는 책의 정체</h3>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/oracle-bronze-characters.png&quot; alt=&quot;oracle-bronze-characters&quot; /&gt;&lt;/p&gt;
+<p>이 《화타신방》은 화타의 저작으로 알려져서인지 <a href="https://ctext.org/wiki.pl?if=en&amp;res=907313">여러</a> <a href="https://jicheng.tw/tcm/book/%E8%8F%AF%E4%BD%97%E7%A5%9E%E6%96%B9/index.html">데이터베이스</a>에서 한나라 책으로 분류되어 있습니다. 그런데 이상하지 않나요? 역사책 《삼국지》나 소설책 《삼국연의》에서나, 화타가 감옥에서 죽은 뒤 그가 지은 의학서가 없어졌다고 나오는데 말입니다.</p>
 
-&lt;p&gt;솥은 음식을 익히는 조리 도구이기도 하지만, 실용적인 목적 이외에 다른 용도도 있었습니다.&lt;/p&gt;
+<p>한나라와 위나라, 진나라, 남북조 시대를 지나 중국 대륙을 재통일한 수나라. 이 수나라의 도서 목록인 《수서》 〈경적지〉에는 《화타신방》이라는 책이 나오지 않습니다. 비록 화타의 제자인 오보가 지은 《화타방》 10권은 있지만, 《화타신방》은 총 22권으로 이루어져 있기 때문에 같은 책으로 보기 어렵습니다. 즉, 수나라 떄는 《화타신방》의 존재가 공식적으로 알려지지 않았을 것입니다.</p>
 
-&lt;p&gt;주나라에서 세발솥은 권력의 상징이었습니다. 특히 주나라 천자의 세발솥은 구정(九鼎)이라고 불리며 가장 큰 권위를 나타냈습니다. 이와 관련된 고사성어가 ‘&lt;a href=&quot;https://www.khan.co.kr/article/201112142119095&quot;&gt;문정경중&lt;/a&gt;’입니다. 《춘추좌전》에 나오는 이야기입니다. 주나라의 권위가 약화된 춘추시대에, 강대한 제후국인 초나라의 장왕은 주나라 천자의 사자에게 ‘구정’의 크기와 무게를 물었습니다. 이 질문은 주나라 천자의 권위를 침범하는 것으로 여겨졌습니다. 같은 이야기의 《사기》 〈초세가〉 버전에서 장왕은 ‘우리 초나라에서는 부러진 낫의 끝부분만 모아도 구정을 만들고도 남는다’라고 좀 더 노골적으로 조롱하다가, 사자의 꾸짖음을 받고 머쓱해져서 물러났습니다.&lt;/p&gt;
+<p>《화타신방》의 첫 서문을 쓴 것은 수나라 이후에 들어선 당나라의 의사 손사막이었습니다. 서문에서 손사막은 자신이 우연히 손에 넣은 옛 의학서가 화타의 저작이라는 사실을 알게 되어 손수 편집해서 책으로 출간했다고 밝혔습니다.</p>
 
-&lt;p&gt;이렇게 세발솥은 엄격한 권위를 나타내는 물건이었고, 신분에 따른 규격 차이도 현저했습니다. &lt;a href=&quot;https://chinesewiki.uos.ac.kr/wiki/index.php/%E9%BC%8E&quot;&gt;주나라 천자는 구정을 소유했고, 제후들은 칠정, 사대부는 오정을 소유했습니다.&lt;/a&gt;&lt;/p&gt;
+<p>결국, 《화타신방》이 화타의 저작이라는 결정적인 증거가 있다고 보기는 어려운 셈입니다. 😢</p>
 
-&lt;h3 id=&quot;1-주나라의-대우정&quot;&gt;1. 주나라의 ‘대우정’&lt;/h3&gt;
+<p>하지만, 늦어도 당나라 때는 호화로운 마스크팩이 있었다는 사실을 알게 되었습니다. 당나라 궁녀들은 피부 관리를 까다롭게 했겠지요!</p>]]></content><author><name>zya</name></author><category term="잡담" /><category term="정보" /><category term="화타" /><category term="후한서" /><category term="삼국지" /><category term="삼국지통속연의" /><category term="피부과" /><category term="미용" /><category term="마스크팩" /><category term="손사막" /><category term="의사" /><category term="의학서" /><category term="화타신방" /><category term="수서" /><summary type="html"><![CDATA[삼국지 이야기에서 제일 유명한 의사가 누구인지 묻는다면 모두들 화타를 꼽을 것입니다. 그런데, 이 화타가 피부에 생기를 돋우는 마스크팩을 개발했다고 하면 믿으시겠어요?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://zyahan.blog/assets/images/cards/sheet-mask.jpeg" /><media:content medium="image" url="https://zyahan.blog/assets/images/cards/sheet-mask.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ko"><title type="html">삼국지 해석의 실수: 米는 rice가 아니다</title><link href="https://zyahan.blog/mi-is-not-rice/" rel="alternate" type="text/html" title="삼국지 해석의 실수: 米는 rice가 아니다" /><published>2025-03-02T16:33:00+09:00</published><updated>2025-03-02T16:33:00+09:00</updated><id>https://zyahan.blog/mi-is-not-rice</id><content type="html" xml:base="https://zyahan.blog/mi-is-not-rice/"><![CDATA[<p>한자 문화권에서 《삼국지》는 팬이 워낙 많다 보니 해석도 그만큼 다양합니다. 그런데 한문 원문을 잘못 해석해서 일어나는 실수도 적지 않습니다. 그중 하나가 ‘米’의 해석입니다.</p>
 
-&lt;p&gt;현재까지 발견된 서주 시대의 세발솥 중 가장 큰 것이 &lt;a href=&quot;https://chinesewiki.uos.ac.kr/wiki/index.php/%EB%8C%80%EC%9A%B0%EC%A0%95&quot;&gt;대우정&lt;/a&gt;(大盂鼎)입니다. ‘대우정’은 우(盂)라는 귀족이 주나라 왕에게 관직과 포상을 얻은 것을 기념해서 제작한 솥으로, 무게가 150킬로그램이 넘는다고 합니다. 현재 중국국가박물관에 소장 중인 대우정은 크기뿐만 아니라 아래의 사진과 같이 내부에 새겨진 아름다운 명문으로도 유명합니다.&lt;/p&gt;
+<p>우리가 알고 있는 ‘米’라는 한자는 ‘미’로 읽고 쌀을 뜻합니다. 현대한국어에서 쌀이 주로 볍쌀(벼의 알곡, rice)이므로 米 또한 볍쌀로 해석하기 쉽지만, 한자 ‘米’와 한국어 ‘쌀’의 의미는 그렇게 단순하지 않습니다.</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/dayuding.jpg&quot; alt=&quot;dayuding&quot; /&gt;&lt;/p&gt;
+<h3 id="1-곡물의-껍질을-벗겨야-米가-된다">1. 곡물의 껍질을 벗겨야 米가 된다</h3>
 
-&lt;p&gt;대우정에 새겨진 글은 주나라가 천명을 받아 은나라를 토벌했다는 내용을 포함하고 있습니다. 대우정 외의 다른 세발솥들도 이와 같이 군주가 신하에게 상으로 내린 것이고, 내부에 천명을 받은 군주의 덕과 신하의 공적을 기리는 글이 적혀 있습니다.&lt;/p&gt;
+<p><a href="https://ko.dict.naver.com/#/entry/koko/51eb228d647c402fb624cd3105e1ce06">《표준국어대사전》에서 ‘쌀’을 찾아보면 세 가지 풀이가 나옵니다.</a></p>
 
-&lt;p&gt;그런데, 진 시황의 진나라로 가면 상황이 달라집니다.&lt;/p&gt;
+<blockquote>
+  <ol>
+    <li>벼에서 껍질을 벗겨 낸 알맹이.</li>
+    <li>멥쌀을 보리쌀 따위의 잡곡이나 찹쌀에 상대하여 이르는 말.</li>
+    <li>볏과에 속한 <strong>곡식의 껍질을 벗긴 알을 통틀어 이르는 말.</strong> 쌀, 보리쌀, 좁쌀 따위가 있다.</li>
+  </ol>
+</blockquote>
 
-&lt;h3 id=&quot;2-진나라의-도량형기&quot;&gt;2. 진나라의 도량형기&lt;/h3&gt;
-
-&lt;p&gt;진나라에서도 임금이 금속으로 용기를 만들어서 신하에게 내려주었고, 용기에는 임금의 명령이 적혀 있습니다. 하지만 용기의 용도와 명령의 내용이 다릅니다. 주나라에서 임금이 신하에게 하사한 그릇 내부에 소유자의 관직과 작위를 기록하여 제사를 잇는 자손에게 물려주게 했다면, 진나라에서는 아래의 사진과 같이 도량형 통일 공문을 겉면에 찍은 표준 용기를 전국의 관청에 배포하여 행정에 사용하게 한 것입니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/qin-vessel.jpg&quot; alt=&quot;qin-vessel&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;이 조문은 본디 반포한 표준기의 공증성을 보증할 목적으로 새긴 것인데, 표준기의 사용자와 담당관서가 그 조문을 읽고 인지할 것을 전제로 기록되었다고 보아도 좋다. 똑같은 용기라 할지라도 주술적·제사적 성격을 지닌 은나라와 주나라의 청동기 명문과 실용적·법제적 성격을 갖는 진나라의 조문 사이에는 분명한 차이가 있었던 것이다. 즉 은주 시대의 청동기 명문은 주로 청동기의 내면에 새겨져 있는 데 반해 진나라의 조문은 외면에 새겨져 있다.&lt;/p&gt;
-
-  &lt;p&gt;— 도미야 이타루 지음. 임병덕 옮김. 《목간과 죽간으로 본 중국 고대 문화사》. 사계절. 2005.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;그리고 한나라로 오면 주나라 스타일과 진나라 스타일이 절충됩니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;3-한나라의-상림원-세발솥&quot;&gt;3. 한나라의 ‘상림원’ 세발솥&lt;/h3&gt;
-
-&lt;p&gt;아래 사진의 유물은 전한 시대에 출토된 황실의 기물로, 청동으로 만든 세발솥입니다. 주나라의 장엄한 세발솥보다는 무늬가 간소하고, 진나라의 도량형기처럼 글씨가 겉면에 적혀 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/han-ding.jpg&quot; alt=&quot;han-ding&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;처음에 이 사진을 보고 “와! 청동솥에 글이 새겨져 있다니 멋있네!” 하고 고개를 옆으로 돌려 해독을 시도해 보니, 제조 시기는 ‘신작3년’[神爵三年]으로 전한 선제 시기의 물건이고 무게는 ‘19근 6냥’[重十九斤六兩]임을 알 수 있었습니다. 한나라의 1근이 약 225그램이었으므로, 19.6근이면 4.41킬로그램입니다. 대우정에 비하면 앙증맞은 사이즈입니다.&lt;/p&gt;
-
-&lt;p&gt;주목할 만한 점은 한나라 상림원 세발솥의 겉면에 무게가 적혀 있었다는 것입니다. 똑같은 천자의 기물이라도 주나라의 구정의 무게를 묻는 것은 천자의 권위에 도전하는 불경한 일로 여겨졌는데, 한나라에서는 정반대로 황실 기물의 무게를 아예 겉면에 새겨 놓았습니다. 주나라 사람들이 세발솥의 권위를 신비한 천명에서 찾았다면, 진 시황의 시대를 거친 한나라 사람들은 세발솥의 권위를 표준화를 강제하는 권력에서 찾았다고 할 수 있을 것 같습니다.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 18 Jan 2025 19:18:00 +0900</pubDate>
-        <link>https://zya-han.github.io/bronze-characters/</link>
-        <guid isPermaLink="true">https://zya-han.github.io/bronze-characters/</guid>
-        
-        <category>청동기</category>
-        
-        <category>금문</category>
-        
-        <category>솥</category>
-        
-        <category>춘추좌전</category>
-        
-        <category>사기</category>
-        
-        <category>대우정</category>
-        
-        <category>표준화</category>
-        
-        
-        <category>한나라 설정집</category>
-        
-        <category>정보</category>
-        
-      </item>
-    
-      <item>
-        <title>여성혐오의 두 가지 버전: 남자는 여자보다 우월한가, 아니면 존귀한가?</title>
-        <description>&lt;p&gt;얼마 전 〈&lt;a href=&quot;/intelligent-women/&quot;&gt;한나라의 똑똑한 여자들은 어떻게 되었을까&lt;/a&gt;〉라는 포스트에서 주나라와 한나라의 남성 지식인들이 각기 여성의 똑똑함을 어떻게 보았는지를 간단하게 비교해 보았습니다. 여기에서는 한나라 이후의 사례를 추가로 살펴보면서 한나라의 특징을 좀 더 상세히 파악해 보겠습니다.&lt;/p&gt;
-
-&lt;p&gt;아무래도 현대인에게 익숙한 여성혐오 패턴은 이것입니다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;[남자는 우월하고 여자는 열등하다]&lt;/p&gt;
-
-  &lt;p&gt;전제: 여자는 원래 남자보다 지성이 부족하다.&lt;/p&gt;
-
-  &lt;p&gt;결론: 그러므로 여자는 남자의 다스림을 받는 비천한 위치에 있어야 한다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;여성의 능력이 부족하기 때문에 여성의 지위가 낮아야 한다는 믿음은 여러 시대와 지역에 걸쳐 존재했겠지만, 아(雅)가 느끼기로는 무엇보다 근대 유럽의 냄새가 강하게 납니다. 특히 여성의 이성이 남성보다 떨어진다는 것을 ‘과학적’으로 설명하려고 했던 서구의 남성 지식인들이 떠오릅니다.&lt;/p&gt;
-
-&lt;p&gt;중국에서도 여성의 능력을 남성보다 열등한 것으로 전제하던 시기가 있었습니다. 특히 이 경우 여자의 미덕이 뛰어날 때 ”여자 같지 않고 남자 같다“라는 말로 칭찬했습니다. 예를 들어 송남 주희는 《주자어류》에서 여사(女士)를 ”사(士; 남자)의 덕행을 가진 여자“로 정의했고, 청남 심복은 《부생육기》에서 아내를 “남자의 마음을 지닌 여자”라고 추모했습니다. 이 남자들에게 있어 전형적인 여성의 미덕 벡터는 남성과 같은 방향이되 크기가 작았던 셈입니다.&lt;/p&gt;
-
-&lt;p&gt;그런데 한남 유향은 《열녀전》에서 말희를 비난하며 “여자가 남자의 마음으로 행동했다”라고 썼습니다. 즉, 훗날의 《부생육기》와 달리 《열녀전》에서는 “남자의 마음을 지닌 여자”가 칭찬이 아니라 비난이었습니다. 여기서 이상적인 여성의 미덕은 남성과 아예 다른 방향으로 설정된 것을 알 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;아(雅)가 추측하기에 한나라 사람들의 여성혐오 패턴은 아래에 더 가까웠을 것입니다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;[남자는 존귀하고 여자는 비천하다]&lt;/p&gt;
-
-  &lt;p&gt;전제: 여자는 원래 남자보다 비천한 위치에 있다.&lt;/p&gt;
-
-  &lt;p&gt;결론: 그러므로 여자는 남자보다 지성이 부족해야/부족해도 된다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;이 패턴에서는 여성의 능력이 남성 이상일 가능성을 부정하지 않습니다. 하지만 그것은 미덕으로 권장되지 않습니다. 예를 들어 《후한서》 〈황후기〉에서 화희황후 등수는 열두 살에 《시경》과 《논어》에 통달했고, 오빠들이 경전을 읽다가 어려운 내용이 나오면 동생인 등수에게 물어볼 정도로 학식을 인정받았지만, 어머니는 하라는 바느질은 안 하고 책만 읽는다고 등수를 꾸짖기만 했습니다. 또 훗날 등수의 스승이 되는 여성 학자 반소는 《여계》에서 여자가 남편에게 복종해야 한다고 설파했으며, 그 근본적인 이유로 여자는 태어날 때부터 남자보다 낮은 지위로 태어났다는 것을 들었습니다. 《여계》에서는 여성의 덕행, 언어, 용모, 기술이 남들보다 뛰어날 필요가 없다고 선언했습니다. 여기서 뛰어날 필요가 없다는 것은 여성이 지켜야 할 규범이지, 태생적으로 뛰어나지 않다는 본성에 관한 말이 아닙니다.&lt;/p&gt;
-
-&lt;p&gt;다시 말해 한나라 사람들의 “남존여비”에는 남성의 능력이 우월하다는 전제가 깔려 있다고 보기 어렵습니다. 오히려 이들은 남자가 무능하더라도 유능한 여자보다 태생적으로 존귀하므로 여자를 지배해야 한다고 믿었습니다. 이것은 가의가 《신서》 〈계급〉에서 “신발은 새 것이라도 베개 위에 올리지 않고 관은 낡은 것이라도 신발 밑에 깔지 않는다”라는 말로 신분제를 정당화한 것과 서로 통합니다. 한나라 유교맨들은 계몽주의자들과 달리 자신들의 능력을 입증하거나 전제하지 않고서도 여자를 지배할 수 있었습니다.&lt;/p&gt;
-
-&lt;p&gt;한나라 유교맨들은 ‘남성은 존귀한 양이고 여자는 비천한 음’이라고 믿었고, 근대 유럽의 계몽주의자들은 ‘남성이 우월한 능력을 가졌고 여성은 남성의 열등한 버전’이라고 믿었습니다. 어느 쪽의 여성혐오가 더 심하다고 말하기는 어렵습니다. 이 두 가지 믿음이 각기 통하는 세계는 모두 여성혐오적이지만, 여성혐오가 작동하는 방식과 방향이 다르기 때문입니다. 여성을 차별하는 양상은 이렇게 다양한 것입니다!&lt;/p&gt;
-</description>
-        <pubDate>Thu, 16 Jan 2025 08:20:00 +0900</pubDate>
-        <link>https://zya-han.github.io/two-versions-of-misogyny/</link>
-        <guid isPermaLink="true">https://zya-han.github.io/two-versions-of-misogyny/</guid>
-        
-        <category>여성혐오</category>
-        
-        <category>계몽주의</category>
-        
-        <category>주자어류</category>
-        
-        <category>부생육기</category>
-        
-        <category>후한서</category>
-        
-        <category>여계</category>
-        
-        <category>반소</category>
-        
-        <category>신서</category>
-        
-        
-        <category>한나라 설정집</category>
-        
-        <category>정보</category>
-        
-      </item>
-    
-      <item>
-        <title>면류관과 승여: 후한시대에 황제를 상징한 사물은?</title>
-        <description>&lt;p&gt;넷플릭스에서 방영한 《The Crown》는 영국 국왕 엘리자베스 2세의 생애를 다룬 드라마입니다. 잘 아시다시피 crown이라는 단어의 기본적인 의미는 왕관입니다. 그런데 crown은 단순히 왕관이라는 사물을 가리킬 뿐만 아니라 국왕의 지위, 혹은 국왕 개인을 가리키는 말로도 쓰입니다.&lt;/p&gt;
-
-&lt;p&gt;이런 용법을 환유법이라고 합니다. 《표준국어대사전》에 따르면 환유법이란 ‘어떤 사물을, 그것의 속성과 밀접한 관계가 있는 다른 낱말을 빌려서 표현하는 수사법’을 말합니다. 한국어의 경우 국회의원을 ‘금배지’라고 부르는 예를 꼽을 수 있고, &lt;a href=&quot;https://www.merriam-webster.com/dictionary/metonymy&quot;&gt;대표적인 영어사전인 《Merriam-Webster》에서는 환유(metonymy)의 대표적인 예시로 앞서 말한 crown을 소개하고 있습니다.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;공교롭게도 현대인들이 진나라·한나라 황제의 상징으로 가장 흔하게 떠올릴 사물 또한 황제가 머리에 쓰는 관입니다. 많은 만화와 게임 일러스트 등에서 진 시황, 전한 무제, 후한 헌제 등의 황제는 면류관을 쓴 모습으로 등장합니다. 마치 황제는 항상 면류관을 썼고, 황제 이외의 사람들은 면류관을 전혀 쓸 수 없었던 것처럼 말입니다. 하지만 《후한서》 〈여복지〉에서 말하는 규범은 전혀 다릅니다. 면류관은 후한시대에 도입되었고, 천지나 종묘에 제사를 지낼 때 착용했으며, 황제뿐만 아니라 삼공·제후, 경·대부에 이르기까지 제사에 참여하는 모두가 착용했습니다.&lt;/p&gt;
-
-&lt;p&gt;한나라에서 오직 황제만 쓸 수 있었던, 그리고 황제가 일상적으로 썼던 관은 통천관(通天冠)이라고 합니다. 그러나 영어와 달리 통천관이 황제를 가리키는 환유 표현으로 사용되지는 않았습니다. 황제가 쓰는 기물의 명칭으로써 황제 자체를 가리키는 단어는 따로 있었습니다. 과연 무엇일까요? 옥새일까요?&lt;/p&gt;
-
-&lt;p&gt;《후한서》와 《삼국지》에서 찾을 수 있는 말은 바로 승여(乘輿)입니다. 《후한서》 〈여복지〉에서는 ‘황제’를 써야 할 자리에 일관되게 ‘승여’를 사용합니다. 예를 들어 위에서 언급한 통천관도 ‘승여의 일상복’[乘輿所常服]으로 표현되었습니다. 즉, 영국에서 왕관에 해당하는 crown으로 군주를 가리켰다면 한나라 사람들은 황제가 타는 수레인 ‘승여’로 군주를 가리켰습니다.&lt;/p&gt;
-
-&lt;p&gt;《삼국지》에서도 마찬가지입니다. 예를 들어 위지9 〈조상전〉 본문에서는 조상의 사치를 말할 때 그의 음식, 수레, 의복이 ‘승여’에 비길 지경이었다는 표현을 썼습니다[爽飲食車服擬於乘輿]. 만약 ‘조상의 수레가 승여에 비길 만했다’라고만 했다면 ‘승여’가 황제의 수레를 가리켰다고 해석할 수도 있겠지만, 여기서는 음식, 수레, 의복 등 기물 일반을 이야기하므로 수레를 가리키는 것이 아니라 황제 자체를 가리키는 것임을 알 수 있습니다. 또한 위서6 〈동탁전〉 주석에 인용된 《위서》에서는 ‘승여’가 가시울타리 안에서 살았다는 말이 나옵니다[乘輿時居棘籬中]. 여기에서도 ‘승여’는 헌제의 수레가 아니라 헌제 자신을 가리킵니다.&lt;/p&gt;
-
-&lt;p&gt;즉, 후한시대에 The Crown의 용례에 가까운 단어를 찾는다면 ‘승여’일 것입니다. 《후한서》부터 정사에 편입된 〈여복지〉의 구성에서 알 수 있듯이, 탈것은 신분을 나타내는 장치로서 복식 이상으로 중요한 기능을 담당했고 복식만큼 관심을 가질 만한 소재입니다. 《삼국지》를 바탕으로 창작을 하고 대화를 쓸 때, 황제를 매번 ‘황제’라고 지칭하기보다 ‘승여’ 같은 환유법을 써 보면 어떨까요?&lt;/p&gt;
-</description>
-        <pubDate>Wed, 15 Jan 2025 16:31:00 +0900</pubDate>
-        <link>https://zya-han.github.io/crown-and-carriage/</link>
-        <guid isPermaLink="true">https://zya-han.github.io/crown-and-carriage/</guid>
-        
-        <category>환유</category>
-        
-        <category>승여</category>
-        
-        <category>후한서</category>
-        
-        <category>삼국지</category>
-        
-        
-        <category>한나라 설정집</category>
-        
-        <category>정보</category>
-        
-      </item>
-    
-      <item>
-        <title>‘황건적’ 말고 그냥 ‘황건’이라고 말해 보기</title>
-        <description>&lt;p&gt;20년 전 아(雅)의 본체가 대학에서 교양수업을 들을 때의 일입니다. 정확한 맥락은 기억나지 않지만, 토론 중에 대략 누구나 인정하는 절대악의 예시로 “황건적”을 거론한 수강생이 있었습니다. 그때 “황건적이 무조건 나쁘다는 것도 낡은 관점이다, 중국에서는 ‘황건기의’라고 높여 부르기도 한다” 하고 반박했던 기억이 납니다. 삼국지를 잘 알던 때가 아니었는데, 지금 돌이켜 보니 이미 삼국지 덕후의 자질이 잠재했던 것 같습니다.&lt;/p&gt;
-
-&lt;p&gt;20년이 지난 지금도 상황은 크게 다르지 않은 것 같습니다. 한국어로 “황건”이라는 두 글자를 단독으로 사용하는 것은 어색하게 느껴집니다. 머릿속에서 “황건적”이라고 자동완성해 버리기 일쑤입니다. 그러다 보니 원문에 “黃巾”이라고만 되어 있어도 다들 “황건적”이라고 번역해 버립니다. 아(雅)가 지금 맥OS에서 이 글을 작성하고 있는데, “황건”이라고만 치고 한자 변환을 시도하면 아무것도 나오지 않지만 “황건적”이라고 치면 “黃巾賊” 변환이 가능합니다. 그만큼 “황건적”이라는 말이 보편적으로 쓰이고 있는 것입니다.&lt;/p&gt;
-
-&lt;p&gt;이 글에서 황건 집단에 대한 판단을 내리려는 것은 아닙니다. 하지만 과연 《삼국지》나 《삼국연의》 원문에서도 이렇게 매번 “황건적”이라고 “적”을 붙여 말할까요? 궁금해져서 Chinese Text Project (&lt;a href=&quot;https://ctext.org&quot;&gt;https://ctext.org&lt;/a&gt;)에서 원문을 검색해 보니 의외의 결과가 나왔습니다. 우선 《삼국지》에서는 “黃巾” 74회 중 9회만이 “黃巾賊”으로 쓰였고(12.2%), 《삼국연의》에서는 “黃巾” 47회 중 4회만이 “黃巾賊”이었습니다(8.5%). 즉, “황건”이라는 말을 쓸 때 그 중에서 10% 전후만이 “황건적”이었다는 것입니다. 물론 “황건”에 “적”을 붙이지 않았다고 해서 황건을 긍정적이거나 중립적으로 보았다고 단정할 수는 없지만, 적어도 한국어에서처럼 매번 “황건적”으로 자동완성할 정도는 아니었다는 것을 알 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;《후한서》의 경우 “황건적” 함유량이 조금 더 높습니다. “黃巾” 105회 중 30회가 “黃巾賊”입니다(28.6%). 후한 황실의 입장에서는 황건 집단을 일방적인 도적·역적으로 규정할 것입니다. 그런데 후한 왕조의 신민이 아니라 현대 대한민국의 시민인 우리가 이 관점을 무비판적으로 답습할 필요가 있을까요? 혹시 진심으로 “황건적”을 무조건적인 악으로 규정하고 토벌할 대상으로 여긴다면, “사측이세요?” 하고 묻고 싶어지는 것입니다.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 14 Jan 2025 09:18:00 +0900</pubDate>
-        <link>https://zya-han.github.io/yellow-turban/</link>
-        <guid isPermaLink="true">https://zya-han.github.io/yellow-turban/</guid>
-        
-        <category>삼국지</category>
-        
-        <category>삼국연의</category>
-        
-        <category>후한서</category>
-        
-        <category>황건적</category>
-        
-        <category>황건기의</category>
-        
-        <category>황건</category>
-        
-        
-        <category>한나라 설정집</category>
-        
-        <category>정보</category>
-        
-      </item>
-    
-      <item>
-        <title>한나라의 붉은 깃발에는 과연 “漢”이라는 글자가 있었을까?</title>
-        <description>&lt;p&gt;한나라를 나타낼 깃발을 고민하다가, 마왕퇴한묘 1호 무덤에서 나온 칠기 무늬를 바탕으로 君幸食(군행식)이라는 글자를 넣었습니다. 한나라를 상징한다고 하면서 왜 漢(한)이라는 글자를 쓰지 않았을까요? 그 까닭은 아(雅)가 한나라에 그런 깃발이 있었다고 확신하지 못했기 때문입니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;의문-1-깃발에-글자를-썼을까&quot;&gt;의문 1: 깃발에 글자를 썼을까?&lt;/h3&gt;
-
-&lt;p&gt;중국 전국시대나 삼국시대 등을 배경으로 한 고장극에서는 군대의 깃발에 나라 이름이나 장수의 성을 커다랗게 쓴 것을 볼 수 있습니다. 이것은 거의 자명한 사실로 받아들여지고 있습니다. 그런데 이런 깃발의 모습이 과연 당시의 실제 상황에 부합했을까요? 송도진 번역의 《삼국지》 주석에 따르면 그렇지 않았다고 합니다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;역사서에 따르면 이 당시 작전에 사용한 깃발은 글씨를 쓰지 않고 색깔로 표시했는데 흔히 볼 수 있는 것은 오색 깃발이었다. … 깃발에 커다랗게 글씨를 쓰는 것은 남송(南宋) 초기 소설에 비로소 등장한다.&lt;/p&gt;
-
-  &lt;p&gt;— 송도진 (2019). 《삼국지 1: 정사 비교 고증 완역판》. 글항아리. &lt;a href=&quot;http://geulhangari.com/archives/6454&quot;&gt;http://geulhangari.com/archives/6454&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;즉, 한나라를 대표하는 깃발이라고 해서 漢(한)이라는 글자를 썼으리라는 보장이 없습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;의문-2-한나라의-깃발은-무슨-색깔&quot;&gt;의문 2. 한나라의 깃발은 무슨 색깔?&lt;/h3&gt;
-
-&lt;p&gt;그렇다면 한나라의 상징은 깃발에 어떻게 나타났을까요? 《사기》 〈회흠후열전〉에서 단서를 찾을 수 있습니다. 한신이 조나라를 치면서 군대에 내린 명령을 살펴봅시다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;조나라 깃발을 뽑고 &lt;span style=&quot;color:red&quot;&gt;한나라의 붉은 깃발&lt;/span&gt;을 세워라. [拔趙幟，立&lt;span style=&quot;color:red&quot;&gt;漢赤幟&lt;/span&gt;。]&lt;/p&gt;
-
-  &lt;p&gt;— 《사기》 〈회흠후열전〉.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;조나라 깃발의 색깔이나 무늬는 알 수 없지만, 적어도 한나라 깃발은 붉은색이었다는 것을 알 수 있습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;의문-3-깃발의-모양과-크기는&quot;&gt;의문 3. 깃발의 모양과 크기는?&lt;/h3&gt;
-
-&lt;p&gt;우리가 생각하는 전형적인 깃발은 직사각형이나 정사각형이고, 한가운데 글자를 쓰고 테두리에 장식을 두른 모습을 주로 상상합니다. 하지만 이것조차 한나라의 실상에 부합하는지 알 수 없습니다.&lt;/p&gt;
-
-&lt;p&gt;아래 그림에서는 전국시대 유물에 나타난 전투 장면을 볼 수 있습니다. 두 군대가 배 위에서 창을 겨누고 있고, 각 군대의 선봉에서는 각기 기를 들고 있습니다. 주목할 점은 깃발이 사각형이 아니라 가늘고 길고 화려하다는 것입니다. 즉, 이때의 깃발은 flag라기보다 banner에 가깝습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://storage.canalblog.com/78/23/119589/122787555.jpg&quot; alt=&quot;shuizhan&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;이런 깃발의 모양은 전국시대뿐만 아니라 삼국시대의 기록에서도 찾을 수 있습니다. 《고려사절요》에 인용된 “옛 책”에 따르면, 조조의 문에 세운 극(창의 일종)에는 길이 1장 2척짜리 깃발을 달았다고 합니다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;문하성이 아뢰기를, “삼가 옛 책을 상고하건대, 극(戟)의 제도는 창처럼 두 가닥으로 되어 그 끝에 칼을 꽂는데 &lt;span style=&quot;color:blue&quot;&gt;위 무제(魏武帝)의 문에 세운 극은 두꺼비 머리를 써서 기를 달며 깃발의 길이는 1장 2척이고 청색과 황색이 섞였다 하였습니다&lt;/span&gt;. 그런데 지금 궁전과 태묘의 문에 세운 극은 모두 귀신의 얼굴을 그려 실로 근거가 없으니, 옛 제도를 따라 두꺼비 머리로 고쳐 그리게 하소서.” 하니, 따랐다.&lt;/p&gt;
-
-  &lt;p&gt;—  《고려사절요》 제4권 〈문종 인효대왕 1〉 &lt;a href=&quot;https://db.itkc.or.kr/dir/nodeViewPop?dataId=ITKC_BT_1294A_0050_030_0020&quot;&gt;https://db.itkc.or.kr/dir/nodeViewPop?dataId=ITKC_BT_1294A_0050_030_0020&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;1장 2척이면 오늘날의 단위로 3미터에 가깝습니다. 궁전의 문에 세운 깃발이 3미터에 달했다면, 군대에서 선봉에 세운 깃발은 아마 더 길지 않았을까 합니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;결론&quot;&gt;결론&lt;/h3&gt;
-
-&lt;p&gt;그래서, 아무래도 직사각형에 漢(한)이라고 쓰는 깃발은 한나라답지 않다고 판단하고 실제로 있는 물건에 가깝게 君幸食(군행식)이라는 글자를 넣었습니다.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 12 Jan 2025 15:19:00 +0900</pubDate>
-        <link>https://zya-han.github.io/han-red-flag/</link>
-        <guid isPermaLink="true">https://zya-han.github.io/han-red-flag/</guid>
-        
-        <category>삼국지</category>
-        
-        <category>사기</category>
-        
-        <category>고려사절요</category>
-        
-        <category>군행식</category>
-        
-        
-        <category>한나라 설정집</category>
-        
-        <category>정보</category>
-        
-      </item>
-    
-      <item>
-        <title>순욱은 과연 병으로 죽었을까?</title>
-        <description>&lt;p&gt;순욱의 죽음은 대개 “빈 찬합” 밈으로 유명합니다. 이것은 소설 《삼국연의》 61회에 나온 것이고, 역사적으로는 《후한서》 본문과 《삼국지》 주석 《위씨춘추》에서 순욱이 “빈 그릇”[空器]을 받고 음독자살했다고 기록된 데 근거를 두고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;한편, “정사”에 따르면 순욱이 “병사”했다는 주장도 많이 보입니다. 정말일까요? “정사”를 살펴봅시다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;순욱은 병이 들어 수춘에 머무르다가 근심으로 인해 죽었다. [彧疾留壽春，以憂薨]&lt;/p&gt;
-
-  &lt;p&gt;— 《삼국지》 위지10 〈순욱전〉&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;위 문장을 보면 순욱이 수춘에 머무른 까닭은 병이 들었기 때문이고[留壽春], 죽은 까닭은 근심 때문입니다[以憂薨]. 두 가지가 명확하게 구별됩니다. 즉, “정사”에 정말로 충실하고자 한다면, 순욱의 사인은 병이 아니라 근심이라고 말해야 합니다. “정사”를 말하면서 순욱이 병사했다고 말하는 것은, “병으로 수춘에 머무르다가 사고로 죽었다.”라는 문장을 읽고 병사라고 주장하는 것과 마찬가지입니다. 이것은 “정사”를 말하기를 좋아하는 사람들이 정작 역사서에서 “근심으로 인해” 죽었다는 말이 어떤 의미와 용례로 쓰였는지를 모르기 때문에 나온 오류입니다.&lt;/p&gt;
-
-&lt;p&gt;역사책 《삼국지》의 본문과 배송지 주석에서 근심으로 인해[以憂] 죽었다는 서술을 모두 찾아봅시다. 순욱의 죽음을 제외하면 모두 네 건이 있습니다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;명제가 즉위한 뒤 견후의 죽음을 추모하고 애통해하자, 태후는 근심으로 인해 갑자기 죽었다. [明帝旣嗣立，追痛甄后之薨，故太后以憂暴崩]&lt;/p&gt;
-
-  &lt;p&gt;— 위지5 〈문덕곽황후전〉 주석 《위략》.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;태후는 영락태후를 핍박하여 근심으로 인해 죽게 만들었다. [太后逼迫永樂太后，令以憂死]&lt;/p&gt;
-
-  &lt;p&gt;— 위지6 〈동탁전〉 주석 《헌제기》.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;유엽은 마침내 광증이 생겨 외조로 나가 대홍려가 되었다가 근심으로 인해 죽었다. [曄遂發狂，出為大鴻臚，以憂死]&lt;/p&gt;
-
-  &lt;p&gt;— 위지14 〈유엽전〉 주석 《부자》.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;그래서 손권이 심하게 노하여 책망하자 근심으로 인해 죽었다. [由是權深責怒，以憂死]&lt;/p&gt;
-
-  &lt;p&gt;— 오지5 〈오주권왕부인전〉 본문.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;이 네 건을 보면 모두 해당 인물이 쫓겨나거나 핍박을 받은 상태에서 석연치 않은 이유로 죽었다는 것을 알 수 있습니다. 특히 네 건 중 세 건이 문덕황후 곽씨, 영사황후 하씨, 손권의 부인 왕씨로 후궁의 권력 다툼과 연관된 사건을 가리키고 있습니다. 이것은 단순히 《삼국지》뿐만이 아니라 일찍이 《사기》에서부터 《한서》와 《후한서》로 이어져 온 특징입니다.&lt;/p&gt;
-
-&lt;p&gt;대표적인 예시를 살펴보면 《사기》에서는 여 태후 시기의 조왕 유수와 무제 유철 시기의 제왕이 “근심으로 인해” 죽었다고 말하는데, 사실 이들은 스스로 목숨을 끊었습니다. 또 《한서》에서는 무제 유철의 후궁 구익부인이 “근심으로 인해” 죽었다고 나오는데, 《사기》를 이어 쓴 저선생은 같은 사건을 두고 무제가 구익부인을 죽였다고 서술했습니다. 《후한서》의 경우, 주로 폐위당한 황후들이 “근심으로 인해” 죽는데, 전후 맥락으로 보아서는 대부분 자살했을 가능성이 높습니다. 즉, “근심으로 인해” 죽었다는 말은 기본적으로 권력 다툼에서 밀려나서 “자살당한”, 혹은 살해당한 사건을 완곡하게 표현한 것입니다.&lt;/p&gt;
-
-&lt;p&gt;그러므로 《삼국지》 본문에서 서술한 순욱의 죽음 또한, 빈 그릇을 받고 음독자살했다는 다른 역사서의 사건과 크게 다른 버전이라고 보기 어렵습니다. 이것을 단순한 병사라고 해석하는 것은 원문의 “근심으로 인해”라는 두 단어를 임의로 삭제하고 왜곡한 결과입니다.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 10 Jan 2025 20:14:00 +0900</pubDate>
-        <link>https://zya-han.github.io/how-xun-yu-died/</link>
-        <guid isPermaLink="true">https://zya-han.github.io/how-xun-yu-died/</guid>
-        
-        <category>순욱</category>
-        
-        <category>병사</category>
-        
-        <category>근심</category>
-        
-        <category>삼국지</category>
-        
-        
-        <category>한나라 설정집</category>
-        
-        <category>정보</category>
-        
-      </item>
-    
-      <item>
-        <title>순욱의 ‘기이한 겉모습’</title>
-        <description>&lt;p&gt;《삼국지》는 《한서》의 전통을 이어받아 미남에 관한 기록이 풍부합니다. 이뿐만 아니라 미남을 표현하는 말도 더 다양해진 것 같습니다. 이 글에서 주목하고자 하는 것은 그중에서도 ‘기(奇)’와 ‘이(異)’입니다.&lt;/p&gt;
-
-&lt;p&gt;현대한국어에서도 ‘기이한 재주’와 같은 말은 종종 쓰지만, ‘기이한 용모’라고 하면 왠지 그렇게까지 긍정적으로 느껴지지 않습니다. 심지어 미남이라기보다는 부정적인 특징이 크게 두드러지는 외모를 연상하는 일도 있습니다. 실제로, 아래의 〈도겸전〉 주석을 읽고서 도겸을 미남이 아니라고 해석하는 경우도 본 적이 있습니다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;그의 용모를 보고 &lt;strong&gt;남다르게 여겨&lt;/strong&gt; 그를 불렀다. [見其容貌，&lt;strong&gt;異&lt;/strong&gt;而呼之]&lt;/p&gt;
-
-  &lt;p&gt;그는 &lt;strong&gt;겉모습이 기이하니&lt;/strong&gt; 자라면 반드시 성공할 것이다. [彼有&lt;strong&gt;奇表&lt;/strong&gt;，長必大成。]&lt;/p&gt;
-
-  &lt;p&gt;— 《삼국지》 위지8 〈도겸전〉 주석 《오서(吳書)》.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;하지만 《삼국지》의 맥락에서 외모를 형용하는 기(奇)와 이(異)는 현대한국어 사용자가 생각하는 ‘기이한 외모’와 어감이 다르다는 데 유의해야 합니다. 본문을 읽어보면 이 말들은 대부분의 경우 긍정적인 문맥에 쓰였습니다. 단적인 예로, 미소년으로 유명한 원소의 막내아들 원상에 대해서도 이 기(奇)가 사용되었습니다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;원소도 그의 용모를 &lt;strong&gt;기이하게~기특하게&lt;/strong&gt; 여겼다. [紹亦&lt;strong&gt;奇&lt;/strong&gt;其皃]&lt;/p&gt;
-
-  &lt;p&gt;— 《삼국지》 위지6 〈원소전〉 주석 《전론》.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;그러므로, 《삼국지》 위지10 〈순욱전〉의 배송지 주석에서 언급된 ‘순욱의 기이한 겉모습’[奇表]  또한 순욱의 뛰어난 미모를 표현하는 말로 해석하는 것이 타당할 것입니다.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 05 Jan 2025 15:54:00 +0900</pubDate>
-        <link>https://zya-han.github.io/xun-yu-s-extraordinary-appearance/</link>
-        <guid isPermaLink="true">https://zya-han.github.io/xun-yu-s-extraordinary-appearance/</guid>
-        
-        <category>순욱</category>
-        
-        <category>도겸</category>
-        
-        <category>원소</category>
-        
-        <category>원상</category>
-        
-        <category>미남</category>
-        
-        <category>기이</category>
-        
-        <category>삼국지</category>
-        
-        
-        <category>한나라 설정집</category>
-        
-        <category>정보</category>
-        
-      </item>
-    
-  </channel>
-</rss>
+<p>3번 풀이에서 알 수 있듯이, ‘쌀’이라는 말에는 이미 rice 이외의 의미가 들어 있습니다. 그리고 이 3번 풀이가 바로 《삼국지》에서의 米의 의미입니다. 즉, 米는 벼라는 특정 곡물의 알곡을 가리키는 것이 아니라 어떤 곡물이든 껍질을 벗긴 상태의 알곡을 가리키는 것입니다.</p>
+
+<p>벼를 가리키는 말은 ‘稻(도)’입니다. 마침 稻와 米의 관계를 명확히 보여주는 예시가 《삼국지》에 나옵니다.</p>
+
+<blockquote>
+  <p>사람들은 처자를 이끌고 손에 넣었던 벼[稻]를 빻아서 60곡의 쌀[米]을 얻었다.
+[率妻子舂所取稻得六十斛米]
+<cite> 《삼국지》 오지15 〈종리목전〉. </cite></p>
+</blockquote>
+
+<p>즉, 稻라는 종류의 곡물을 빻아서 껍질을 벗겨야 米가 되는 것입니다.</p>
+
+<p>그러므로 제갈량의 식사량 米(미) 3–4승은 이미 도정한 결과물을 말하는 것입니다. <a href="https://athanor.tistory.com/451">따라서 3승의 쌀에 다시 도정을 가해서 실제 식사량이 1.8승이라고 해석하는 것은 《진서》 원문에 맞지 않습니다.</a></p>
+
+<h3 id="2-벼가-아닌-곡물도-米가-될-수-있다">2. 벼가 아닌 곡물도 米가 될 수 있다</h3>
+
+<p>위에서 살펴본 《삼국지》 예문에서는 벼를 빻아서 쌀을 만들었습니다. 하지만 米는 볍쌀에 한정되지 않습니다. 이것은 당나라 때 편찬된 백과전서에서 증거를 찾을 수 있습니다.</p>
+
+<p>우선 《통전》에서는 米의 종류로 粱(량)과 稷(직)이 있다고 언급했습니다. 粱과 稷이 어떤 곡식인지에 대한 해석은 다양하지만, 확실한 것은 볍쌀이 아니라는 것입니다.</p>
+
+<blockquote>
+  <p>죽은 사람의 입에 넣는 米는 임금의 경우 粱, 대부의 경우 稷, 사의 경우 粱이다.
+[米，君以粱，大夫稷，士粱]
+<cite> 《통전》 예44 〈함〉. </cite></p>
+</blockquote>
+
+<p>또 《예문유취》 권85 〈백곡〉 편의 목차로 稻는 있지만 米는 없습니다. 그뿐만 아니라, 아래와 같이 곡식의 다섯 가지 변화 중 네 번째 단계로 米를 정의했습니다.</p>
+
+<blockquote>
+  <p>《춘추설제사》에 따르면 곡식[粟]에는 다섯 가지 변화의 단계가 있다. 싹이 트면 苗(묘)가 되고, 이삭이 패면 禾(화)가 되고, 세 번째 변화로 제사를 지낼 때는 粟(속)이라고 부르며, 네 번째 변화는 米(미)라고 하고, 다섯 번째 변화로 쪄서 밥을 지으면 먹을 수 있다.
+[《春秋說題辭》曰：粟五變，生為苗，秀為禾，三變而祭謂之粟，四變曰米，五變而蒸飯可食。]
+<cite> 《예문유취》 권85 〈백곡〉. </cite></p>
+</blockquote>
+
+<p>그러므로 <a href="https://x.com/Kasis_Quauda/status/1587254562842255361">오두미도의 ‘미’를 볍쌀로 한정할 이유가 없습니다.</a> 오두미도에서는 볍쌀이 아니라 도정된 곡물을 받았던 것입니다. 米는 도정하기 전의 粟과 구별됩니다.  아마도 창고에 오래 저장할 곡물이 아니라 바로 밥을 지어 먹을 수 있는 곡물을 받고자 한 것이 아닐까요?</p>]]></content><author><name>zya</name></author><category term="한나라 설정집" /><category term="정보" /><category term="삼국지" /><category term="쌀" /><category term="오두미도" /><category term="통전" /><category term="예문유취" /><category term="곡식" /><category term="벼" /><category term="제갈량" /><category term="춘추설제사" /><category term="米" /><summary type="html"><![CDATA[한자 문화권에서 《삼국지》는 팬이 워낙 많다 보니 해석도 그만큼 다양합니다. 그런데 한문 원문을 잘못 해석해서 일어나는 실수도 적지 않습니다. 그중 하나가 ‘米’의 해석입니다.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://zyahan.blog/assets/images/cards/rice.jpeg" /><media:content medium="image" url="https://zyahan.blog/assets/images/cards/rice.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ko"><title type="html">황제는 만세, 제후는 천세?</title><link href="https://zyahan.blog/wansui-and-qiansui/" rel="alternate" type="text/html" title="황제는 만세, 제후는 천세?" /><published>2025-02-22T16:31:00+09:00</published><updated>2025-02-22T16:31:00+09:00</updated><id>https://zyahan.blog/wansui-and-qiansui</id><content type="html" xml:base="https://zyahan.blog/wansui-and-qiansui/"><![CDATA[<h3 id="만세와-천세의-차이">만세와 천세의 차이</h3>
+
+<p>1909년 대한제국 시절, 김구는 자기에게 부르는 ‘만세’ 소리를 듣고 기겁했습니다. 김구에게 있어 ‘만세’란 황제에게만 쓸 수 있는 말이었기 때문입니다. 하지만 정작 황제의 신하인 군수는 웃으면서 요즘 같은 시대에는 친구와 만나고 헤어질 때도 만세를 부를 수 있다고 안심시켰습니다.
+<!--more--></p>
+
+<blockquote>
+  <p>배천 군수 전봉훈의 초청을 받았다. 읍에 못 미쳐 오리정에 군내 각 면의 주민들이 나와서 등대하다가 내가 당도한즉 군수가 선창으로, “김구 선생 만세!”를 부르니 일동이 화하여 부른다. 나는 경황실색하여 손으로 군수의 입을 막으며 그것이 망발인 것을 말하였다. <strong>만세라는 것은 오직 황제에 대하여서만 부르는 것이요, 황태자도 천세라고밖에 못 부르는 것이 옛 법이기 때문이다.</strong> 그런 것을 일개 서민인 내게 만세를 부르니 내가 경황하지 아니할 수 없었다. 그러나 군수는 웃으며 내 손을 잡고 <strong>개화시대에는 친구 송영에도 만세를 부르는 법이니</strong> 안심하라고 하였다.
+<cite> 김구. (1947). 〈<a href="https://ko.wikisource.org/wiki/%EB%B0%B1%EB%B2%94%EC%9D%BC%EC%A7%80#%EB%AF%BC%EC%A1%B1%EC%97%90_%EB%82%B4%EB%86%93%EC%9D%80_%EB%AA%B8">민족에 내놓은 몸</a>〉. 《백범일지 상》. </cite></p>
+</blockquote>
+
+<p>여기서 주목할 점은 만세(萬歲)와 천세(千歲)의 차이입니다. 중국의 역사서에서는 ‘천세’라는 말을 많이 찾아보기 어렵습니다. 반면 《조선왕조실록》에는 ‘천세’가 수백 회 나옵니다. 중국에서 황제의 관료들이 만세를 불렀다면, 조선에서 왕의 관료들은 천세를 불렀고, 조선이 대한제국이 되면서 비로소 군주에게 만세를 썼던 것입니다.</p>
+
+<p>그런데 황제와 제후왕의 위계가 만세와 천세로 구별된 것은 언제부터였을까요? 의외로 오래되지 않았습니다. <a href="https://ctext.org/">Chinese Text Project</a>와 <a href="https://hanchi.ihp.sinica.edu.tw/ihp/hanji.htm">Scripta Sinica</a>에서 ‘千歲’를 검색해 보면, 황제에게 만세를 부르듯이 제후에게 천세를 부른 예는 명나라 시기의 텍스트로 가야 찾을 수 있습니다. <a href="https://ctext.org/fengshen-yanyi?searchu=%E5%8D%83%E6%AD%B2">소설 《봉신연의》에서 등장하는 인물들은 은나라 태자 은교를 ‘전하’라고 칭하고 천세를 부릅니다.</a> <a href="https://www.khan.co.kr/article/201605110949011">명나라 천계제 시절 황제를 능가하는 권세를 누리던 환관 위충현이 ‘구천세’를 받은 이야기도 잘 알려져 있습니다.</a></p>
+
+<p>그렇다면 ‘만세’는 처음부터 황제에게만 쓸 수 있는 말이었을까요?</p>
+
+<h3 id="감탄사-만세의-기원">감탄사 ‘만세’의 기원</h3>
+
+<p>역사서 《사기》를 보면 ‘만세’의 용례는 전국시대에서부터 찾아볼 수 있습니다. 즉, 황제라는 개념보다 만세라는 말이 먼저 존재한 것입니다. 이때 만세는 “야호!” 정도로 기쁨을 표시하는 감탄사였습니다. 예를 들어 진나라 왕이 천하의 보물 화씨벽을 손에 넣었을 때 주변에서 후궁과 신하들이 만세를 불렀고, 제나라 사람들이 연나라에 항복했을 때 연나라 군대에서 만세를 불렀습니다.</p>
+
+<p>초한전쟁 시기에도 비슷합니다. 한나라 왕 유방이 항복하러 나온다는 소문을 듣고 초나라 군대에서 만세를 불렀고, 초나라 왕 항우가 인질로 잡고 있던 유방의 가족을 돌려보냈을 때도 한나라 군대에서 만세를 불렀습니다.</p>
+
+<p>‘만세’에 임금의 장수를 기원하는 뜻이 생긴 것은 한나라가 통일 제국이 되고 난 뒤의 일 같습니다. 주목할 점은 전한시대에 황제가 아닌 제후왕에게도 만세를 불렀다는 것입니다. <a href="https://ctext.org/xijing-zaji?searchu=%E8%90%AC%E6%AD%B2#n647221">《서경잡기》를 보면 한 경제의 동생인 양나라 왕의 문객들이 부(賦)를 지을 때 ‘우리 임금 <strong>억만세</strong>를 누리시길’이라는 말로 양왕을 높였습니다.</a></p>
+
+<h3 id="만세를-독점한-황제">만세를 독점한 황제</h3>
+
+<p>예식의 일부로서 황제에게 만세를 부르는 제도는 《후한서》 〈예의지 중·하〉에서 시작됩니다. 오직 황제에게만 만세를 불러야 한다는 규범 또한 후한시대에 찾을 수 있습니다. <a href="https://ctext.org/hou-han-shu/yuan-zhang-han-zhou-lie-zhuan?searchu=%E8%90%AC%E6%AD%B2&amp;searchmode=showall#result">《후한서》 〈원장한주열전〉에서 신하들이 외척으로서 권력자가 된 대장군 두헌에게 만세를 부르자 한릉이라는 인물이 ‘예에는 신하에게 만세를 부르는 제도가 없다’고 비판합니다.</a> 그러나 만세를 부른 신하들이나 두헌이 처벌을 받았다는 기록은 없습니다.</p>
+
+<p>위진남북조, 수당오대를 지나 송나라로 오자 처벌 규정이 생겼습니다. <a href="https://www.khan.co.kr/article/201605110949011">북송 시기 구준은 자기 앞에서 만세를 부른 사람이 나왔다는 이유로 유배되었습니다.</a> 또 《송회요집고》의 〈형법〉 파트를 살펴보면 남송 효종 시기 함부로 만세를 부르면 도형 2년에 처한다는 법을 개정했다는 기록이 있습니다.</p>
+
+<p>요약하면 ‘만세’에 대한 태도는 왕조에 따라 아래와 같이 변했다고 볼 수 있습니다.</p>
+
+<ul>
+  <li>전한: 기쁠 때 만세를 불렀고, 임금의 장수를 기원하는 뜻이 생김.</li>
+  <li>후한: 만세가 예식의 일부로 정착됨. 신하에게 만세를 부르는 것을 비판함.</li>
+  <li>북송: 신하에게 만세를 부르면 신하를 처벌함.</li>
+  <li>남송: 함부로 만세를 부르는 사람을 처벌하는 법령을 만듦.</li>
+  <li>명: 황제는 만세, 제후는 천세를 부름.</li>
+</ul>
+
+<h3 id="여담">여담</h3>
+
+<p>한국인으로서 가장 익숙한 만세 부르기를 꼽자면 역시 1919년 3·1 운동의 “대한 독립 만세!”입니다. 이때부터 일제는 조선인들이 만세를 부르는 것 자체를 불온하게 여긴 것 같습니다. 여기 대해서 한국종 변호사는 기쁠 때에도 만세를 부르므로 ‘만세’ 자체가 불온한 것은 아니라고 반박했습니다.</p>
+
+<blockquote>
+  <p>여학생들이 만세를 불렀다고 불온하다고 할 수 없다. 원래 ‘만세’란 감정의 발로이다. 삼일운동 때 ‘조선독립만세’ 또는 ‘만세’를 불렀다고 해서 보안법 위반이라고 하지만, ‘만세’가 반드시 조선 독립을 의미하는 것은 아니고 기쁠 때에도 만세를 부른다.
+<cite> 이상경. (2020). 〈<a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002665965">1930년 서울 여학생 만세운동 연구: 여학생의 「신문조서」를 활용하여</a>〉. 《여성과 역사》 33, 191–232. </cite></p>
+</blockquote>
+
+<p>만세운동에 참여한 여학생들의 형량을 줄이기 위한 수단이기는 하지만, 뜻밖에 ‘만세’의 기원에 충실한 논리이기도 합니다.</p>]]></content><author><name>zya</name></author><category term="잡담" /><category term="정보" /><category term="만세" /><category term="천세" /><category term="황제" /><category term="황태자" /><category term="화씨벽" /><category term="항우" /><category term="유방" /><category term="김구" /><category term="백범일지" /><category term="봉신연의" /><category term="위충현" /><category term="서경잡기" /><category term="후한서" /><category term="송회요집고" /><summary type="html"><![CDATA[여기서 주목할 점은 만세(萬歲)와 천세(千歲)의 차이입니다. 중국의 역사서에서는 ‘천세’라는 말을 많이 찾아보기 어렵습니다. 반면 《조선왕조실록》에는 ‘천세’가 수백 회 나옵니다. 중국에서 황제의 관료들이 만세를 불렀다면, 조선에서 왕의 관료들은 천세를 불렀고, 조선이 대한제국이 되면서 비로소 군주에게 만세를 썼던 것입니다. 그런데 황제와 제후왕의 위계가 만세와 천세로 구별된 것은 언제부터였을까요?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://zyahan.blog/assets/images/cards/wansui.jpeg" /><media:content medium="image" url="https://zyahan.blog/assets/images/cards/wansui.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ko"><title type="html">한나라의 광녀(狂女)들</title><link href="https://zyahan.blog/mad-women/" rel="alternate" type="text/html" title="한나라의 광녀(狂女)들" /><published>2025-01-24T15:52:00+09:00</published><updated>2025-01-24T15:52:00+09:00</updated><id>https://zyahan.blog/mad-women</id><content type="html" xml:base="https://zyahan.blog/mad-women/"><![CDATA[<p>광녀(狂女)란 한자 그대로 풀이하면 ‘미친 여자’라는 뜻입니다. 한자문화권에서 이 말이 최초로 발견되는 문헌은 바로 《한서》입니다. 〈왕망전 중〉에는 신나라를 세우고 황제가 된 왕망을 비난하는 ‘미친 여자’가 등장합니다.</p>
+
+<blockquote>
+  <p>이 해에 장안의 <strong>미친 여자[狂女子]</strong> 벽(碧)이 길에서 소리쳤다. “고황제[유방]께서 크게 노하셔서 내 나라를 돌려달라고 하셨다. 돌려주지 않는다면 9월에 너를 죽일 것이다!” 왕망은 그를 잡아 죽였다.
+<cite> 《한서》 〈왕망전 중〉. </cite></p>
+</blockquote>
+
+<p>이렇게 사회의 불안이 도래했음을 외치는 여자를 ‘광녀’로 기록한 사례를 찾을 수 있습니다. ‘광녀’를 주술사인 무녀(巫女)로 해석하는 설도 있다고 합니다(하라 모토코, 《<a href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=329899755">환경으로 보는 고대 중국</a>》, 243면).</p>
+
+<p>재미있는 점은 ‘광녀’의 의미와 기준이 훗날 달라진다는 것입니다. 지금까지 이 채널에서 전한 남자 유향이 쓴 《열녀전》 이야기를 많이 한 적이 있습니다. 그런데 북송 남자 <a href="https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%9B%9E_(1023%E5%B9%B4)">왕회</a>가 지은 〈열녀전 서〉에 따르면, 유명한 문인이자 정치가였던 <a href="https://ko.wikipedia.org/wiki/%EC%99%95%EC%95%88%EC%84%9D">왕안석</a>은 친구 왕회가 《열녀전》을 파는 것을 놀리며 왜 “여러 광녀 이야기를 서술하여 만든 책”을 좋아하느냐고 물었다고 합니다.</p>
+
+<p>일찍이 〈<a href="/liu-xiang-hated-beautiful-women/">미녀를 혐오한 남자</a>〉라는 포스트에서 소개했듯이, 《열녀전》에는 총 일곱 가지의 여성 유형이 나옵니다. 이 일곱 가지 중 여섯 가지가 긍정적인 내용이고, 나머지 한 가지가 유일하게 부정적인 내용입니다. 이를 보건대 《열녀전》의 저자 유향은 최대한 다양한 유형의 미덕을 가진 여성들의 이야기를 소개하고자 한 것 같습니다. 그러나 왕안석에게 있어 이들은 모두 ‘미친 여자’에 불과했던 것입니다.</p>
+
+<p>혹시 왕안석이 부정적인 유형만을 찍어서 ‘미친 여자’라고 한 것은 아니었을까요? 아닙니다. 왕안석의 물음에 대한 왕회의 대답을 살펴보면 《열녀전》의 여자들은 악한 자[惡者]와 미친 자[狂者]로 분류되었고, 후자는 “<a href="https://db.cyberseodang.or.kr/front/alphaList/BookMain.do?bnCode=jti_2g0202&amp;titleId=C72">비록 예의에 맞지는 않으나 한결같이 善에 뜻을 두어 행실을 규방에서 이루었다</a>”라는 평가를 받았습니다. 전한 남자 유향은 《열녀전》에서 뛰어난 언변으로 작게는 가족을 살리고 크게는 나라를 구한 여자들을 칭송했습니다. 하지만 북송 남자 왕회와 왕안석은 이들의 언행이 선했음을 인정하면서도 여자가 자기 목소리를 낸 것 자체가 예의에 어긋난다고 여기고 이들에게 ‘미친 여자’라는 딱지를 붙인 것입니다.</p>
+
+<p>즉, 한나라 남자들은 체제를 위협하는 여자들을 ‘광녀’라고 불렀지만, 송나라 남자들이 보기에는 아무리 체제에 순응하고 체제의 존속에 기여한 여자라도 일단 남자 앞에서 자기 의견을 말하면 ‘광녀’가 되었습니다.</p>]]></content><author><name>zya</name></author><category term="한나라 설정집" /><category term="정보" /><category term="광녀" /><category term="여자" /><category term="한서" /><category term="왕망" /><category term="열녀전" /><category term="유향" /><category term="왕회" /><category term="왕안석" /><summary type="html"><![CDATA[광녀(狂女)란 한자 그대로 풀이하면 ‘미친 여자’라는 뜻입니다. 한자문화권에서 이 말이 최초로 발견되는 문헌은 바로 《한서》입니다. 〈왕망전 중〉에는 신나라를 세우고 황제가 된 왕망을 비난하는 ‘미친 여자’가 등장합니다.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://zyahan.blog/assets/images/cards/bi.jpeg" /><media:content medium="image" url="https://zyahan.blog/assets/images/cards/bi.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ko"><title type="html">청동기에 새겨진 아름다운 글자들, 무슨 내용이었을까요?</title><link href="https://zyahan.blog/bronze-characters/" rel="alternate" type="text/html" title="청동기에 새겨진 아름다운 글자들, 무슨 내용이었을까요?" /><published>2025-01-18T19:18:00+09:00</published><updated>2025-01-18T19:18:00+09:00</updated><id>https://zyahan.blog/bronze-characters</id><content type="html" xml:base="https://zyahan.blog/bronze-characters/"><![CDATA[<p>고대 중국의 청동기는 사진으로만 보아도 충분히 장엄합니다. 기물 자체의 모양도 그렇고, 기물에 새겨진 글자들이 신비로운 효과를 더해 주는 것 같습니다. 주나라 청동기에 새겨진 글자를 금문(金文)이라고 합니다. 그렇다면 이 금문은 어떤 내용을 담고 있었을까요? 한나라 청동기에는 또 어떤 글자가 적혀 있었을까요? 이 글에서는 청동기에 새겨진 명문(銘文)이 왕조마다 어떻게 달랐는지를 알아보고자 합니다.</p>
+
+<h3 id="0-세발솥의-무게를-묻는-것은-불경한-짓">0. 세발솥의 무게를 묻는 것은 불경한 짓</h3>
+
+<p>대표적인 청동기로는 정(鼎), 곧 세발솥이 있습니다. 한자 ‘鼎’의 갑골문과 금문을 보면 아래와 같이 고양이를 닮은 모양도 있는데, 사실 고양이의 뾰족한 귀처럼 보이는 것은 솥의 손잡이고, 다리처럼 보이는 것은 솥의 발입니다.</p>
+
+<p><img src="/assets/images/oracle-bronze-characters.png" alt="oracle-bronze-characters" /></p>
+
+<p>솥은 음식을 익히는 조리 도구이기도 하지만, 실용적인 목적 이외에 다른 용도도 있었습니다.</p>
+
+<p>주나라에서 세발솥은 권력의 상징이었습니다. 특히 주나라 천자의 세발솥은 구정(九鼎)이라고 불리며 가장 큰 권위를 나타냈습니다. 이와 관련된 고사성어가 ‘<a href="https://www.khan.co.kr/article/201112142119095">문정경중</a>’입니다. 《춘추좌전》에 나오는 이야기입니다. 주나라의 권위가 약화된 춘추시대에, 강대한 제후국인 초나라의 장왕은 주나라 천자의 사자에게 ‘구정’의 크기와 무게를 물었습니다. 이 질문은 주나라 천자의 권위를 침범하는 것으로 여겨졌습니다. 같은 이야기의 《사기》 〈초세가〉 버전에서 장왕은 ‘우리 초나라에서는 부러진 낫의 끝부분만 모아도 구정을 만들고도 남는다’라고 좀 더 노골적으로 조롱하다가, 사자의 꾸짖음을 받고 머쓱해져서 물러났습니다.</p>
+
+<p>이렇게 세발솥은 엄격한 권위를 나타내는 물건이었고, 신분에 따른 규격 차이도 현저했습니다. <a href="https://chinesewiki.uos.ac.kr/wiki/index.php/%E9%BC%8E">주나라 천자는 구정을 소유했고, 제후들은 칠정, 사대부는 오정을 소유했습니다.</a></p>
+
+<h3 id="1-주나라의-대우정">1. 주나라의 ‘대우정’</h3>
+
+<p>현재까지 발견된 서주 시대의 세발솥 중 가장 큰 것이 <a href="https://chinesewiki.uos.ac.kr/wiki/index.php/%EB%8C%80%EC%9A%B0%EC%A0%95">대우정</a>(大盂鼎)입니다. ‘대우정’은 우(盂)라는 귀족이 주나라 왕에게 관직과 포상을 얻은 것을 기념해서 제작한 솥으로, 무게가 150킬로그램이 넘는다고 합니다. 현재 중국국가박물관에 소장 중인 대우정은 크기뿐만 아니라 아래의 사진과 같이 내부에 새겨진 아름다운 명문으로도 유명합니다.</p>
+
+<p><img src="/assets/images/dayuding.jpg" alt="dayuding" /></p>
+
+<p>대우정에 새겨진 글은 주나라가 천명을 받아 은나라를 토벌했다는 내용을 포함하고 있습니다. 대우정 외의 다른 세발솥들도 이와 같이 군주가 신하에게 상으로 내린 것이고, 내부에 천명을 받은 군주의 덕과 신하의 공적을 기리는 글이 적혀 있습니다.</p>
+
+<p>그런데, 진 시황의 진나라로 가면 상황이 달라집니다.</p>
+
+<h3 id="2-진나라의-도량형기">2. 진나라의 도량형기</h3>
+
+<p>진나라에서도 임금이 금속으로 용기를 만들어서 신하에게 내려주었고, 용기에는 임금의 명령이 적혀 있습니다. 하지만 용기의 용도와 명령의 내용이 다릅니다. 주나라에서 임금이 신하에게 하사한 그릇 내부에 소유자의 관직과 작위를 기록하여 제사를 잇는 자손에게 물려주게 했다면, 진나라에서는 아래의 사진과 같이 도량형 통일 공문을 겉면에 찍은 표준 용기를 전국의 관청에 배포하여 행정에 사용하게 한 것입니다.</p>
+
+<p><img src="/assets/images/qin-vessel.jpg" alt="qin-vessel" /></p>
+
+<blockquote>
+  <p>이 조문은 본디 반포한 표준기의 공증성을 보증할 목적으로 새긴 것인데, 표준기의 사용자와 담당관서가 그 조문을 읽고 인지할 것을 전제로 기록되었다고 보아도 좋다. 똑같은 용기라 할지라도 주술적·제사적 성격을 지닌 은나라와 주나라의 청동기 명문과 실용적·법제적 성격을 갖는 진나라의 조문 사이에는 분명한 차이가 있었던 것이다. 즉 은주 시대의 청동기 명문은 주로 청동기의 내면에 새겨져 있는 데 반해 진나라의 조문은 외면에 새겨져 있다.
+<cite> 도미야 이타루 지음. 임병덕 옮김. 《목간과 죽간으로 본 중국 고대 문화사》. 사계절. 2005. </cite></p>
+</blockquote>
+
+<p>그리고 한나라로 오면 주나라 스타일과 진나라 스타일이 절충됩니다.</p>
+
+<h3 id="3-한나라의-상림원-세발솥">3. 한나라의 ‘상림원’ 세발솥</h3>
+
+<p>아래 사진의 유물은 전한 시대에 출토된 황실의 기물로, 청동으로 만든 세발솥입니다. 주나라의 장엄한 세발솥보다는 무늬가 간소하고, 진나라의 도량형기처럼 글씨가 겉면에 적혀 있습니다.</p>
+
+<p><img src="/assets/images/han-ding.jpg" alt="han-ding" /></p>
+
+<p>처음에 이 사진을 보고 “와! 청동솥에 글이 새겨져 있다니 멋있네!” 하고 고개를 옆으로 돌려 해독을 시도해 보니, 제조 시기는 ‘신작3년’[神爵三年]으로 전한 선제 시기의 물건이고 무게는 ‘19근 6냥’[重十九斤六兩]임을 알 수 있었습니다. 한나라의 1근이 약 225그램이었으므로, 19.6근이면 4.41킬로그램입니다. 대우정에 비하면 앙증맞은 사이즈입니다.</p>
+
+<p>주목할 만한 점은 한나라 상림원 세발솥의 겉면에 무게가 적혀 있었다는 것입니다. 똑같은 천자의 기물이라도 주나라의 구정의 무게를 묻는 것은 천자의 권위에 도전하는 불경한 일로 여겨졌는데, 한나라에서는 정반대로 황실 기물의 무게를 아예 겉면에 새겨 놓았습니다. 주나라 사람들이 세발솥의 권위를 신비한 천명에서 찾았다면, 진 시황의 시대를 거친 한나라 사람들은 세발솥의 권위를 표준화를 강제하는 권력에서 찾았다고 할 수 있을 것 같습니다.</p>]]></content><author><name>zya</name></author><category term="한나라 설정집" /><category term="정보" /><category term="청동기" /><category term="주나라" /><category term="세발솥" /><category term="금문" /><category term="솥" /><category term="춘추좌씨전" /><category term="사기" /><category term="대우정" /><category term="진시황" /><category term="도량형" /><category term="선제" /><category term="표준화" /><summary type="html"><![CDATA[주나라 청동기에 새겨진 글자를 금문(金文)이라고 합니다. 그렇다면 이 금문은 어떤 내용을 담고 있었을까요? 한나라 청동기에는 또 어떤 글자가 적혀 있었을까요? 이 글에서는 청동기에 새겨진 명문(銘文)이 왕조마다 어떻게 달랐는지를 알아보고자 합니다.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://zyahan.blog/assets/images/cards/dayuding.jpg" /><media:content medium="image" url="https://zyahan.blog/assets/images/cards/dayuding.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ko"><title type="html">여성혐오의 두 가지 버전: 남자는 여자보다 우월한가, 아니면 존귀한가?</title><link href="https://zyahan.blog/two-versions-of-misogyny/" rel="alternate" type="text/html" title="여성혐오의 두 가지 버전: 남자는 여자보다 우월한가, 아니면 존귀한가?" /><published>2025-01-16T08:20:00+09:00</published><updated>2025-01-16T08:20:00+09:00</updated><id>https://zyahan.blog/two-versions-of-misogyny</id><content type="html" xml:base="https://zyahan.blog/two-versions-of-misogyny/"><![CDATA[<p>얼마 전 〈<a href="/intelligent-women/">한나라의 똑똑한 여자들은 어떻게 되었을까</a>〉라는 포스트에서 주나라와 한나라의 남성 지식인들이 각기 여성의 똑똑함을 어떻게 보았는지를 간단하게 비교해 보았습니다. 여기에서는 한나라 이후의 사례를 추가로 살펴보면서 한나라의 특징을 좀 더 상세히 파악해 보겠습니다.</p>
+
+<p>아무래도 현대인에게 익숙한 여성혐오 패턴은 이것입니다.</p>
+
+<blockquote>
+  <p>[남자는 우월하고 여자는 열등하다]<br />
+전제: 여자는 원래 남자보다 <strong>지성이 부족</strong>하다.<br />
+결론: 그러므로 여자는 남자의 다스림을 받는 비천한 위치에 있어야 한다.</p>
+</blockquote>
+
+<p>여성의 능력이 부족하기 때문에 여성의 지위가 낮아야 한다는 믿음은 여러 시대와 지역에 걸쳐 존재했겠지만, 아(雅)가 느끼기로는 무엇보다 근대 유럽의 냄새가 강하게 납니다. 특히 여성의 이성이 남성보다 떨어진다는 것을 ‘과학적’으로 설명하려고 했던 서구의 남성 지식인들이 떠오릅니다.</p>
+
+<p>중국에서도 여성의 능력을 남성보다 열등한 것으로 전제하던 시기가 있었습니다. 특히 이 경우 여자의 미덕이 뛰어날 때 ”여자 같지 않고 남자 같다“라는 말로 칭찬했습니다. 예를 들어 송남 주희는 《주자어류》에서 여사(女士)를 ”사(士; 남자)의 덕행을 가진 여자“로 정의했고, 청남 심복은 《부생육기》에서 아내를 “남자의 마음을 지닌 여자”라고 추모했습니다. 이 남자들에게 있어 전형적인 여성의 미덕 벡터는 남성과 같은 방향이되 크기가 작았던 셈입니다.</p>
+
+<p>그런데 한남 유향은 《열녀전》에서 말희를 비난하며 “여자가 남자의 마음으로 행동했다”라고 썼습니다. 즉, 훗날의 《부생육기》와 달리 《열녀전》에서는 “남자의 마음을 지닌 여자”가 칭찬이 아니라 비난이었습니다. 여기서 이상적인 여성의 미덕은 남성과 아예 다른 방향으로 설정된 것을 알 수 있습니다.</p>
+
+<p>아(雅)가 추측하기에 한나라 사람들의 여성혐오 패턴은 아래에 더 가까웠을 것입니다.</p>
+
+<blockquote>
+  <p>[남자는 존귀하고 여자는 비천하다]<br />
+전제: 여자는 원래 남자보다 <strong>비천한 위치</strong>에 있다.<br />
+결론: 그러므로 여자는 남자보다 지성이 부족해야/부족해도 된다.</p>
+</blockquote>
+
+<p>이 패턴에서는 여성의 능력이 남성 이상일 가능성을 부정하지 않습니다. 하지만 그것은 미덕으로 권장되지 않습니다. 예를 들어 《후한서》 〈황후기〉에서 화희황후 등수는 열두 살에 《시경》과 《논어》에 통달했고, 오빠들이 경전을 읽다가 어려운 내용이 나오면 동생인 등수에게 물어볼 정도로 학식을 인정받았지만, 어머니는 하라는 바느질은 안 하고 책만 읽는다고 등수를 꾸짖기만 했습니다. 또 훗날 등수의 스승이 되는 여성 학자 반소는 《여계》에서 여자가 남편에게 복종해야 한다고 설파했으며, 그 근본적인 이유로 여자는 태어날 때부터 남자보다 낮은 지위로 태어났다는 것을 들었습니다. 《여계》에서는 여성의 덕행, 언어, 용모, 기술이 남들보다 뛰어날 필요가 없다고 선언했습니다. 여기서 뛰어날 필요가 없다는 것은 여성이 지켜야 할 규범이지, 태생적으로 뛰어나지 않다는 본성에 관한 말이 아닙니다.</p>
+
+<p>다시 말해 한나라 사람들의 “남존여비”에는 남성의 능력이 우월하다는 전제가 깔려 있다고 보기 어렵습니다. 오히려 이들은 남자가 무능하더라도 유능한 여자보다 태생적으로 존귀하므로 여자를 지배해야 한다고 믿었습니다. 이것은 가의가 《신서》 〈계급〉에서 “신발은 새 것이라도 베개 위에 올리지 않고 관은 낡은 것이라도 신발 밑에 깔지 않는다”라는 말로 신분제를 정당화한 것과 서로 통합니다. 한나라 유교맨들은 계몽주의자들과 달리 자신들의 능력을 입증하거나 전제하지 않고서도 여자를 지배할 수 있었습니다.</p>
+
+<p>한나라 유교맨들은 ‘남성은 존귀한 양이고 여자는 비천한 음’이라고 믿었고, 근대 유럽의 계몽주의자들은 ‘남성이 우월한 능력을 가졌고 여성은 남성의 열등한 버전’이라고 믿었습니다. 어느 쪽의 여성혐오가 더 심하다고 말하기는 어렵습니다. 이 두 가지 믿음이 각기 통하는 세계는 모두 여성혐오적이지만, 여성혐오가 작동하는 방식과 방향이 다르기 때문입니다. 여성을 차별하는 양상은 이렇게 다양한 것입니다!</p>]]></content><author><name>zya</name></author><category term="한나라 설정집" /><category term="정보" /><category term="여자" /><category term="남자" /><category term="성차별" /><category term="여성혐오" /><category term="계몽주의" /><category term="주자어류" /><category term="부생육기" /><category term="후한서" /><category term="여계" /><category term="반소" /><category term="신서" /><summary type="html"><![CDATA[한나라 유교맨들은 ‘남성은 존귀한 양이고 여자는 비천한 음’이라고 믿었고, 근대 유럽의 계몽주의자들은 ‘남성이 우월한 능력을 가졌고 여성은 남성의 열등한 버전’이라고 믿었습니다.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://zyahan.blog/assets/images/cards/bronze-scraper.jpeg" /><media:content medium="image" url="https://zyahan.blog/assets/images/cards/bronze-scraper.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ko"><title type="html">면류관과 승여: 후한시대에 황제를 상징한 사물은?</title><link href="https://zyahan.blog/crown-and-carriage/" rel="alternate" type="text/html" title="면류관과 승여: 후한시대에 황제를 상징한 사물은?" /><published>2025-01-15T16:31:00+09:00</published><updated>2025-01-15T16:31:00+09:00</updated><id>https://zyahan.blog/crown-and-carriage</id><content type="html" xml:base="https://zyahan.blog/crown-and-carriage/"><![CDATA[<p>넷플릭스에서 방영한 《The Crown》은 영국 국왕 엘리자베스 2세의 생애를 다룬 드라마입니다. 잘 아시다시피 crown이라는 단어의 기본적인 의미는 왕관입니다. 그런데 crown은 단순히 왕관이라는 사물을 가리킬 뿐만 아니라 국왕의 지위, 혹은 국왕 개인을 가리키는 말로도 쓰입니다.</p>
+
+<p>이런 용법을 환유법이라고 합니다. 《표준국어대사전》에 따르면 환유법이란 ‘어떤 사물을, 그것의 속성과 밀접한 관계가 있는 다른 낱말을 빌려서 표현하는 수사법’을 말합니다. 한국어의 경우 국회의원을 ‘금배지’라고 부르는 예를 꼽을 수 있고, <a href="https://www.merriam-webster.com/dictionary/metonymy">대표적인 영어사전인 《Merriam-Webster》에서는 환유(metonymy)의 대표적인 예시로 앞서 말한 crown을 소개하고 있습니다.</a></p>
+
+<p>공교롭게도 현대인들이 진나라·한나라 황제의 상징으로 가장 흔하게 떠올릴 사물 또한 황제가 머리에 쓰는 관입니다. 많은 만화와 게임 일러스트 등에서 진 시황, 전한 무제, 후한 헌제 등의 황제는 면류관을 쓴 모습으로 등장합니다. 마치 황제는 항상 면류관을 썼고, 황제 이외의 사람들은 면류관을 전혀 쓸 수 없었던 것처럼 말입니다. 하지만 《후한서》 〈여복지〉에서 말하는 규범은 전혀 다릅니다. 면류관은 후한시대에 도입되었고, 천지나 종묘에 제사를 지낼 때 착용했으며, 황제뿐만 아니라 삼공·제후, 경·대부에 이르기까지 제사에 참여하는 모두가 착용했습니다.</p>
+
+<p>한나라에서 오직 황제만 쓸 수 있었던, 그리고 황제가 일상적으로 썼던 관은 통천관(通天冠)이라고 합니다. 그러나 영어와 달리 통천관이 황제를 가리키는 환유 표현으로 사용되지는 않았습니다. 황제가 쓰는 기물의 명칭으로써 황제 자체를 가리키는 단어는 따로 있었습니다. 과연 무엇일까요? 옥새일까요?</p>
+
+<p>《후한서》와 《삼국지》에서 찾을 수 있는 말은 바로 승여(乘輿)입니다. 《후한서》 〈여복지〉에서는 ‘황제’를 써야 할 자리에 일관되게 ‘승여’를 사용합니다. 예를 들어 위에서 언급한 통천관도 ‘승여의 일상복’[乘輿所常服]으로 표현되었습니다. 즉, 영국에서 왕관에 해당하는 crown으로 군주를 가리켰다면 한나라 사람들은 황제가 타는 수레인 ‘승여’로 군주를 가리켰습니다.</p>
+
+<p>《삼국지》에서도 마찬가지입니다. 예를 들어 위지9 〈조상전〉 본문에서는 조상의 사치를 말할 때 그의 음식, 수레, 의복이 ‘승여’에 비길 지경이었다는 표현을 썼습니다[爽飲食車服擬於乘輿]. 만약 ‘조상의 수레가 승여에 비길 만했다’라고만 했다면 ‘승여’가 황제의 수레를 가리켰다고 해석할 수도 있겠지만, 여기서는 음식, 수레, 의복 등 기물 일반을 이야기하므로 수레를 가리키는 것이 아니라 황제 자체를 가리키는 것임을 알 수 있습니다. 또한 위서6 〈동탁전〉 주석에 인용된 《위서》에서는 ‘승여’가 가시울타리 안에서 살았다는 말이 나옵니다[乘輿時居棘籬中]. 여기에서도 ‘승여’는 헌제의 수레가 아니라 헌제 자신을 가리킵니다.</p>
+
+<p>즉, 후한시대에 The Crown의 용례에 가까운 단어를 찾는다면 ‘승여’일 것입니다. 《후한서》부터 정사에 편입된 〈여복지〉의 구성에서 알 수 있듯이, 탈것은 신분을 나타내는 장치로서 복식 이상으로 중요한 기능을 담당했고 복식만큼 관심을 가질 만한 소재입니다. 《삼국지》를 바탕으로 창작을 하고 대화를 쓸 때, 황제를 매번 ‘황제’라고 지칭하기보다 ‘승여’ 같은 환유법을 써 보면 어떨까요?</p>]]></content><author><name>zya</name></author><category term="한나라 설정집" /><category term="정보" /><category term="환유" /><category term="면류관" /><category term="통천관" /><category term="수레" /><category term="승여" /><category term="조상" /><category term="후한서" /><category term="삼국지" /><summary type="html"><![CDATA[한나라에서 황제가 쓰는 기물의 명칭으로써 황제 자체를 가리키는 말은 과연 무엇이었을까요?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://zyahan.blog/assets/images/cards/qin-chariot.jpg" /><media:content medium="image" url="https://zyahan.blog/assets/images/cards/qin-chariot.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ko"><title type="html">‘황건적’ 말고 그냥 ‘황건’이라고 말해 보기</title><link href="https://zyahan.blog/yellow-turban/" rel="alternate" type="text/html" title="‘황건적’ 말고 그냥 ‘황건’이라고 말해 보기" /><published>2025-01-14T09:18:00+09:00</published><updated>2025-01-14T09:18:00+09:00</updated><id>https://zyahan.blog/yellow-turban</id><content type="html" xml:base="https://zyahan.blog/yellow-turban/"><![CDATA[<p>20년 전 아(雅)의 본체가 대학에서 교양수업을 들을 때의 일입니다. 정확한 맥락은 기억나지 않지만, 토론 중에 대략 누구나 인정하는 절대악의 예시로 “황건적”을 거론한 수강생이 있었습니다. 그때 “황건적이 무조건 나쁘다는 것도 낡은 관점이다, 중국에서는 ‘황건기의’라고 높여 부르기도 한다” 하고 반박했던 기억이 납니다. 삼국지를 잘 알던 때가 아니었는데, 지금 돌이켜 보니 이미 삼국지 덕후의 자질이 잠재했던 것 같습니다.</p>
+
+<p>20년이 지난 지금도 상황은 크게 다르지 않은 것 같습니다. 한국어로 “황건”이라는 두 글자를 단독으로 사용하는 것은 어색하게 느껴집니다. 머릿속에서 “황건적”이라고 자동완성해 버리기 일쑤입니다. 그러다 보니 원문에 “黃巾”이라고만 되어 있어도 다들 “황건적”이라고 번역해 버립니다. 아(雅)가 지금 맥OS에서 이 글을 작성하고 있는데, “황건”이라고만 치고 한자 변환을 시도하면 아무것도 나오지 않지만 “황건적”이라고 치면 “黃巾賊” 변환이 가능합니다. 그만큼 “황건적”이라는 말이 보편적으로 쓰이고 있는 것입니다.</p>
+
+<p>이 글에서 황건 집단에 대한 판단을 내리려는 것은 아닙니다. 하지만 과연 《삼국지》나 《삼국연의》 원문에서도 이렇게 매번 “황건적”이라고 “적”을 붙여 말할까요? 궁금해져서 Chinese Text Project (<a href="https://ctext.org">https://ctext.org</a>)에서 원문을 검색해 보니 의외의 결과가 나왔습니다. 우선 《삼국지》에서는 “黃巾” 74회 중 9회만이 “黃巾賊”으로 쓰였고(12.2%), 《삼국연의》에서는 “黃巾” 47회 중 4회만이 “黃巾賊”이었습니다(8.5%). 즉, “황건”이라는 말을 쓸 때 그 중에서 10% 전후만이 “황건적”이었다는 것입니다. 물론 “황건”에 “적”을 붙이지 않았다고 해서 황건을 긍정적이거나 중립적으로 보았다고 단정할 수는 없지만, 적어도 한국어에서처럼 매번 “황건적”으로 자동완성할 정도는 아니었다는 것을 알 수 있습니다.</p>
+
+<p>《후한서》의 경우 “황건적” 함유량이 조금 더 높습니다. “黃巾” 105회 중 30회가 “黃巾賊”입니다(28.6%). 후한 황실의 입장에서는 황건 집단을 일방적인 도적·역적으로 규정할 것입니다. 그런데 후한 왕조의 신민이 아니라 현대 대한민국의 시민인 우리가 이 관점을 무비판적으로 답습할 필요가 있을까요? 혹시 진심으로 “황건적”을 무조건적인 악으로 규정하고 토벌할 대상으로 여긴다면, “사측이세요?” 하고 묻고 싶어지는 것입니다.</p>]]></content><author><name>zya</name></author><category term="한나라 설정집" /><category term="정보" /><category term="삼국지" /><category term="삼국연의" /><category term="후한서" /><category term="황건적" /><category term="황건기의" /><category term="황건" /><summary type="html"><![CDATA[삼국지 정사에서 단 9번, 연의에서 단 4번 나오는 ‘황건적’]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://zyahan.blog/assets/images/cards/yellow-lily.jpeg" /><media:content medium="image" url="https://zyahan.blog/assets/images/cards/yellow-lily.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
