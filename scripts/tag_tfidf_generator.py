@@ -4,6 +4,7 @@ import yaml
 import math
 import re
 from collections import defaultdict
+from pathlib import Path
 import frontmatter
 
 POSTS_DIR = "_posts"
@@ -29,7 +30,8 @@ posts = []
 tag_document_freq = defaultdict(int)
 all_tags = []
 
-for filepath in glob.glob(os.path.join(POSTS_DIR, "*.md")):
+md_files = list(Path(POSTS_DIR).rglob("*.md"))
+for filepath in md_files:
     post_data = frontmatter.load(filepath)
     tags = post_data.get("tags", [])
     url = generate_url(filepath)
