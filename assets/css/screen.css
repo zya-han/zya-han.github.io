@@ -397,13 +397,26 @@ section.recent-posts {
 }
 
 .post-top-meta {
-    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;   /* 수직 가운데 정렬 */
+    gap: 1rem;              /* 아바타와 텍스트 사이 간격 */
+    margin-top: 0.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.post-top-meta .author-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
 }
 
 .post-top-meta .author-thumb {
-    width: 72px;
-    height: 72px;
-}
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    margin: 0;
+ }
 
 .post-top-meta.authorpage .author-thumb {
     margin-top: 40px;
@@ -416,9 +429,8 @@ section.recent-posts {
 }
 
 .post-top-meta .author-description {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    font-size: 0.95rem;
+    font-size: 0.85rem;
+    color: #666;
 }
 
 .toc ul {
@@ -622,7 +634,7 @@ blockquote {
     overflow: hidden;
     min-height: 100px;
     
-    p {
+    p,ul,ol {
       font-size: 1rem;
       margin: 0;
       max-width: 80%;
@@ -1274,4 +1286,101 @@ iframe {
 .lazyimg[data-srcset] {
     opacity: 0;
     transition: opacity .25s;
+}
+
+/* 📱 모바일 최적화 스타일 */
+@media (max-width: 480px) {
+    /* 블로그 상단 제목 영역 압축 */
+    .mainheading {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+  
+    .mainheading h1.sitetitle {
+      font-size: 1.6rem;
+      margin-bottom: 0.3rem;
+    }
+  
+    .mainheading p.lead {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    /* 포스트 상단 메타 영역 압축 및 정렬 조정 */
+    .post-top-meta {
+        display: flex;
+        align-items: center;
+        flex-direction: row;   /* 아바타 왼쪽, 텍스트 오른쪽 */
+        gap: 1rem;
+        margin-top: 1.2rem;
+        margin-bottom: 1.5rem;
+      }
+    
+    .post-top-meta .author-thumb {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+    }
+
+    .post-top-meta .author-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;  /* 좌측 정렬 */
+        gap: 0.25rem;
+    }
+    
+    .post-top-meta .author-text .link-dark {
+        font-size: 0.95rem;
+        font-weight: bold;
+        color: #333;
+    }
+    
+    .post-top-meta .author-text .author-description {
+        display: block;           /* inline → block 으로 변경 */
+        font-size: 0.85rem;
+        color: #666;
+    }
+
+    /* 포스트 제목 간격 조정 */
+    .mainheading h1.posttitle {
+      font-size: 1.4rem;
+      margin-top: 0.8rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    .post-subtitle {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+  
+    /* 본문 여백 줄이기 */
+    .article-post {
+      padding-left: 0.8rem;
+      padding-right: 0.8rem;
+    }
+
+    table, th, td {
+        font-size: 0.95rem;
+    }
+
+    blockquote {
+        background-color: #fafafa;
+        color: rgba(0, 0, 0, .88);
+    
+        padding: 20px;
+        padding-left: 50px;
+        box-sizing: border-box;
+        
+        position: relative;
+        overflow: hidden;
+        min-height: 100px;
+        
+        p,ul,ol {
+          max-width: 90%;
+        }
+        
+        cite {
+          text-align: left;
+        }
+    }
 }
