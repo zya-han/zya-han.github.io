@@ -30,7 +30,9 @@ posts = []
 tag_document_freq = defaultdict(int)
 all_tags = []
 
+# 서브디렉토리를 포함하도록 recursive하게 파일 탐색
 md_files = list(Path(POSTS_DIR).rglob("*.md"))
+
 for filepath in md_files:
     post_data = frontmatter.load(filepath)
     tags = post_data.get("tags", [])
