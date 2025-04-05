@@ -1293,7 +1293,7 @@ iframe {
     /* 블로그 상단 제목 영역 압축 */
     .mainheading {
       padding-top: 0.5rem;
-      padding-bottom: 0.5rem;
+      padding-bottom: 1.2rem;
     }
   
     .mainheading h1.sitetitle {
