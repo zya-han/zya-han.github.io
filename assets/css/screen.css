@@ -1297,7 +1297,7 @@ iframe {
     }
   
     .mainheading h1.sitetitle {
-      font-size: 1.6rem;
+      font-size: 2.1rem;
       margin-bottom: 0.3rem;
     }
   
@@ -1343,7 +1343,7 @@ iframe {
 
     /* 포스트 제목 간격 조정 */
     .mainheading h1.posttitle {
-      font-size: 1.4rem;
+      font-size: 1.6rem;
       margin-top: 0.8rem;
       margin-bottom: 0.5rem;
     }
