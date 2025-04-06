@@ -298,9 +298,15 @@ section.recent-posts {
 
 .article-post ol ol,
 .article-post ul ul {
-    list-style: disc;
+    list-style: circle;  /* 2단계 - 동그라미 */
     margin-bottom: 0rem;
 }
+
+.article-post ol ol ol,
+.article-post ul ul ul {
+    list-style: square; /* 3단계 - 네모 */
+}
+
 
 @media (min-width:576px) {
     .card-columns.listfeaturedtag {
