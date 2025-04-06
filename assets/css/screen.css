@@ -1384,3 +1384,23 @@ iframe {
         }
     }
 }
+
+/* 모바일에서 공유 버튼 키우기 */
+@media (max-width: 480px) {
+    .share ul li i.fa {
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      font-size: 1.6rem;
+      margin: 0 .5rem;
+    }
+}
+
+/* 모바일에서 페이지 버튼 줄이기 */
+@media (max-width: 480px) {
+    .pagination-inline a,
+    .pagination-inline .current {
+      padding: 0.3em 0.5em;
+      font-size: 1.0rem;
+    }
+}
