@@ -723,6 +723,18 @@ blockquote:lang(en) {
     border-radius: 50%;
 }
 
+.share-category ul {
+    display: flex;              /* 가로 나열 */
+    justify-content: center;   /* 가운데 정렬 */
+    padding-left: 0;
+    margin: 0.5rem 0;
+  }
+  
+.share-category ul li {
+    list-style: none;
+    margin: 0 0.4rem;           /* 버튼 사이 간격 */
+}
+
 .svgIcon {
     vertical-align: middle;
 }
@@ -815,7 +827,9 @@ blockquote:lang(en) {
 }
 
 .share,
-.share a {
+.share a,
+.share-category,
+.share-category a {
     color: rgba(0, 0, 0, .66);
     fill: rgba(0, 0, 0, .66);
 }
@@ -1387,7 +1401,8 @@ iframe {
 
 /* 모바일에서 공유 버튼 키우기 */
 @media (max-width: 480px) {
-    .share ul li i.fa {
+    .share ul li i.fa,
+    .share-category ul li i.fa {
       width: 40px;
       height: 40px;
       line-height: 40px;
