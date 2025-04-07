@@ -1425,33 +1425,3 @@ iframe {
       font-size: 1.0rem;
     }
 }
-
-#mobile-search-box {
-    display: none;
-    position: absolute;
-    top: 60px; /* 네비게이션 높이에 맞게 조정 가능 */
-    left: 0;
-    width: 100%;
-    z-index: 9999;
-    background: #fff;
-    padding: 1rem;
-    border-bottom: 1px solid #eee;
-}
-
-.search-input {
-    width: 100%;
-    padding: 0.75rem 1rem;
-    font-size: 0.8rem;
-    border: 1px solid rgba(0, 0, 0, 0.09);
-    border-radius: 30px;
-    background-color: #fff;
-    color: #000;
-    box-sizing: border-box;
-    transition: border-color 0.2s;
-}
-
-.search-input:focus {
-    outline: none;
-    border-color: #00ab6b;
-    box-shadow: 0 0 0 2px rgba(0, 171, 107, 0.2);
-}
