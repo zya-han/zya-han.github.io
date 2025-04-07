@@ -9,6 +9,14 @@ License: https://www.wowthemes.net/freebies-license/
 
 }
 
+/* 모바일 검색창 트랜지션 */
+.mobile-search-box {
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    border-bottom: 1px solid #eee;
+  }
+
 table {    
     border-collapse: collapse;
     margin-bottom: 1.5rem;
