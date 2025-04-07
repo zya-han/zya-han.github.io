@@ -1481,6 +1481,7 @@ iframe {
       border: none;
       font-size: 1.5rem;
       padding: 0.25rem 0.75rem;
+      color: #666 !important;
     }
 
     .search-toggle svg {
