@@ -731,13 +731,24 @@ https://search.google.com/structured-data/testing-tool/u/0/
 <!-- 스크립트들 -->
 <script>
     function toggleSearchBar() {
-    const searchContainer = document.getElementById('mobile-search-container');
-    if (searchContainer.style.display === 'none' || searchContainer.style.display === '') {
-        searchContainer.style.display = 'block';
-    } else {
+      const searchContainer = document.getElementById('mobile-search-container');
+      searchContainer.classList.toggle('active');
+      if (!searchContainer) return;
+  
+      const isHidden = getComputedStyle(searchContainer).display === 'none';
+  
+      if (isHidden) {
+        window.requestAnimationFrame(() => {
+          searchContainer.style.display = 'block';
+          searchContainer.style.visibility = 'visible';
+          searchContainer.style.opacity = '1';
+        });
+      } else {
         searchContainer.style.display = 'none';
+        searchContainer.style.visibility = 'hidden';
+        searchContainer.style.opacity = '0';
+      }
     }
-}
 </script>
   
   <!-- 모바일 전용 검색창 -->
