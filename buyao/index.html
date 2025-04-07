@@ -90,7 +90,7 @@
   
         <!-- 모바일 전용 돋보기 아이콘 -->
         <button id="mobile-search-toggle" class="btn d-lg-none p-0" style="background:none; border:none;">
-          <i class="fas fa-search fa-lg"></i>
+          <i class="fas fa-search fa-lg" style="color:#333;"></i>
         </button>
       </div>
   
@@ -187,6 +187,31 @@
   </nav>
 <!-- End Navigation
 ================================================== -->
+
+<!-- 모바일용 검색창은 nav 바 다음 줄 어딘가에 위치 -->
+<div id="mobile-search-box" class="mobile-search-box d-lg-none" style="display:none;">
+    <form class="bd-search" onSubmit="return lunr_search(document.getElementById('lunrsearch-mobile').value);">
+      <input type="text" class="form-control text-small" id="lunrsearch-mobile" name="q" maxlength="255" placeholder="검색어를 입력하세요" />
+    </form>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const toggleBtn = document.getElementById("mobile-search-toggle");
+      const searchBox = document.getElementById("mobile-search-box");
+  
+      if (toggleBtn && searchBox) {
+        toggleBtn.addEventListener("click", function () {
+          if (searchBox.style.display === "none" || searchBox.style.display === "") {
+            searchBox.style.display = "block";
+            setTimeout(() => document.getElementById("lunrsearch-mobile").focus(), 100);
+          } else {
+            searchBox.style.display = "none";
+          }
+        });
+      }
+    });
+</script>
 
 <div class="site-content">
 
@@ -654,24 +679,6 @@ https://search.google.com/structured-data/testing-tool/u/0/
 
 <script id="dsq-count-scr" src="https://zya-han.disqus.com/count.js"></script>
 
-
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const toggleBtn = document.getElementById("mobile-search-toggle");
-    const searchBox = document.getElementById("mobile-search-box");
-
-    if (toggleBtn && searchBox) {
-      toggleBtn.addEventListener("click", function () {
-        if (searchBox.style.display === "none" || searchBox.style.display === "") {
-          searchBox.style.display = "block";
-          setTimeout(() => document.getElementById("lunrsearch-mobile").focus(), 100);
-        } else {
-          searchBox.style.display = "none";
-        }
-      });
-    }
-  });
-</script>
 
 </body>
 </html>

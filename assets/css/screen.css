@@ -9,14 +9,6 @@ License: https://www.wowthemes.net/freebies-license/
 
 }
 
-/* 모바일 검색창 트랜지션 */
-.mobile-search-box {
-    padding: 0.5rem 1rem;
-    background-color: #fff;
-    transition: all 0.3s ease;
-    border-bottom: 1px solid #eee;
-  }
-
 table {    
     border-collapse: collapse;
     margin-bottom: 1.5rem;
@@ -1432,4 +1424,26 @@ iframe {
       padding: 0.3em 0.5em;
       font-size: 1.0rem;
     }
+}
+
+#mobile-search-box {
+    display: none;
+    position: absolute;
+    top: 60px; /* 네비게이션 높이에 맞게 조정 가능 */
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background: #fff;
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+#mobile-search-box input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff;
+    color: #000;
 }
