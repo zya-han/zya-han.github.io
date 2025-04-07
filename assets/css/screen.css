@@ -1481,13 +1481,13 @@ iframe {
       border: none;
       font-size: 1.5rem;
       padding: 0.25rem 0.75rem;
-      color: #666 !important;
+      color: #333 !important;
     }
 
     .search-toggle svg {
-      fill: #666 !important;
-      stroke: #666 !important;
-      color: #666 !important;
+      fill: #333 !important;
+      stroke: #333 !important;
+      color: #333 !important;
     }
 }
 
@@ -1565,12 +1565,12 @@ iframe {
   
     .search-toggle {
       right: 0rem;
-      color: #666 !important;
+      color: #333 !important;
     }
 
     .search-toggle svg {
-      fill: #666 !important;
-      stroke: #666 !important;
-      color: #666 !important;
+      fill: #333 !important;
+      stroke: #333 !important;
+      color: #333 !important;
     }
   }
