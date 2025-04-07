@@ -79,62 +79,67 @@
 
 <!-- Begin Menu Navigation
 ================================================== -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
 
-    <div class="container pr-0">
+    <div class="container pr-0 d-flex align-items-center justify-content-between flex-nowrap">
+      <div class="navbar-mobile-wrapper d-flex align-items-center w-100 justify-content-between">
 
-    <!-- Begin Logo -->
-    <a class="navbar-brand" href="https://zyahan.blog">
-    <img src="https://zyahan.blog/assets/images/logo.png" alt="미남과 오컬트와 자살">
-    </a>
-    <!-- End Logo -->
+        <a class="navbar-brand" href="https://zyahan.blog">
+          <img src="https://zyahan.blog/assets/images/logo.png" alt="미남과 오컬트와 자살">
+        </a>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="collapse navbar-collapse" id="navbarMediumish">
+        <button class="search-toggle d-lg-none" onclick="toggleSearchBar()" aria-label="검색 열기">
+            <i class="fas fa-search"></i>
+        </button>
 
-        <!-- Begin Menu -->
-        
+      </div>
 
+      <div class="collapse navbar-collapse" id="navbarMediumish">
 
-<ul class="navbar-nav ml-auto">
-  
-    
-    
-    <li class="nav-item">
-      <a class="nav-link" href="/" >
-        블로그
-      </a>
-    </li>
-  
-    
-    
-    <li class="nav-item">
-      <a class="nav-link" href="/about" >
-        소개
-      </a>
-    </li>
-  
-    
-    
-    <li class="nav-item">
-      <a class="nav-link" href="https://buymeacoffee.com/zya.han/membership" target="_blank">
-        멤버십
-      </a>
-    </li>
-  
-    
-    
-    <li class="nav-item">
-      <a class="nav-link" href="https://tumblbug.com/u/zya" target="_blank">
-        텀블벅
-      </a>
-    </li>
-  
-
-  
+          
+          
+          
+          <ul class="navbar-nav ml-auto">
+            
+              
+              
+              <li class="nav-item">
+                <a class="nav-link text-nowrap" href="/" >
+                  블로그
+                </a>
+              </li>
+            
+              
+              
+              <li class="nav-item">
+                <a class="nav-link text-nowrap" href="/about" >
+                  소개
+                </a>
+              </li>
+            
+              
+              
+              <li class="nav-item">
+                <a class="nav-link text-nowrap" href="https://buymeacoffee.com/zya.han/membership" target="_blank">
+                  멤버십
+                </a>
+              </li>
+            
+              
+              
+              <li class="nav-item">
+                <a class="nav-link text-nowrap" href="https://tumblbug.com/u/zya" target="_blank">
+                  텀블벅
+                </a>
+              </li>
+            
+          
+            <li class="nav-item d-none d-lg-block">
+              
 
 
 <script src="/assets/js/lunr.js"></script>
@@ -162,22 +167,19 @@
 </style>
 
 
-<form class="bd-search" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
-    <input type="text" class="form-control text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="검색어를 입력하세요"/>
+
+
+<form class="bd-search" onsubmit="return lunr_search(document.getElementById('false').value);">
+  <input type="text" class="form-control text-small launch-modal-search"
+         id="false" name="q" maxlength="255"
+         value="" placeholder="검색어를 입력하세요" />
 </form>
 
-<div id="lunrsearchresults">
-    <ul></ul>
-</div>
-
-<script src="/assets/js/lunrsearchengine.js"></script>
-
-</ul>
-
-        <!-- End Menu -->
-
-    </div>
-
+            </li>
+          
+          </ul>
+          
+      </div>
     </div>
 </nav>
 <!-- End Navigation
@@ -733,5 +735,64 @@ https://search.google.com/structured-data/testing-tool/u/0/
 <script id="dsq-count-scr" src="https://zya-han.disqus.com/count.js"></script>
 
 
+
+
+<!-- 스크립트들 -->
+<script>
+    function toggleSearchBar() {
+    const searchContainer = document.getElementById('mobile-search-container');
+    if (searchContainer.style.display === 'none' || searchContainer.style.display === '') {
+        searchContainer.style.display = 'block';
+    } else {
+        searchContainer.style.display = 'none';
+    }
+}
+</script>
+  
+  <!-- 모바일 전용 검색창 -->
+  <div id="mobile-search-container" class="d-lg-none" style="display:none;">
+    
+
+
+<script src="/assets/js/lunr.js"></script>
+<script src="/assets/js/lunr.stemmer.support.js"></script>
+<script src="/assets/js/lunr.multi.js"></script>
+<script src="/assets/js/lunr.ko.js"></script>
+<script src="/assets/js/lunr.zh.js"></script>
+
+<style>
+    /* .lunrsearchresult .title {color: #d9230f;} */
+    /* .lunrsearchresult .title {color: #00ab6b;}
+    .lunrsearchresult .url {color: rgba(0, 0, 0, .66);}
+    .lunrsearchresult a {display: block; color: rgba(0, 0, 0, .8);}
+    .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
+    .lunrsearchresult a:hover .title {text-decoration: underline;} */
+    .modal-footer button#btnx {
+        background-color: #00ab6b;
+        color: white;
+        border: none;
+    }
+
+    .modal-footer button#btnx:hover {
+        background-color: #009a60;
+    }
+</style>
+
+
+
+
+<form class="bd-search" onsubmit="return lunr_search(document.getElementById('true').value);">
+  <input type="text" class="form-control text-small launch-modal-search"
+         id="true" name="q" maxlength="255"
+         value="" placeholder="검색어를 입력하세요" />
+</form>
+
+  </div>
+  
+  <!-- ✅ 여기 넣으세요: 검색 결과 모달 포함 -->
+  <div id="lunrsearchresults" style="display:none;">
+  <ul></ul>
+</div>
+<script src="/assets/js/lunrsearchengine.js"></script>
 </body>
 </html>

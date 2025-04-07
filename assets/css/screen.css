@@ -1425,3 +1425,105 @@ iframe {
       font-size: 1.0rem;
     }
 }
+
+@media (max-width: 991px) {
+    .navbar-mobile-wrapper {
+      width: 100%;
+      justify-content: center; /* 로고 항상 가운데 유지 */
+      position: relative;
+    }
+  
+    .navbar-toggler {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 2;
+    }
+  
+    .navbar-brand {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+    }
+  
+    .navbar-collapse {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background: white;
+      z-index: 10;
+      padding: 1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    
+    .mediumnavigation {
+        min-height: 60px;  /* 네비게이션 바 높이 확보 */
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+      }
+}
+
+@media (max-width: 991px) {
+    .search-toggle {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+      z-index: 2;
+      padding: 0.25rem 0.75rem;
+    }
+}
+
+@media (max-width: 991px) {
+    #mobile-search-container {
+      position: absolute;
+      top: 60px; /* 헤더 바로 아래에 겹쳐지게 */
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+      background-color: white;
+      padding: 1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+  }
+  
+@media (max-width: 991px) {
+    #lunrsearchresults .modal {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      z-index: 2000;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    #lunrsearchresults .modal-dialog {
+      width: 100vw;
+      margin: 0;
+      max-width: none;
+      height: 100vh;
+    }
+
+    #lunrsearchresults .modal-content {
+      height: 100%;
+      border-radius: 0;
+    }
+
+    #lunrsearchresults .modal-body {
+      overflow-y: auto;
+      max-height: calc(100vh - 120px);
+      padding: 1rem;
+    }
+  }
