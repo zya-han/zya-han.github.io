@@ -1482,6 +1482,10 @@ iframe {
       font-size: 1.5rem;
       padding: 0.25rem 0.75rem;
     }
+
+    .search-toggle svg {
+        fill: #666 !important;
+      }
 }
 
 @media (max-width: 991px) {
