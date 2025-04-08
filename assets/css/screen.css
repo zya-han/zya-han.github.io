@@ -1529,7 +1529,7 @@ iframe {
       width: 100vw;
       height: 100vh;
       overflow: hidden;
-      z-index: 2000;
+      z-index: 3010;
       background-color: rgba(0, 0, 0, 0.5);
     }
 
