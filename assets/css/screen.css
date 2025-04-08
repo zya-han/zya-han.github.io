@@ -1497,7 +1497,7 @@ iframe {
       top: 56px;
       left: 0;
       width: 100%;
-      z-index: 1000;
+      z-index: 3000;
       background-color: white;
   
       /* iOS 대응 추가 */
