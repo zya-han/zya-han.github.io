@@ -1374,10 +1374,10 @@ iframe {
     }
   
     /* 본문 여백 줄이기 */
-    .article-post {
+    /* .article-post {
       padding-left: 0.8rem;
       padding-right: 0.8rem;
-    }
+    } */
 
     table, th, td {
         font-size: 0.95rem;
