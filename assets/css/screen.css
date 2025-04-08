@@ -1439,7 +1439,7 @@ iframe {
 
     .navbar-collapse {
         position: absolute;
-        top: 40px; /* 모바일 헤더 높이만큼 */
+        top: 100%; /* 모바일 헤더 높이만큼 */
         left: 0;
         width: 100%;
         background-color: #fff;
@@ -1493,8 +1493,8 @@ iframe {
 
 @media (max-width: 991px) {
     #mobile-search-container {
-      position: absolute;
-      top: 58px;
+      position: fixed;
+      top: 56px;
       left: 0;
       width: 100%;
       z-index: 1000;
