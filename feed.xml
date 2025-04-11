@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://zyahan.blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zyahan.blog/" rel="alternate" type="text/html" hreflang="ko" /><updated>2025-04-11T19:26:38+09:00</updated><id>https://zyahan.blog/feed.xml</id><title type="html">미남과 오컬트와 자살</title><subtitle>《한서》 이야기를 합니다.</subtitle><entry xml:lang="ko"><title type="html">《구장산술》, 유클리드 호제법, 파이선</title><link href="https://zyahan.blog/nine-chapters-and-euclidean-algorithm/" rel="alternate" type="text/html" title="《구장산술》, 유클리드 호제법, 파이선" /><published>2025-04-11T09:15:00+09:00</published><updated>2025-04-11T09:15:00+09:00</updated><id>https://zyahan.blog/nine-chapters-and-euclidean-algorithm</id><content type="html" xml:base="https://zyahan.blog/nine-chapters-and-euclidean-algorithm/"><![CDATA[<p>이 포스트는 <a href="https://grandtutorschronicle.wordpress.com/2018/11/14/%e3%80%8a%ea%b5%ac%ec%9e%a5%ec%82%b0%ec%88%a0%e3%80%8b-%e3%80%88%eb%b0%a9%ec%a0%84%e3%80%89-%ec%95%bd%eb%b6%84%ec%88%a0%ec%9d%98-%ed%8c%8c%ec%9d%b4%ec%8d%ac-%ec%bd%94%eb%93%9c/">2018년에 작성했던 글</a>을 수정하고 보충한 것입니다.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://zyahan.blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zyahan.blog/" rel="alternate" type="text/html" hreflang="ko" /><updated>2025-04-11T21:16:21+09:00</updated><id>https://zyahan.blog/feed.xml</id><title type="html">미남과 오컬트와 자살</title><subtitle>《한서》 이야기를 합니다.</subtitle><entry xml:lang="ko"><title type="html">《구장산술》, 유클리드 호제법, 파이선</title><link href="https://zyahan.blog/nine-chapters-and-euclidean-algorithm/" rel="alternate" type="text/html" title="《구장산술》, 유클리드 호제법, 파이선" /><published>2025-04-11T09:15:00+09:00</published><updated>2025-04-11T09:15:00+09:00</updated><id>https://zyahan.blog/nine-chapters-and-euclidean-algorithm</id><content type="html" xml:base="https://zyahan.blog/nine-chapters-and-euclidean-algorithm/"><![CDATA[<p>이 포스트는 <a href="https://grandtutorschronicle.wordpress.com/2018/11/14/%e3%80%8a%ea%b5%ac%ec%9e%a5%ec%82%b0%ec%88%a0%e3%80%8b-%e3%80%88%eb%b0%a9%ec%a0%84%e3%80%89-%ec%95%bd%eb%b6%84%ec%88%a0%ec%9d%98-%ed%8c%8c%ec%9d%b4%ec%8d%ac-%ec%bd%94%eb%93%9c/">2018년에 작성했던 글</a>을 수정하고 보충한 것입니다.</p>
 
 <hr />
 
@@ -78,31 +78,31 @@
 25
 26
 </pre></td><td class="rouge-code"><pre><span class="k">def</span> <span class="nf">約分</span><span class="p">(</span><span class="n">母</span><span class="p">,</span> <span class="n">子</span><span class="p">):</span>
-    <span class="n">母</span><span class="p">,</span> <span class="n">子</span> <span class="o">=</span> <span class="nf">max</span><span class="p">(</span><span class="n">母</span><span class="p">,</span> <span class="n">子</span><span class="p">),</span> <span class="nf">min</span><span class="p">(</span><span class="n">母</span><span class="p">,</span> <span class="n">子</span><span class="p">)</span>
+  <span class="n">母</span><span class="p">,</span> <span class="n">子</span> <span class="o">=</span> <span class="nf">max</span><span class="p">(</span><span class="n">母</span><span class="p">,</span> <span class="n">子</span><span class="p">),</span> <span class="nf">min</span><span class="p">(</span><span class="n">母</span><span class="p">,</span> <span class="n">子</span><span class="p">)</span>
 
-    <span class="c1"># 可半者: 반으로 나눌 수 있는 것은
-</span>    <span class="k">if</span> <span class="n">母</span> <span class="o">==</span> <span class="n">子</span> <span class="o">*</span> <span class="mi">2</span><span class="p">:</span>
-        <span class="c1"># 半之: 반으로 나누면 되고
-</span>        <span class="k">return</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span> 
+  <span class="c1"># 可半者: 반으로 나눌 수 있는 것은
+</span>  <span class="k">if</span> <span class="n">母</span> <span class="o">==</span> <span class="n">子</span> <span class="o">*</span> <span class="mi">2</span><span class="p">:</span>
+    <span class="c1"># 半之: 반으로 나누면 되고
+</span>    <span class="k">return</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span> 
 
-    <span class="c1"># 不可半者: 반으로 나눠지지 않는 것은
-</span>    <span class="k">def</span> <span class="nf">相減</span><span class="p">(</span><span class="n">多</span><span class="p">,</span> <span class="n">少</span><span class="p">):</span>
-        <span class="c1"># 副置分母子之數: 분모와 분자의 수를 다른 곳에 놓고    
-</span>        <span class="c1"># 以少減多: 큰 것에서 작은 것을 빼고 나서
-</span>        <span class="n">損</span> <span class="o">=</span> <span class="n">多</span> <span class="o">-</span> <span class="n">少</span>
-        <span class="k">if</span> <span class="n">損</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-            <span class="k">return</span> <span class="n">少</span> <span class="c1"># 최대공약수
-</span>        <span class="k">elif</span> <span class="n">損</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
-            <span class="k">return</span> <span class="mi">1</span> <span class="c1"># 서로소인 경우
-</span>        <span class="k">else</span><span class="p">:</span>
-            <span class="c1"># 更相減損: 다시 서로서로 빼주는 일을 되풀이해
-</span>            <span class="k">return</span> <span class="n">相減</span><span class="p">(</span><span class="nf">max</span><span class="p">(</span><span class="n">少</span><span class="p">,</span> <span class="n">損</span><span class="p">),</span> <span class="nf">min</span><span class="p">(</span><span class="n">少</span><span class="p">,</span> <span class="n">損</span><span class="p">))</span>
+  <span class="c1"># 不可半者: 반으로 나눠지지 않는 것은
+</span>  <span class="k">def</span> <span class="nf">相減</span><span class="p">(</span><span class="n">多</span><span class="p">,</span> <span class="n">少</span><span class="p">):</span>
+    <span class="c1"># 副置分母子之數: 분모와 분자의 수를 다른 곳에 놓고  
+</span>    <span class="c1"># 以少減多: 큰 것에서 작은 것을 빼고 나서
+</span>    <span class="n">損</span> <span class="o">=</span> <span class="n">多</span> <span class="o">-</span> <span class="n">少</span>
+    <span class="k">if</span> <span class="n">損</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+      <span class="k">return</span> <span class="n">少</span> <span class="c1"># 최대공약수
+</span>    <span class="k">elif</span> <span class="n">損</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+      <span class="k">return</span> <span class="mi">1</span> <span class="c1"># 서로소인 경우
+</span>    <span class="k">else</span><span class="p">:</span>
+      <span class="c1"># 更相減損: 다시 서로서로 빼주는 일을 되풀이해
+</span>      <span class="k">return</span> <span class="n">相減</span><span class="p">(</span><span class="nf">max</span><span class="p">(</span><span class="n">少</span><span class="p">,</span> <span class="n">損</span><span class="p">),</span> <span class="nf">min</span><span class="p">(</span><span class="n">少</span><span class="p">,</span> <span class="n">損</span><span class="p">))</span>
 
-    <span class="c1"># 求其等也: 그것들의 등수를 구해
-</span>    <span class="n">等數</span> <span class="o">=</span> <span class="n">相減</span><span class="p">(</span><span class="n">母</span><span class="p">,</span> <span class="n">子</span><span class="p">)</span>
+  <span class="c1"># 求其等也: 그것들의 등수를 구해
+</span>  <span class="n">等數</span> <span class="o">=</span> <span class="n">相減</span><span class="p">(</span><span class="n">母</span><span class="p">,</span> <span class="n">子</span><span class="p">)</span>
 
-    <span class="c1"># 以等數約之: 등수로 그것들을 나눈다
-</span>    <span class="k">return</span> <span class="n">母</span> <span class="o">//</span> <span class="n">等數</span><span class="p">,</span> <span class="n">子</span> <span class="o">//</span> <span class="n">等數</span>
+  <span class="c1"># 以等數約之: 등수로 그것들을 나눈다
+</span>  <span class="k">return</span> <span class="n">母</span> <span class="o">//</span> <span class="n">等數</span><span class="p">,</span> <span class="n">子</span> <span class="o">//</span> <span class="n">等數</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>아니면 재귀함수를 쓰지 않고 <code class="language-plaintext highlighter-rouge">while</code> 문을 사용할 수도 있습니다.</p>
@@ -132,27 +132,27 @@
 23
 </pre></td><td class="rouge-code"><pre><span class="k">def</span> <span class="nf">約分</span><span class="p">(</span><span class="n">母</span><span class="p">,</span> <span class="n">子</span><span class="p">):</span>
 
-    <span class="c1"># 可半者: 반으로 나눌 수 있는 것은
-</span>    <span class="k">if</span> <span class="n">母</span> <span class="o">==</span> <span class="n">子</span> <span class="o">*</span> <span class="mi">2</span><span class="p">:</span>
-        <span class="c1"># 半之: 반으로 나누면 되고
-</span>        <span class="k">return</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span>
+  <span class="c1"># 可半者: 반으로 나눌 수 있는 것은
+</span>  <span class="k">if</span> <span class="n">母</span> <span class="o">==</span> <span class="n">子</span> <span class="o">*</span> <span class="mi">2</span><span class="p">:</span>
+    <span class="c1"># 半之: 반으로 나누면 되고
+</span>    <span class="k">return</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span>
 
-    <span class="c1"># 不可半者: 반으로 나눠지지 않는 것은
-</span>    <span class="k">else</span><span class="p">:</span>
-        <span class="c1"># 副置分母子之數: 분모와 분자의 수를 다른 곳에 놓고    
-</span>        <span class="n">多</span><span class="p">,</span> <span class="n">少</span> <span class="o">=</span> <span class="nf">max</span><span class="p">(</span><span class="n">母</span><span class="p">,</span> <span class="n">子</span><span class="p">),</span> <span class="nf">min</span><span class="p">(</span><span class="n">母</span><span class="p">,</span> <span class="n">子</span><span class="p">)</span>
-        <span class="c1"># 以少減多: 큰 것에서 작은 것을 빼고 나서
-</span>        <span class="n">損</span> <span class="o">=</span> <span class="n">多</span> <span class="o">-</span> <span class="n">少</span>
-        <span class="k">while</span> <span class="n">損</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
-            <span class="c1"># 更相減損: 다시 서로서로 빼주는 일을 되풀이해
-</span>            <span class="n">多</span><span class="p">,</span> <span class="n">少</span> <span class="o">=</span> <span class="nf">max</span><span class="p">(</span><span class="n">少</span><span class="p">,</span> <span class="n">損</span><span class="p">),</span> <span class="nf">min</span><span class="p">(</span><span class="n">少</span><span class="p">,</span> <span class="n">損</span><span class="p">)</span>
-            <span class="n">損</span> <span class="o">=</span> <span class="n">多</span> <span class="o">-</span> <span class="n">少</span>
-        
-        <span class="c1"># 求其等也: 그것들의 등수를 구해
-</span>        <span class="n">等數</span> <span class="o">=</span> <span class="mi">1</span> <span class="k">if</span> <span class="n">損</span> <span class="k">else</span> <span class="n">少</span>
-        
-        <span class="c1"># 以等數約之: 등수로 그것들을 나눈다
-</span>        <span class="k">return</span> <span class="n">母</span> <span class="o">//</span> <span class="n">等數</span><span class="p">,</span> <span class="n">子</span> <span class="o">//</span> <span class="n">等數</span>
+  <span class="c1"># 不可半者: 반으로 나눠지지 않는 것은
+</span>  <span class="k">else</span><span class="p">:</span>
+    <span class="c1"># 副置分母子之數: 분모와 분자의 수를 다른 곳에 놓고  
+</span>    <span class="n">多</span><span class="p">,</span> <span class="n">少</span> <span class="o">=</span> <span class="nf">max</span><span class="p">(</span><span class="n">母</span><span class="p">,</span> <span class="n">子</span><span class="p">),</span> <span class="nf">min</span><span class="p">(</span><span class="n">母</span><span class="p">,</span> <span class="n">子</span><span class="p">)</span>
+    <span class="c1"># 以少減多: 큰 것에서 작은 것을 빼고 나서
+</span>    <span class="n">損</span> <span class="o">=</span> <span class="n">多</span> <span class="o">-</span> <span class="n">少</span>
+    <span class="k">while</span> <span class="n">損</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+      <span class="c1"># 更相減損: 다시 서로서로 빼주는 일을 되풀이해
+</span>      <span class="n">多</span><span class="p">,</span> <span class="n">少</span> <span class="o">=</span> <span class="nf">max</span><span class="p">(</span><span class="n">少</span><span class="p">,</span> <span class="n">損</span><span class="p">),</span> <span class="nf">min</span><span class="p">(</span><span class="n">少</span><span class="p">,</span> <span class="n">損</span><span class="p">)</span>
+      <span class="n">損</span> <span class="o">=</span> <span class="n">多</span> <span class="o">-</span> <span class="n">少</span>
+    
+    <span class="c1"># 求其等也: 그것들의 등수를 구해
+</span>    <span class="n">等數</span> <span class="o">=</span> <span class="mi">1</span> <span class="k">if</span> <span class="n">損</span> <span class="k">else</span> <span class="n">少</span>
+    
+    <span class="c1"># 以等數約之: 등수로 그것들을 나눈다
+</span>    <span class="k">return</span> <span class="n">母</span> <span class="o">//</span> <span class="n">等數</span><span class="p">,</span> <span class="n">子</span> <span class="o">//</span> <span class="n">等數</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>역시 《한서》의 세계에는 없는 것이 없습니다.</p>

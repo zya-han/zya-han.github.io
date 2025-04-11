@@ -9,6 +9,16 @@ License: https://www.wowthemes.net/freebies-license/
 
 }
 
+/* 파이썬 코드 */
+.language-python{
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+
+.lineno{
+    text-align: right;
+}
+
+/* 한자 위첨자 */
 hanja {
     vertical-align: super;
     font-size: 80%;
@@ -249,7 +259,7 @@ pre {
     border: #E3EDF3 1px solid;
     width: 100%;
     padding: 7px;
-    font-family: monoscape, sans-serif;
+    font-family: monospace, sans-serif;
     font-size: .9rem;
     white-space: pre;
     overflow: auto;
@@ -620,23 +630,23 @@ span.post-read-more a:hover {
 }
   
 /* 한국어 문서용 글꼴 */
-.article-post:lang(ko),
-.article-post:lang(ko) h1, 
-.article-post:lang(ko) h2, 
-.article-post:lang(ko) h3, 
-.article-post:lang(ko) h4, 
-.article-post:lang(ko) h5, 
-.article-post:lang(ko) h6 {
+.row .article-post:lang(ko),
+.row .article-post:lang(ko) h1, 
+.row .article-post:lang(ko) h2, 
+.row .article-post:lang(ko) h3, 
+.row .article-post:lang(ko) h4, 
+.row .article-post:lang(ko) h5, 
+.row .article-post:lang(ko) h6 {
     font-family: "Gowun Batang", "Iansui", "HanaMinB", serif;
 }
   
 /* 영어 문서용 글꼴 */
-  .article-post:lang(en) {
+.row .article-post:lang(en) {
     font-family: "Merriweather", Georgia, "Iansui", "HanaMinB", serif;
 }
 
 /* 중국어 문서용 글꼴 */
-.article-post:lang(zh) {
+.row .article-post:lang(zh) {
     font-family: "Noto Sans SC", sans-serif;
 }
 
@@ -1078,7 +1088,7 @@ h6 {
 .article-post h5,
 .article-post h6 {
     font-weight: 700;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .article-post img.shadow {
@@ -1400,7 +1410,7 @@ iframe {
     /* 포스트 제목 간격 조정 */
     .mainheading h1.posttitle {
       font-size: 1.6rem;
-      margin-top: 0.8rem;
+      margin-top: 0.5rem;
       margin-bottom: 0.5rem;
     }
   
