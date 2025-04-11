@@ -11,6 +11,8 @@ License: https://www.wowthemes.net/freebies-license/
 
 table {    
     border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 1.5rem;
     thead {
         background: rgba(0, 0, 0, .05);
@@ -1321,14 +1323,14 @@ iframe {
         margin-right: -15px;
       }
     
-      .full-bleed-image img {
+    .full-bleed-image img {
         width: 100%;
         height: auto;
         display: block;
-      }
+    }
 
     .col-md-9 .mainheading {
-        padding-top: 0rem;
+        padding-top: 0.5rem;
         padding-bottom: 0rem;
     }
 
@@ -1397,14 +1399,18 @@ iframe {
   
     .post-subtitle {
       font-size: 1rem;
-      margin-bottom: 1rem;
+      margin-bottom: 0.5rem;
     }
   
-    /* 본문 여백 줄이기 */
     .article-post {
         font-size: 1.1rem;
         line-height: 1.6;
+        padding-top: 0.5rem;
     }
+
+    .article-post h1 {
+        font-size: 1.6rem;
+    }    
 
     .article-post h2 {
         font-size: 1.5rem;
