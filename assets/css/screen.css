@@ -1316,11 +1316,23 @@ iframe {
 
 /* 📱 모바일 최적화 스타일 */
 @media (max-width: 480px) {
+    .full-bleed-image {
+        margin-left: -15px;
+        margin-right: -15px;
+        margin-bottom: 1rem;
+      }
+    
+      .full-bleed-image img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
     .col-md-9 .mainheading {
         padding-top: 0rem;
         padding-bottom: 0rem;
     }
-      
+
     .post-content {
         padding-left: 0rem;
         padding-right: 0rem;
@@ -1339,7 +1351,7 @@ iframe {
   
     .mainheading p.lead {
       font-size: 1rem;
-      margin-bottom: 0.1rem;
+      margin-bottom: 0.5rem;
     }
   
     /* 포스트 상단 메타 영역 압축 및 정렬 조정 */
