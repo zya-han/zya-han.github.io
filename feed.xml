@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://zyahan.blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zyahan.blog/" rel="alternate" type="text/html" hreflang="ko" /><updated>2025-04-11T18:44:24+09:00</updated><id>https://zyahan.blog/feed.xml</id><title type="html">미남과 오컬트와 자살</title><subtitle>《한서》 이야기를 합니다.</subtitle><entry xml:lang="ko"><title type="html">《구장산술》, 유클리드 호제법, 파이선</title><link href="https://zyahan.blog/nine-chapters-and-euclidean-algorithm/" rel="alternate" type="text/html" title="《구장산술》, 유클리드 호제법, 파이선" /><published>2025-04-11T09:15:00+09:00</published><updated>2025-04-11T09:15:00+09:00</updated><id>https://zyahan.blog/nine-chapters-and-euclidean-algorithm</id><content type="html" xml:base="https://zyahan.blog/nine-chapters-and-euclidean-algorithm/"><![CDATA[<p>이 포스트는 <a href="https://grandtutorschronicle.wordpress.com/2018/11/14/%e3%80%8a%ea%b5%ac%ec%9e%a5%ec%82%b0%ec%88%a0%e3%80%8b-%e3%80%88%eb%b0%a9%ec%a0%84%e3%80%89-%ec%95%bd%eb%b6%84%ec%88%a0%ec%9d%98-%ed%8c%8c%ec%9d%b4%ec%8d%ac-%ec%bd%94%eb%93%9c/">2018년에 작성했던 글</a>을 수정하고 보충한 것입니다.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://zyahan.blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zyahan.blog/" rel="alternate" type="text/html" hreflang="ko" /><updated>2025-04-11T19:11:25+09:00</updated><id>https://zyahan.blog/feed.xml</id><title type="html">미남과 오컬트와 자살</title><subtitle>《한서》 이야기를 합니다.</subtitle><entry xml:lang="ko"><title type="html">《구장산술》, 유클리드 호제법, 파이선</title><link href="https://zyahan.blog/nine-chapters-and-euclidean-algorithm/" rel="alternate" type="text/html" title="《구장산술》, 유클리드 호제법, 파이선" /><published>2025-04-11T09:15:00+09:00</published><updated>2025-04-11T09:15:00+09:00</updated><id>https://zyahan.blog/nine-chapters-and-euclidean-algorithm</id><content type="html" xml:base="https://zyahan.blog/nine-chapters-and-euclidean-algorithm/"><![CDATA[<p>이 포스트는 <a href="https://grandtutorschronicle.wordpress.com/2018/11/14/%e3%80%8a%ea%b5%ac%ec%9e%a5%ec%82%b0%ec%88%a0%e3%80%8b-%e3%80%88%eb%b0%a9%ec%a0%84%e3%80%89-%ec%95%bd%eb%b6%84%ec%88%a0%ec%9d%98-%ed%8c%8c%ec%9d%b4%ec%8d%ac-%ec%bd%94%eb%93%9c/">2018년에 작성했던 글</a>을 수정하고 보충한 것입니다.</p>
 
 <hr />
 
-<p>아<sup>雅</sup>가 종종 하는 말은 《한서》에는 아<sup>雅</sup>의 학위논문만 빼고 모든 것이 들어있다는 것입니다.
+<p>아<hanja aria-hidden="true">雅</hanja>가 종종 하는 말은 《한서》에는 아<hanja aria-hidden="true">雅</hanja>의 학위논문만 빼고 모든 것이 들어있다는 것입니다.
 그렇게 《한서》에서 온갖 것을 찾아대던 시절이었습니다.
 갑자기 한나라에 프로그래밍에 상응하는 것이 있었는지가 궁금해졌습니다.
 그러다가 《구장산술》이 떠올랐습니다.</p>
@@ -48,7 +48,7 @@
 다시 서로서로 빼 주는 일을 되풀이하는[更相減損] 계산은 함수를 재귀적으로 호출하는 것으로 구현할 수 있습니다.
 그렇다면 이것은 프로그래밍 언어로 작성할 수 있습니다.</p>
 
-<p>그래서 아<sup>雅</sup>에게 익숙한 언어인 파이선에서 약분<sup>約分</sup> 함수를 정의했습니다.
+<p>그래서 아<hanja aria-hidden="true">雅</hanja>에게 익숙한 언어인 파이선에서 약분<hanja aria-hidden="true">約分</hanja> 함수를 정의했습니다.
 구장산술 원문의 표현에 맞게 변수명을 짓고, 어순에 맞게 코드를 배치했습니다.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
@@ -294,8 +294,8 @@
 <h3 id="손권에게-작두향을-요구한-조비">손권에게 작두향을 요구한 조비</h3>
 
 <p>《삼국지》 오지2 〈오주전〉 주석에 인용된 《강표전》에 따르면, 위나라 황초2년(221) 황제 조비는 오왕 손권에게 사자를 보내서 여러 가지 귀중한 보물과 희귀한 동물을 바칠 것을 요구했습니다.
-여기서 나열된 보물 중에서 첫 번째로 꼽히는 것이 바로 작두향<sup>雀頭香</sup>이었습니다.
-작두향은 향부자<sup>香附子</sup>라는 향재 겸 약재의 옛 이름입니다.
+여기서 나열된 보물 중에서 첫 번째로 꼽히는 것이 바로 작두향<hanja aria-hidden="true">雀頭香</hanja>이었습니다.
+작두향은 향부자<hanja aria-hidden="true">香附子</hanja>라는 향재 겸 약재의 옛 이름입니다.
 약재로서는 스트레스와 월경통 해소에 효능이 있다고 합니다.
 향재로서는 후한 영제가 궁중에서 피웠다고 알려진 <a href="/imperial-scents/#%ED%95%9C%EA%B1%B4%EB%85%95%EA%B6%81%EC%A4%91%ED%96%A5-%EC%B5%9C%EC%B4%88%EC%9D%98-%EC%A1%B0%ED%96%A5-%EB%A0%88%EC%8B%9C%ED%94%BC">한건녕궁중향</a>에서 두 번째로 많이 들어가는 중요한 재료이기도 합니다.
 조비도 황제가 된 기념으로 영제를 본받아 궁에서 사용할 귀한 향을 개발하고자 한 것이 아닐까요?</p>
@@ -353,16 +353,16 @@
 
 <h4 id="이웃-나라에-사죄하기">(이웃) 나라에 사죄하기</h4>
 
-<p>우선 《사기》에서는 시대에 따라 사죄의 대상이 변하는 것을 주목할 만합니다. 먼저, 춘추전국시대부터 서한 초까지는 노<sup>魯</sup>, 오<sup>吳</sup> 등 이웃 제후국에게 사과하는 외교적 목적이 있었습니다.</p>
+<p>우선 《사기》에서는 시대에 따라 사죄의 대상이 변하는 것을 주목할 만합니다. 먼저, 춘추전국시대부터 서한 초까지는 노<hanja aria-hidden="true">魯</hanja>, 오<hanja aria-hidden="true">吳</hanja> 등 이웃 제후국에게 사과하는 외교적 목적이 있었습니다.</p>
 
 <blockquote>
-  <p>제<sup>齊</sup> 양공<sup>襄公</sup>은 팽생<sup>彭生</sup>을 죽여[殺] 노<sup>魯</sup>에 사죄했다.</p>
+  <p>제<hanja aria-hidden="true">齊</hanja> 양공<hanja aria-hidden="true">襄公</hanja>은 팽생<hanja aria-hidden="true">彭生</hanja>을 죽여[殺] 노<hanja aria-hidden="true">魯</hanja>에 사죄했다.</p>
 
   <p><cite> 《사기》 〈제태공세가〉 </cite></p>
 </blockquote>
 
 <blockquote>
-  <p>조<sup>錯</sup>를 베어[斬] 오<sup>吳</sup>에 사죄해야만 합니다.</p>
+  <p>조<hanja aria-hidden="true">錯</hanja>를 베어[斬] 오<hanja aria-hidden="true">吳</hanja>에 사죄해야만 합니다.</p>
 
   <p><cite> 《사기》 〈원앙조조열전〉 </cite></p>
 </blockquote>
@@ -370,7 +370,7 @@
 <p>아래의 예문은 동월 사람들이 한나라의 천자에게 사죄하고자 하는 것이므로 위의 사례와 비슷합니다.</p>
 
 <blockquote>
-  <p>왕을 죽여서[殺] 천자<sup>天子</sup>에게 사죄하는 것이다.</p>
+  <p>왕을 죽여서[殺] 천자<hanja aria-hidden="true">天子</hanja>에게 사죄하는 것이다.</p>
 
   <p><cite> 《사기》 〈동월열전〉 </cite></p>
 </blockquote>
@@ -380,13 +380,13 @@
 <p>다음으로 나오는 세 예문은 모두 서한 무제 때입니다. 이제 제후국의 세력은 약해졌고, 사죄 상대는 천하로 확장됩니다.</p>
 
 <blockquote>
-  <p>지금 회<sup>恢</sup>를 벌하지[誅] 않으면 천하에 사죄할 수 없습니다.</p>
+  <p>지금 회<hanja aria-hidden="true">恢</hanja>를 벌하지[誅] 않으면 천하에 사죄할 수 없습니다.</p>
 
   <p><cite> 《사기》 〈한장유열전〉 </cite></p>
 </blockquote>
 
 <blockquote>
-  <p>주보언<sup>主父偃</sup>을 벌하지[誅] 않으면 천하에 사죄할 수 없습니다.</p>
+  <p>주보언<hanja aria-hidden="true">主父偃</hanja>을 벌하지[誅] 않으면 천하에 사죄할 수 없습니다.</p>
 
   <p><cite> 《사기》 〈평진후주보열전〉 </cite></p>
 </blockquote>
@@ -409,18 +409,18 @@
 
 <p>《한서》의 경우 위에서 소개한 《사기》의 예문이 그대로 나오고, 추가로 다섯 건이 더 나옵니다. 동사구로 새로 나온 ‘머리를 얻다’와 ‘엎드러 드러내어 륙을 당하다’ 같은 표현은 살해의 방법과 절차를 한층 더 구체적으로 묘사합니다.</p>
 
-<h4 id="조조晁錯의-죽음">조조<sup>晁錯</sup>의 죽음</h4>
+<h4 id="조조晁錯의-죽음">조조<hanja aria-hidden="true">晁錯</hanja>의 죽음</h4>
 
-<p>《한서》에서 눈에 띄는 점은 조조<sup>晁錯</sup>가 네 번이나 죽는다는 것입니다. 오·초 7국의 난을 일으킨 제후국의 요구에 따라 어사대부 조조를 죽인 사건이 조조 자신의 전기 이외에도 세 군데에 더 나와서, 《사기》에서보다 더 중요한 사건으로 다루어지는 것을 알 수 있습니다.</p>
+<p>《한서》에서 눈에 띄는 점은 조조<hanja aria-hidden="true">晁錯</hanja>가 네 번이나 죽는다는 것입니다. 오·초 7국의 난을 일으킨 제후국의 요구에 따라 어사대부 조조를 죽인 사건이 조조 자신의 전기 이외에도 세 군데에 더 나와서, 《사기》에서보다 더 중요한 사건으로 다루어지는 것을 알 수 있습니다.</p>
 
 <blockquote>
-  <p>어사대부<sup>御史大夫</sup> 조조<sup>晁錯</sup>를 베어[斬] 일곱 제후국에 사죄하였다.</p>
+  <p>어사대부<hanja aria-hidden="true">御史大夫</hanja> 조조<hanja aria-hidden="true">晁錯</hanja>를 베어[斬] 일곱 제후국에 사죄하였다.</p>
 
   <p><cite> 《한서》 〈경제기〉 </cite></p>
 </blockquote>
 
 <blockquote>
-  <p>조<sup>錯</sup>를 베어[斬] 제후들에게 사죄했습니다.</p>
+  <p>조<hanja aria-hidden="true">錯</hanja>를 베어[斬] 제후들에게 사죄했습니다.</p>
 
   <p><cite> 《한서》 〈가추매노전〉 </cite></p>
 </blockquote>
@@ -436,13 +436,13 @@
 <p>다음으로는 《사기》 이후 서한 후반에 해당하는 새로운 내용입니다. 앞에서 나온 죽이다·베다·벌하다 세 가지에 비해 살해 방법의 묘사가 더 상세해졌습니다. 수사적인 효과를 노린 것 같습니다.</p>
 
 <blockquote>
-  <p>멀리 도망쳤더라도 <strong>그들의 머리를 얻어</strong> [得其頭] 백성<sup>百姓</sup>에게 사죄해야 합니다.</p>
+  <p>멀리 도망쳤더라도 <strong>그들의 머리를 얻어</strong> [得其頭] 백성<hanja aria-hidden="true">百姓</hanja>에게 사죄해야 합니다.</p>
 
   <p><cite> 《한서》 〈갑제갈유정손무장하전〉 </cite></p>
 </blockquote>
 
 <blockquote>
-  <p>잘못은 신<sup>臣</sup> 봉<sup>鳳</sup>에게 있으니 <strong>엎드려 사람들 앞에서 륙을 당해</strong> [伏顯戮] 천하에 사죄해야 합니다.</p>
+  <p>잘못은 신<hanja aria-hidden="true">臣</hanja> 봉<hanja aria-hidden="true">鳳</hanja>에게 있으니 <strong>엎드려 사람들 앞에서 륙을 당해</strong> [伏顯戮] 천하에 사죄해야 합니다.</p>
 
   <p><cite> 《한서》 〈원후전〉 </cite></p>
 </blockquote>
@@ -458,7 +458,7 @@
 <p>아래의 네 개 예문에서는 죽고 죽이는 방법이 《한서》에서보다도 상세해졌습니다. 단순히 죽인다고만 하던 《사기》에서는 상상하기 어려운 묘사입니다.</p>
 
 <blockquote>
-  <p>수<sup>守</sup>에게 <strong>북쪽을 향해 목을 자르도록</strong>[北向刎首] 하여 큰 은혜에 사죄해야 합니다.</p>
+  <p>수<hanja aria-hidden="true">守</hanja>에게 <strong>북쪽을 향해 목을 자르도록</strong>[北向刎首] 하여 큰 은혜에 사죄해야 합니다.</p>
 
   <p><cite> 《후한서》 〈이왕등래열전〉</cite></p>
 </blockquote>
@@ -476,7 +476,7 @@
 </blockquote>
 
 <blockquote>
-  <p>십상시를 <strong>베고</strong>[斬] <strong>남교<sup>南郊</sup>에 머리를 걸어</strong>[縣頭] 백성에게 사죄하는 것이 옳습니다.</p>
+  <p>십상시를 <strong>베고</strong>[斬] <strong>남교<hanja aria-hidden="true">南郊</hanja>에 머리를 걸어</strong>[縣頭] 백성에게 사죄하는 것이 옳습니다.</p>
 
   <p><cite> 《후한서》 〈환자열전〉</cite></p>
 </blockquote>
@@ -486,15 +486,15 @@
 <p>또한 《후한서》에서는 죽음으로 사죄하는 상대로 개인이 추가되었습니다.</p>
 
 <blockquote>
-  <p>마침내 처와 봉<sup>鳳</sup>의 머리를 깎아[髡] [태후에게] 사죄하였다.</p>
+  <p>마침내 처와 봉<hanja aria-hidden="true">鳳</hanja>의 머리를 깎아[髡] [태후에게] 사죄하였다.</p>
 
   <p><cite> 《후한서》 〈등구열전〉</cite></p>
 </blockquote>
 
 <blockquote>
-  <p>자살하여[自殺] 기<sup>期</sup>에게 사죄하였다.</p>
+  <p>자살하여[自殺] 기<hanja aria-hidden="true">期</hanja>에게 사죄하였다.</p>
 
-  <p><cite> 《후한서》 〈조기왕패제준열전<sup>銚期王霸祭遵列傳</sup>〉</cite></p>
+  <p><cite> 《후한서》 〈조기왕패제준열전<hanja aria-hidden="true">銚期王霸祭遵列傳</hanja>〉</cite></p>
 </blockquote>
 
 <p>심지어 귀신에게까지 사죄합니다.</p>
@@ -526,25 +526,25 @@
 </blockquote>
 
 <blockquote>
-  <p>가충<sup>賈充</sup>을 벌하여[誅] 천하에 사죄하십시오.</p>
+  <p>가충<hanja aria-hidden="true">賈充</hanja>을 벌하여[誅] 천하에 사죄하십시오.</p>
 
   <p><cite> 《삼국지》 〈진태전〉 주석 </cite></p>
 </blockquote>
 
 <blockquote>
-  <p>가충<sup>賈充</sup>을 베는[斬] 것이 있어야 천하에 조금이나마 사죄할 수 있습니다.</p>
+  <p>가충<hanja aria-hidden="true">賈充</hanja>을 베는[斬] 것이 있어야 천하에 조금이나마 사죄할 수 있습니다.</p>
 
   <p><cite> 《삼국지》 〈진태전〉 주석 </cite></p>
 </blockquote>
 
 <blockquote>
-  <p>태조<sup>太祖</sup>는 그를 죽여[殺] 유<sup>柔</sup>에게 사죄했다.</p>
+  <p>태조<hanja aria-hidden="true">太祖</hanja>는 그를 죽여[殺] 유<hanja aria-hidden="true">柔</hanja>에게 사죄했다.</p>
 
   <p><cite> 《삼국지》 〈고유전〉 </cite></p>
 </blockquote>
 
 <blockquote>
-  <p>속<sup>謖</sup>을 륙하여[戮] 사람들[衆]에게 사죄했다.</p>
+  <p>속<hanja aria-hidden="true">謖</hanja>을 륙하여[戮] 사람들[衆]에게 사죄했다.</p>
 
   <p><cite> 《삼국지》 〈제갈량전〉 </cite></p>
 </blockquote>

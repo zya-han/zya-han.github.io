@@ -9,6 +9,13 @@ License: https://www.wowthemes.net/freebies-license/
 
 }
 
+hanja {
+    vertical-align: super;
+    font-size: 80%;
+    color: rgba(0, 0, 0, .50);
+}
+
+
 table {    
     border-collapse: collapse;
     margin-left: auto;
