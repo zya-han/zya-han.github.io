@@ -611,7 +611,13 @@ span.post-read-more a:hover {
 }
   
 /* 한국어 문서용 글꼴 */
-.article-post:lang(ko) {
+.article-post:lang(ko),
+.article-post:lang(ko) h1, 
+.article-post:lang(ko) h2, 
+.article-post:lang(ko) h3, 
+.article-post:lang(ko) h4, 
+.article-post:lang(ko) h5, 
+.article-post:lang(ko) h6 {
     font-family: "Gowun Batang", "Iansui", "HanaMinB", serif;
 }
   
@@ -1310,6 +1316,16 @@ iframe {
 
 /* 📱 모바일 최적화 스타일 */
 @media (max-width: 480px) {
+    .col-md-9 .mainheading {
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+      
+    .post-content {
+        padding-left: 0rem;
+        padding-right: 0rem;
+      }
+    
     /* 블로그 상단 제목 영역 압축 */
     .mainheading {
       padding-top: 0.5rem;
@@ -1374,11 +1390,31 @@ iframe {
     }
   
     /* 본문 여백 줄이기 */
-    /* .article-post {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem;
-    } */
+    .article-post {
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
 
+    .article-post h2 {
+        font-size: 1.5rem;
+    }    
+
+    .article-post h3 {
+      font-size: 1.4rem;
+    }  
+
+    .article-post h4 {
+        font-size: 1.3rem;
+      }  
+  
+    .article-post h5 {
+      font-size: 1.2rem;
+    }  
+
+    .article-post h6 {
+        font-size: 1.1rem;
+    }  
+      
     table, th, td {
         font-size: 0.95rem;
     }
