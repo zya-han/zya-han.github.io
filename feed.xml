@@ -1,4 +1,164 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://zyahan.blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zyahan.blog/" rel="alternate" type="text/html" hreflang="ko" /><updated>2025-04-10T19:04:08+09:00</updated><id>https://zyahan.blog/feed.xml</id><title type="html">미남과 오컬트와 자살</title><subtitle>《한서》 이야기를 합니다.</subtitle><entry xml:lang="ko"><title type="html">‘월궁항아’의 이름에 얽힌 수수께끼</title><link href="https://zyahan.blog/change-vs-henge/" rel="alternate" type="text/html" title="‘월궁항아’의 이름에 얽힌 수수께끼" /><published>2025-04-10T18:48:00+09:00</published><updated>2025-04-10T18:48:00+09:00</updated><id>https://zyahan.blog/change-vs-henge</id><content type="html" xml:base="https://zyahan.blog/change-vs-henge/"><![CDATA[<p>‘항아’라는 이름을 들으면 무엇이 떠오르시나요?
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://zyahan.blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zyahan.blog/" rel="alternate" type="text/html" hreflang="ko" /><updated>2025-04-11T09:16:07+09:00</updated><id>https://zyahan.blog/feed.xml</id><title type="html">미남과 오컬트와 자살</title><subtitle>《한서》 이야기를 합니다.</subtitle><entry xml:lang="ko"><title type="html">《구장산술》, 유클리드 호제법, 파이선</title><link href="https://zyahan.blog/nine-chapters-and-euclidean-algorithm/" rel="alternate" type="text/html" title="《구장산술》, 유클리드 호제법, 파이선" /><published>2025-04-11T09:15:00+09:00</published><updated>2025-04-11T09:15:00+09:00</updated><id>https://zyahan.blog/nine-chapters-and-euclidean-algorithm</id><content type="html" xml:base="https://zyahan.blog/nine-chapters-and-euclidean-algorithm/"><![CDATA[<p>이 포스트는 <a href="https://grandtutorschronicle.wordpress.com/2018/11/14/%e3%80%8a%ea%b5%ac%ec%9e%a5%ec%82%b0%ec%88%a0%e3%80%8b-%e3%80%88%eb%b0%a9%ec%a0%84%e3%80%89-%ec%95%bd%eb%b6%84%ec%88%a0%ec%9d%98-%ed%8c%8c%ec%9d%b4%ec%8d%ac-%ec%bd%94%eb%93%9c/">2018년에 작성했던 글</a>을 수정하고 보충한 것입니다.</p>
+
+<hr />
+
+<p>아<sup>雅</sup>가 종종 하는 말은 《한서》에는 아<sup>雅</sup>의 학위논문만 빼고 모든 것이 들어있다는 것입니다.
+그렇게 《한서》에서 온갖 것을 찾아대던 시절이었습니다.
+갑자기 한나라에 프로그래밍에 상응하는 것이 있었는지가 궁금해졌습니다.
+그러다가 《구장산술》이 떠올랐습니다.</p>
+
+<p>《구장산술》이란 어떤 책일까요? 《구장산술》은 제목 그대로 9장으로 이루어진 산술에 관한 책입니다.</p>
+
+<blockquote>
+  <p>유클리드의 기하원본에 견줄 정도로 막강한 고전이 동양산학에도 있다. 이름하여 ‘구장산술’이 그것이다.</p>
+
+  <p>동양산학 최고의 고전인 구장산술은 중국 산학의 효시로 그후의 발달을 결정지었다고 해도 과언이 아니다. 뿐만 아니라 우리나라, 일본, 베트남은 물론 심지어 중국과 쌍벽을 이루는 수학을 발달시킨 인도에도 커다란 영향을 미쳤다.</p>
+
+  <p>또 놀랍게도 동양 고대수학서인 구장산술의 내용이 중·고교 교육과정과 상당히 일치할 뿐 아니라 그것을 능가하기까지 한다.</p>
+
+  <p><cite>차종천. 〈<a href="https://dl.dongascience.com/magazine/view/S200102N032">우리민족 산학의 뿌리 ‘구장산술’: 고전을 읽으면 수학해법이 보인다</a>〉. 《과학동아》 2010년 01월. </cite></p>
+</blockquote>
+
+<p>이 《구장산술》은 바로 한나라 때 편찬된 것으로 추정됩니다.</p>
+
+<blockquote>
+  <p>『구장산술』은 전한시대(前漢時代, 서기전 206∼서기 8)에 편찬된 것으로 추정되며, 유휘(劉徽)가 263년,『구장산술』에 주를 달면서 쓴 서문을 통해 장창(張蒼)과 경수창(耿壽昌) 등에 의하여 완성된 것을 알 수 있다.</p>
+
+  <p><cite> 〈<a href="http://encykorea.aks.ac.kr/Contents/Item/E0006006">구장산술</a>〉, 《한국민족문화대백과사전》.  </cite></p>
+</blockquote>
+
+<p>《구장산술》을 완성한 인물로 꼽히는 장창과 경수창의 이름에 주목해 봅시다.
+<a href="/beau/">사형 집행 직전 드러난 맨몸이 뽀얗고 토실해서 풀려난 장창</a>은 진·한 교체기 사람이고, 150여 년 뒤 <a href="/xiao-wangzhi/">소망지</a>에게 비난받은 경수창은 전한시기 후반 사람입니다.
+다시 말해 《구장산술》의 내용이 전한시대 전반에 걸쳐 꾸준히 쌓여 왔다고 볼 수 있습니다.
+《한서》의 세계에서 중요한 책이라고 할 수 있겠습니다.</p>
+
+<p>그런데 이 책과 프로그래밍이 무슨 상관이 있을까요?
+이 물음에 답하기 위해, 《구장산술》 1권 〈방전〉에 나오는 약분술을 읽어봅시다.</p>
+
+<blockquote>
+  <p>최대공약수를 구할 때 흔히 사용되는 방법이 유클리드 기하원본에 소개된 호제법이다. 놀랍게도 구장산술 첫장에 나오는 단순한 분수 계산의 풀이법에 이런 유클리드 호제법과 동일한 방법이 소개돼 있다. [중략]</p>
+
+  <p>“반으로 나눌 수 있는 것은 반으로 나누면 되고, 반으로 나눠지지 않는 것은 분모·분자의 수를 다른 곳에 놓고, 큰 것에서 작은 것을 빼고 나서, 다시 서로서로 빼주는 일을 되풀이해 그것들의 등수(等數)를 구해 등수로 그것들을 나눈다.” [可半者半之。不可半者，副置分母，子之數，以少減多，更相減損，求其等也。以等數約之。]</p>
+
+  <p><cite>차종천. 〈<a href="https://dl.dongascience.com/magazine/view/S200102N032">구장산술에도 유클리드 호제법 나온다</a>〉. 《과학동아》 2010년 02월. </cite></p>
+</blockquote>
+
+<p>이 알고리듬에서는 조건문과 재귀함수를 찾을 수 있습니다.
+반으로 나눌 수 있는 경우[可半者]와 그렇지 않은 경우[不可半者]에 각기 다른 계산을 하는 것은 조건문으로 구현할 수 있습니다.
+다시 서로서로 빼 주는 일을 되풀이하는[更相減損] 계산은 함수를 재귀적으로 호출하는 것으로 구현할 수 있습니다.
+그렇다면 이것은 프로그래밍 언어로 작성할 수 있습니다.</p>
+
+<p>그래서 아<sup>雅</sup>에게 익숙한 언어인 파이선에서 약분<sup>約分</sup> 함수를 정의했습니다.
+구장산술 원문의 표현에 맞게 변수명을 짓고, 어순에 맞게 코드를 배치했습니다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+</pre></td><td class="rouge-code"><pre><span class="k">def</span> <span class="nf">約分</span><span class="p">(</span><span class="n">母</span><span class="p">,</span> <span class="n">子</span><span class="p">):</span>
+    <span class="n">母</span><span class="p">,</span> <span class="n">子</span> <span class="o">=</span> <span class="nf">max</span><span class="p">(</span><span class="n">母</span><span class="p">,</span> <span class="n">子</span><span class="p">),</span> <span class="nf">min</span><span class="p">(</span><span class="n">母</span><span class="p">,</span> <span class="n">子</span><span class="p">)</span>
+
+    <span class="c1"># 可半者: 반으로 나눌 수 있는 것은
+</span>    <span class="k">if</span> <span class="n">母</span> <span class="o">==</span> <span class="n">子</span> <span class="o">*</span> <span class="mi">2</span><span class="p">:</span>
+        <span class="c1"># 半之: 반으로 나누면 되고
+</span>        <span class="k">return</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span> 
+
+    <span class="c1"># 不可半者: 반으로 나눠지지 않는 것은
+</span>    <span class="k">def</span> <span class="nf">相減</span><span class="p">(</span><span class="n">多</span><span class="p">,</span> <span class="n">少</span><span class="p">):</span>
+        <span class="c1"># 副置分母子之數: 분모와 분자의 수를 다른 곳에 놓고    
+</span>        <span class="c1"># 以少減多: 큰 것에서 작은 것을 빼고 나서
+</span>        <span class="n">損</span> <span class="o">=</span> <span class="n">多</span> <span class="o">-</span> <span class="n">少</span>
+        <span class="k">if</span> <span class="n">損</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">少</span> <span class="c1"># 최대공약수
+</span>        <span class="k">elif</span> <span class="n">損</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="k">return</span> <span class="mi">1</span> <span class="c1"># 서로소인 경우
+</span>        <span class="k">else</span><span class="p">:</span>
+            <span class="c1"># 更相減損: 다시 서로서로 빼주는 일을 되풀이해
+</span>            <span class="k">return</span> <span class="n">相減</span><span class="p">(</span><span class="nf">max</span><span class="p">(</span><span class="n">少</span><span class="p">,</span> <span class="n">損</span><span class="p">),</span> <span class="nf">min</span><span class="p">(</span><span class="n">少</span><span class="p">,</span> <span class="n">損</span><span class="p">))</span>
+
+    <span class="c1"># 求其等也: 그것들의 등수를 구해
+</span>    <span class="n">等數</span> <span class="o">=</span> <span class="n">相減</span><span class="p">(</span><span class="n">母</span><span class="p">,</span> <span class="n">子</span><span class="p">)</span>
+
+    <span class="c1"># 以等數約之: 등수로 그것들을 나눈다
+</span>    <span class="k">return</span> <span class="n">母</span> <span class="o">//</span> <span class="n">等數</span><span class="p">,</span> <span class="n">子</span> <span class="o">//</span> <span class="n">等數</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>아니면 재귀함수를 쓰지 않고 <code class="language-plaintext highlighter-rouge">while</code> 문을 사용할 수도 있습니다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+</pre></td><td class="rouge-code"><pre><span class="k">def</span> <span class="nf">約分</span><span class="p">(</span><span class="n">母</span><span class="p">,</span> <span class="n">子</span><span class="p">):</span>
+
+    <span class="c1"># 可半者: 반으로 나눌 수 있는 것은
+</span>    <span class="k">if</span> <span class="n">母</span> <span class="o">==</span> <span class="n">子</span> <span class="o">*</span> <span class="mi">2</span><span class="p">:</span>
+        <span class="c1"># 半之: 반으로 나누면 되고
+</span>        <span class="k">return</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span>
+
+    <span class="c1"># 不可半者: 반으로 나눠지지 않는 것은
+</span>    <span class="k">else</span><span class="p">:</span>
+        <span class="c1"># 副置分母子之數: 분모와 분자의 수를 다른 곳에 놓고    
+</span>        <span class="n">多</span><span class="p">,</span> <span class="n">少</span> <span class="o">=</span> <span class="nf">max</span><span class="p">(</span><span class="n">母</span><span class="p">,</span> <span class="n">子</span><span class="p">),</span> <span class="nf">min</span><span class="p">(</span><span class="n">母</span><span class="p">,</span> <span class="n">子</span><span class="p">)</span>
+        <span class="c1"># 以少減多: 큰 것에서 작은 것을 빼고 나서
+</span>        <span class="n">損</span> <span class="o">=</span> <span class="n">多</span> <span class="o">-</span> <span class="n">少</span>
+        <span class="k">while</span> <span class="n">損</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="c1"># 更相減損: 다시 서로서로 빼주는 일을 되풀이해
+</span>            <span class="n">多</span><span class="p">,</span> <span class="n">少</span> <span class="o">=</span> <span class="nf">max</span><span class="p">(</span><span class="n">少</span><span class="p">,</span> <span class="n">損</span><span class="p">),</span> <span class="nf">min</span><span class="p">(</span><span class="n">少</span><span class="p">,</span> <span class="n">損</span><span class="p">)</span>
+            <span class="n">損</span> <span class="o">=</span> <span class="n">多</span> <span class="o">-</span> <span class="n">少</span>
+        
+        <span class="c1"># 求其等也: 그것들의 등수를 구해
+</span>        <span class="n">等數</span> <span class="o">=</span> <span class="mi">1</span> <span class="k">if</span> <span class="n">損</span> <span class="k">else</span> <span class="n">少</span>
+        
+        <span class="c1"># 以等數約之: 등수로 그것들을 나눈다
+</span>        <span class="k">return</span> <span class="n">母</span> <span class="o">//</span> <span class="n">等數</span><span class="p">,</span> <span class="n">子</span> <span class="o">//</span> <span class="n">等數</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>역시 《한서》의 세계에는 없는 것이 없습니다.</p>
+
+<hr />
+<p>2018-11-14 16:23</p>]]></content><author><name>zya</name></author><category term="한나라 설정집" /><category term="정보" /><category term="구장산술" /><category term="약분술" /><category term="장창" /><category term="경수창" /><category term="수학" /><category term="유클리드" /><category term="호제법" /><category term="최대공약수" /><category term="파이선" /><category term="파이썬" /><category term="Python" /><category term="조건문" /><category term="재귀함수" /><category term="반복문" /><summary type="html"><![CDATA[《한서》에서 온갖 것을 찾아대던 시절이었습니다. 갑자기 한나라에 프로그래밍에 상응하는 것이 있었는지가 궁금해졌습니다. 그러다가 《구장산술》이 떠올랐습니다. 《구장산술》이란 어떤 책일까요? 《구장산술》은 제목 그대로 9장으로 이루어진 산술에 관한 책입니다.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://zyahan.blog/assets/images/cards/python-algorithm.png" /><media:content medium="image" url="https://zyahan.blog/assets/images/cards/python-algorithm.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ko"><title type="html">‘월궁항아’의 이름에 얽힌 수수께끼</title><link href="https://zyahan.blog/change-vs-henge/" rel="alternate" type="text/html" title="‘월궁항아’의 이름에 얽힌 수수께끼" /><published>2025-04-10T18:48:00+09:00</published><updated>2025-04-10T18:48:00+09:00</updated><id>https://zyahan.blog/change-vs-henge</id><content type="html" xml:base="https://zyahan.blog/change-vs-henge/"><![CDATA[<p>‘항아’라는 이름을 들으면 무엇이 떠오르시나요?
 ‘월궁항아’는 서브컬처에서도 곧잘 볼 수 있습니다.
 동아시아 전통에서 ‘항아’는 달에 산다는 여신, 혹은 선녀를 가리킵니다.</p>
 
@@ -741,19 +901,4 @@
 <cite> 이상경. (2020). 〈<a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002665965">1930년 서울 여학생 만세운동 연구: 여학생의 「신문조서」를 활용하여</a>〉. 《여성과 역사》 33, 191–232. </cite></p>
 </blockquote>
 
-<p>만세운동에 참여한 여학생들의 형량을 줄이기 위한 수단이기는 하지만, 뜻밖에 ‘만세’의 기원에 충실한 논리이기도 합니다.</p>]]></content><author><name>zya</name></author><category term="잡담" /><category term="정보" /><category term="만세" /><category term="천세" /><category term="황제" /><category term="황태자" /><category term="화씨벽" /><category term="항우" /><category term="유방" /><category term="김구" /><category term="백범일지" /><category term="봉신연의" /><category term="위충현" /><category term="서경잡기" /><category term="후한서" /><category term="송회요집고" /><summary type="html"><![CDATA[여기서 주목할 점은 만세(萬歲)와 천세(千歲)의 차이입니다. 중국의 역사서에서는 ‘천세’라는 말을 많이 찾아보기 어렵습니다. 반면 《조선왕조실록》에는 ‘천세’가 수백 회 나옵니다. 중국에서 황제의 관료들이 만세를 불렀다면, 조선에서 왕의 관료들은 천세를 불렀고, 조선이 대한제국이 되면서 비로소 군주에게 만세를 썼던 것입니다. 그런데 황제와 제후왕의 위계가 만세와 천세로 구별된 것은 언제부터였을까요?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://zyahan.blog/assets/images/cards/wansui.jpeg" /><media:content medium="image" url="https://zyahan.blog/assets/images/cards/wansui.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ko"><title type="html">한나라의 광녀(狂女)들</title><link href="https://zyahan.blog/mad-women/" rel="alternate" type="text/html" title="한나라의 광녀(狂女)들" /><published>2025-01-24T15:52:00+09:00</published><updated>2025-01-24T15:52:00+09:00</updated><id>https://zyahan.blog/mad-women</id><content type="html" xml:base="https://zyahan.blog/mad-women/"><![CDATA[<p>광녀(狂女)란 한자 그대로 풀이하면 ‘미친 여자’라는 뜻입니다. 한자문화권에서 이 말이 최초로 발견되는 문헌은 바로 《한서》입니다. 〈왕망전 중〉에는 신나라를 세우고 황제가 된 왕망을 비난하는 ‘미친 여자’가 등장합니다.</p>
-
-<blockquote>
-  <p>이 해에 장안의 <strong>미친 여자[狂女子]</strong> 벽(碧)이 길에서 소리쳤다. “고황제[유방]께서 크게 노하셔서 내 나라를 돌려달라고 하셨다. 돌려주지 않는다면 9월에 너를 죽일 것이다!” 왕망은 그를 잡아 죽였다.
-<cite> 《한서》 〈왕망전 중〉. </cite></p>
-</blockquote>
-
-<p>이렇게 사회의 불안이 도래했음을 외치는 여자를 ‘광녀’로 기록한 사례를 찾을 수 있습니다. ‘광녀’를 주술사인 무녀(巫女)로 해석하는 설도 있다고 합니다(하라 모토코, 《<a href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=329899755">환경으로 보는 고대 중국</a>》, 243면).</p>
-
-<p>재미있는 점은 ‘광녀’의 의미와 기준이 훗날 달라진다는 것입니다. 지금까지 이 채널에서 전한 남자 유향이 쓴 《열녀전》 이야기를 많이 한 적이 있습니다. 그런데 북송 남자 <a href="https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%9B%9E_(1023%E5%B9%B4)">왕회</a>가 지은 〈열녀전 서〉에 따르면, 유명한 문인이자 정치가였던 <a href="https://ko.wikipedia.org/wiki/%EC%99%95%EC%95%88%EC%84%9D">왕안석</a>은 친구 왕회가 《열녀전》을 파는 것을 놀리며 왜 “여러 광녀 이야기를 서술하여 만든 책”을 좋아하느냐고 물었다고 합니다.</p>
-
-<p>일찍이 〈<a href="/liu-xiang-hated-beautiful-women/">미녀를 혐오한 남자</a>〉라는 포스트에서 소개했듯이, 《열녀전》에는 총 일곱 가지의 여성 유형이 나옵니다. 이 일곱 가지 중 여섯 가지가 긍정적인 내용이고, 나머지 한 가지가 유일하게 부정적인 내용입니다. 이를 보건대 《열녀전》의 저자 유향은 최대한 다양한 유형의 미덕을 가진 여성들의 이야기를 소개하고자 한 것 같습니다. 그러나 왕안석에게 있어 이들은 모두 ‘미친 여자’에 불과했던 것입니다.</p>
-
-<p>혹시 왕안석이 부정적인 유형만을 찍어서 ‘미친 여자’라고 한 것은 아니었을까요? 아닙니다. 왕안석의 물음에 대한 왕회의 대답을 살펴보면 《열녀전》의 여자들은 악한 자[惡者]와 미친 자[狂者]로 분류되었고, 후자는 “<a href="https://db.cyberseodang.or.kr/front/alphaList/BookMain.do?bnCode=jti_2g0202&amp;titleId=C72">비록 예의에 맞지는 않으나 한결같이 善에 뜻을 두어 행실을 규방에서 이루었다</a>”라는 평가를 받았습니다. 전한 남자 유향은 《열녀전》에서 뛰어난 언변으로 작게는 가족을 살리고 크게는 나라를 구한 여자들을 칭송했습니다. 하지만 북송 남자 왕회와 왕안석은 이들의 언행이 선했음을 인정하면서도 여자가 자기 목소리를 낸 것 자체가 예의에 어긋난다고 여기고 이들에게 ‘미친 여자’라는 딱지를 붙인 것입니다.</p>
-
-<p>즉, 한나라 남자들은 체제를 위협하는 여자들을 ‘광녀’라고 불렀지만, 송나라 남자들이 보기에는 아무리 체제에 순응하고 체제의 존속에 기여한 여자라도 일단 남자 앞에서 자기 의견을 말하면 ‘광녀’가 되었습니다.</p>]]></content><author><name>zya</name></author><category term="한나라 설정집" /><category term="정보" /><category term="광녀" /><category term="여자" /><category term="한서" /><category term="왕망" /><category term="열녀전" /><category term="유향" /><category term="왕회" /><category term="왕안석" /><summary type="html"><![CDATA[광녀(狂女)란 한자 그대로 풀이하면 ‘미친 여자’라는 뜻입니다. 한자문화권에서 이 말이 최초로 발견되는 문헌은 바로 《한서》입니다. 〈왕망전 중〉에는 신나라를 세우고 황제가 된 왕망을 비난하는 ‘미친 여자’가 등장합니다.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://zyahan.blog/assets/images/cards/bi.jpeg" /><media:content medium="image" url="https://zyahan.blog/assets/images/cards/bi.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>만세운동에 참여한 여학생들의 형량을 줄이기 위한 수단이기는 하지만, 뜻밖에 ‘만세’의 기원에 충실한 논리이기도 합니다.</p>]]></content><author><name>zya</name></author><category term="잡담" /><category term="정보" /><category term="만세" /><category term="천세" /><category term="황제" /><category term="황태자" /><category term="화씨벽" /><category term="항우" /><category term="유방" /><category term="김구" /><category term="백범일지" /><category term="봉신연의" /><category term="위충현" /><category term="서경잡기" /><category term="후한서" /><category term="송회요집고" /><summary type="html"><![CDATA[여기서 주목할 점은 만세(萬歲)와 천세(千歲)의 차이입니다. 중국의 역사서에서는 ‘천세’라는 말을 많이 찾아보기 어렵습니다. 반면 《조선왕조실록》에는 ‘천세’가 수백 회 나옵니다. 중국에서 황제의 관료들이 만세를 불렀다면, 조선에서 왕의 관료들은 천세를 불렀고, 조선이 대한제국이 되면서 비로소 군주에게 만세를 썼던 것입니다. 그런데 황제와 제후왕의 위계가 만세와 천세로 구별된 것은 언제부터였을까요?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://zyahan.blog/assets/images/cards/wansui.jpeg" /><media:content medium="image" url="https://zyahan.blog/assets/images/cards/wansui.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
