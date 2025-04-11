@@ -1339,7 +1339,7 @@ iframe {
   
     .mainheading p.lead {
       font-size: 1rem;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.1rem;
     }
   
     /* 포스트 상단 메타 영역 압축 및 정렬 조정 */
@@ -1349,7 +1349,7 @@ iframe {
         flex-direction: row;   /* 아바타 왼쪽, 텍스트 오른쪽 */
         gap: 1rem;
         margin-top: 1.2rem;
-        margin-bottom: 1.5rem;
+        margin-bottom: 1.2rem;
       }
     
     .post-top-meta .author-thumb {
