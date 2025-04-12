@@ -23,7 +23,8 @@ License: https://www.wowthemes.net/freebies-license/
     content: attr(data-hanja);
     font-size: 80%;
     vertical-align: super;
-    color: rgba(0, 0, 0, .65);
+    color: inherit;
+    opacity: 0.75;
 }
 
 .person {
