@@ -321,11 +321,11 @@
                 <!-- End Toc -->
                 <p>이 글에서는 한나라 시대의 역사를 포함하는 전4사(사기·한서·후한서·삼국지) 및 동시대 문헌에서 인사와 연관된 신체 동작의 쓰임을 수집했습니다.</p>
 
-<h3 id="양-손을-들어-모으기拱手">양 손을 들어 모으기[拱手]</h3>
+<h3 id="양-손을-들어-<span class="hanja-word" data-hanja="拱手">모으기</span>">양 손을 들어 모으기[拱手]</h3>
 
 <p>일반적으로 윗사람 앞에서 공경의 뜻을 표하는 동작입니다.</p>
 
-<h3 id="엎드려-절하기拜">엎드려 절하기[拜]</h3>
+<h3 id="엎드려-<span class="hanja-word" data-hanja="拜">절하기</span>">엎드려 절하기[拜]</h3>
 
 <p>가장 기본적인 인사법입니다.</p>
 
@@ -334,7 +334,7 @@
   <li>절은 더 많이 할 수도 있었습니다. 예를 들어 《한서》 〈소망지전〉에서 소망지는 황제의 사자를 맞아 <strong>절을 두 번만 했다는</strong> 이유로 탄핵당합니다.</li>
 </ul>
 
-<h3 id="등을-쓰다듬기두드리기拊背">등을 쓰다듬기/두드리기[拊背]</h3>
+<h3 id="등을-<span class="hanja-word" data-hanja="拊背">쓰다듬기두드리기</span>">등을 쓰다듬기/두드리기[拊背]</h3>
 
 <p>윗사람이 아랫사람을 격려하는 동작입니다.</p>
 
@@ -344,7 +344,7 @@
   <li>《삼국지》 오지9 〈여몽전〉에서는 노숙이 여몽의 <strong>등을 쓰다듬으면서</strong> 자기가 알던 “오하아몽”이 이렇게 계략에 능하게 될 줄 몰랐다고 칭찬합니다.</li>
 </ul>
 
-<h3 id="껴안기擁">껴안기[擁]</h3>
+<h3 id="<span class="hanja-word" data-hanja="擁">껴안기</span>">껴안기[擁]</h3>
 
 <p>남편이 부인에게 애정을 표시하는 동작으로, 역사책에서는 대체로 부정적인 평가를 받는 행위입니다. 동성 간에 쓰인 예는 찾기 어렵습니다.</p>
 
@@ -384,7 +384,7 @@
   <li>《동관한기》에서는 양정이라는 인물이 자기를 무례하게 대한 귀족 마무를 책망할 때 마무의 <strong>손을 잡습니다</strong>.</li>
 </ul>
 
-<h3 id="수염-쥐기捉鬚">수염 쥐기[捉鬚]</h3>
+<h3 id="수염-<span class="hanja-word" data-hanja="捉鬚">쥐기</span>">수염 쥐기[捉鬚]</h3>
 
 <p>조조가 기분이 좋을 때 상대의 수염을 마구 잡습니다. 아무나 해도 되는 행동은 아닌 것 같습니다.</p>
 
@@ -881,9 +881,9 @@ https://search.google.com/structured-data/testing-tool/u/0/
     }
 </script>
   
-  <!-- 모바일 전용 검색창 -->
-  <div id="mobile-search-container" class="d-lg-none" style="display:none;">
-    
+<!-- 모바일 전용 검색창 -->
+<div id="mobile-search-container" class="d-lg-none" style="display:none;">
+
 
 
 <script src="/assets/js/lunr.js"></script>
@@ -919,12 +919,22 @@ https://search.google.com/structured-data/testing-tool/u/0/
          value="" placeholder="검색어를 입력하세요" />
 </form>
 
-  </div>
-  
-  <!-- ✅ 여기 넣으세요: 검색 결과 모달 포함 -->
-  <div id="lunrsearchresults" style="display:none;">
+</div>
+
+<!-- ✅ 여기 넣으세요: 검색 결과 모달 포함 -->
+<div id="lunrsearchresults" style="display:none;">
   <ul></ul>
 </div>
 <script src="/assets/js/lunrsearchengine.js"></script>
+
+<!-- 기타 콘텐츠들 -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll("hanja").forEach(el => {
+        el.setAttribute("aria-hidden", "true");
+        el.setAttribute("role", "presentation");
+      });
+    });
+</script>
 </body>
 </html>

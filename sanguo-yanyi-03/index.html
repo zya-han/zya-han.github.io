@@ -339,7 +339,7 @@
   <p>조조: <strong>내</strong> 마음이 올바르지 못하다… 그러면 <strong>공[公]</strong>은 또 왜 여포만 섬기셨소?</p>
 </blockquote>
 
-<p>조조가 진궁에게 공公이라고 존칭을 써 보지만 진궁은 끄떡도 하지 않습니다.</p>
+<p>조조가 진궁에게 <span class="hanja-word" data-hanja="公">공</span>이라고 존칭을 써 보지만 진궁은 끄떡도 하지 않습니다.</p>
 
 <blockquote>
   <p>진궁: 포(布)가 지모는 없어도 <strong>너[你]</strong>처럼 속임수를 쓰거나 음험하지는 않다.</p>
@@ -716,9 +716,9 @@ https://search.google.com/structured-data/testing-tool/u/0/
     }
 </script>
   
-  <!-- 모바일 전용 검색창 -->
-  <div id="mobile-search-container" class="d-lg-none" style="display:none;">
-    
+<!-- 모바일 전용 검색창 -->
+<div id="mobile-search-container" class="d-lg-none" style="display:none;">
+
 
 
 <script src="/assets/js/lunr.js"></script>
@@ -754,12 +754,22 @@ https://search.google.com/structured-data/testing-tool/u/0/
          value="" placeholder="검색어를 입력하세요" />
 </form>
 
-  </div>
-  
-  <!-- ✅ 여기 넣으세요: 검색 결과 모달 포함 -->
-  <div id="lunrsearchresults" style="display:none;">
+</div>
+
+<!-- ✅ 여기 넣으세요: 검색 결과 모달 포함 -->
+<div id="lunrsearchresults" style="display:none;">
   <ul></ul>
 </div>
 <script src="/assets/js/lunrsearchengine.js"></script>
+
+<!-- 기타 콘텐츠들 -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll("hanja").forEach(el => {
+        el.setAttribute("aria-hidden", "true");
+        el.setAttribute("role", "presentation");
+      });
+    });
+</script>
 </body>
 </html>

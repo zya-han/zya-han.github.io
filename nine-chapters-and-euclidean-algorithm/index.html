@@ -369,7 +369,7 @@
 다시 서로서로 빼 주는 일을 되풀이하는[更相減損] 계산은 함수를 재귀적으로 호출하는 것으로 구현할 수 있습니다.
 그렇다면 이것은 프로그래밍 언어로 작성할 수 있습니다.</p>
 
-<p>그래서 아<hanja aria-hidden="true" role="presentation">雅</hanja>에게 익숙한 언어인 파이선에서 약분<hanja aria-hidden="true" role="presentation">約分</hanja> 함수를 정의했습니다.
+<p>그래서 <span class="hanja-word" data-hanja="雅">아</span>에게 익숙한 언어인 파이선에서 <span class="hanja-word" data-hanja="約分">약분</span> 함수를 정의했습니다.
 구장산술 원문의 표현에 맞게 변수명을 짓고, 어순에 맞게 코드를 배치했습니다.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
@@ -840,9 +840,9 @@ https://search.google.com/structured-data/testing-tool/u/0/
     }
 </script>
   
-  <!-- 모바일 전용 검색창 -->
-  <div id="mobile-search-container" class="d-lg-none" style="display:none;">
-    
+<!-- 모바일 전용 검색창 -->
+<div id="mobile-search-container" class="d-lg-none" style="display:none;">
+
 
 
 <script src="/assets/js/lunr.js"></script>
@@ -878,12 +878,22 @@ https://search.google.com/structured-data/testing-tool/u/0/
          value="" placeholder="검색어를 입력하세요" />
 </form>
 
-  </div>
-  
-  <!-- ✅ 여기 넣으세요: 검색 결과 모달 포함 -->
-  <div id="lunrsearchresults" style="display:none;">
+</div>
+
+<!-- ✅ 여기 넣으세요: 검색 결과 모달 포함 -->
+<div id="lunrsearchresults" style="display:none;">
   <ul></ul>
 </div>
 <script src="/assets/js/lunrsearchengine.js"></script>
+
+<!-- 기타 콘텐츠들 -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll("hanja").forEach(el => {
+        el.setAttribute("aria-hidden", "true");
+        el.setAttribute("role", "presentation");
+      });
+    });
+</script>
 </body>
 </html>

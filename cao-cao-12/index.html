@@ -344,7 +344,7 @@
   <li>현재 접근 가능한 한나라 문헌에서 ‘瞞’이 남을 속인다는 의미로 쓰인 예를 찾을 수 없습니다. 아니, 아예 이 한자 자체가 거의 나오지 않습니다.</li>
 </ol>
 
-<h3 id="아만-거짓말쟁이설에-대한-반박-1-거짓말은-눈目보다-말言로-한다">아만 거짓말쟁이설에 대한 반박 1: 거짓말은 눈[目]보다 말[言]로 한다</h3>
+<h3 id="아만-거짓말쟁이설에-대한-반박-1-거짓말은-<span class="hanja-word" data-hanja="目">눈</span>보다-<span class="hanja-word" data-hanja="言">말</span>로-한다">아만 거짓말쟁이설에 대한 반박 1: 거짓말은 눈[目]보다 말[言]로 한다</h3>
 
 <p>네이버 한자사전에서 ‘속이다’로 검색해 보면 상당수의 한자가 詐(사), 誣(무), 詭(궤), 譎(휼)처럼 言[말씀 언]을 부수로 삼고 있습니다. 거짓말은 남을 속이는 말이므로 이쪽이 더 자연스럽습니다.</p>
 
@@ -360,7 +360,7 @@
 
 <p>결국 조조의 아명 아만(阿瞞)이 지어질 당시에 만(瞞)이라는 한자가 남을 속인다는 뜻을 가졌다는 결론은 내지 못했습니다. 적어도 “정사”에 따르면 조조의 아명은 거짓말쟁이라고 하기 어렵습니다.</p>
 
-<h3 id="기만欺瞞이라는-단어의-등장">‘기만(欺瞞)’이라는 단어의 등장</h3>
+<h3 id="<span class="hanja-word" data-hanja="欺瞞">기만</span>이라는-단어의-등장">‘기만(欺瞞)’이라는 단어의 등장</h3>
 
 <p>어쨌든 동아시아 현대에 瞞이 남을 속인다는 뜻으로 쓰이고 있다는 사실은 부정할 수 없습니다. 그렇다면 언제부터 이런 의미가 생기게 되었을까요?</p>
 
@@ -711,9 +711,9 @@ https://search.google.com/structured-data/testing-tool/u/0/
     }
 </script>
   
-  <!-- 모바일 전용 검색창 -->
-  <div id="mobile-search-container" class="d-lg-none" style="display:none;">
-    
+<!-- 모바일 전용 검색창 -->
+<div id="mobile-search-container" class="d-lg-none" style="display:none;">
+
 
 
 <script src="/assets/js/lunr.js"></script>
@@ -749,12 +749,22 @@ https://search.google.com/structured-data/testing-tool/u/0/
          value="" placeholder="검색어를 입력하세요" />
 </form>
 
-  </div>
-  
-  <!-- ✅ 여기 넣으세요: 검색 결과 모달 포함 -->
-  <div id="lunrsearchresults" style="display:none;">
+</div>
+
+<!-- ✅ 여기 넣으세요: 검색 결과 모달 포함 -->
+<div id="lunrsearchresults" style="display:none;">
   <ul></ul>
 </div>
 <script src="/assets/js/lunrsearchengine.js"></script>
+
+<!-- 기타 콘텐츠들 -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll("hanja").forEach(el => {
+        el.setAttribute("aria-hidden", "true");
+        el.setAttribute("role", "presentation");
+      });
+    });
+</script>
 </body>
 </html>

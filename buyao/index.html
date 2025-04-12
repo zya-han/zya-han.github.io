@@ -681,9 +681,9 @@ https://search.google.com/structured-data/testing-tool/u/0/
     }
 </script>
   
-  <!-- 모바일 전용 검색창 -->
-  <div id="mobile-search-container" class="d-lg-none" style="display:none;">
-    
+<!-- 모바일 전용 검색창 -->
+<div id="mobile-search-container" class="d-lg-none" style="display:none;">
+
 
 
 <script src="/assets/js/lunr.js"></script>
@@ -719,12 +719,22 @@ https://search.google.com/structured-data/testing-tool/u/0/
          value="" placeholder="검색어를 입력하세요" />
 </form>
 
-  </div>
-  
-  <!-- ✅ 여기 넣으세요: 검색 결과 모달 포함 -->
-  <div id="lunrsearchresults" style="display:none;">
+</div>
+
+<!-- ✅ 여기 넣으세요: 검색 결과 모달 포함 -->
+<div id="lunrsearchresults" style="display:none;">
   <ul></ul>
 </div>
 <script src="/assets/js/lunrsearchengine.js"></script>
+
+<!-- 기타 콘텐츠들 -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll("hanja").forEach(el => {
+        el.setAttribute("aria-hidden", "true");
+        el.setAttribute("role", "presentation");
+      });
+    });
+</script>
 </body>
 </html>

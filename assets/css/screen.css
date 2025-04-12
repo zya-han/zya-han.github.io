@@ -19,13 +19,12 @@ License: https://www.wowthemes.net/freebies-license/
 }
 
 /* 한자 위첨자 */
-hanja {
-    display: inline;
-    vertical-align: super;
+.hanja-word::after {
+    content: attr(data-hanja);
     font-size: 80%;
+    vertical-align: super;
     color: rgba(0, 0, 0, .50);
 }
-
 
 table {    
     border-collapse: collapse;
