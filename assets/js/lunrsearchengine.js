@@ -2153,6 +2153,16 @@ function lunr_search(term) {
 
     term = term.trim(); // 앞뒤 공백 제거
 
+    if (!term) {
+        document.getElementById('modtit').innerHTML = `
+            <h2 style="text-align: left; flex: 1; margin: 0;">
+                검색어를 한 글자 이상 입력하세요
+            </h2>
+            <button type="button" class="close" id="btnx" data-dismiss="modal" aria-label="Close">&times;</button>
+        `;
+        return false;
+    }
+
     if (term) {
         // 기존 검색 결과 지우기
         document.querySelector(".modal-body ul").innerHTML = '';
