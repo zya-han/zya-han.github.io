@@ -1644,3 +1644,20 @@ iframe {
       color: #333 !important;
     }
   }
+
+.search-wrapper button {
+    background-color: #00ab6b;
+    color: white;
+    border: none;
+    padding: 0.4rem 0.7rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-wrapper button:hover {
+    background-color: #009a60;
+}

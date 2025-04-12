@@ -141,38 +141,74 @@
               
 
 
+
 <script src="/assets/js/lunr.js"></script>
 <script src="/assets/js/lunr.stemmer.support.js"></script>
 <script src="/assets/js/lunr.multi.js"></script>
 <script src="/assets/js/lunr.ko.js"></script>
 <script src="/assets/js/lunr.zh.js"></script>
 
+<div class="search-wrapper">
+  <div class="search-container">
+    <form class="bd-search" onsubmit="return lunr_search(document.getElementById('false').value);">
+        <input type="text" class="form-control text-small launch-modal-search"
+             id="false" name="q" maxlength="255"
+             value="" placeholder="검색어를 입력하세요" />
+        <button type="submit" aria-label="검색">
+        <i class="fas fa-search" aria-hidden="true"></i>
+        </button>
+    </form>
+  </div>
+</div>
+
 <style>
-    /* .lunrsearchresult .title {color: #d9230f;} */
-    /* .lunrsearchresult .title {color: #00ab6b;}
-    .lunrsearchresult .url {color: rgba(0, 0, 0, .66);}
-    .lunrsearchresult a {display: block; color: rgba(0, 0, 0, .8);}
-    .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
-    .lunrsearchresult a:hover .title {text-decoration: underline;} */
-    .modal-footer button#btnx {
-        background-color: #00ab6b;
-        color: white;
-        border: none;
-    }
+  .search-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem;
+  }
 
-    .modal-footer button#btnx:hover {
-        background-color: #009a60;
+  .search-container {
+    width: 100%;
+    max-width: 720px;
+  }
+
+  .bd-search {
+    display: flex;
+    align-items: center;
+  }
+
+  .bd-search input[type="text"] {
+    flex: 1;
+    min-width: 0;
+    margin-right: 0.5rem;
+  }
+
+  .bd-search button {
+    flex-shrink: 0;
+    width: 2rem;
+    height: 2rem;
+    background-color: #00ab6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bd-search button:hover {
+    background-color: #009a60;
+  }
+
+  @media (min-width: 992px) {
+    .search-container {
+      width: 200px;
     }
+  }
 </style>
-
-
-
-
-<form class="bd-search" onsubmit="return lunr_search(document.getElementById('false').value);">
-  <input type="text" class="form-control text-small launch-modal-search"
-         id="false" name="q" maxlength="255"
-         value="" placeholder="검색어를 입력하세요" />
-</form>
 
             </li>
           
@@ -713,38 +749,74 @@ https://search.google.com/structured-data/testing-tool/u/0/
 
 
 
+
 <script src="/assets/js/lunr.js"></script>
 <script src="/assets/js/lunr.stemmer.support.js"></script>
 <script src="/assets/js/lunr.multi.js"></script>
 <script src="/assets/js/lunr.ko.js"></script>
 <script src="/assets/js/lunr.zh.js"></script>
 
+<div class="search-wrapper">
+  <div class="search-container">
+    <form class="bd-search" onsubmit="return lunr_search(document.getElementById('true').value);">
+        <input type="text" class="form-control text-small launch-modal-search"
+             id="true" name="q" maxlength="255"
+             value="" placeholder="검색어를 입력하세요" />
+        <button type="submit" aria-label="검색">
+        <i class="fas fa-search" aria-hidden="true"></i>
+        </button>
+    </form>
+  </div>
+</div>
+
 <style>
-    /* .lunrsearchresult .title {color: #d9230f;} */
-    /* .lunrsearchresult .title {color: #00ab6b;}
-    .lunrsearchresult .url {color: rgba(0, 0, 0, .66);}
-    .lunrsearchresult a {display: block; color: rgba(0, 0, 0, .8);}
-    .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
-    .lunrsearchresult a:hover .title {text-decoration: underline;} */
-    .modal-footer button#btnx {
-        background-color: #00ab6b;
-        color: white;
-        border: none;
-    }
+  .search-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem;
+  }
 
-    .modal-footer button#btnx:hover {
-        background-color: #009a60;
+  .search-container {
+    width: 100%;
+    max-width: 720px;
+  }
+
+  .bd-search {
+    display: flex;
+    align-items: center;
+  }
+
+  .bd-search input[type="text"] {
+    flex: 1;
+    min-width: 0;
+    margin-right: 0.5rem;
+  }
+
+  .bd-search button {
+    flex-shrink: 0;
+    width: 2rem;
+    height: 2rem;
+    background-color: #00ab6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bd-search button:hover {
+    background-color: #009a60;
+  }
+
+  @media (min-width: 992px) {
+    .search-container {
+      width: 200px;
     }
+  }
 </style>
-
-
-
-
-<form class="bd-search" onsubmit="return lunr_search(document.getElementById('true').value);">
-  <input type="text" class="form-control text-small launch-modal-search"
-         id="true" name="q" maxlength="255"
-         value="" placeholder="검색어를 입력하세요" />
-</form>
 
 </div>
 
