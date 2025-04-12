@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://zyahan.blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zyahan.blog/" rel="alternate" type="text/html" hreflang="ko" /><updated>2025-04-11T21:16:21+09:00</updated><id>https://zyahan.blog/feed.xml</id><title type="html">미남과 오컬트와 자살</title><subtitle>《한서》 이야기를 합니다.</subtitle><entry xml:lang="ko"><title type="html">《구장산술》, 유클리드 호제법, 파이선</title><link href="https://zyahan.blog/nine-chapters-and-euclidean-algorithm/" rel="alternate" type="text/html" title="《구장산술》, 유클리드 호제법, 파이선" /><published>2025-04-11T09:15:00+09:00</published><updated>2025-04-11T09:15:00+09:00</updated><id>https://zyahan.blog/nine-chapters-and-euclidean-algorithm</id><content type="html" xml:base="https://zyahan.blog/nine-chapters-and-euclidean-algorithm/"><![CDATA[<p>이 포스트는 <a href="https://grandtutorschronicle.wordpress.com/2018/11/14/%e3%80%8a%ea%b5%ac%ec%9e%a5%ec%82%b0%ec%88%a0%e3%80%8b-%e3%80%88%eb%b0%a9%ec%a0%84%e3%80%89-%ec%95%bd%eb%b6%84%ec%88%a0%ec%9d%98-%ed%8c%8c%ec%9d%b4%ec%8d%ac-%ec%bd%94%eb%93%9c/">2018년에 작성했던 글</a>을 수정하고 보충한 것입니다.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://zyahan.blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zyahan.blog/" rel="alternate" type="text/html" hreflang="ko" /><updated>2025-04-12T09:18:14+09:00</updated><id>https://zyahan.blog/feed.xml</id><title type="html">미남과 오컬트와 자살</title><subtitle>《한서》 이야기를 합니다.</subtitle><entry xml:lang="ko"><title type="html">《구장산술》, 유클리드 호제법, 파이선</title><link href="https://zyahan.blog/nine-chapters-and-euclidean-algorithm/" rel="alternate" type="text/html" title="《구장산술》, 유클리드 호제법, 파이선" /><published>2025-04-11T09:15:00+09:00</published><updated>2025-04-11T09:15:00+09:00</updated><id>https://zyahan.blog/nine-chapters-and-euclidean-algorithm</id><content type="html" xml:base="https://zyahan.blog/nine-chapters-and-euclidean-algorithm/"><![CDATA[<p>이 포스트는 <a href="https://grandtutorschronicle.wordpress.com/2018/11/14/%e3%80%8a%ea%b5%ac%ec%9e%a5%ec%82%b0%ec%88%a0%e3%80%8b-%e3%80%88%eb%b0%a9%ec%a0%84%e3%80%89-%ec%95%bd%eb%b6%84%ec%88%a0%ec%9d%98-%ed%8c%8c%ec%9d%b4%ec%8d%ac-%ec%bd%94%eb%93%9c/">2018년에 작성했던 글</a>을 수정하고 보충한 것입니다.</p>
 
 <hr />
 
-<p>아<hanja aria-hidden="true">雅</hanja>가 종종 하는 말은 《한서》에는 아<hanja aria-hidden="true">雅</hanja>의 학위논문만 빼고 모든 것이 들어있다는 것입니다.
+<p>아<hanja aria-hidden="true" role="presentation">雅</hanja>가 종종 하는 말은 《한서》에는 아<hanja aria-hidden="true" role="presentation">雅</hanja>의 학위논문만 빼고 모든 것이 들어있다는 것입니다.
 그렇게 《한서》에서 온갖 것을 찾아대던 시절이었습니다.
 갑자기 한나라에 프로그래밍에 상응하는 것이 있었는지가 궁금해졌습니다.
 그러다가 《구장산술》이 떠올랐습니다.</p>
@@ -48,7 +48,7 @@
 다시 서로서로 빼 주는 일을 되풀이하는[更相減損] 계산은 함수를 재귀적으로 호출하는 것으로 구현할 수 있습니다.
 그렇다면 이것은 프로그래밍 언어로 작성할 수 있습니다.</p>
 
-<p>그래서 아<hanja aria-hidden="true">雅</hanja>에게 익숙한 언어인 파이선에서 약분<hanja aria-hidden="true">約分</hanja> 함수를 정의했습니다.
+<p>그래서 아<hanja aria-hidden="true" role="presentation">雅</hanja>에게 익숙한 언어인 파이선에서 약분<hanja aria-hidden="true" role="presentation">約分</hanja> 함수를 정의했습니다.
 구장산술 원문의 표현에 맞게 변수명을 짓고, 어순에 맞게 코드를 배치했습니다.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1

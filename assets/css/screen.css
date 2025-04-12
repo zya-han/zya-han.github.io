@@ -20,6 +20,7 @@ License: https://www.wowthemes.net/freebies-license/
 
 /* 한자 위첨자 */
 hanja {
+    display: inline;
     vertical-align: super;
     font-size: 80%;
     color: rgba(0, 0, 0, .50);
