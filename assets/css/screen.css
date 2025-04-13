@@ -130,11 +130,23 @@ th, tr, td {
 }
   
 .category-card-image {
-    width: 200px;
-    height: 130px;
+    width: 180px;
+    height: auto;
     object-fit: cover;
     border-radius: 6px;
     margin-right: 1.5rem;
+}
+
+@media (max-width: 991px) {
+  .category-card-image {
+    width: 140px;
+  }
+}
+
+@media (max-width: 480px) {
+  .category-card-image {
+    width: 100px;
+  }
 }
   
 .category-card-text h1 {
