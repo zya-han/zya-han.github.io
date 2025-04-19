@@ -1329,7 +1329,7 @@ iframe {
 .spoiler:after {
     position: absolute;
     opacity: 0;
-    content: 'Click to reveal spoiler';
+    content: '스포일러를 보려면 클릭하세요';
     top: 45%;
     left: calc(50% - 100px);
     text-shadow: none;
@@ -1339,7 +1339,7 @@ iframe {
     font-size: 13px;
     line-height: 1;
     padding: 2px 3px;
-    width: 150px;
+    width: 160px;
     font-family: "Gowun Dodum";
     text-align: center;
     border-radius: 3px;
