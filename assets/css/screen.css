@@ -663,13 +663,7 @@ span.post-read-more a:hover {
 }
   
 /* 한국어 문서용 글꼴 */
-.row .article-post:lang(ko),
-.row .article-post:lang(ko) h1, 
-.row .article-post:lang(ko) h2, 
-.row .article-post:lang(ko) h3, 
-.row .article-post:lang(ko) h4, 
-.row .article-post:lang(ko) h5, 
-.row .article-post:lang(ko) h6 {
+.row .article-post:lang(ko) {
     font-family: "Gowun Batang", "Iansui", "HanaMinB", serif;
 }
   
@@ -1105,7 +1099,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: -apple-system, system-ui, fBlinkMacSystemFont, "42dot Sans", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: -apple-system, system-ui, fBlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "42dot Sans";
 }
 
 .article-post .h1,
