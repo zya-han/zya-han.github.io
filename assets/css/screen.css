@@ -663,17 +663,17 @@ span.post-read-more a:hover {
 }
   
 /* 한국어 문서용 글꼴 */
-.row .article-post:lang(ko) {
+.article-post:lang(ko) {
     font-family: "Gowun Batang", "Iansui", "HanaMinB", serif;
 }
   
 /* 영어 문서용 글꼴 */
-.row .article-post:lang(en) {
+.article-post:lang(en) {
     font-family: "Merriweather", Georgia, "Iansui", "HanaMinB", serif;
 }
 
 /* 중국어 문서용 글꼴 */
-.row .article-post:lang(zh) {
+.article-post:lang(zh) {
     font-family: "Noto Sans SC", sans-serif;
 }
 
