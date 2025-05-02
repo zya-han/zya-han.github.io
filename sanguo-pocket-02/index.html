@@ -653,7 +653,7 @@ https://search.google.com/structured-data/testing-tool/u/0/
             
                 
                     
-                    <a class="mt-1 mb-1" href="/category/정보">정보 (128)</a>
+                    <a class="mt-1 mb-1" href="/category/정보">정보 (129)</a>
                 
                     
                     <a class="mt-1 mb-1" href="/category/소설">소설 (47)</a>
@@ -662,7 +662,7 @@ https://search.google.com/structured-data/testing-tool/u/0/
                     <a class="mt-1 mb-1" href="/category/에세이">에세이 (7)</a>
                 
                     
-                    <a class="mt-1 mb-1" href="/category/한나라-설정집">한나라 설정집 (55)</a>
+                    <a class="mt-1 mb-1" href="/category/한나라-설정집">한나라 설정집 (56)</a>
                 
                     
                     <a class="mt-1 mb-1" href="/category/한나라-숙어-노트">한나라 숙어 노트 (20)</a>
@@ -737,6 +737,15 @@ https://search.google.com/structured-data/testing-tool/u/0/
 
 
 <!-- 스크립트들 -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll(".topic").forEach(function (el) {
+        const chars = el.textContent.split('');
+        el.innerHTML = chars.map(ch => `<span>${ch}</span>`).join('');
+      });
+    });
+</script>
+
 <script>
     function toggleSearchBar() {
       const searchContainer = document.getElementById('mobile-search-container');

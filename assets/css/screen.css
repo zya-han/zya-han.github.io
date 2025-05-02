@@ -1692,3 +1692,23 @@ iframe {
 .search-wrapper button:hover {
     background-color: #009a60;
 }
+
+.topic {
+    font-weight: bold;
+}
+
+.topic > span {
+    position: relative;
+    display: inline-block;
+}
+
+.topic > span::before {
+    content: "•";
+    position: absolute;
+    top: -0.7em;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.6em;
+    color: currentColor;
+    pointer-events: none;
+}

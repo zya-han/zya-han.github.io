@@ -654,6 +654,8 @@
             <a class="prev d-block col-md-6" href="/another-bronze-dildo-and-lesbians/"> &laquo; 또 하나의 청동 딜도와 대식(對食): 한나라의 레즈비언들?</a>
             
             
+            <a class="next d-block col-md-6 text-lg-right" href="/imperial-titles-for-sun-quan/">토로장군 손권을 황제로 칭한 신하들 &raquo; </a>
+            
             <div class="clearfix"></div>
             </div>
             <!-- End Categories -->
@@ -789,7 +791,7 @@ https://search.google.com/structured-data/testing-tool/u/0/
             
                 
                     
-                    <a class="mt-1 mb-1" href="/category/정보">정보 (128)</a>
+                    <a class="mt-1 mb-1" href="/category/정보">정보 (129)</a>
                 
                     
                     <a class="mt-1 mb-1" href="/category/소설">소설 (47)</a>
@@ -798,7 +800,7 @@ https://search.google.com/structured-data/testing-tool/u/0/
                     <a class="mt-1 mb-1" href="/category/에세이">에세이 (7)</a>
                 
                     
-                    <a class="mt-1 mb-1" href="/category/한나라-설정집">한나라 설정집 (55)</a>
+                    <a class="mt-1 mb-1" href="/category/한나라-설정집">한나라 설정집 (56)</a>
                 
                     
                     <a class="mt-1 mb-1" href="/category/한나라-숙어-노트">한나라 숙어 노트 (20)</a>
@@ -873,6 +875,15 @@ https://search.google.com/structured-data/testing-tool/u/0/
 
 
 <!-- 스크립트들 -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll(".topic").forEach(function (el) {
+        const chars = el.textContent.split('');
+        el.innerHTML = chars.map(ch => `<span>${ch}</span>`).join('');
+      });
+    });
+</script>
+
 <script>
     function toggleSearchBar() {
       const searchContainer = document.getElementById('mobile-search-container');
