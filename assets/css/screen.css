@@ -651,7 +651,7 @@ span.post-read-more a:hover {
 /* 본문 폰트 설정 변경 */
 .article-post {
     font-size: 1.1rem;
-    line-height: 1.84;
+    line-height: 2;
     color: rgba(0, 0, 0, .8);
 }
   
@@ -1451,7 +1451,7 @@ iframe {
   
     .article-post {
         font-size: 1.1rem;
-        line-height: 1.6;
+        line-height: 1.8;
         padding-top: 0.5rem;
     }
 
@@ -1714,4 +1714,9 @@ iframe {
     font-size: 0.6em;
     color: currentColor;
     pointer-events: none;
+}
+
+.hanja {
+    font-size: smaller;
+    line-height: 1.1;
 }
