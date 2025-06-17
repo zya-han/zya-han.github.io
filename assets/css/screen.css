@@ -351,7 +351,7 @@ section.recent-posts {
 .article-post ol ol,
 .article-post ul ul {
     list-style: circle;  /* 2단계 - 동그라미 */
-    margin-bottom: 0rem;
+    margin-bottom: 1.5rem;
 }
 
 .article-post ol ol ol,
@@ -1118,6 +1118,7 @@ h6 {
 .article-post h5,
 .article-post h6 {
     font-weight: 700;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
