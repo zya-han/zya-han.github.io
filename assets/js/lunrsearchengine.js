@@ -59,6 +59,17 @@ var documents = [
         
             {
                 "id": 3,
+                "url": "https://zyahan.blog/shackles-en",
+                "title": "[Pilot] Discourse understanding & Narrative Inference",
+                "subtitle": "",
+                "body": "Text: The Shackles Q1. 1. Interpret Zhang’s intention and the guard’s in the following conversation. :  Zhang: I’d prefer if you could take them right now, actually. Guard: Hmm. A1. Answers generated: {% tabs q1 %} {% tab q1 Claude Sonnet 4 %} In this conversation, there are two layers of meaning at play: Zhang’s intention:Zhang is expressing a dark, ironic wish - he wants to be freed from his shackles immediately, which would mean dying right now rather than having to wait and endure the prolonged anxiety and physical discomfort of his final hours. His statement reveals his psychological state: he’s reached a point where the anticipation of death has become more torturous than death itself. The heavy shackles are both a physical burden and a symbol of his condemned status, and he’d rather be released from both immediately. The guard’s response:The guard’s “Hmm” suggests he understands the deeper implication of Zhang’s words - that Zhang is essentially asking to die now rather than wait. The guard becomes serious and contemplative because he recognizes this isn’t really about the logistics of transferring the shackles, but about Zhang’s psychological suffering. The guard can’t grant this implicit request (to end Zhang’s life early), which creates an awkward moment where both men understand what’s really being asked but neither can openly acknowledge it. This exchange highlights the humanity that exists even in this dehumanizing situation - the guard shows empathy by recognizing Zhang’s suffering, while Zhang’s dark humor reveals his attempt to maintain some dignity and control in his final moments. {% endtab %} {% tab q1 Claude Opus 4 %}In this exchange, there’s a subtle but significant clash between Zhang’s dark humor and the guard’s superstitious beliefs. Zhang’s intention: When Zhang says “I’d prefer if you could take them right now, actually,” he’s making a sardonic joke about wanting to be freed from his heavy six-kilogram shackles immediately - while still alive. He’s essentially saying he’d rather not wait until after his execution to have them removed. This shows his dry wit in the face of death, as well as perhaps a hint of frustration at having to wear these painful restraints right up to his final moments. The guard’s response: The guard’s “Hmm” indicates he’s taking Zhang’s request seriously and literally considering it, which completely misses Zhang’s dark humor. The guard is so focused on the superstitious value of the shackles as “blessed objects” (items that supposedly bring good fortune after being worn by an executed person) that he doesn’t recognize Zhang’s sarcasm. His earnest consideration of an obviously impossible request - removing a death row prisoner’s shackles before execution - reveals how deeply he believes in the supernatural power these items will possess. This exchange highlights the ironic disconnect between Zhang’s rationalist perspective (even finding humor in his situation) and the guards’ superstitious worldview, where they see more value in his shackles as lucky charms than in his comfort as a human being about to die. {% endtab %} {% tab q1 Gemini 2. 5 Flash %} In this exchange, Zhang’s intention is to highlight the absurdity and futility of the guard’s request for the shackles as “blessed objects” for a red envelope. By saying “I’d prefer if you could take them right now, actually,” Zhang is subtly mocking the guard. He’s implying: “If these shackles are so ‘blessed’ and valuable, why wait? Why not free me from them now and reap the ‘blessings’ immediately?” It’s a sardonic challenge, underscoring his complete disregard for the superstitions or customs surrounding the “red envelope” for the workers. He recognizes the guard’s desire for the shackles, but in a way that suggests their “blessed” nature is only truly realized after his death, when they are removed. The guard’s “Hmm” indicates hesitation and a moment of consideration, but ultimately a rejection of Zhang’s sarcastic offer. He understands the implication of Zhang’s words – that the shackles aren’t truly “blessed” in a way that would allow them to be removed prematurely. The “Hmm” suggests he’s weighing Zhang’s comment, perhaps recognizing the dark humor or the implied futility of his own request in that moment. However, he cannot actually take the shackles now because Zhang is still alive and bound by them; their “blessed” status, in the context of the superstition, is tied to their removal after the execution. It’s a brief pause where the guard acknowledges Zhang’s defiance or cynicism, but the reality of the situation (Zhang is still shackled, awaiting execution) means the offer is not practical or desirable for him in that immediate context. {% endtab %} {% tab q1 GPT-4o %} This brief exchange between Zhang and the guard carries layered meaning and subtle emotional undercurrents. Zhang: “I’d prefer if you could take them right now, actually. ”: Zhang’s intention: Bitterness and irony: Zhang is mocking the entire ritual around his execution. By suggesting the guard take the shackles now, while he’s still alive and bound by them, he exposes the grotesque absurdity of how even objects of suffering (his heavy, custom-made shackles) become coveted after death.  Rejection of superstition: He subtly ridicules the idea that these instruments of his suffering could be “blessed” or lucky, as if dying in them somehow imbues them with power.  Detachment and control: By making this offer voluntarily and ironically, Zhang asserts some measure of autonomy. It’s a small way of reclaiming dignity within a system designed to strip it away.  Resignation: There’s a finality in his tone—a suggestion that, to him, the worst is already happening. The rest is just pageantry. Guard: “Hmm. ”: The guard’s intention: Mild discomfort or awkwardness: The guard may sense the sarcasm or bitterness in Zhang’s tone but doesn’t want to directly acknowledge it.  Hesitation or calculation: He may be unsure how to respond—whether Zhang’s offer is genuine or if it’s laced with contempt. He’s also trying to balance his own self-interest (getting the shackles) with maintaining professional decorum.  Willful obliviousness: The guard may prefer not to confront the emotional or ethical implications of what Zhang is saying. The “hmm” serves as a safe, neutral placeholder that avoids deeper engagement. In short, Zhang’s remark is a moment of dark wit and philosophical defiance. The guard’s “hmm” is a retreat from that depth—a vague response that avoids engaging with Zhang’s layered sarcasm and suffering. {% endtab %} {% tab q1 GPT 4. 1 %} Great question! Here’s a close reading and interpretation of the exchange: Context:The guard has just explained the custom of leaving a “red envelope” (money) inside the shackles as a bribe/good luck gesture for the workers who will remove them after execution, to make sure they are careful with the prisoner’s body. Zhang, who has nothing left, cannot do this, and the guard offers to “help” by having Zhang leave the shackles to him. Zhang: “I’d prefer if you could take them right now, actually. ” On the Surface:Zhang seems to be saying, “If you want these shackles so much, why not just take them now, before I’m executed?” Deeper Meaning/Intention:     Weariness &amp; Resignation: Zhang is tired—emotionally and physically. The shackles have been his constant, painful companion, and the whole “blessing” ritual seems absurd to him. He almost wishes he could be rid of them already, even before dying.    Dark Humor/Irony: He is making a grim joke: “If these shackles are so precious and ‘blessed,’ just take them now—why wait for my execution?” There’s irony in how these objects of his suffering have become coveted “good luck charms” to others.    Subtle Defiance: Zhang’s words also carry a hint of mockery. He is subtly challenging the ritual and the guard’s superstition, exposing the transactional, almost superstitious side of their compassion.    Detachment from Life: He has nothing left to lose, and material things—shackles included—mean nothing to him anymore.    Guard: “Hmm. ” On the Surface:The guard is momentarily stumped. He doesn’t immediately respond to Zhang’s suggestion.  Deeper Meaning/Intention:     Awkwardness: The guard realizes Zhang’s response isn’t just compliance—it’s a subtle pushback. He doesn’t know how to respond, because he’s confronted with the reality that, for Zhang, none of this matters anymore.    Reflection/Recognition: The guard might sense Zhang’s irony or see the sadness and bitterness in his answer. There’s a pause; the ritual isn’t just a simple transaction—it exposes uncomfortable truths about death, powerlessness, and the absurdity of these prison customs.    Continuing the Ritual: Despite the awkwardness, the guard sticks to his routine, trying to get what he wants while maintaining the tradition.    Summary Zhang’s intention is to show that he is detached, possibly mocking or highlighting the absurdity of the situation, expressing that he no longer values the shackles or the rituals surrounding them.  The guard’s intention is to continue the tradition for personal benefit but is thrown off by Zhang’s unexpected candor and perhaps feels momentarily uncomfortable or confronted. Would you like a deeper dive into their psychology or the cultural context of this exchange? {% endtab %} {% tab q1 Grok 3 %}In the conversation from The Shackles: Zhang’s Intention: When Zhang says, “I’d prefer if you could take them right now, actually,” he is likely expressing a mix of resignation and subtle defiance. Knowing his execution is imminent, Zhang may be suggesting that the shackles, which symbolize his punishment and confinement, could be removed while he’s still alive, sparing him the final indignity of having them broken off his corpse. His tone, followed by a soft chuckle, hints at a wry acknowledgment of his powerless situation—he knows the guard won’t remove the shackles now, but the comment reflects his desire to reclaim some agency or mock the guard’s request for the shackles as “blessed objects. ” It also underscores his acceptance of his fate, as he dismisses the need for a red envelope and allows the guards to dispose of the shackles as they wish. Guard’s Intention: The guard’s response, “Hmm,” is deliberately noncommittal and serious, revealing his focus on securing the shackles for himself and his colleagues. Earlier, he earnestly pleads for Zhang to leave the shackles to them, describing them as “blessed objects” with symbolic value, possibly for superstitious or practical reasons (e. g. , reuse or resale). His “Hmm” suggests he’s processing Zhang’s unexpected remark, perhaps recognizing the impossibility of removing the shackles now or sensing Zhang’s subtle jab. The guard’s primary intention is to ensure he and his colleagues benefit from Zhang’s shackles after the execution, as evidenced by his earlier explanation about the red envelope and his persistence in asking Zhang to bequeath the shackles. In summary, Zhang’s comment reflects a fleeting attempt to assert control or irony in his final moments, while the guard’s response shows his focus on acquiring the shackles, prioritizing their value over engaging with Zhang’s sentiment. {% endtab %} {% endtabs %} Q2. Guess and explain the reasons Zhang had to die. :  For them, the reasons Zhang had to die mattered less. A2. Answers generated: {% tabs q2 %} {% tab q2 Claude Sonnet 4 %}Based on the contextual clues in the story, Zhang appears to have been a corrupt government official who was executed for his crimes. Here’s what we can infer: Evidence of Zhang’s past status and crimes:  The text mentions “News of Zhang’s execution was reported nationwide as the fitting end of a corrupt official” His “entire estate was confiscated,” which is typical punishment for corruption cases He’s referred to as the “Illustrious Official” after death, suggesting he once held significant position The national news coverage indicates his case was high-profileLikely reasons for his execution:Zhang was probably convicted of serious corruption offenses such as:  Embezzlement of public funds Bribery and abuse of power Possibly other white-collar crimes that warranted capital punishmentThe irony highlighted in the final line:The story’s ending is deeply ironic - while Zhang was executed for being a corrupt official who presumably harmed society, the prison staff now revere him as a source of supernatural blessing. The warden’s son gets into university, a guard’s wife recovers from illness, inmates receive parole or commuted sentences - all attributed to Zhang’s “blessed power. ” This irony suggests the author’s commentary on how people’s moral judgments can be fluid and self-serving. The same man condemned as corrupt enough to deserve death becomes a benevolent figure when people believe he can bring them good fortune. The “reasons Zhang had to die” become irrelevant when his death can be reframed to serve others’ needs and hopes. {% endtab %} {% tab q2 Claude Opus 4 %}Based on the clues in the text, Zhang appears to have been executed for corruption-related crimes. Here’s my analysis: Direct evidence:  He’s explicitly referred to as a “corrupt official” in the news reports of his execution His “entire estate was confiscated” - a common penalty for corruption cases He was formerly known as the “Illustrious Official,” suggesting he held a significant government position before his downfallThe nature of his crimes:The story suggests Zhang’s crimes were likely economic/political rather than violent:  He’s educated (reading classical Chinese history) The guards treat him with unusual respect, even asking politely about his final wishes He maintains dignity and composure, suggesting someone of former high statusWhy “the reasons mattered less”:This final line reveals the story’s central irony. While society demanded Zhang’s death as justice for his corruption, the prison staff who actually knew him came to view him differently. After his execution, they treat his possessions as sacred relics that bring good fortune - the warden’s son passes exams, a guard’s wife recovers from illness, inmates receive clemency. The story seems to suggest that:  Official justice vs. human complexity: The state needed Zhang dead to demonstrate that corruption has consequences, but the individuals who interacted with him saw him as more than just his crimes Superstition transcends morality: The guards’ belief in “blessed objects” from executed prisoners overrides any moral judgment about why he was condemned Institutional hypocrisy: The very system that executed Zhang for corruption eagerly divides up his possessions for personal gain, showing their own form of petty corruptionThe story appears to critique how institutional justice often loses sight of human complexity, reducing people to their crimes while ignoring the fuller picture of who they were. {% endtab %} {% tab q2 Gemini 2. 5 Flash %}Based on the text provided, the reasons Zhang had to die are not explicitly stated. However, the story strongly implies he was a corrupt official who was sentenced to death as part of an anti-corruption effort. Here’s why:  “News of Zhang’s execution was reported nationwide as the fitting end of a corrupt official. ” This is the most direct piece of evidence, clearly labeling him as “corrupt” in the public narrative surrounding his execution.  “My entire estate was confiscated. ” This detail, mentioned by Zhang himself, is a common consequence of being found guilty of corruption, where ill-gotten gains are seized by the state.  “But within Huiyang Prefecture Correctional Facility, at least, the dead Zhang became the Illustrious Official once again. ” The use of “Illustrious Official” implies he held a position of power or authority, which aligns with the idea of a “corrupt official. ” The guards and inmates attributing “blessed power” to him, despite his execution, suggests a complex popular perception of such figures, perhaps due to the pervasive nature of corruption within the system. The text doesn’t provide details about his specific actions as a corrupt official, his political opinions, or any other private or sensitive information. It focuses on his final hours and the perception of his death. {% endtab %} {% tab q2 GPT-4o %}The line “For them, the reasons Zhang had to die mattered less” suggests that Zhang’s death was more symbolic or utilitarian than just or necessary, at least to those who benefited from it. While the story never explicitly states why Zhang was sentenced to death, several clues point to a politically motivated execution of a once-powerful man. Plausible Reasons Zhang Had to Die:: 1. He was a “corrupt official” — but that may have been the official reason.  The nationwide news portrayed him as a fitting example of justice: “News of Zhang’s execution was reported nationwide as the fitting end of a corrupt official. ” However, the text casts doubt on this label. Nowhere do we see proof of Zhang’s crimes—no trial, no details of corruption, no victims named. The story emphasizes process and ritual, not justice. 2. He may have been politically inconvenient.  His nickname inside the prison is “the Illustrious Official. ” This implies that he once held a position of stature and reverence.  “Illustrious” is not how people typically refer to someone truly evil or despised. This title, along with the reverence shown posthumously by the warden and guards, suggests he was respected—or even feared—and thus a threat to someone in power. 3. He was scapegoated.  His death brings luck or success to others: the warden’s son gets into university, a death row inmate’s sentence is commuted, etc.  This implies Zhang’s death may have been orchestrated or symbolically offered as a kind of sacrifice—someone had to fall, and Zhang was chosen. 4. His wealth and status made him a target.  “My entire estate was confiscated. ” This implies the state or powers-that-be profited from his execution.  There’s a long tradition, both in history and literature, of regimes executing officials under the banner of justice to seize their assets and consolidate power. Why the Reasons “Mattered Less”:  The people around Zhang—guards, inmates, the warden—benefited from his death, whether materially or superstitiously.  For them, Zhang’s actual guilt or innocence was irrelevant. What mattered was the “blessing” his death brought: promotions, health recoveries, second chances.  This reflects a deep cynicism in the story about institutional justice. The system doesn’t care about truth; it cares about outcomes, appearances, and usefulness. In summary:: Zhang likely died not because he was guilty of a crime, but because he was powerful, symbolic, and politically expendable. His execution served many purposes—deterrence, asset seizure, superstition—and the truth behind it was buried with him. {% endtab %} {% tab q2 GPT 4. 1 %} Absolutely, let’s explore the possible reasons why Zhang had to die, based on the text and some contextual reading between the lines. Explicit Clues in the Text:  Zhang is on death row, labeled as a “corrupt official. ” The news of his execution is “reported nationwide as the fitting end of a corrupt official. ” His entire estate was confiscated, which often happens in cases of official corruption or crimes against the state.  There’s no mention of any family coming to claim his body or to see him, which could imply disgrace or isolation due to his crime. Implied or Inferred Reasons: 1. Political ScapegoatingZhang’s execution is publicized and used as a lesson or warning to society—he becomes an example of how the government punishes corruption. This is especially common in authoritarian or bureaucratic states, historically and in modern times. 2. Systemic CorruptionThe mention of his estate being confiscated, and the detailed rituals around his shackles, point to a system where “justice” may be less about actual guilt and more about demonstrating state power, extracting resources, or satisfying political needs. 3. Personal or Bureaucratic RivalryAlthough the story doesn’t mention details, it’s common in stories of this type (and historically, especially in Han dynasty China or similar bureaucracies) for officials to be executed due to internal rivalries, accusations from enemies, or as a way to settle scores. 4. True GuiltIt is also possible that Zhang was genuinely guilty of some major wrongdoing—corruption, abuse of power, etc. —and the state’s punishment was, in their eyes, justified. 5. Convenient ResolutionHis death “solves” problems for the state or for individuals:  His property is seized.  His execution serves as a warning.  Officials involved in his case can advance or benefit in various ways.  Even after death, people seek to benefit from the “blessing” of his suffering (shackles, rituals, etc. ). Why “the reasons…mattered less”:  Instrumental Value of His Death:To the warden, guards, and inmates, Zhang’s death is less about justice or guilt, and more about what they gain from it (good luck, advancement, blessings).  Dehumanization:Once condemned, the person’s story, guilt, or innocence fades—he becomes an object, a symbol, or a source of “fortune” for others.  Ritual and Superstition Replace Justice:The details of why he died are overshadowed by how he died and what that means to those left behind. In short:Zhang had to die because the state needed to execute someone as a symbol, as punishment for “corruption” (real or constructed), and as a way to maintain control and order. The specific reasons—his actual actions or guilt—are secondary to the value his death provides to the system and those within it. That’s why “the reasons Zhang had to die mattered less” to those around him. Would you like more historical or cultural context on this kind of execution? Or a literary analysis of this theme? {% endtab %} {% tab q2 Grok 3 %}The line “For them, the reasons Zhang had to die mattered less” from The Shackles suggests that the specific reasons for Zhang’s execution are secondary to the symbolic and practical significance his death holds for others in the Huiyang Prefecture Correctional Facility. While the text does not explicitly detail Zhang’s crimes, it provides enough context to make an educated guess about why he was sentenced to death, as well as why those reasons became less important to those around him. Guessed Reasons for Zhang’s Execution: The text states that “News of Zhang’s execution was reported nationwide as the fitting end of a corrupt official. ” This strongly implies that Zhang was convicted of corruption, likely as a high-ranking official, given his posthumous title as the “Illustrious Official. ” His crimes could include bribery, embezzlement, abuse of power, or other forms of corruption typical of officials in a position of authority. The mention of his “entire estate was confiscated” further supports this, as asset confiscation is a common penalty for corruption in many legal systems, particularly in contexts resembling China’s judicial framework, which the setting of Huiyang Prefecture suggests. Zhang’s solitary confinement, custom six-kilogram shackles, and the nationwide reporting of his execution indicate that his case was significant, likely involving substantial financial or societal harm, warranting the death penalty as a public example. Explanation of Why the Reasons Mattered Less: The reasons for Zhang’s execution mattered less to the facility’s warden, guards, and inmates because his death and the associated “blessed” shackles took on a superstitious and almost mystical significance. The text describes how various individuals attributed personal successes to Zhang’s shackles or his execution:  The warden’s son got into university.  A guard’s wife’s illness improved.  An inmate was selected for parole.  A death row prisoner’s sentence was commuted to life. These outcomes suggest that Zhang’s shackles, and by extension his death, were perceived as carrying a form of spiritual or lucky power. In the facility, Zhang’s legacy as the “Illustrious Official” overshadows the specifics of his crimes. The focus shifts from his guilt to the tangible benefits his death brings to others, whether through the distribution of his shackles as “blessed objects” or the belief that his execution somehow influenced their fortunes. This reflects a cultural or superstitious tendency to imbue objects associated with death (especially of a notable figure) with special significance, overshadowing the moral or legal reasons for the punishment. Additionally, the guards’ casual handling of Zhang’s shackles—playing rock-paper-scissors to divide them and the lack of concern about a red envelope—indicates a pragmatic detachment from Zhang’s crimes. Their focus is on the material and symbolic value of the shackles rather than the justice of his execution. Similarly, the inmates and warden are more concerned with the personal gains they attribute to Zhang’s death than with the reasons behind it, which are dismissed as irrelevant in the face of these perceived blessings. Conclusion: Zhang likely died due to his conviction as a corrupt official, with crimes severe enough to warrant execution and nationwide attention. However, within the correctional facility, the specific reasons for his death—likely corruption-related offenses—mattered less than the superstitious and practical value his execution and shackles held for the warden, guards, and inmates. His death transformed him into a figure of reverence, the “Illustrious Official,” whose legacy provided perceived blessings, overshadowing the moral or legal justification for his punishment. {% endtab %} {% endtabs %} Q3. Guess freely who Wei is. :  The head guard asked:“Is there anyone you’d like to see one last time?”Zhang thought of Wei. “No. ” A3. Answers generated: {% tabs q3 %} {% tab q3 Claude Sonnet 4 %}Based on this brief but telling moment, I believe Wei was likely Zhang’s romantic partner or spouse - someone deeply important to him personally rather than professionally. Here’s my reasoning: Evidence for a romantic relationship:  Wei is the only person Zhang thinks of when asked about a final visit - suggesting this person holds the most significant place in his heart Despite thinking of Wei immediately, Zhang chooses not to see them, which suggests a complex emotional dynamic The name “Wei” could be either masculine or feminine in Chinese, but the emotional weight suggests an intimate relationshipWhy Zhang refuses the visit:Zhang’s decision to say “No” after thinking of Wei likely stems from:  Shame and self-protection: He doesn’t want Wei to see him in shackles, in this degraded state Sparing Wei additional pain: A final goodbye might be more traumatic for Wei than no goodbye at all Preserving dignity: He wants Wei to remember him as he was, not as a condemned prisoner Guilt: If his corruption hurt Wei (financially, socially, emotionally), he may feel he has no right to ask for this final comfortAlternative possibility:Wei could be a close family member (sibling, child, or parent), but the emotional restraint and the particular weight of this moment suggests a romantic partner who shared his life and perhaps his downfall. The tragedy is that Zhang’s love for Wei is precisely what makes him refuse to see them - a final act of protection or pride that leaves him to face death alone. {% endtab %} {% tab q3 Claude Opus 4 %}Based on this poignant moment where Zhang thinks of Wei but chooses not to see them, I can imagine several possibilities: Most likely - A beloved family member:  A child (son or daughter): The fact that Zhang thinks of Wei but says “no” suggests someone he wants to protect from the trauma of seeing him before execution. Parents often shield their children from their shame and suffering. The brevity of the name “Wei” could indicate a pet name or childhood nickname.  A spouse: Perhaps Zhang doesn’t want Wei to remember him in shackles and condemned, preferring that their last memory remain untainted by his current state. Other possibilities:  A former protégé or subordinate: Given Zhang was an “Illustrious Official,” Wei might have been someone whose career he mentored. He may feel he’s already brought enough shame to this person by association.  A sibling or parent: Someone who knew him before his rise and fall, who he cannot bear to face in his disgrace.  A lover outside marriage: Given the era and Zhang’s former status, Wei could be someone he loved but couldn’t openly acknowledge, making a final meeting both desired and impossible. Why Zhang says “No”:The immediate thought followed by refusal suggests deep emotion - Wei is clearly the first person who comes to mind, but Zhang deliberately chooses isolation. This could be:  Protection: Shielding Wei from pain, trauma, or further association with a condemned criminal Pride: Unable to let Wei see him brought so low Punishment: Perhaps Zhang feels he doesn’t deserve the comfort of seeing Wei Love: Sometimes the most loving act is to let someone move on without the burden of a final goodbyeThe single syllable “Wei” and Zhang’s instant, definitive “No” create a powerful moment of unspoken love and sacrifice, whoever Wei might be. {% endtab %} {% tab q3 Gemini 2. 5 Flash %} While the text doesn’t explicitly state who Wei is, we can guess freely based on the context and Zhang’s reaction. Given that Zhang is on death row and is asked if there’s anyone he’d like to see one last time, Wei is most likely someone significant in Zhang’s personal life with whom he shares a deep emotional connection. This could be:  A lover or spouse: This is a common trope in such scenarios, where a condemned person’s final thoughts turn to their most intimate relationship. The fact that Zhang thinks of Wei but then refuses to see them could indicate a desire to spare Wei the pain of a final goodbye, or perhaps a sense of shame or regret on Zhang’s part regarding his circumstances.  A close family member (child, parent, sibling): Similarly, a profound familial bond would naturally come to mind in such a moment. The refusal to see them could stem from similar reasons as above – protecting them from grief, or Zhang wanting to maintain a certain image even in death.  A trusted friend: While less common than family or a romantic partner in “last wish” scenarios, a very close, lifelong friend could also be someone Zhang would consider seeing. The “No” after thinking of Wei is particularly telling. It suggests a complex emotional state. It’s not that he forgets Wei or that Wei is unimportant; rather, it implies a conscious decision not to engage in that final interaction, for reasons known only to Zhang. This adds to the poignant nature of his final hours. {% endtab %} {% tab q3 GPT-4o %} This brief moment—“Zhang thought of Wei. ‘No. ’”—is deeply charged with unspoken emotion. While the story never tells us who Wei is, we’re invited to feel their importance through absence. Here’s a free, interpretive exploration of who Wei might be, based on tone, context, and literary suggestion: 1. A loved one he lost — too painful to face again Wei could be a spouse, lover, or child—someone Zhang once loved deeply but became estranged from, either due to his fall from power or to protect them from implication.  His refusal to see Wei, despite thinking of them immediately, suggests either:     Shame — He doesn’t want to burden Wei with a final image of him in chains.    Pain — Seeing Wei might break his emotional composure at the end.    Protection — Perhaps his association with Wei would endanger them further.    2. A symbol of innocence or his former self Wei might represent something more abstract—a protégé, a child, or even a version of himself before his downfall.  The name coming to mind suggests regret, or a life that might have been. Refusing to see Wei could mean:     “That part of me is already gone. ”   Or, “I don’t want Wei to see what I’ve become. ”   3. A victim of his actions In a more ironic or tragic reading, Wei could be someone Zhang wronged, whether knowingly or as part of a corrupt system.  Remembering Wei in that moment might mean: “They’re the one I owe everything to, and I’ll never have a chance to make it right. ” Saying “No” then becomes an acknowledgment that forgiveness or reconciliation is no longer possible—or deserved. 4. A person who abandoned him It’s also possible Wei betrayed or abandoned Zhang after his downfall.  Thinking of Wei might stir bitterness or a sense of final betrayal, and his refusal reflects the emotional wall he’s built to endure death without hope of closure. Conclusion:Who is Wei? Possibly…  A lost loved one he’s too ashamed to face.  A symbol of who he once was.  A silent victim he cannot confront.  Or someone he once trusted, who left him alone at the end. The beauty of that line is in its restraint—a name, a thought, a silence. That pause tells us all we need to know: Wei mattered. And now, even in death, some things are better left unsaid. {% endtab %} {% tab q3 GPT 4. 1 %}Love this kind of open-ended question! Here’s a thoughtful guess at who Wei might be, based on textual hints and literary convention. Evidence from the Text When the head guard asks if Zhang wants to see anyone, “Zhang thought of Wei. ‘No. ’” The name “Wei” is mentioned only this once.  Zhang chooses not to see Wei, despite thinking of them first.  There’s an undercurrent of regret or resignation in his response. Possible Interpretations1. Loved One (Spouse, Lover, or Close Companion) Most likely: Wei is someone deeply important to Zhang—perhaps a spouse, lover, or confidante.  Zhang’s refusal could be to spare Wei the pain of seeing him before death, or because he feels shame or guilt.  This choice speaks to unresolved emotions: love, regret, or a desire to protect Wei. 2. Family Member (Child, Sibling, Parent) Wei could be a family member: a son, daughter, brother, or even a parent.  Zhang’s decision might stem from shame over his fate, or a wish to let Wei move on unburdened by his disgrace. 3. Former Colleague or Subordinate Wei might be someone from Zhang’s official life: a close subordinate, friend, or even a former protégé.  Zhang could feel that seeing Wei would be too painful, or that it would do Wei more harm than good, especially given the political context. 4. Victim or Betrayer In a more ironic twist, Wei could be someone Zhang wronged, or someone who betrayed him. Thinking of Wei in this moment would then signal a complex mixture of emotions: remorse, anger, or longing for closure. Why “No”? Pride: Zhang wants to face his end alone, keeping his dignity or not appearing weak.  Protection: He does not want Wei to suffer further, or to be associated with a condemned man.  Resignation: Zhang has accepted his fate and severed attachments to the living world.  Unresolved Conflict: Perhaps their relationship ended badly, or Wei already cut ties. Summary GuessWei is most likely a beloved person in Zhang’s life—someone who, at the very end, still lingers in his thoughts. But for reasons of pride, protection, or sorrow, Zhang chooses not to see Wei, letting his memory remain untouched by the pain of his final hours. If you want, we could spin a specific backstory for Wei based on a particular theme or era—just let me know!{% endtab %} {% tab q3 Grok 3 %} While the text of The Shackles provides no explicit details about Wei, the brief mention of Zhang thinking of Wei when asked if there’s anyone he’d like to see one last time suggests Wei is a significant figure in Zhang’s life. Here are some plausible guesses about who Wei might be, based on the context and Zhang’s reaction:  Wei as a Family Member or Close RelativeWei could be a family member, such as a spouse, sibling, or child. Zhang’s position as a “corrupt official” and the confiscation of his entire estate suggest he held a high-ranking position, which often comes with family ties that might be strained by his conviction. His decision to say “No” despite thinking of Wei could indicate estrangement, shame, or a desire to spare them the pain of a final meeting in his degraded state as a condemned prisoner. For example, Wei might be a spouse who has distanced themselves due to Zhang’s crimes, or a child he feels unworthy to face.  Wei as a Former Ally or Co-ConspiratorGiven Zhang’s status as a corrupt official, Wei could be a former colleague, friend, or accomplice involved in his corrupt activities. Zhang’s thought of Wei might reflect a fleeting moment of regret, loyalty, or bitterness—perhaps Wei betrayed him, escaped punishment, or was otherwise implicated in the events leading to Zhang’s downfall. His refusal to see Wei could stem from resentment, a desire to protect them, or an understanding that such a meeting would be futile or dangerous.  Wei as a Romantic FigureWei might be a romantic partner or someone Zhang loved deeply, possibly from before his imprisonment or even during his time as an official. The fact that Zhang thinks of Wei but chooses not to see them suggests a complex emotional connection—perhaps he feels unworthy, believes they’ve moved on, or wants to shield them from the grim reality of his execution. The brevity of his “No” might hide deep personal pain or resignation, indicating a relationship that remains significant but unresolved.  Wei as a Symbolic or Unreachable FigureWei could represent someone from Zhang’s past who symbolizes a lost opportunity, a moral compass, or a life he could have lived. For instance, Wei might be a mentor, friend, or even a victim of Zhang’s corruption whose memory haunts him. His refusal to see Wei could indicate that Wei is no longer alive, unreachable, or someone Zhang feels he has wronged, making a final meeting impossible or too painful. Reasoning Behind the Guess: The text’s minimal reference to Wei, coupled with Zhang’s immediate dismissal (“No”), suggests a deeply personal but complicated relationship. Zhang’s focus on reading Records of the Grand Historian and his meticulous care of his shackles indicate a man grappling with his fate in a reflective, almost detached manner. Thinking of Wei in this moment implies Wei holds emotional weight—someone tied to his past life, perhaps before his fall from grace. However, his refusal to see Wei suggests practical or emotional barriers: Wei might be inaccessible, their relationship fractured, or Zhang might feel that a meeting would serve no purpose given his imminent death. Most Likely Guess: Given the context of Zhang as a corrupt official and the cultural setting implied by Huiyang Prefecture, Wei is most likely a close family member (e. g. , a spouse or child) or a former romantic partner. Zhang’s hesitation and refusal to see them suggest a mix of shame, resignation, or a desire to protect them from the stigma of his execution. The emotional weight of thinking of Wei, followed by the curt “No,” points to a personal connection too painful to revisit in his final hours. Without more details, this remains speculative, but Wei likely represents someone Zhang cared for deeply but feels unable to face due to his circumstances. {% endtab %} {% endtabs %} Q4. Please freely speculate on the reason why Zhang reads the ‘Treatise on the Xiongnu’ from the Records of the Grand Historian. There is no specific correct answer. :  After morning roll call, Zhang opened Records of the Grand Historian, borrowed from the correctional facility library. He had begun reading the “Treatise on the Xiongnu” a few days earlier, but progress was slow. There were many unfamiliar characters, and he had to read each sentence repeatedly just to grasp its meaning. A4. Answers generated: {% tabs q4 %} {% tab q4 Claude Sonnet 4 %}I see several possible symbolic and psychological reasons why Zhang might choose this particular historical text: Seeking parallels with ancient conflicts:The “Treatise on the Xiongnu” deals with the complex relationship between the Han Chinese empire and the nomadic Xiongnu confederation - a story of power, diplomacy, warfare, and ultimately the clash between different ways of life. Zhang, as a fallen official, might be drawn to this narrative of political struggle and the rise and fall of powers. He may see himself in this ancient drama of competing forces. Confronting themes of exile and displacement:The Xiongnu were often portrayed as outsiders to Chinese civilization, existing on the margins. Zhang, now condemned and isolated in his cell, may identify with this position of being cast out from the established order. His corruption has made him an “outsider” to the society he once served. Intellectual dignity in his final days:By tackling one of the most challenging classical Chinese texts, Zhang maintains his identity as an educated person despite his circumstances. The difficulty of the text (“many unfamiliar characters”) actually serves his purpose - it demands his complete concentration and provides escape from his immediate reality. Contemplating the cyclical nature of power:Sima Qian’s historical work emphasizes how powers rise and fall, how the mighty are brought low, and how conflicts eventually resolve. Zhang may find comfort or meaning in placing his personal downfall within this larger pattern of historical inevitability. The ultimate irony:Zhang will never finish reading about how the Xiongnu story ends - just as his own story is ending. This creates a poignant parallel between his incomplete understanding of ancient history and his own incomplete life, cut short by his crimes and punishment. {% endtab %} {% tab q4 Claude Opus 4 %}The choice of the “Treatise on the Xiongnu” is fascinating and could reflect several layers of meaning for Zhang: Historical parallels to his own situation:The Xiongnu were outsiders to Chinese civilization - nomadic peoples who were both enemies and sometimes uneasy allies of the Han Dynasty. Zhang, as a condemned corrupt official, might see himself as someone who has become an outsider to the very system he once served. Just as the Xiongnu existed on the margins of Chinese society, he now exists on the margin between life and death. Intellectual escape and dignity:Reading difficult classical Chinese texts could be Zhang’s way of maintaining his identity as an educated official, even in chains. The struggle with “unfamiliar characters” suggests he’s pushing himself intellectually - perhaps proving to himself that his mind remains free even as his body is shackled. It’s an act of defiance against being reduced to merely a criminal. Contemplating cycles of power:The Xiongnu treatise deals with the rise and fall of peoples, the shifting nature of power, and how today’s enemies can become tomorrow’s allies (and vice versa). For someone who has fallen from “Illustrious Official” to death row prisoner, these themes of impermanence and reversal of fortune would resonate deeply. Preparing for death through historical perspective:By reading about peoples and conflicts from centuries past, Zhang might be finding comfort in the long view of history - his own life and death becoming just one small part of an endless historical cycle. The Xiongnu eventually disappeared as a distinct people, just as he will soon disappear. A specific irony:Perhaps Zhang himself, as a corrupt official, had “sold out” to foreign interests or barbarian-like behavior (in the traditional Chinese view). Reading about the Xiongnu might be a form of self-reflection on how he, like them, became an enemy of the state he was meant to serve. The fact that he’ll “never know how the ‘Treatise on the Xiongnu’ ended” becomes poignant - his own story, like his reading, will remain forever unfinished. {% endtab %} {% tab q4 Gemini 2. 5 Flash %} Why Zhang Reads the ‘Treatise on the Xiongnu’: Zhang’s choice to read the “Treatise on the Xiongnu” from Records of the Grand Historian while on death row is intriguing and open to several interpretations. It’s clear that this isn’t a casual read, especially given his slow progress and the difficulty he has with the language. This suggests his motivation is deeper than mere entertainment. Seeking Parallels or Lessons: One possibility is that Zhang, a former official himself, is seeking parallels or lessons in history. The Records of the Grand Historian (Shiji) is a foundational text in Chinese history, and the “Treatise on the Xiongnu” details the long and often fraught relationship between the Han dynasty and the nomadic Xiongnu people. This history is full of strategies, betrayals, negotiations, and the rise and fall of power. Perhaps Zhang, facing his own ultimate downfall, is trying to understand the larger forces at play in human affairs, or even the historical precedents for his own situation. He might be looking for insights into power dynamics, the nature of conflict, or how empires deal with perceived threats, which could resonate with his past life as a “corrupt official” and his current predicament. A Quest for Understanding and Meaning: Given his impending death, Zhang might be on a philosophical or existential quest for understanding. The “Treatise on the Xiongnu” isn’t a light read; it’s a dense historical and political account. His struggle to comprehend it suggests a profound effort to engage with something meaningful and challenging. Perhaps he’s trying to make sense of his life, his legacy, or the world beyond his cell. History, particularly such a monumental work, can offer a sense of perspective and continuity that might be comforting or intellectually stimulating in his final hours. It could be his way of grappling with the vastness of time and human experience, rather than dwelling solely on his immediate, grim reality. A Form of Mental Escapism or Discipline: Alternatively, the difficult nature of the text could be serving as a form of mental escapism or discipline. Reading something so challenging requires intense focus, which could be a way for Zhang to distract himself from the anxiety and despair of his situation. By forcing his mind to grapple with unfamiliar characters and complex narratives, he might be trying to maintain a sense of intellectual control or simply to occupy his thoughts, preventing them from spiraling into dread. It’s a demanding mental exercise that serves as a bulwark against the emotional toll of death row. A Final Act of Self-Improvement or Assertion: Finally, his dedication to reading such a difficult text could be a final act of self-improvement or an assertion of his intellect. Even in his final days, he might be driven by an intrinsic desire to learn or to prove his mental faculties. This could be a personal challenge, a last attempt to broaden his knowledge, or simply a way to maintain his dignity and identity as an intelligent individual, even when stripped of everything else. It shows a man who, despite his circumstances, is still engaged with the world on an intellectual level, rather than succumbing entirely to his fate. Which of these possibilities resonates most with you?{% endtab %} {% tab q4 GPT-4o %} This detail—Zhang reading the Treatise on the Xiongnu from the Records of the Grand Historian—is rich with symbolic and emotional possibilities. While the text offers no explicit explanation, here’s a free interpretation drawing on historical, thematic, and psychological layers: 1. A reflection on exile, defeat, and the fate of empires The Treatise on the Xiongnu (匈奴列传) is a chapter in Sima Qian’s Records of the Grand Historian that documents the rise of the Xiongnu, their clashes with the Han dynasty, and the complex diplomacy between enemies.  Zhang may see parallels between himself and the fallen or exiled figures in that history:     The Xiongnu were powerful once, then pushed to the fringes.    Zhang, perhaps once an “illustrious official,” is now a condemned man in chains.     It may be his way of grappling with disgrace, defeat, and how history swallows those who fall from favor. 2. A way to die with dignity—as a scholar, not just a criminal Choosing a serious historical work may be Zhang’s final act of identity.      He dies not as a mere inmate, but as a man of intellect and curiosity.    It’s an assertion of his humanity and dignity, even under shackles.     Reading a foundational text like the Shiji might connect him to something eternal and enduring—even as his own life is ending. 3. A kind of spiritual self-punishment or purification The slow, painful effort to understand the text—“he had to read each sentence repeatedly just to grasp its meaning”—can be seen as a mental discipline, almost penitential.      Maybe he feels that through the act of studying, of straining to understand something vast and historical, he can prepare himself for death.    It may not be about content, but about endurance, humility, and focus.    4. A longing for perspective—a broader view of human fate The Records of the Grand Historian deals with the long arc of human rise and fall, the flux of power, fortune, and punishment.  Zhang may be searching for context—“Am I just a speck in a larger pattern?” Reading history can help make personal tragedy feel less senseless, placing it within a grand narrative. 5. A quiet resistance By reading this difficult, elite text, Zhang performs a final act of intellectual resistance:     He refuses to be remembered only as a criminal.    Instead, he aligns himself with a tradition of learned men who think deeply, even in disgrace—perhaps echoing Sima Qian himself, who was famously castrated and humiliated, yet continued writing history.    Conclusion:Zhang’s reading isn’t just about the Xiongnu. It’s a complex, human gesture—a search for meaning, legacy, and control. In the end, he cannot finish the story, and perhaps that’s the point:  “He would never know how the ‘Treatise on the Xiongnu’ ended. ” Neither do we ever fully understand our own fate. {% endtab %} {% tab q4 GPT 4. 1 %}What a fascinating detail to explore! Since the text leaves this open, here are several speculative interpretations for why Zhang reads the “Treatise on the Xiongnu” from the Records of the Grand Historian as his life draws to a close: 1. Seeking Meaning in History Parallels to His Own Life: The “Treatise on the Xiongnu” deals with the complex, often tragic interactions between Han China and its northern adversaries—the Xiongnu. Perhaps Zhang sees himself as a figure caught between opposing forces, much like the Han officials who negotiated, fought, and sometimes perished in these struggles.  Reflection on Power and Fate: By reading about the rise and fall of empires, he may be grappling with the cycles of power, defeat, and the ultimate fate of individuals within history—much like himself. 2. Distraction or Escape Mental Refuge: Immersing himself in difficult, unfamiliar classical Chinese text gives Zhang a way to escape the bleakness of his cell and imminent execution. The effort required to read distracts him from fear and despair.  Clinging to Scholarship: If Zhang was once a scholar-official, this return to reading classical texts is a final gesture of clinging to his identity, even as the world strips everything else away. 3. Symbolic Significance Exile and Outsiders: The Xiongnu were “outsiders” to Han civilization, always at its borders. Zhang, a condemned man, has himself become an outsider to society—exiled, shunned, and powerless.  Unfinished Business: The fact that he never finishes the treatise mirrors his own life being cut short—there are things he’ll never understand or resolve. 4. Yearning for Understanding Searching for Answers: Perhaps Zhang is trying to find some hidden lesson or comfort in the grand sweep of history. Why do people fall from power? How do they face defeat? Are there precedents for his suffering? Legacy and Memory: Reading a work designed to record the deeds (good and bad) of those who came before, Zhang might hope that, like those figures, he will be remembered for more than his end. 5. Stoic Acceptance Preparation for Death: The slow, meditative process of deciphering the ancient text is a form of acceptance, facing each remaining hour with deliberate effort and patience. 6. Randomness or Habit Limited Choices: Maybe the prison library is small, and this was one of the few books available, chosen out of habit or lack of options.  Holding onto Routine: Even reading slowly, struggling over characters, gives structure to his final days. In SummaryZhang’s reading of the “Treatise on the Xiongnu” is layered with meaning—historical, personal, and existential. Whether seeking escape, solace, understanding, or just something to fill the hours, his reading connects him to a broader human story of conflict, exile, and the search for meaning at the end of one’s life. Would you like a more specific theory—like a psychological reading, or one rooted in Han dynasty symbolism?{% endtab %} {% tab q4 Grok 3 %} Zhang’s choice to read the “Treatise on the Xiongnu” from Records of the Grand Historian while awaiting execution in The Shackles offers a rich opportunity for speculation about his motivations. The text notes his slow progress due to unfamiliar characters, suggesting deliberate effort despite his impending death. Below, I freely speculate on possible reasons for Zhang’s engagement with this specific text, considering his context as a condemned former official in a setting reminiscent of historical or modern China. Speculative Reasons for Zhang’s Reading Choice:  Seeking Historical Perspective on Power and BetrayalThe “Treatise on the Xiongnu” in Records of the Grand Historian by Sima Qian details the Han dynasty’s interactions with the Xiongnu, a nomadic confederation, focusing on diplomacy, warfare, and shifting alliances. As a corrupt official, Zhang may be drawn to this text to reflect on the transient nature of power and loyalty. His own downfall—likely due to corruption—mirrors the betrayals and political maneuvers described in the treatise. By reading about the Han court’s struggles with an external “barbarian” threat, Zhang might be contemplating his role as an insider who became an outcast, scapegoated or betrayed by allies. The slow, laborious reading could indicate his attempt to find meaning or absolution in historical parallels, seeking wisdom about human nature as he faces his end.  Intellectual Escape from Imminent DeathFacing execution, Zhang may be using the “Treatise on the Xiongnu” as a mental refuge. The text’s dense, archaic language and unfamiliar characters require intense focus, allowing him to temporarily escape the reality of his solitary cell, heavy shackles, and looming death. The treatise’s focus on a distant historical conflict offers a world far removed from his present, providing a way to occupy his mind and maintain dignity through intellectual engagement. His slow progress might reflect not just difficulty but a deliberate savoring of this final act of agency—reading a classic work as a way to assert control over his remaining time, rather than succumbing to despair.  Reconnecting with a Scholarly PastZhang’s status as a former official suggests he was educated, possibly trained in classical Chinese texts like Records of the Grand Historian. Reading the “Treatise on the Xiongnu” could be an attempt to reconnect with a scholarly identity from before his corruption and imprisonment. The effort to decipher unfamiliar characters might evoke memories of his youth or career, when he studied such texts to pass exams or wield authority. This act could be a form of self-redemption, reclaiming a part of himself untainted by his crimes. Alternatively, it might reflect regret for abandoning scholarly ideals for corrupt practices, with the treatise serving as a reminder of the moral lessons he failed to heed.  Symbolic Resonance with the Xiongnu’s Outsider StatusThe Xiongnu, as nomadic outsiders to the Han dynasty, were often depicted as both adversaries and objects of fascination in Chinese historiography. Zhang, now a condemned man stripped of status and isolated in solitary confinement, might identify with the Xiongnu’s marginal position. His custom six-kilogram shackles and fall from grace mark him as an “other” within his own society, much like the Xiongnu were to the Han. Reading about their resistance, negotiations, and survival strategies could offer Zhang a lens to process his own ostracism and impending execution, perhaps finding solace in their defiance or resilience. His slow reading might reflect a meditative engagement with this symbolic connection, as he grapples with his own legacy.  A Final Act of Defiance or IronyZhang’s choice of a historical text about a formidable adversary to the Han state could be a subtle act of defiance. As a corrupt official, he was part of the state apparatus, but his execution positions him as its victim. Reading about the Xiongnu, who challenged Han authority, might be Zhang’s way of aligning himself with resistance against the system that condemned him. The irony lies in his laborious reading of a text that glorifies the state’s perspective while he awaits death at its hands. His focus on this treatise, rather than a more spiritual or confessional text, could be a quiet rejection of repentance, asserting his intellectual independence even in his final days. Contextual Support for Speculation:  Zhang’s Character: Zhang’s meticulous care of his shackles, methodical washing before execution, and calm acceptance of his fate suggest a man who values ritual and control, even in extremis. Reading a challenging historical text aligns with this need for order and purpose, offering a structured way to face death.  Cultural Context: The setting, with its references to Huiyang Prefecture and traditional burial shrouds, evokes a Chinese cultural framework where classical texts like Records of the Grand Historian are revered. Zhang’s engagement with such a text reflects a cultural norm of valuing historical learning, even for a condemned man.  Textual Difficulty: The mention of “unfamiliar characters” and slow progress highlights Zhang’s effort, suggesting the reading is not casual but intentional, perhaps carrying personal or symbolic weight.  Impending Death: The text notes Zhang’s struggle to concentrate after learning of his execution, yet he persists with the book. This persistence underscores the reading’s importance as a coping mechanism, intellectual exercise, or final act of self-definition. Most Compelling Speculation: The most compelling reason is a blend of intellectual escape and historical reflection. Zhang, aware of his imminent death, reads the “Treatise on the Xiongnu” to anchor himself in a world of ideas, distancing himself from the physical and emotional weight of his shackles and cell. Simultaneously, the treatise’s themes of power, betrayal, and outsider status resonate with his own fall from grace, allowing him to reflect on his life and legacy through a historical lens. His slow, deliberate reading is both a shield against despair and a final assertion of his identity as a scholar-official, reclaiming dignity in the face of a dehumanizing execution. This speculative interpretation sees Zhang’s reading as a poignant act of resistance and introspection, using the Xiongnu’s story to navigate his own complex emotions as he prepares to die. {% endtab %} {% endtabs %} Q5. Did the warden donate the shackle ring that Zhang wore to be displayed in a museum?​​​​: ​​​​​​​​​​​​  “Wait, the warden said to save one ring. For ‘museum display,’ apparently. ” A5. Answers generated: {% tabs q5 %} {% tab q5 Claude Sonnet 4 %}Based on the text, it’s highly unlikely that the warden actually donated the ring to a legitimate museum. The quotation marks around “museum display” suggest skepticism or sarcasm from the speaker. Evidence against genuine museum donation:    The quotation marks indicate doubt - The worker says “apparently” and puts “museum display” in quotes, suggesting they don’t believe this is the real purpose.     The context of corruption - Everyone else is keeping pieces of the shackles for personal gain (believing them to be blessed objects). The warden is likely no different.     The warden’s motivations - Like the other staff members who later experience good fortune attributed to Zhang’s “blessed power,” the warden probably wants to keep the ring for himself, believing it will bring luck.     The established pattern - The story shows how Zhang transforms from “corrupt official” to “Illustrious Official” in the minds of the prison staff. The warden, whose son got into university (presumably after Zhang’s execution), likely attributes this success to Zhang’s supernatural influence.  Most likely scenario:The warden probably kept the ring for himself, using “museum display” as a cover story to claim the most significant piece - a complete ring rather than fragments. This would be consistent with the story’s theme of how people reframe Zhang’s legacy to serve their own interests, and how the prison hierarchy allows the warden first pick of the “blessed” objects. The “museum” is likely the warden’s personal collection or home shrine to his newfound patron saint. {% endtab %} {% tab q5 Claude Opus 4 %}No, the warden almost certainly did not donate the ring to any museum. The quotation marks around ‘museum display’ and the word “apparently” strongly suggest this is a lie or excuse. Evidence of deception:  The quotation marks around ‘museum display’ indicate skepticism or irony from the narrator, suggesting this isn’t the real purpose “Apparently” adds another layer of doubt - the workers reporting this don’t seem to believe it either The pattern of behavior: Everyone else is taking pieces for personal superstitious use (good luck charms), so why would the warden be different? The warden already benefited: We learn at the end that the warden’s “repeat-exam son got into university,” which he attributes to the “Illustrious Official’s blessed power”What the warden likely did:The warden probably kept the ring for himself as a personal talisman, just like everyone else. As the highest-ranking official in the prison, he could claim first pick of the most intact piece (a complete ring rather than chain links or fragments). The “museum display” excuse allows him to:  Take the piece without admitting to the same superstitious beliefs as his subordinates Maintain his dignity and rational appearance as warden Avoid having to share or divide it up like the others had toThis detail adds to the story’s ironic critique - even the warden, who should represent institutional authority and rational justice, is just as eager to grab a piece of the “blessed” shackles for personal gain. The very system that executed Zhang for corruption shows its own forms of petty self-interest and superstition. {% endtab %} {% tab q5 Gemini 2. 5 Flash %} Based on the text provided, the warden intended for one shackle ring to be saved for “museum display,” and this directive was passed on to the workshop foreman. The text states: “One ring went to the guard who had originally suggested that Zhang leave him the shackles. ‘Wait, the warden said to save one ring. For ‘museum display,’ apparently. ’” This indicates that the foreman was instructed to set aside a ring for this purpose. The story does not, however, confirm whether the ring was actually donated to or subsequently displayed in a museum. It only confirms the warden’s instruction to save it for that stated purpose. {% endtab %} {% tab q5 GPT-4o %} Based on the line:  “Wait, the warden said to save one ring. For ‘museum display,’ apparently. ” We can infer that the warden gave an order to set aside one of Zhang’s shackle rings for museum display, but whether this was a sincere donation or just a pretext is open to interpretation. So, did the warden donate it? Technically, yes — but… Yes, in the literal sense:The warden did say to reserve one ring, presumably to be sent to or displayed in a museum. That’s a form of “donation,” at least administratively.  But probably not out of reverence:The tone—especially the use of “apparently”—suggests casualness or even skepticism:     The speaker (possibly a guard or workshop foreman) doesn’t seem to fully believe or care about the museum claim.    It may have been a cover story so the warden could keep the shackle ring for himself—or to lend legitimacy to the taking of it.    What this reveals: Zhang’s legacy is fragmented and repurposed: even his shackles are disassembled and passed around.  “Museum display” becomes a form of ironic memorial: what was once an object of suffering is now an artifact of supposed historical or spiritual significance.  The warden may be capitalizing on Zhang’s posthumous “blessed” reputation, turning punishment into relic, and execution into mystique. Conclusion:Yes, the warden said the ring was for museum display—so technically, it was “donated. ” But in the story’s cynical, ironic atmosphere, it’s more likely this was a symbolic gesture masking personal interest or superstition, rather than a sincere attempt at honoring history. {% endtab %} {% tab q5 GPT 4. 1 %}Based on the text, it is implied but not confirmed that the warden intended for one of Zhang’s shackle rings to be displayed in a museum. The line:  “Wait, the warden said to save one ring. For ‘museum display,’ apparently. ” suggests that:  The warden gave an order to set aside one ring for museum display.  The guards follow this order by saving that ring during the disassembly of the shackles. However, the story does not actually show the ring being donated or exhibited in a museum—it only reports the intent and the action of “saving” the ring. In summary:The warden set aside a shackle ring for museum display, and the ring was saved for that purpose, but whether it was ever truly displayed in a museum is left unconfirmed in the text. If you want, we can discuss the possible symbolism or irony of this gesture!{% endtab %} {% tab q5 Grok 3 %} Based on the text from The Shackles, it is not explicitly confirmed whether the warden actually donated the shackle ring that Zhang wore to be displayed in a museum. The relevant line states: “Wait, the warden said to save one ring. For ‘museum display,’ apparently. ” This suggests that the warden instructed the guards to set aside one of Zhang’s shackle rings, with the stated purpose of it being for “museum display. ” However, the use of the word “apparently” introduces a degree of ambiguity, implying that the speaker (likely a guard) is relaying the warden’s stated intention without certainty about whether the ring was ultimately donated or displayed. The text does not provide further details about what happened to the ring after this instruction, leaving open the possibility that the warden’s claim was genuine, a pretext, or something in between. Analysis of Possibilities:  The Warden Donated the Ring to a Museum:The warden’s instruction to save one ring for “museum display” could be taken at face value. Given Zhang’s status as a “corrupt official” whose execution was reported nationwide, his shackles might hold historical or cultural significance, especially in a setting like Huiyang Prefecture, which evokes a Chinese context where artifacts from notable figures are sometimes preserved. The ring could have been intended for a local museum, a correctional facility exhibit, or a collection documenting high-profile criminal cases. The later reference to Zhang becoming the “Illustrious Official” within the facility, with his shackles seen as “blessed objects,” supports the idea that the ring might be valued as a relic, making a museum donation plausible.  The Warden Kept the Ring for Personal Reasons:The word “apparently” and the casual tone of the guards’ conversation (e. g. , playing rock-paper-scissors for other parts of the shackles) suggest a lack of formal oversight, raising the possibility that the warden’s claim of “museum display” was a pretext. The warden might have wanted to keep the ring as a personal memento, a status symbol, or for superstitious reasons, given the text’s mention of the shackles’ “blessed” status. For example, the warden’s son getting into university is attributed to Zhang’s execution, suggesting the warden might value the ring as a lucky object rather than donate it.  The Ring Was Set Aside but Never Donated:Even if the warden’s intention was genuine, the ring might have been set aside but never actually donated due to bureaucratic oversight, lack of a suitable museum, or a change in plans. The text’s focus on the immediate aftermath of Zhang’s execution and the distribution of his shackles among guards and inmates leaves this unresolved, emphasizing the informal and opportunistic handling of his possessions. Conclusion: The text only indicates that the warden instructed the guards to save one shackle ring for “museum display,” as reported with the qualifier “apparently. ” There is no direct evidence confirming that the warden donated the ring to a museum, nor is there proof that it was kept or otherwise disposed of. Given the ambiguity and the context of the shackles being treated as valuable “blessed objects,” it’s equally possible that the ring was donated, retained by the warden, or never reached a museum. Without additional details, the most accurate answer is that the text does not definitively state whether the warden donated the shackle ring to a museum, though the instruction to save it for that purpose was given. {% endtab %} {% endtabs %} ",
+                "tags": ""
+            }, 
+        
+    
+        
+            {
+                "id": 4,
                 "url": "https://zyahan.blog/shackles",
                 "title": "[Pilot] 담화 이해 & 서사 추론",
                 "subtitle": "",
@@ -149,7 +160,7 @@ var documents = [
     
         
             {
-                "id": 4,
+                "id": 5,
                 "url": "https://zyahan.blog/nicknames/",
                 "title": "‘맹하후’의 선례: 모욕적인 별명에 대처한 두흠",
                 "subtitle": "",
@@ -160,7 +171,7 @@ var documents = [
     
         
             {
-                "id": 5,
+                "id": 6,
                 "url": "https://zyahan.blog/how-to-write-grape-in-chinese/",
                 "title": "‘포도’를 한자로 쓰는 여러 가지 방법",
                 "subtitle": "",
@@ -171,7 +182,7 @@ var documents = [
     
         
             {
-                "id": 6,
+                "id": 7,
                 "url": "https://zyahan.blog/zhengshi/",
                 "title": "정사(正史), 삼국지, 대정사시대",
                 "subtitle": "《수서》 〈경적지〉에서 말하는 ‘정사’",
@@ -182,7 +193,7 @@ var documents = [
     
         
             {
-                "id": 7,
+                "id": 8,
                 "url": "https://zyahan.blog/duangexing-mc/",
                 "title": "조조 〈단가행〉 (중고한어 낭독)",
                 "subtitle": "",
@@ -193,7 +204,7 @@ var documents = [
     
         
             {
-                "id": 8,
+                "id": 9,
                 "url": "https://zyahan.blog/regional-food-and-water-illness/",
                 "title": "삼국시대 음식의 지역별 차이",
                 "subtitle": "",
@@ -204,7 +215,7 @@ var documents = [
     
         
             {
-                "id": 9,
+                "id": 10,
                 "url": "https://zyahan.blog/imperial-titles-for-sun-quan/",
                 "title": "토로장군 손권을 황제로 칭한 신하들",
                 "subtitle": "",
@@ -215,7 +226,7 @@ var documents = [
     
         
             {
-                "id": 10,
+                "id": 11,
                 "url": "https://zyahan.blog/women-s-style-names-in-the-chat-of-the-three-kingdoms/",
                 "title": "《삼국지톡》 리뷰 한 조각 (1) 자(字)",
                 "subtitle": "자의 사용과 언급, 여성 캐릭터의 자에 관해",
@@ -226,7 +237,7 @@ var documents = [
     
         
             {
-                "id": 11,
+                "id": 12,
                 "url": "https://zyahan.blog/another-bronze-dildo-and-lesbians/",
                 "title": "또 하나의 청동 딜도와 대식(對食): 한나라의 레즈비언들?",
                 "subtitle": "",
@@ -237,7 +248,7 @@ var documents = [
     
         
             {
-                "id": 12,
+                "id": 13,
                 "url": "https://zyahan.blog/human-swine/",
                 "title": "인간돼지 사건을 서술하는 두 가지 방법",
                 "subtitle": "《사기》 〈여태후본기〉와 《한서》 〈외척전〉의 비교",
@@ -248,7 +259,7 @@ var documents = [
     
         
             {
-                "id": 13,
+                "id": 14,
                 "url": "https://zyahan.blog/bronze-dildo/",
                 "title": "청동 딜도의 주인은?",
                 "subtitle": "",
@@ -259,7 +270,7 @@ var documents = [
     
         
             {
-                "id": 14,
+                "id": 15,
                 "url": "https://zyahan.blog/how-to-translate-professor/",
                 "title": "professor는 왜 교수(敎授)가 되었을까?",
                 "subtitle": "",
@@ -270,7 +281,7 @@ var documents = [
     
         
             {
-                "id": 15,
+                "id": 16,
                 "url": "https://zyahan.blog/nine-chapters-and-euclidean-algorithm/",
                 "title": "《구장산술》, 유클리드 호제법, 파이선",
                 "subtitle": "",
@@ -281,7 +292,7 @@ var documents = [
     
         
             {
-                "id": 16,
+                "id": 17,
                 "url": "https://zyahan.blog/change-vs-henge/",
                 "title": "‘월궁항아’의 이름에 얽힌 수수께끼",
                 "subtitle": "‘항아’는 과연 피휘 때문에 ‘상아’가 되었나?",
@@ -292,7 +303,7 @@ var documents = [
     
         
             {
-                "id": 17,
+                "id": 18,
                 "url": "https://zyahan.blog/fragrance-villain-cao-pi/",
                 "title": "향 빌런이 된 황제 조비",
                 "subtitle": "",
@@ -303,7 +314,7 @@ var documents = [
     
         
             {
-                "id": 18,
+                "id": 19,
                 "url": "https://zyahan.blog/cao-cao-13/",
                 "title": "13. 로즈마리를 키운 오관중랑장 조비와 건안칠자 문인들 (+ 조조의 향 금지령) [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -314,7 +325,7 @@ var documents = [
     
         
             {
-                "id": 19,
+                "id": 20,
                 "url": "https://zyahan.blog/killing-as-atonement/",
                 "title": "살해와 사죄",
                 "subtitle": "VP以謝NP",
@@ -325,7 +336,7 @@ var documents = [
     
         
             {
-                "id": 20,
+                "id": 21,
                 "url": "https://zyahan.blog/body-washing/",
                 "title": "한나라 사람들의 세정제",
                 "subtitle": "",
@@ -336,7 +347,7 @@ var documents = [
     
         
             {
-                "id": 21,
+                "id": 22,
                 "url": "https://zyahan.blog/membership/",
                 "title": "멤버십 혜택 안내",
                 "subtitle": "",
@@ -347,7 +358,7 @@ var documents = [
     
         
             {
-                "id": 22,
+                "id": 23,
                 "url": "https://zyahan.blog/hua-tuo-s-cream-mask/",
                 "title": "고대 중국의 마스크팩: 화타의 피부과 처방",
                 "subtitle": "",
@@ -358,7 +369,7 @@ var documents = [
     
         
             {
-                "id": 23,
+                "id": 24,
                 "url": "https://zyahan.blog/mi-is-not-rice/",
                 "title": "삼국지 해석의 실수: 米는 rice가 아니다",
                 "subtitle": "",
@@ -369,7 +380,7 @@ var documents = [
     
         
             {
-                "id": 24,
+                "id": 25,
                 "url": "https://zyahan.blog/wansui-and-qiansui/",
                 "title": "황제는 만세, 제후는 천세?",
                 "subtitle": "",
@@ -380,7 +391,7 @@ var documents = [
     
         
             {
-                "id": 25,
+                "id": 26,
                 "url": "https://zyahan.blog/mad-women/",
                 "title": "한나라의 광녀(狂女)들",
                 "subtitle": "",
@@ -391,7 +402,7 @@ var documents = [
     
         
             {
-                "id": 26,
+                "id": 27,
                 "url": "https://zyahan.blog/bronze-characters/",
                 "title": "청동기에 새겨진 아름다운 글자들, 무슨 내용이었을까요?",
                 "subtitle": "",
@@ -402,7 +413,7 @@ var documents = [
     
         
             {
-                "id": 27,
+                "id": 28,
                 "url": "https://zyahan.blog/two-versions-of-misogyny/",
                 "title": "여성혐오의 두 가지 버전: 남자는 여자보다 우월한가, 아니면 존귀한가?",
                 "subtitle": "",
@@ -413,7 +424,7 @@ var documents = [
     
         
             {
-                "id": 28,
+                "id": 29,
                 "url": "https://zyahan.blog/crown-and-carriage/",
                 "title": "면류관과 승여: 후한시대에 황제를 상징한 사물은?",
                 "subtitle": "",
@@ -424,7 +435,7 @@ var documents = [
     
         
             {
-                "id": 29,
+                "id": 30,
                 "url": "https://zyahan.blog/yellow-turban/",
                 "title": "‘황건적’ 말고 그냥 ‘황건’이라고 말해 보기",
                 "subtitle": "",
@@ -435,7 +446,7 @@ var documents = [
     
         
             {
-                "id": 30,
+                "id": 31,
                 "url": "https://zyahan.blog/han-red-flag/",
                 "title": "한나라의 붉은 깃발에는 과연 “漢”이라는 글자가 있었을까?",
                 "subtitle": "",
@@ -446,7 +457,7 @@ var documents = [
     
         
             {
-                "id": 31,
+                "id": 32,
                 "url": "https://zyahan.blog/how-xun-yu-died/",
                 "title": "순욱은 과연 병으로 죽었을까?",
                 "subtitle": "",
@@ -457,7 +468,7 @@ var documents = [
     
         
             {
-                "id": 32,
+                "id": 33,
                 "url": "https://zyahan.blog/xun-yu-s-extraordinary-appearance/",
                 "title": "순욱의 ‘기이한 겉모습’",
                 "subtitle": "",
@@ -468,7 +479,7 @@ var documents = [
     
         
             {
-                "id": 33,
+                "id": 34,
                 "url": "https://zyahan.blog/women-s-names-supplement-2/",
                 "title": "한대 여성의 이름과 자: 4년 뒤의 보충",
                 "subtitle": "",
@@ -479,7 +490,7 @@ var documents = [
     
         
             {
-                "id": 34,
+                "id": 35,
                 "url": "https://zyahan.blog/yuan-shao-s-six-year-mourning/",
                 "title": "원소가 치른 “6년상”의 진상은?",
                 "subtitle": "",
@@ -490,7 +501,7 @@ var documents = [
     
         
             {
-                "id": 35,
+                "id": 36,
                 "url": "https://zyahan.blog/intelligent-women/",
                 "title": "한나라의 똑똑한 여자들은 어떻게 되었을까?",
                 "subtitle": "",
@@ -501,7 +512,7 @@ var documents = [
     
         
             {
-                "id": 36,
+                "id": 37,
                 "url": "https://zyahan.blog/sanguo-yanyi-07/",
                 "title": "《삼국연의》 호칭어 노트 07: 삼국지 정사와 연의의 삼고초려 비교",
                 "subtitle": "",
@@ -512,7 +523,7 @@ var documents = [
     
         
             {
-                "id": 37,
+                "id": 38,
                 "url": "https://zyahan.blog/devoted-husbands/",
                 "title": "장창과 반초: 한나라의 애처가들",
                 "subtitle": "",
@@ -523,7 +534,7 @@ var documents = [
     
         
             {
-                "id": 38,
+                "id": 39,
                 "url": "https://zyahan.blog/buyao/",
                 "title": "보요(步搖)라는 머리 장식",
                 "subtitle": "",
@@ -534,7 +545,7 @@ var documents = [
     
         
             {
-                "id": 39,
+                "id": 40,
                 "url": "https://zyahan.blog/yuan-shao-as-a-lady/",
                 "title": "체장부인(體長婦人)의 미궁: 원소는 도대체 어떻게 자랐나?",
                 "subtitle": "",
@@ -545,7 +556,7 @@ var documents = [
     
         
             {
-                "id": 40,
+                "id": 41,
                 "url": "https://zyahan.blog/too-late-spinoff-hair/",
                 "title": "외전. 《한서》 〈유림전〉에서 〈왕식전〉을 보세요",
                 "subtitle": "",
@@ -556,7 +567,7 @@ var documents = [
     
         
             {
-                "id": 41,
+                "id": 42,
                 "url": "https://zyahan.blog/aweng/",
                 "title": "아옹(阿翁)의 해석 문제: 어린 조간은 과연 맏형 조비를 ‘할아버지’라고 불렀나?",
                 "subtitle": "",
@@ -567,7 +578,7 @@ var documents = [
     
         
             {
-                "id": 42,
+                "id": 43,
                 "url": "https://zyahan.blog/yeyousijun-oc-new/",
                 "title": "《시경》 〈야유사균〉 “들판에는 죽은 노루” 상고한어 노래 새 편곡 [멤버십 전용]",
                 "subtitle": "",
@@ -578,7 +589,7 @@ var documents = [
     
         
             {
-                "id": 43,
+                "id": 44,
                 "url": "https://zyahan.blog/yeyousijun-oc/",
                 "title": "《시경》 〈야유사균〉 “들판에는 죽은 노루” 상고한어 노래 영상",
                 "subtitle": "",
@@ -589,7 +600,7 @@ var documents = [
     
         
             {
-                "id": 44,
+                "id": 45,
                 "url": "https://zyahan.blog/liu-xiang-hated-beautiful-women/",
                 "title": "미녀를 혐오한 남자: 《열녀전》 창시자 유향의 취향",
                 "subtitle": "",
@@ -600,7 +611,7 @@ var documents = [
     
         
             {
-                "id": 45,
+                "id": 46,
                 "url": "https://zyahan.blog/anong/",
                 "title": "농, 농, 아농(阿儂)에서 아농(我儂)까지",
                 "subtitle": "",
@@ -611,7 +622,7 @@ var documents = [
     
         
             {
-                "id": 46,
+                "id": 47,
                 "url": "https://zyahan.blog/taoyao-oc-new/",
                 "title": "《시경》 〈도요〉 “복사나무 소담하니” 상고한어 노래 새 편곡 [멤버십 전용]",
                 "subtitle": "",
@@ -622,7 +633,7 @@ var documents = [
     
         
             {
-                "id": 47,
+                "id": 48,
                 "url": "https://zyahan.blog/taoyao-oc/",
                 "title": "《시경》 〈도요〉 “복사나무 소담하니” 상고한어 노래 영상",
                 "subtitle": "",
@@ -633,7 +644,7 @@ var documents = [
     
         
             {
-                "id": 48,
+                "id": 49,
                 "url": "https://zyahan.blog/dogs-in-later-han/",
                 "title": "후한 말 학자들의 개 이야기",
                 "subtitle": "",
@@ -644,7 +655,7 @@ var documents = [
     
         
             {
-                "id": 49,
+                "id": 50,
                 "url": "https://zyahan.blog/sanguo-pocket-06/",
                 "title": "삼국지포켓북 6. 아이들의 놀이와 노래 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -655,7 +666,7 @@ var documents = [
     
         
             {
-                "id": 50,
+                "id": 51,
                 "url": "https://zyahan.blog/sanguo-pocket-05/",
                 "title": "삼국지포켓북 5. 의사와 음악가의 공통점은? [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -666,7 +677,7 @@ var documents = [
     
         
             {
-                "id": 51,
+                "id": 52,
                 "url": "https://zyahan.blog/sanguo-pocket-04/",
                 "title": "삼국지포켓북 4. 육형 부활 논의에 관한 시론 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -677,7 +688,7 @@ var documents = [
     
         
             {
-                "id": 52,
+                "id": 53,
                 "url": "https://zyahan.blog/sanguo-pocket-03/",
                 "title": "삼국지포켓북 3. 향, 새로운 감각의 개척 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -688,7 +699,7 @@ var documents = [
     
         
             {
-                "id": 53,
+                "id": 54,
                 "url": "https://zyahan.blog/sanguo-pocket-02/",
                 "title": "삼국지포켓북 2. 예의를 버리고 음식을 구하다 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -699,7 +710,7 @@ var documents = [
     
         
             {
-                "id": 54,
+                "id": 55,
                 "url": "https://zyahan.blog/armed-women/",
                 "title": "후한 말 여성의 무장과 무예",
                 "subtitle": "",
@@ -710,7 +721,7 @@ var documents = [
     
         
             {
-                "id": 55,
+                "id": 56,
                 "url": "https://zyahan.blog/sanguo-pocket-01/",
                 "title": "삼국지포켓북 1. 호칭어 가이드 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -721,7 +732,7 @@ var documents = [
     
         
             {
-                "id": 56,
+                "id": 57,
                 "url": "https://zyahan.blog/chengxiangfu/",
                 "title": "승상부 사람들",
                 "subtitle": "",
@@ -732,7 +743,7 @@ var documents = [
     
         
             {
-                "id": 57,
+                "id": 58,
                 "url": "https://zyahan.blog/alcohol-and-sex/",
                 "title": "“주색“ 넘치는 향연",
                 "subtitle": "",
@@ -743,7 +754,7 @@ var documents = [
     
         
             {
-                "id": 58,
+                "id": 59,
                 "url": "https://zyahan.blog/sanguozhi-qna/",
                 "title": "삼국지 질문 응모를 받습니다",
                 "subtitle": "",
@@ -754,7 +765,7 @@ var documents = [
     
         
             {
-                "id": 59,
+                "id": 60,
                 "url": "https://zyahan.blog/on-historical-accuracy-3/",
                 "title": "역사/시대 고증의 목적은 과거의 한 장면을 재연하는 것인가?",
                 "subtitle": "",
@@ -765,7 +776,7 @@ var documents = [
     
         
             {
-                "id": 60,
+                "id": 61,
                 "url": "https://zyahan.blog/greetings-in-han/",
                 "title": "한나라 사람들의 인사와 신체 접촉 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -776,7 +787,7 @@ var documents = [
     
         
             {
-                "id": 61,
+                "id": 62,
                 "url": "https://zyahan.blog/ta-bom/",
                 "title": "👍 ‘따봉’, 엄지척이 중국 전통에도 있었을까?",
                 "subtitle": "",
@@ -787,7 +798,7 @@ var documents = [
     
         
             {
-                "id": 62,
+                "id": 63,
                 "url": "https://zyahan.blog/xiao-wangzhi/",
                 "title": "소망지의 생애",
                 "subtitle": "",
@@ -798,7 +809,7 @@ var documents = [
     
         
             {
-                "id": 63,
+                "id": 64,
                 "url": "https://zyahan.blog/interpret-and-translate/",
                 "title": "통역과 번역이 모두 ‘역’으로 끝나는 까닭: 역(譯)의 의미 확장",
                 "subtitle": "",
@@ -809,7 +820,7 @@ var documents = [
     
         
             {
-                "id": 64,
+                "id": 65,
                 "url": "https://zyahan.blog/yang-as-deceit/",
                 "title": "양동작전의 수수께끼: 중국 고대의 음양 개념 변천",
                 "subtitle": "",
@@ -820,7 +831,7 @@ var documents = [
     
         
             {
-                "id": 65,
+                "id": 66,
                 "url": "https://zyahan.blog/relay-translation/",
                 "title": "중역(重譯)의 환상",
                 "subtitle": "",
@@ -831,7 +842,7 @@ var documents = [
     
         
             {
-                "id": 66,
+                "id": 67,
                 "url": "https://zyahan.blog/cao-cao-12/",
                 "title": "12. 조조의 아명 아만(阿瞞)의 의미는 거짓말쟁이다? [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -842,7 +853,7 @@ var documents = [
     
         
             {
-                "id": 67,
+                "id": 68,
                 "url": "https://zyahan.blog/cao-cao-11/",
                 "title": "11. 조조가 유비를 일컫는 말의 변화: ‘명사군’부터 ‘짚신가게 새끼’까지 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -853,7 +864,7 @@ var documents = [
     
         
             {
-                "id": 68,
+                "id": 69,
                 "url": "https://zyahan.blog/brothers-are-hands/",
                 "title": "형제는 손발, 처자는 의복?: “연의”가 진짜로 “왜곡”한 것",
                 "subtitle": "",
@@ -864,7 +875,7 @@ var documents = [
     
         
             {
-                "id": 69,
+                "id": 70,
                 "url": "https://zyahan.blog/zhuge-liang-s-meal/",
                 "title": "식소사번의 진실: 제갈량은 밥을 얼마나 적게 먹었나?",
                 "subtitle": "",
@@ -875,7 +886,7 @@ var documents = [
     
         
             {
-                "id": 70,
+                "id": 71,
                 "url": "https://zyahan.blog/too-late-spinoff-ginger/",
                 "title": "외전. 만다린 진저 티",
                 "subtitle": "화이트 크리스마스",
@@ -886,7 +897,7 @@ var documents = [
     
         
             {
-                "id": 71,
+                "id": 72,
                 "url": "https://zyahan.blog/too-late-spinoff-bittersweet/",
                 "title": "외전. 달콤쌉쌀한 스몰토크",
                 "subtitle": "",
@@ -897,7 +908,7 @@ var documents = [
     
         
             {
-                "id": 72,
+                "id": 73,
                 "url": "https://zyahan.blog/jijirulvling/",
                 "title": "급급여율령: 동아시아 귀신은 처음부터 인간의 공권력에 복종했는가?",
                 "subtitle": "",
@@ -908,7 +919,7 @@ var documents = [
     
         
             {
-                "id": 73,
+                "id": 74,
                 "url": "https://zyahan.blog/xun-yu-like-zifang/",
                 "title": "순욱은 조조의 ‘자방’이 되기를 싫어했을까?",
                 "subtitle": "",
@@ -919,7 +930,7 @@ var documents = [
     
         
             {
-                "id": 74,
+                "id": 75,
                 "url": "https://zyahan.blog/on-historical-accuracy-2/",
                 "title": "역사/시대 고증은 창작물의 윤리성을 훼손하는가?",
                 "subtitle": "",
@@ -930,7 +941,7 @@ var documents = [
     
         
             {
-                "id": 75,
+                "id": 76,
                 "url": "https://zyahan.blog/our-orchid-filter/",
                 "title": "현대인의 렌즈에서는 난초와 먹 냄새가 나지요",
                 "subtitle": "",
@@ -941,7 +952,7 @@ var documents = [
     
         
             {
-                "id": 76,
+                "id": 77,
                 "url": "https://zyahan.blog/tea-vs-milk/",
                 "title": "🍵 차와 문화승리",
                 "subtitle": "",
@@ -952,7 +963,7 @@ var documents = [
     
         
             {
-                "id": 77,
+                "id": 78,
                 "url": "https://zyahan.blog/on-historical-accuracy-1/",
                 "title": "역사/시대 고증은 창작에 필요한 상상력을 방해하는가?",
                 "subtitle": "",
@@ -963,7 +974,7 @@ var documents = [
     
         
             {
-                "id": 78,
+                "id": 79,
                 "url": "https://zyahan.blog/white/",
                 "title": "흰색을 표현하는 여러 가지 방법",
                 "subtitle": "",
@@ -974,7 +985,7 @@ var documents = [
     
         
             {
-                "id": 79,
+                "id": 80,
                 "url": "https://zyahan.blog/women-s-names-supplement-1/",
                 "title": "한대 여성의 이름과 자: 3년 뒤의 보론",
                 "subtitle": "",
@@ -985,7 +996,7 @@ var documents = [
     
         
             {
-                "id": 80,
+                "id": 81,
                 "url": "https://zyahan.blog/seal-ribbons/",
                 "title": "한나라의 도장끈",
                 "subtitle": "",
@@ -996,7 +1007,7 @@ var documents = [
     
         
             {
-                "id": 81,
+                "id": 82,
                 "url": "https://zyahan.blog/sanguo-girls/",
                 "title": "삼국지 위·촉·오 의인화: 그림 @ionzaion 님",
                 "subtitle": "",
@@ -1007,7 +1018,7 @@ var documents = [
     
         
             {
-                "id": 82,
+                "id": 83,
                 "url": "https://zyahan.blog/geunyeo/",
                 "title": "‘그녀’는 명예롭게 은퇴할 자격이 있다",
                 "subtitle": "",
@@ -1018,7 +1029,7 @@ var documents = [
     
         
             {
-                "id": 83,
+                "id": 84,
                 "url": "https://zyahan.blog/liu-bei-zi-xuande/",
                 "title": "“유비 字 현덕”은 근본있는 표현인가? [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1029,7 +1040,7 @@ var documents = [
     
         
             {
-                "id": 84,
+                "id": 85,
                 "url": "https://zyahan.blog/drinking-culture/",
                 "title": "한나라의 음주 풍경 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1040,7 +1051,7 @@ var documents = [
     
         
             {
-                "id": 85,
+                "id": 86,
                 "url": "https://zyahan.blog/handcuffs-and-shackles/",
                 "title": "한대의 수갑과 족쇄의 형상  [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1051,7 +1062,7 @@ var documents = [
     
         
             {
-                "id": 86,
+                "id": 87,
                 "url": "https://zyahan.blog/too-late-20c-liquor/",
                 "title": "현대AU. 비싼 술의 가치",
                 "subtitle": "세 사람, 20세기 버전.",
@@ -1062,7 +1073,7 @@ var documents = [
     
         
             {
-                "id": 87,
+                "id": 88,
                 "url": "https://zyahan.blog/too-late-spinoff-paradox/",
                 "title": "외전. Z의 역설",
                 "subtitle": "",
@@ -1073,7 +1084,7 @@ var documents = [
     
         
             {
-                "id": 88,
+                "id": 89,
                 "url": "https://zyahan.blog/too-late-spinoff-silver/",
                 "title": "외전. 은그릇과 콩잎장아찌",
                 "subtitle": "《전삼국문》의 조조 파트를 읽다가 어이가 없어져서…",
@@ -1084,7 +1095,7 @@ var documents = [
     
         
             {
-                "id": 89,
+                "id": 90,
                 "url": "https://zyahan.blog/summoning-the-soul/",
                 "title": "초혼의 효과",
                 "subtitle": "",
@@ -1095,7 +1106,7 @@ var documents = [
     
         
             {
-                "id": 90,
+                "id": 91,
                 "url": "https://zyahan.blog/too-late-1-1-revised/",
                 "title": "개작 1-1. 자살하기에는 너무 늦어 버려서",
                 "subtitle": "",
@@ -1106,7 +1117,7 @@ var documents = [
     
         
             {
-                "id": 91,
+                "id": 92,
                 "url": "https://zyahan.blog/imperial-scents/",
                 "title": "삼국지의 바탕, 후한 황실의 향: 환제의 계설향, 영제의 한건녕궁중향, 헌제의 황금향로",
                 "subtitle": "",
@@ -1117,7 +1128,7 @@ var documents = [
     
         
             {
-                "id": 92,
+                "id": 93,
                 "url": "https://zyahan.blog/too-late-spinoff-tianjiu/",
                 "title": "외전. 천구(天灸)",
                 "subtitle": "혹은 동상이몽. 어느 가을 8월 14일.",
@@ -1128,7 +1139,7 @@ var documents = [
     
         
             {
-                "id": 93,
+                "id": 94,
                 "url": "https://zyahan.blog/song-ming-sachets/",
                 "title": "송나라–명나라 시대 향낭에는 무엇을 넣었을까?",
                 "subtitle": "",
@@ -1139,7 +1150,7 @@ var documents = [
     
         
             {
-                "id": 94,
+                "id": 95,
                 "url": "https://zyahan.blog/sanguo-yanyi-06/",
                 "title": "《삼국연의》 호칭어 노트 06: ‘거거’를 주로 쓴 사람은?",
                 "subtitle": "",
@@ -1150,7 +1161,7 @@ var documents = [
     
         
             {
-                "id": 95,
+                "id": 96,
                 "url": "https://zyahan.blog/han-empresses-1/",
                 "title": "한나라의 황후들: 황후와 외척의 탄생 및 시행착오",
                 "subtitle": "",
@@ -1161,7 +1172,7 @@ var documents = [
     
         
             {
-                "id": 96,
+                "id": 97,
                 "url": "https://zyahan.blog/jiuyunchunjiu/",
                 "title": "조조가 헌제에게 바쳤다는 그 술: 구온춘주에 관하여 한국어로 가장 상세한 정보를 제공하고 싶은 오타쿠의 망상",
                 "subtitle": "",
@@ -1172,7 +1183,7 @@ var documents = [
     
         
             {
-                "id": 97,
+                "id": 98,
                 "url": "https://zyahan.blog/bing-in-sanguozhi/",
                 "title": "《삼국지》의 떡[餅] 이야기",
                 "subtitle": "",
@@ -1183,7 +1194,7 @@ var documents = [
     
         
             {
-                "id": 98,
+                "id": 99,
                 "url": "https://zyahan.blog/wu-region/",
                 "title": "한대의 오(吳) 지역에 관하여",
                 "subtitle": "",
@@ -1194,7 +1205,7 @@ var documents = [
     
         
             {
-                "id": 99,
+                "id": 100,
                 "url": "https://zyahan.blog/cao-cao-10/",
                 "title": "10. 조조가 좋아한 음식은? [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1205,7 +1216,7 @@ var documents = [
     
         
             {
-                "id": 100,
+                "id": 101,
                 "url": "https://zyahan.blog/feather-fan/",
                 "title": "제갈량 vs. 주유, 누가 깃털 부채의 원조인가?",
                 "subtitle": "",
@@ -1216,7 +1227,7 @@ var documents = [
     
         
             {
-                "id": 101,
+                "id": 102,
                 "url": "https://zyahan.blog/naming-dogs/",
                 "title": "🐶 강아지 이름 짓기",
                 "subtitle": "",
@@ -1227,7 +1238,7 @@ var documents = [
     
         
             {
-                "id": 102,
+                "id": 103,
                 "url": "https://zyahan.blog/sanguo-yanyi-05/",
                 "title": "《삼국연의》 호칭어 노트 05: 조적과 다른 역적들",
                 "subtitle": "",
@@ -1238,7 +1249,7 @@ var documents = [
     
         
             {
-                "id": 103,
+                "id": 104,
                 "url": "https://zyahan.blog/tea-in-sanguo-yanyi/",
                 "title": "《삼국연의》에서 살펴본 차의 기능",
                 "subtitle": "",
@@ -1249,7 +1260,7 @@ var documents = [
     
         
             {
-                "id": 104,
+                "id": 105,
                 "url": "https://zyahan.blog/too-late-1-2-1-spinoff/",
                 "title": "외전 1-2-1. 평화로운 사람의 날",
                 "subtitle": "건안5년 정월 7일 경신일, 관도에서.",
@@ -1260,7 +1271,7 @@ var documents = [
     
         
             {
-                "id": 105,
+                "id": 106,
                 "url": "https://zyahan.blog/incense-in-sanguo-yanyi/",
                 "title": "《삼국연의》에서 살펴본 향의 기능",
                 "subtitle": "",
@@ -1271,7 +1282,7 @@ var documents = [
     
         
             {
-                "id": 106,
+                "id": 107,
                 "url": "https://zyahan.blog/sanguo-yanyi-04/",
                 "title": "《삼국연의》 호칭어 노트 04: 연인 장익덕, 상산 조자룡, 하동 관운장?",
                 "subtitle": "",
@@ -1282,7 +1293,7 @@ var documents = [
     
         
             {
-                "id": 107,
+                "id": 108,
                 "url": "https://zyahan.blog/sanguo-yanyi-03/",
                 "title": "《삼국연의》 호칭어 노트 03: 조조, 진궁, 백문루",
                 "subtitle": "",
@@ -1293,7 +1304,7 @@ var documents = [
     
         
             {
-                "id": 108,
+                "id": 109,
                 "url": "https://zyahan.blog/sanguo-yanyi-02/",
                 "title": "《삼국연의》 호칭어 노트 02: 손책·손권 형제와 주유의 관계",
                 "subtitle": "",
@@ -1304,7 +1315,7 @@ var documents = [
     
         
             {
-                "id": 109,
+                "id": 110,
                 "url": "https://zyahan.blog/sanguo-yanyi-01/",
                 "title": "《삼국연의》 호칭어 노트 01: ‘논영회’의 그 대사",
                 "subtitle": "",
@@ -1315,7 +1326,7 @@ var documents = [
     
         
             {
-                "id": 110,
+                "id": 111,
                 "url": "https://zyahan.blog/three-excellencies/",
                 "title": "서한의 삼공",
                 "subtitle": "",
@@ -1326,7 +1337,7 @@ var documents = [
     
         
             {
-                "id": 111,
+                "id": 112,
                 "url": "https://zyahan.blog/bronze-knots/",
                 "title": "전국 시대 청동기·옥기 매듭 메모 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1337,7 +1348,7 @@ var documents = [
     
         
             {
-                "id": 112,
+                "id": 113,
                 "url": "https://zyahan.blog/too-late-spinoff-fate/",
                 "title": "외전. 운명의 화살",
                 "subtitle": "",
@@ -1348,7 +1359,7 @@ var documents = [
     
         
             {
-                "id": 113,
+                "id": 114,
                 "url": "https://zyahan.blog/eating-an-egg/",
                 "title": "달걀 먹기의 어려움",
                 "subtitle": "",
@@ -1359,7 +1370,7 @@ var documents = [
     
         
             {
-                "id": 114,
+                "id": 115,
                 "url": "https://zyahan.blog/too-late-spinoff-bell/",
                 "title": "외전. 새벽 종",
                 "subtitle": "새해 복 많이 받으세요",
@@ -1370,7 +1381,7 @@ var documents = [
     
         
             {
-                "id": 115,
+                "id": 116,
                 "url": "https://zyahan.blog/stop-procrastinating/",
                 "title": "Stop Procrastinating",
                 "subtitle": "",
@@ -1381,7 +1392,7 @@ var documents = [
     
         
             {
-                "id": 116,
+                "id": 117,
                 "url": "https://zyahan.blog/too-late-3-1-revised/",
                 "title": "개정 3-1. 물과 물고기와 선물",
                 "subtitle": "건안10년 봄 정월, 업에서.",
@@ -1392,7 +1403,7 @@ var documents = [
     
         
             {
-                "id": 117,
+                "id": 118,
                 "url": "https://zyahan.blog/zhiming/",
                 "title": "전4사에서 지명(知名)의 빈도와 용례 찾기 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1403,7 +1414,7 @@ var documents = [
     
         
             {
-                "id": 118,
+                "id": 119,
                 "url": "https://zyahan.blog/cao-cao-09/",
                 "title": "9. 조조의 책 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1414,7 +1425,7 @@ var documents = [
     
         
             {
-                "id": 119,
+                "id": 120,
                 "url": "https://zyahan.blog/zhao-feiyan-02/",
                 "title": "[조각번역] 조비연외전 2 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1425,7 +1436,7 @@ var documents = [
     
         
             {
-                "id": 120,
+                "id": 121,
                 "url": "https://zyahan.blog/zhao-feiyan-01/",
                 "title": "[조각번역] 조비연외전 1 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1436,7 +1447,7 @@ var documents = [
     
         
             {
-                "id": 121,
+                "id": 122,
                 "url": "https://zyahan.blog/shishuo/",
                 "title": "《세설신어(보)》의 호칭어 사용 양상 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1447,7 +1458,7 @@ var documents = [
     
         
             {
-                "id": 122,
+                "id": 123,
                 "url": "https://zyahan.blog/cao-cao-08/",
                 "title": "8. 아직도 끝나지 않은 향 이야기 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1458,7 +1469,7 @@ var documents = [
     
         
             {
-                "id": 123,
+                "id": 124,
                 "url": "https://zyahan.blog/women-s-names/",
                 "title": "한대 여성의 이름과 자 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1469,7 +1480,7 @@ var documents = [
     
         
             {
-                "id": 124,
+                "id": 125,
                 "url": "https://zyahan.blog/a-brief-history-of-cats/",
                 "title": "🐾 고대 중국 고양이의 아주 간략한 역사: 한나라의 고양이를 찾아서",
                 "subtitle": "",
@@ -1480,7 +1491,7 @@ var documents = [
     
         
             {
-                "id": 125,
+                "id": 126,
                 "url": "https://zyahan.blog/real-zongjiao/",
                 "title": "총각머리의 실제 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1491,7 +1502,7 @@ var documents = [
     
         
             {
-                "id": 126,
+                "id": 127,
                 "url": "https://zyahan.blog/rulvling/",
                 "title": "율령과 같이 처리하소서",
                 "subtitle": "",
@@ -1502,7 +1513,7 @@ var documents = [
     
         
             {
-                "id": 127,
+                "id": 128,
                 "url": "https://zyahan.blog/new-xing/",
                 "title": "《한서》에서 새로운 성씨를 만든 사례 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1513,7 +1524,7 @@ var documents = [
     
         
             {
-                "id": 128,
+                "id": 129,
                 "url": "https://zyahan.blog/zongjiao/",
                 "title": "손책과 주유의 총각지호(總角之好)",
                 "subtitle": "",
@@ -1524,7 +1535,7 @@ var documents = [
     
         
             {
-                "id": 129,
+                "id": 130,
                 "url": "https://zyahan.blog/xing-and-shi-in-ancient-china/",
                 "title": "고대 중국의 성(姓)과 씨(氏) 구별 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1535,7 +1546,7 @@ var documents = [
     
         
             {
-                "id": 130,
+                "id": 131,
                 "url": "https://zyahan.blog/too-late-2-2-1-spinoff/",
                 "title": "외전 2-2-1. 납일",
                 "subtitle": "건안7년 겨울 12월, 관도에서.",
@@ -1546,7 +1557,7 @@ var documents = [
     
         
             {
-                "id": 131,
+                "id": 132,
                 "url": "https://zyahan.blog/birthday-party-in-ancient-china/",
                 "title": "한대의 생일 파티 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1557,7 +1568,7 @@ var documents = [
     
         
             {
-                "id": 132,
+                "id": 133,
                 "url": "https://zyahan.blog/musical-instruments-in-battle/",
                 "title": "전투 중에 사용하는 악기의 변화 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1568,7 +1579,7 @@ var documents = [
     
         
             {
-                "id": 133,
+                "id": 134,
                 "url": "https://zyahan.blog/summer-vacations/",
                 "title": "한대의 여름 휴가 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1579,7 +1590,7 @@ var documents = [
     
         
             {
-                "id": 134,
+                "id": 135,
                 "url": "https://zyahan.blog/promise/",
                 "title": "향로 위의 약속",
                 "subtitle": "",
@@ -1590,7 +1601,7 @@ var documents = [
     
         
             {
-                "id": 135,
+                "id": 136,
                 "url": "https://zyahan.blog/too-late-1-5-1-spinoff/",
                 "title": "외전 1-5-1. 낭고의 상",
                 "subtitle": "건안6년 봄 1월. 관도에서.",
@@ -1601,7 +1612,7 @@ var documents = [
     
         
             {
-                "id": 136,
+                "id": 137,
                 "url": "https://zyahan.blog/cao-cao-07/",
                 "title": "7. 조조가 가족들에게 금지시킨 것 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1612,7 +1623,7 @@ var documents = [
     
         
             {
-                "id": 137,
+                "id": 138,
                 "url": "https://zyahan.blog/knives-and-swords-in-hanshu/",
                 "title": "《한서》에서 도(刀)와 검(劍)의 용례 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1623,7 +1634,7 @@ var documents = [
     
         
             {
-                "id": 138,
+                "id": 139,
                 "url": "https://zyahan.blog/cao-cao-06/",
                 "title": "6. 조조가 옷 속에 넣은 것 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1634,7 +1645,7 @@ var documents = [
     
         
             {
-                "id": 139,
+                "id": 140,
                 "url": "https://zyahan.blog/cao-cao-05/",
                 "title": "5. 조조의 손 씻기[盥] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1645,7 +1656,7 @@ var documents = [
     
         
             {
-                "id": 140,
+                "id": 141,
                 "url": "https://zyahan.blog/cao-cao-04/",
                 "title": "4. 조조가 특히 좋아한 음악 장르는? [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1656,7 +1667,7 @@ var documents = [
     
         
             {
-                "id": 141,
+                "id": 142,
                 "url": "https://zyahan.blog/cao-cao-03/",
                 "title": "3. 서역의 보석을 좋아한 조조(와 아빠의 보석을 탐낸 조비) [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1667,7 +1678,7 @@ var documents = [
     
         
             {
-                "id": 142,
+                "id": 143,
                 "url": "https://zyahan.blog/too-late-3-1-1-spinoff/",
                 "title": "외전 3-1-1. 너에게 죽은 새를 선물할게",
                 "subtitle": "건안10년 4월, 업에서.",
@@ -1678,7 +1689,7 @@ var documents = [
     
         
             {
-                "id": 143,
+                "id": 144,
                 "url": "https://zyahan.blog/new-year-in-later-han/",
                 "title": "[조각번역] 후한 궁정의 새해맞이 행사",
                 "subtitle": "",
@@ -1689,7 +1700,7 @@ var documents = [
     
         
             {
-                "id": 144,
+                "id": 145,
                 "url": "https://zyahan.blog/cao-cao-02/",
                 "title": "2. 《한서》 〈곽광전〉을 열심히 읽은 조조 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1700,7 +1711,7 @@ var documents = [
     
         
             {
-                "id": 145,
+                "id": 146,
                 "url": "https://zyahan.blog/titles-for-women/",
                 "title": "한대 여성의 작위",
                 "subtitle": "",
@@ -1711,7 +1722,7 @@ var documents = [
     
         
             {
-                "id": 146,
+                "id": 147,
                 "url": "https://zyahan.blog/idioms-20/",
                 "title": "20. 돌사람, 나무 인형 [石人, 木偶人] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1722,7 +1733,7 @@ var documents = [
     
         
             {
-                "id": 147,
+                "id": 148,
                 "url": "https://zyahan.blog/idioms-19/",
                 "title": "19. 인끈이 늘어져 [綬若] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1733,7 +1744,7 @@ var documents = [
     
         
             {
-                "id": 148,
+                "id": 149,
                 "url": "https://zyahan.blog/idioms-18/",
                 "title": "18. 반쪽짜리 [半通] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1744,7 +1755,7 @@ var documents = [
     
         
             {
-                "id": 149,
+                "id": 150,
                 "url": "https://zyahan.blog/idioms-17/",
                 "title": "17. 명아줏잎과 콩잎 [藜藿] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1755,7 +1766,7 @@ var documents = [
     
         
             {
-                "id": 150,
+                "id": 151,
                 "url": "https://zyahan.blog/idioms-16/",
                 "title": "16. 밥 한 그릇 먹을 동안 [食頃] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1766,7 +1777,7 @@ var documents = [
     
         
             {
-                "id": 151,
+                "id": 152,
                 "url": "https://zyahan.blog/idioms-15/",
                 "title": "15. 죽을 죄를 짓다 ×2 [死罪死罪] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1777,7 +1788,7 @@ var documents = [
     
         
             {
-                "id": 152,
+                "id": 153,
                 "url": "https://zyahan.blog/idioms-14/",
                 "title": "14. 머리 감기 [沐] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1788,7 +1799,7 @@ var documents = [
     
         
             {
-                "id": 153,
+                "id": 154,
                 "url": "https://zyahan.blog/idioms-13/",
                 "title": "13. 배와 가슴 [腹心] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1799,7 +1810,7 @@ var documents = [
     
         
             {
-                "id": 154,
+                "id": 155,
                 "url": "https://zyahan.blog/cao-cao-01/",
                 "title": "1. 알록달록한 것을 좋아하는 조조 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1810,7 +1821,7 @@ var documents = [
     
         
             {
-                "id": 155,
+                "id": 156,
                 "url": "https://zyahan.blog/idioms-12/",
                 "title": "12. 현미밥을 먹다 [糲食] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1821,7 +1832,7 @@ var documents = [
     
         
             {
-                "id": 156,
+                "id": 157,
                 "url": "https://zyahan.blog/too-late-references/",
                 "title": "참고 문헌",
                 "subtitle": "공대를 괴롭히는 데 사용한 재료들",
@@ -1832,7 +1843,7 @@ var documents = [
     
         
             {
-                "id": 157,
+                "id": 158,
                 "url": "https://zyahan.blog/idioms-11/",
                 "title": "11. 고깃살 [魚肉] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1843,7 +1854,7 @@ var documents = [
     
         
             {
-                "id": 158,
+                "id": 159,
                 "url": "https://zyahan.blog/idioms-10/",
                 "title": "10. 억지로라도 밥을 먹어라 [強食, 強飯, 彊食, 彊飯] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1854,7 +1865,7 @@ var documents = [
     
         
             {
-                "id": 159,
+                "id": 160,
                 "url": "https://zyahan.blog/idioms-09/",
                 "title": "9. 주후혜문 [柱後惠文] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1865,7 +1876,7 @@ var documents = [
     
         
             {
-                "id": 160,
+                "id": 161,
                 "url": "https://zyahan.blog/idioms-08/",
                 "title": "8. 죽음을 무릅쓰다 [昧死] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1876,7 +1887,7 @@ var documents = [
     
         
             {
-                "id": 161,
+                "id": 162,
                 "url": "https://zyahan.blog/idioms-07/",
                 "title": "7. 파랑과 보라 [靑紫] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1887,7 +1898,7 @@ var documents = [
     
         
             {
-                "id": 162,
+                "id": 163,
                 "url": "https://zyahan.blog/idioms-06/",
                 "title": "6. 물동이를 이고서 어떻게 하늘을 바라보나 [戴盆何以望天] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1898,7 +1909,7 @@ var documents = [
     
         
             {
-                "id": 163,
+                "id": 164,
                 "url": "https://zyahan.blog/idioms-05/",
                 "title": "5. 흰 망아지가 틈을 지나듯 [如白駒過隙] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1909,7 +1920,7 @@ var documents = [
     
         
             {
-                "id": 164,
+                "id": 165,
                 "url": "https://zyahan.blog/idioms-04/",
                 "title": "4. 붉은 수레바퀴 [朱輪] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1920,7 +1931,7 @@ var documents = [
     
         
             {
-                "id": 165,
+                "id": 166,
                 "url": "https://zyahan.blog/idioms-03/",
                 "title": "3. 바닷가 [海濱, 海瀕, 海濵] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1931,7 +1942,7 @@ var documents = [
     
         
             {
-                "id": 166,
+                "id": 167,
                 "url": "https://zyahan.blog/idioms-02/",
                 "title": "2. 죄 짓기를/처벌 받기를 기다리다 [待罪] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1942,7 +1953,7 @@ var documents = [
     
         
             {
-                "id": 167,
+                "id": 168,
                 "url": "https://zyahan.blog/idioms-01/",
                 "title": "1. 백 년 뒤 [百歲後] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1953,7 +1964,7 @@ var documents = [
     
         
             {
-                "id": 168,
+                "id": 169,
                 "url": "https://zyahan.blog/too-late-3-8/",
                 "title": "3-8. 적벽 [완결] [🔒 무료 미리보기]",
                 "subtitle": "건안13년 봄 정월, 업에서.",
@@ -1964,7 +1975,7 @@ var documents = [
     
         
             {
-                "id": 169,
+                "id": 170,
                 "url": "https://zyahan.blog/too-late-3-7/",
                 "title": "3-7. 손님  [🔒 무료 미리보기]",
                 "subtitle": "건안13년 봄 정월, 업에서.",
@@ -1975,7 +1986,7 @@ var documents = [
     
         
             {
-                "id": 170,
+                "id": 171,
                 "url": "https://zyahan.blog/too-late-3-6/",
                 "title": "3-6. 매뉴얼 작성자의 정체와 색다른 제안",
                 "subtitle": "건안12년 가을 8월, 업에서.",
@@ -1986,7 +1997,7 @@ var documents = [
     
         
             {
-                "id": 171,
+                "id": 172,
                 "url": "https://zyahan.blog/too-late-3-5/",
                 "title": "3-5. 모주의 마지막 식사와 마지막 계책",
                 "subtitle": "건안12년 봄 2월, 동무양에서.",
@@ -1997,7 +2008,7 @@ var documents = [
     
         
             {
-                "id": 172,
+                "id": 173,
                 "url": "https://zyahan.blog/too-late-3-4/",
                 "title": "3-4. 자루의 새로운 기능을 발견하기",
                 "subtitle": "건안12년 봄 2월, 순우에서 업으로 가는 길에.",
@@ -2008,7 +2019,7 @@ var documents = [
     
         
             {
-                "id": 173,
+                "id": 174,
                 "url": "https://zyahan.blog/too-late-3-3/",
                 "title": "3-3. 흰머리가 없는 까닭",
                 "subtitle": "건안11년 가을 8월, 순우에서.",
@@ -2019,7 +2030,7 @@ var documents = [
     
         
             {
-                "id": 174,
+                "id": 175,
                 "url": "https://zyahan.blog/too-late-3-2/",
                 "title": "3-2. 관찰과 계량에 근거한 예측",
                 "subtitle": "건안10년 겨울 12월, 업에서.",
@@ -2030,7 +2041,7 @@ var documents = [
     
         
             {
-                "id": 175,
+                "id": 176,
                 "url": "https://zyahan.blog/too-late-3-1/",
                 "title": "3-1. 거울을 보는 사이에",
                 "subtitle": "건안10년 봄 정월, 업에서.",
@@ -2041,7 +2052,7 @@ var documents = [
     
         
             {
-                "id": 176,
+                "id": 177,
                 "url": "https://zyahan.blog/too-late-2-8/",
                 "title": "2-8. 귀신을 쫓아내는 방법",
                 "subtitle": "건안9년 가을 9월, 업에서.",
@@ -2052,7 +2063,7 @@ var documents = [
     
         
             {
-                "id": 177,
+                "id": 178,
                 "url": "https://zyahan.blog/too-late-2-7/",
                 "title": "2-7. 끈질긴 사람들",
                 "subtitle": "건안9년 봄 2월, 업 근처에서.",
@@ -2063,7 +2074,7 @@ var documents = [
     
         
             {
-                "id": 178,
+                "id": 179,
                 "url": "https://zyahan.blog/too-late-2-6/",
                 "title": "2-6. 포상",
                 "subtitle": "건안9년 봄 1월, 허도에서.",
@@ -2074,7 +2085,7 @@ var documents = [
     
         
             {
-                "id": 179,
+                "id": 180,
                 "url": "https://zyahan.blog/too-late-2-5/",
                 "title": "2-5. 허리를 조심하세요",
                 "subtitle": "건안8년 겨울 10월, 허도에서.",
@@ -2085,7 +2096,7 @@ var documents = [
     
         
             {
-                "id": 180,
+                "id": 181,
                 "url": "https://zyahan.blog/too-late-2-4/",
                 "title": "2-4. 징벌",
                 "subtitle": "건안8년 가을 9월, 허도에서.",
@@ -2096,7 +2107,7 @@ var documents = [
     
         
             {
-                "id": 181,
+                "id": 182,
                 "url": "https://zyahan.blog/fingertip/",
                 "title": "손끝의 감각",
                 "subtitle": "",
@@ -2107,7 +2118,7 @@ var documents = [
     
         
             {
-                "id": 182,
+                "id": 183,
                 "url": "https://zyahan.blog/too-late-2-3/",
                 "title": "2-3. 복숭아나무 소담하고",
                 "subtitle": "건안8년 여름 5월, 허도에서.",
@@ -2118,7 +2129,7 @@ var documents = [
     
         
             {
-                "id": 183,
+                "id": 184,
                 "url": "https://zyahan.blog/too-late-2-2/",
                 "title": "2-2. 상아",
                 "subtitle": "건안7년 가을 8월, 관도에서.",
@@ -2129,7 +2140,7 @@ var documents = [
     
         
             {
-                "id": 184,
+                "id": 185,
                 "url": "https://zyahan.blog/too-late-2-1/",
                 "title": "2-1. 바질 향기",
                 "subtitle": "건안7년 여름 5월, 관도에서.",
@@ -2140,7 +2151,7 @@ var documents = [
     
         
             {
-                "id": 185,
+                "id": 186,
                 "url": "https://zyahan.blog/too-late-1-8/",
                 "title": "1-8. 선조에게 지내는 제사",
                 "subtitle": "건안7년 봄 정월, 허도에서.",
@@ -2151,7 +2162,7 @@ var documents = [
     
         
             {
-                "id": 186,
+                "id": 187,
                 "url": "https://zyahan.blog/too-late-1-7/",
                 "title": "1-7. 욕심 많고 잔인한 사람",
                 "subtitle": "건안6년 가을 9월, 허도에서.",
@@ -2162,7 +2173,7 @@ var documents = [
     
         
             {
-                "id": 187,
+                "id": 188,
                 "url": "https://zyahan.blog/too-late-1-6/",
                 "title": "1-6. 세 사람",
                 "subtitle": "건안6년 봄 3월, 허도에서.",
@@ -2173,7 +2184,7 @@ var documents = [
     
         
             {
-                "id": 188,
+                "id": 189,
                 "url": "https://zyahan.blog/too-late-1-5/",
                 "title": "1-5. 관도",
                 "subtitle": "건안5년 가을 8월, 관도에서.",
@@ -2184,7 +2195,7 @@ var documents = [
     
         
             {
-                "id": 189,
+                "id": 190,
                 "url": "https://zyahan.blog/too-late-1-4/",
                 "title": "1-4. 갈 곳이 있는 사람",
                 "subtitle": "건안5년 여름 6월, 관도에서.",
@@ -2195,7 +2206,7 @@ var documents = [
     
         
             {
-                "id": 190,
+                "id": 191,
                 "url": "https://zyahan.blog/too-late-1-3/",
                 "title": "1-3. 붉어진 얼굴",
                 "subtitle": "건안5년 봄 정월, 관도에서.",
@@ -2206,7 +2217,7 @@ var documents = [
     
         
             {
-                "id": 191,
+                "id": 192,
                 "url": "https://zyahan.blog/too-late-1-2/",
                 "title": "1-2. 복날",
                 "subtitle": "건안4년 여름, 허도에서.",
@@ -2217,7 +2228,7 @@ var documents = [
     
         
             {
-                "id": 192,
+                "id": 193,
                 "url": "https://zyahan.blog/too-late-1-1/",
                 "title": "1-1. 자살하기에는 너무 늦어 버려서",
                 "subtitle": "건안3년 12월에 백문루에서 조조가 진궁을 살리는 데 성공한 이야기. 이른바 정사 《삼국지》 기반이지만 《사기》와 《한서》와 《진서》가 더 많이 들어간.",
@@ -2228,7 +2239,7 @@ var documents = [
     
         
             {
-                "id": 193,
+                "id": 194,
                 "url": "https://zyahan.blog/beau/",
                 "title": "한서팸플릿4 〈미남전〉 서문",
                 "subtitle": "",
@@ -2239,7 +2250,7 @@ var documents = [
     
         
             {
-                "id": 194,
+                "id": 195,
                 "url": "https://zyahan.blog/zh/too-late-1-1/",
                 "title": "1-1. 自杀为时已晚",
                 "subtitle": "建安三年十二月在白门楼上曹操成功救活陈宫的故事。所谓正史《三国志》为基础，但《史记》、《汉书》和《晋书》的内容更多。",
@@ -2250,7 +2261,7 @@ var documents = [
     
         
             {
-                "id": 195,
+                "id": 196,
                 "url": "https://zyahan.blog/zh/too-late-1-2/",
                 "title": "1-2. 伏日",
                 "subtitle": "建安四年夏天，许都。",
@@ -2261,7 +2272,7 @@ var documents = [
     
         
             {
-                "id": 196,
+                "id": 197,
                 "url": "https://zyahan.blog/zh/too-late-1-3/",
                 "title": "1-3. 变红的脸",
                 "subtitle": "建安五年春正月，官渡。",
@@ -2272,7 +2283,7 @@ var documents = [
     
         
             {
-                "id": 197,
+                "id": 198,
                 "url": "https://zyahan.blog/zh/too-late-1-4/",
                 "title": "1-4. 有去处的人",
                 "subtitle": "建安五年夏六月，官渡。",
@@ -2283,7 +2294,7 @@ var documents = [
     
         
             {
-                "id": 198,
+                "id": 199,
                 "url": "https://zyahan.blog/zh/too-late-1-5/",
                 "title": "1-5. 官渡",
                 "subtitle": "建安五年秋八月，官渡。",
@@ -2294,7 +2305,7 @@ var documents = [
     
         
             {
-                "id": 199,
+                "id": 200,
                 "url": "https://zyahan.blog/zh/too-late-1-6/",
                 "title": "1-6. 三人",
                 "subtitle": "建安六年春三月，许都。",
@@ -2305,7 +2316,7 @@ var documents = [
     
         
             {
-                "id": 200,
+                "id": 201,
                 "url": "https://zyahan.blog/zh/too-late-1-7/",
                 "title": "1-7. 贪心残忍的人",
                 "subtitle": "建安六年秋九月，许都。",
@@ -2316,7 +2327,7 @@ var documents = [
     
         
             {
-                "id": 201,
+                "id": 202,
                 "url": "https://zyahan.blog/zh/too-late-1-8/",
                 "title": "1-8. 祭祀先祖",
                 "subtitle": "建安七年春正月，许都。",
@@ -2327,7 +2338,7 @@ var documents = [
     
         
             {
-                "id": 202,
+                "id": 203,
                 "url": "https://zyahan.blog/zh/too-late-2-1/",
                 "title": "2-1. 罗勒香气",
                 "subtitle": "建安七年夏五月，官渡。",
@@ -2338,7 +2349,7 @@ var documents = [
     
         
             {
-                "id": 203,
+                "id": 204,
                 "url": "https://zyahan.blog/zh/too-late-2-2/",
                 "title": "2-2. 嫦娥",
                 "subtitle": "建安七年秋八月，官渡。",
@@ -2349,7 +2360,7 @@ var documents = [
     
         
             {
-                "id": 204,
+                "id": 205,
                 "url": "https://zyahan.blog/zh/too-late-2-3/",
                 "title": "2-3. 桃之夭夭",
                 "subtitle": "建安八年夏五月，许都。",
@@ -2360,7 +2371,7 @@ var documents = [
     
         
             {
-                "id": 205,
+                "id": 206,
                 "url": "https://zyahan.blog/zh/too-late-2-4/",
                 "title": "2-4. 惩罚",
                 "subtitle": "建安八年秋九月，许都。",
@@ -2371,7 +2382,7 @@ var documents = [
     
         
             {
-                "id": 206,
+                "id": 207,
                 "url": "https://zyahan.blog/zh/too-late-2-5/",
                 "title": "2-5. 小心腰间",
                 "subtitle": "建安八年冬十月，许都。",
@@ -2382,7 +2393,7 @@ var documents = [
     
         
             {
-                "id": 207,
+                "id": 208,
                 "url": "https://zyahan.blog/zh/too-late-2-6/",
                 "title": "2-6. 奖赏",
                 "subtitle": "建安九年春一月，许都。",
@@ -2393,7 +2404,7 @@ var documents = [
     
         
             {
-                "id": 208,
+                "id": 209,
                 "url": "https://zyahan.blog/zh/too-late-2-7/",
                 "title": "2-7. 执着的人们",
                 "subtitle": "建安九年春二月，邺城附近。",
@@ -2404,7 +2415,7 @@ var documents = [
     
         
             {
-                "id": 209,
+                "id": 210,
                 "url": "https://zyahan.blog/zh/too-late-2-8/",
                 "title": "2-8. 驱鬼的方法",
                 "subtitle": "建安九年秋九月，邺城。",
@@ -2415,7 +2426,7 @@ var documents = [
     
         
             {
-                "id": 210,
+                "id": 211,
                 "url": "https://zyahan.blog/zh/too-late-3-1/",
                 "title": "3-1. 照镜子之间",
                 "subtitle": "建安十年春正月，邺城。",
@@ -2426,7 +2437,7 @@ var documents = [
     
         
             {
-                "id": 211,
+                "id": 212,
                 "url": "https://zyahan.blog/zh/too-late-3-2/",
                 "title": "3-2. 基于观察与计量的预测",
                 "subtitle": "建安十年冬十二月，邺城。",
@@ -2437,7 +2448,7 @@ var documents = [
     
         
             {
-                "id": 212,
+                "id": 213,
                 "url": "https://zyahan.blog/zh/too-late-3-3/",
                 "title": "3-3. 没有白发的缘故",
                 "subtitle": "建安十一年秋八月，淳于。",
@@ -2448,7 +2459,7 @@ var documents = [
     
         
             {
-                "id": 213,
+                "id": 214,
                 "url": "https://zyahan.blog/zh/too-late-3-4/",
                 "title": "3-4. 发现口袋的新功能",
                 "subtitle": "建安十二年春二月，从淳于前往邺城途中。",
@@ -2459,7 +2470,7 @@ var documents = [
     
         
             {
-                "id": 214,
+                "id": 215,
                 "url": "https://zyahan.blog/zh/too-late-3-5/",
                 "title": "3-5. 谋主的最后一餐与最后一计",
                 "subtitle": "建安十二年春二月，东武阳。",
@@ -2470,7 +2481,7 @@ var documents = [
     
         
             {
-                "id": 215,
+                "id": 216,
                 "url": "https://zyahan.blog/zh/too-late-3-6/",
                 "title": "3-6. 手册编写者的身份与不同寻常的提议",
                 "subtitle": "建安十二年秋八月，邺城。",
@@ -2481,7 +2492,7 @@ var documents = [
     
         
             {
-                "id": 216,
+                "id": 217,
                 "url": "https://zyahan.blog/zh/duangexing-mc/",
                 "title": "曹操 《短歌行》 (中古音)",
                 "subtitle": "",
