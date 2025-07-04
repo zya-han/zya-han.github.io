@@ -26,5 +26,6 @@ Allow: /castration/
 
 User-agent: *
 Disallow: /
+Allow: /castration/
 
 Sitemap: https://zyahan.blog/sitemap.xml
