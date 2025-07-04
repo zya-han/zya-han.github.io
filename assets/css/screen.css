@@ -343,18 +343,19 @@ section.recent-posts {
     margin-bottom: -1px;
 }
 
-.article-post ol,
+/* .article-post ol, */
 .article-post ul {
-    margin-bottom: 1.5rem;
+    list-style-type: disc;
+    margin-bottom: 0.25rem;
 }
 
-.article-post ol ol,
+/* .article-post ol ol, */
 .article-post ul ul {
     list-style: circle;  /* 2단계 - 동그라미 */
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.25rem;
 }
 
-.article-post ol ol ol,
+/* .article-post ol ol ol, */
 .article-post ul ul ul {
     list-style: square; /* 3단계 - 네모 */
 }
@@ -495,6 +496,11 @@ section.recent-posts {
     list-style: decimal;
     font-weight: 400;
 }
+
+.toc ul ul {
+    list-style: decimal;
+}
+
 
 .author-meta {
     flex: 1 1 auto;
