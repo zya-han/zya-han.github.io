@@ -16,11 +16,13 @@ Allow: /
 User-agent: Slurp
 Allow: /
 
-User-agent: Claude-Web
-Allow: /
-
 User-agent: AnthropicBot
-Allow: /
+Disallow: /
+Allow: /castration/
+
+User-agent: GPTBot
+Disallow: /
+Allow: /castration/
 
 User-agent: *
 Disallow: /
