@@ -16,9 +16,6 @@ Allow: /
 User-agent: Slurp
 Allow: /
 
-User-agent: Claude-Web
-Allow: /
-
 User-agent: *
 Disallow: /
 
