@@ -16,6 +16,12 @@ Allow: /
 User-agent: Slurp
 Allow: /
 
+User-agent: Claude-Web
+Allow: /
+
+User-agent: AnthropicBot
+Allow: /
+
 User-agent: *
 Disallow: /
 
