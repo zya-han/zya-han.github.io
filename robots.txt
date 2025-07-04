@@ -24,7 +24,7 @@ User-agent: AnthropicBot
 Disallow: /
 Allow: /castration/
 
-User-Agent: ChatGPT
+User-agent: ChatGPT
 Disallow: /
 Allow: /castration/
 
