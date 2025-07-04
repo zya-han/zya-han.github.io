@@ -16,7 +16,15 @@ Allow: /
 User-agent: Slurp
 Allow: /
 
+User-agent: Claude-Web
+Disallow: /
+Allow: /castration/
+
 User-agent: AnthropicBot
+Disallow: /
+Allow: /castration/
+
+User-Agent: ChatGPT
 Disallow: /
 Allow: /castration/
 
