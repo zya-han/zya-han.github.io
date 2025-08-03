@@ -1727,3 +1727,8 @@ iframe {
     font-size: smaller;
     line-height: 1.1;
 }
+
+.image figcaption {
+    font-size: 0.7em;
+    line-height: 1.25;   
+}
