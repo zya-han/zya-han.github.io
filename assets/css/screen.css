@@ -9,6 +9,39 @@ License: https://www.wowthemes.net/freebies-license/
 
 }
 
+/* @font-face 선언은 파일 맨 위에 */
+@font-face {
+  font-family: 'KoPubWorld Batang';
+  src: url('/assets/fonts/KoPubWorld Batang Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'KoPubWorld Batang';
+  src: url('/assets/fonts/KoPubWorld Batang Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'KoPubWorld Batang';
+  src: url('/assets/fonts/KoPubWorld Batang Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 옛한글 */
+.yet-hangul {
+  font-family: 'KoPubWorld Batang', serif !important;
+  font-feature-settings: "ccmp" 1, "ljmo" 1, "vjmo" 1, "tjmo" 1 !important;
+  text-rendering: optimizeLegibility !important;
+}
+
+
 /* 파이썬 코드 */
 .language-python{
     font-family: 'Courier New', Courier, monospace, sans-serif;
