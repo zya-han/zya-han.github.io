@@ -170,8 +170,21 @@ var documents = [
         
     
         
+    
+        
             {
                 "id": 6,
+                "url": "https://zyahan.blog/sunlang-and-zhoulang/",
+                "title": "‘손랑’과 ‘주랑’, 두 미인의 엇갈린 운명",
+                "subtitle": "주랑周郎의 변천사",
+                "body": "미남 2인조: 삼국지 세계관에서 이름을 날린 이인조를 꼽는다면 ‘단금지교’로 유명한 손책과 주유를 빼놓을 수 없습니다. 이 블로그에서도 이미 오래전에 ‘총각지호’로 이들의 어린 시절 인연을 다룬 적이 있습니다. 손책과 주유는 재능과 인품뿐만 아니라 미모도 출중했습니다. 역사책 《삼국지》 본문에서 바로 확인할 수 있습니다.  손책의 사람 됨됨이는 얼굴이 아름답고 유머감각이 뛰어났으며 활달한 성품에 남의 말을 귀담아들었다. 사람을 부리는 데 능해서, 병사든 민간인이든 일단 그를 만나면 백이면 백 진심을 다하고 죽음도 마다하지 않았다. 1  《삼국지》 권46 오지1 〈손책전〉 본문 손책이 얼마나 잘생겼으면 사람 됨됨이를 논하는데 얼굴 이야기부터 나왔을까요? 주유의 경우도 초기 이력을 서술하는 가운데 갑작스럽게 용모 칭찬이 나옵니다.  주유는 키가 크고 건장하고 (뛰어난) 용모를 가지고 있었다. 2  《삼국지》 권54 오지9 〈주유전〉 본문 즉, 이들의 프로필을 작성할 때 미모는 빠질 수 없는 속성이었던 것입니다. 본문을 구체적으로 살펴보면 손책은 아름다운 얼굴[美姿顔], 주유는 건장한 육체[長壯有姿貌]를 주로 자랑한 것 같습니다. 두 사람은 얼굴과 성격과 재주를 모두 갖춘 절친으로 장강 동남쪽에서 명성을 떨쳤습니다. 《삼국지》에 따르면 사람들은 이들을 손랑孫郎과 주랑周郎이라고 불렀다고 합니다. 이 글에서는 이 ‘손랑’과 ‘주랑’이라는 칭호의 쓰임새에 관해 알아보겠습니다. 삼국지: 랑郎의 기원: 손랑孫郎의 쓰임: 우선 《삼국지》에서 ‘손랑’이라는 말은 다섯 번 쓰였고, 모두 〈손책전〉에 나왔습니다. 일단 진수가 쓴 본문에는 한 번 나옵니다.  원술은 늘 탄식했다. “만약 나에게 손랑 같은 자식이 있었다면 죽어도 여한이 없을 텐데!”3 나머지 네 번은 배송지가 주석을 달면서 인용한 《강표전》에 나옵니다.  어떤 이가 (손책을 거짓으로?) 배반하고 착융에게 알렸다. “손랑은 화살에 맞아서 이미 죽었습니다. ”4  그래서 손책은 착융의 군영까지 가서 주변 사람들에게 큰 소리로 외치게 했다. “손랑이 과연 어떤가!”5  손책은 이때 나이가 적어서, 비록 (절충교위라는) 직함이 있었으나 병사와 민간인은 모두 그를 손랑이라고 불렀다. 6  백성은 손랑이 왔다는 소식을 듣자 모두 (군대를 피해) 혼비백산했다. 7 손책은 젊은 나이로 인해 ‘손랑’이라고 불렸습니다. 원술이 손책을 칭찬할 때 ‘손랑’을 쓴 것을 보면 긍정적인 의미 같은데, 손책의 적인 착융에게 말할 때나 손책의 군대를 두려워해서 달아날 때도 그를 ‘손랑’으로 지칭한 것을 보면 부정적인 상황에서도 쓰일 수 있었던 것 같습니다. 즉, 사람들은 손책이 젊었기 때문에 그를 ‘손랑’이라고 불렀고, ‘손랑’은 그 자체로 칭찬이나 비난을 함축하기보다는 여러 상황에서 고루 쓰였습니다. 주랑周郎의 쓰임: 다음으로 ‘주랑’은 《삼국지》 〈주유전〉 본문에 두 번 쓰였습니다.  주유는 이때 스물네 살로, 오 지역에서는 모두 그를 주랑이라고 불렀다. 8  주유는 젊은 시절 음악에 몰두해서, 술 석 잔을 마시고 난 후에도 틀린 음을 들으면 반드시 알아차렸고, 알아차리면 반드시 돌아보았다. 그래서 당시에 “악곡을 틀리면 주랑이 돌아본다. ”라는 밈이 생겼다. 9 ‘주랑’ 역시 ‘손랑’과 마찬가지로 주유의 젊은 나이를 강조하는 칭호로 보입니다. 심랑沈郎과 육랑陸郎: 이렇게 손책과 주유는 ‘손랑’과 ‘주랑’으로 유명했습니다. 하지만 ‘○랑’이라는 호칭이 이 둘에게만 쓰인 것은 아닙니다. 예를 들어 《삼국지·오지》에서는 심우라는 인물이 어렸을 때 화흠에게 ‘심랑’이라고 불린 일화가 나옵니다.  (심우가) 열한 살일 때, 화흠이 풍속을 살피러 순행하다가 그를 보고 남다르게 여겨서 불렀다. “심랑, 수레에 올라 이야기할 수 있겠소?”10  《삼국지》 권47 오지2 〈손권전〉 주석 《오록》 또 다른 사례로는 ‘육적회귤’ 고사가 있습니다. 이 일화에서 원술은 육적을 ‘육랑’이라고 불렀습니다.  육적이 여섯 살 때 구강군에서 원술을 방문한 일이 있었다. 원술이 귤을 내어오자 육적은 세 알을 품고 가다가 작별 인사로 절을 올릴 때 그만 땅에 떨어뜨렸다. 원술이 그에게 말했다. “육랑은 손님으로 와 놓고 귤을 품었나요?”11  《삼국지》 권57 오지12 〈육적전〉 본문 이렇게 여섯 살, 열한 살 난 남자아이들도 격식을 차리는 자리에서 ‘○랑’이라고 불렸습니다. ‘○랑’의 사례를 더 찾기 위해 《삼국지》(백납본) 전체에서 “郎” 한 글자를 검색하면 총 434건이 나옵니다. “식전고적”에서는 검색어의 이체자까지 자동으로 찾아 주므로, 郞·郎의 차이로 인해 누락된 용례는 없을 것입니다. 이 434건의 결과에서 ‘중랑장’, ‘낭중’ 등의 관직명을 제외하고 하나하나 확인해 보면 ‘○랑’이라는 호칭으로 불린 인물은 위에서 언급한 손책, 주유, 심우, 육적 네 사람입니다. 랑郎의 의미: 그렇다면 ‘○랑’의 ‘랑’은 과연 무슨 뜻이었을까요? 랑郎은 원래 한나라에서 황궁의 출입문 관리 등 각종 사무를 맡은 관직으로, 《한서》 〈백관공경표〉에 따르면 의랑議郎, 중랑中郎, 시랑侍郎, 낭중郎中 네 직급이 있었습니다. 관직 등급은 높지 않았지만 고급 관료 테크트리를 탈 때 중요한 코스였습니다. 후한 말에도 마찬가지라서, 조조는 의랑을 통해 기도위로 승진했고 원술은 낭중으로 관직 생활을 시작했습니다. 그런데 손책, 주유, 심우, 육적은 모두 랑郎이라는 관직에 있지 않았는데도 ‘○랑’이라고 불렸습니다. 여기에서 ‘랑’은 젊은 남자에 대한 지칭어 혹은 호칭어라고 할 수 있습니다. 오늘날 ‘사장님’이 중년 남자를 대접해서 부르는 말로도 쓰이듯, 《삼국지》의 시대에 ‘랑’은 소년(6세, 11세)과 청년(24세) 남자를 대접해서 부르는 말로도 쓰이게 된 것입니다. 이 용례가 《삼국지》에서 《오지》에만 나오는 것으로 볼 때, 장강 하류 양주 지역에서 쓰기 시작한 말일 수도 있겠습니다. 이후로 ‘랑’은 차츰 일반명사가 되었고, 현대한국어 ‘신랑新郞’에도 흔적을 남겼습니다. 지금까지 역사책 《삼국지》에 나온 ‘○랑’이라는 호칭을 살펴보았습니다. 이제 소설책 《삼국지통속연의》로 가 봅시다. 삼국지통속연의: 주랑周郎은 주유의 대명사로, 손랑孫郎은…?: 손랑孫郎의 작은 변화: “연의”에도 ‘손랑’과 ‘주랑’이 등장할까요? 우선 《삼국지통속연의》(가정본)에서 ‘손랑’은 모두 4회 출현합니다. 4건 모두 “정사”에 이미 나온 내용입니다. 즉, 원술이 손랑을 칭찬하고, 손랑이 착융을 속이고, 백성이 손책을 손랑이라고 칭하고, 손랑의 소문을 듣고 달아납니다. 이 중에서 특별히 눈에 띄는 것은 두 번째 사건입니다. 《삼국지》에서 손책은 자신의 입으로 ‘손랑’을 칭한 적이 없었지만, 《삼국지통속연의》에서는 다릅니다.  손책의 군영 뒤에서 복병이 일어나서 군마가 쏟아져 나왔다. 손책은 소리 높여 외쳤다. “손랑이 여기 있다!”12  《삼국지통속연의》 권3 30회 이 장면에서 ‘연인 장익덕’과 ‘상산 조자룡’이 생각납니다. 아무래도 《삼국지통속연의》를 지은 나본은 용맹한 장수가 선봉에 서서 자신을 별명으로 칭하는 모습을 주된 이미지로 떠올린 것 같습니다. 주랑周郎의 큰 변화: ‘손랑’의 쓰임은 “정사”와 “연의” 사이에 큰 차이가 없었습니다. 3인칭 하나가 1인칭으로 바뀌기는 했지만, 적어도 “정사”에 있던 ‘손랑’의 맥락은 “연의”에서 모두 유지되었습니다. 그렇다면 ‘주랑’은 어떨까요? 놀랍게도 《삼국지통속연의》에서 무려 35회나 등장합니다. 참고로 검색 결과는 가정원년각본과 모종강판이 서로 다른데, 이 글에서는 “식전고적”에서 제공하는 가정본을 기준으로 삼고 있습니다. ‘주랑’의 용례 35건을 이 글에서 다 살펴보기에는 시간과 공간이 부족하니다. 전체 검색 결과가 궁금하시면 아래의 링크로 들어가 보세요. [전체 검색 결과 보기] 《삼국지통속연의》에서 ‘주랑’이 사용된 맥락은 모두 《삼국지》에 없던 것들입니다. 애초에 《삼국지》에서 ‘주랑’이 직접 인용된 문장은 “악곡을 틀리면 주랑이 돌아본다. ” 하나뿐인데, 이 밈은 《삼국지통속연의》에서 삭제되었습니다. 그러니 “연의”에서 주유를 ‘주랑’이라고 칭한 것은 모두 나본의 설정입니다. 우선 ‘주랑’이 사용된 첫 번째 맥락을 살펴봅시다. 손책이 임종할 때 어머니에게 당부하는 장면입니다.  다만 안의 일이 해결되지 않으면 장소에게 물으시면 되고, 밖의 일이 해결되지 않으면 주랑에게 물으시면 됩니다. 13  《삼국지통속연의》 권6 58회 《삼국지통속연의》에서 ‘주랑’은 손책이 세상을 떠나면서 비로소 등장한 것입니다. 왠지 모르게 슬픕니다. 😭 아무튼 이후로 여러 사람들이 주유를 ‘주랑’이라고 부르기 시작합니다. 적벽대전을 앞두고 정보는 주유를 대장의 그릇으로 인정했습니다.  정보는 충격을 받았다. “나는 원래 주랑이 나약하다고 업신여기고 장수가 되기에 부족하다고 여겼다. 오늘 이렇게 중대사를 논의해 보니 진정한 장수의 자질을 갖추고 있다. 내가 무엇 때문에 복종하지 않겠는가?”14  《삼국지통속연의》 권9 88회 심지어 적군의 우두머리인 조조조차도 주유를 가리켜 ‘주랑’이라고 했습니다.  조조는 노했다. “군대 훈련이 숙달되면 수급이 주랑에게 바쳐질 것이다. ”15  《삼국지통속연의》 권9 90회 방통 또한 조조 앞에서 주유를 (거짓으로) 비난할 때 ‘주랑’을 썼습니다.  (방통은) 강남을 가리키며 말했다. “주랑아, 주랑아, 네가 망하는 건 기정사실이다. ”16  《삼국지통속연의》 권10 제갈량이 형주 땅을 차지하기 위해 노숙에게 윽박지를 때도 주유는 ‘주랑’이었습니다.  만약 내가 동남풍을 빌려오겠다고 약속하지 않았다면 너희 주랑이 어디 감히 반쪽짜리 전략이나마 펼칠 수 있었겠느냐?  《삼국지통속연의》 권11 이렇게 ‘주랑’은 칭찬의 대상도 되고 비난의 대상도 되었습니다. ‘주랑’이라는 말 자체에는 긍정적이거나 부정적인 함축이 따로 없었던 것 같습니다. 《삼국지통속연의》를 좀 더 읽어 보면, 이릉대전에서조차 ‘주랑’은 여러 차례 호출되었습니다. 심지어 손권조차 주유를, 그것도 주유가 죽고 십수 년이 지난 뒤까지도 ‘주랑’이라고 칭했습니다. 관우와 장비가 죽은 뒤 유비가 손권을 공격하기 위해 군대를 이끌고 온다는 소식을 들은 손권은 탄식했습니다.  앞에는 주랑이 있었고, 뒤에는 노숙과 여몽이 그를 이었다. 이젠 여몽도 죽었으니 고孤와 함께 근심을 나눌 이가 없다. 17  《삼국지통속연의》 권17 163회 이 한탄을 들은 감택이 육손을 추천할 때도 주유는 ‘주랑’입니다.  “그의 재능은 주랑보다 아래라고 할 수 없습니다. 전에 관 공을 격파한 것도 다 백언의 전략이었습니다. ”18  《삼국지통속연의》 권17 166회 심지어 적진의 마량조차도 마찬가지였습니다.  “육손의 재능은 주랑에 못지않으니 적을 가볍게 여겨서는 안 됩니다. ”19  《삼국지통속연의》 권17 166회 결국 한 번 관 공은 영원한 관 공이고, 한 번 주랑은 영원한 주랑입니다. 아군이든 적군이든 가리지 않습니다. 감택은 적군의 관우를 ‘관 공’이라고 칭했고, 마량은 적군의 주유를 ‘주랑’이라고 칭했습니다. 이것이 《삼국지통속연의》에서 호칭어를 활용하는 방식입니다. 매번 맥락을 고려해서 다른 호칭어를 사용하면 독자가 헷갈릴 수 있으므로, 한 사람의 호칭을 가능한 한 통일한 것입니다. (아마도) 요시카와 에이지: 미주랑美周郎의 탄생: 19세기까지 중국에 없던 미주랑美周郎: 지금까지 《삼국지》와 《삼국지통속연의》에서 ‘손랑’과 ‘주랑’의 쓰임을 살펴보았습니다. 여기까지 읽으셨다면 한 가지 의문이 들 수 있습니다. “그런데 미주랑美周郎은 언제 나오나요?” 절대로 아雅가 일부러 숨긴 것이 아닙니다. 그저 “정사”에도 “연의”에도 ‘미주랑’이 없었을 뿐입니다. 이뿐만 아니라 현재까지 디지털로 구축된 중국 고전문헌으로 접근 가능한 모든 범위를 통틀어도 ‘미주랑’을 한 건도 찾지 못했습니다. “식전고적” 전체에서 ‘미주랑’을 검색해 보면 5건이 나오기는 합니다. [전체 검색 결과 보기]               식전고적 美周郎 검색 결과  이 다섯 건 중 중복을 제외하고 남는 세 문장을 하나씩 검토해 보겠습니다.  “河豚正美周郎病”은 “正美”와 “周郎”으로 끊어 읽어야 할 것입니다.  “登場憐帝子，顧曲美周郎”은 얼핏 보아 “顧曲”과 “美周郎”으로 끊어 읽을 수 있을 것 같습니다. 하지만 원문 이미지를 확인해 보면 美(아름다울 미)는 羨(흠모할 선)의 OCR 오류입니다.  “…資美周郎顧誤今誰及…” 또한 마찬가지로 OCR 오류입니다.               식전고적 美周郎 OCR 오류  “식전고적”에 없다면 혹시 “Chinese Text Project”는 어떨까요? 여기에서는 데이터위키 “周瑜” 페이지에서 영어 위키백과 문서를 링크하고 있습니다. 해당 문서에는 적힌 문장을 읽어 봅시다.  고이데 후미히코 등의 작가는 ‘미주랑’이 요시카와 에이지 같은 일본 이야기꾼이 나중에 만들어 낸 말이라고 여긴다. 20  영어 위키백과 “Zhou Yu” 문서 결국 중국 전통 텍스트에서는 ‘미주랑’ 세 글자가 한 단어를 이루는 사례를 단 한 건도 찾을 수 없었습니다. 20세기에 일본에서 등장한 미주랑美周郎: ‘미주랑’이 확실히 나오는 작품은, 일본 작가 요시카와 에이지吉川英治(1892–1962)의 《삼국지》입니다. 이 소설은 1939년부터 1943년까지 신문에 연재되었고, 앞서 살펴보았듯이 ‘미주랑’의 시초로 꼽히고 있습니다.  그래서 당시 오 지역 사람들은 이 얼굴이 발그레한 젊은 장군을 군중의 미주랑美周郎이라 부르거나, 주랑周郎 주랑周郎 하며 떠받들곤 했다. 21  吉川英治, 《三国志·赤壁の巻》 요시카와 에이지는 왜 ‘주랑’ 앞에 ‘미’를 붙였을까요? 일본에는 주유를 특별한 미남으로 해석하는 전통이 있었을까요? 흥미롭게도, 에도시대(1603–1868) 일본에 《삼국지통속연의》가 전래된 후 나온 창작물에서는 오히려 주유가 털이 부숭부숭한 추남으로 그려졌다고 합니다. 우리에게 익숙한 꽃미남 주유의 이미지는 19세기 말을 전후로 해서 형성된 것 같습니다. 왜 미손랑美孫郎이 아닌 미주랑美周郎인가?: 여기에서 아雅가 궁금한 것은 왜 주유가 꽃미남의 대표가 되었는지입니다. 처음에 살펴보았듯이 역사책 《삼국지》에서는 손책과 주유의 용모를 모두 칭찬했고, 손책은 아름다운 얼굴, 주유는 건장한 몸을 강조했습니다. 그런데 현재의 이미지는 정반대가 되었습니다. 주유는 “정사”와 “연의”의 서술을 뛰어넘어 삼국지 세계관에서 유일무이한 최고 미남으로 꼽힙니다. 반면 손책이 미남이었다는 사실은 상대적으로 덜 알려지게 되었습니다. (오늘날 손책의 얼굴을 곱상하게 그리면서 주유의 몸을 울끈불끈하게 그린다면 “캐붕”으로 여겨질 것입니다. ) 이런 이미지가 형성된 데는 요시카와 에이지가 붙인 것으로 추정되는 ‘미주랑’이라는 별명도 한몫했을 것입니다. ‘미손랑’이 안 생긴 것은 아쉽지만, 그렇다고 해서 ‘미주랑’을 마냥 근본없는 창작으로 볼 수는 없습니다. ‘미주랑’이라는 말은 바로 ‘주랑’ 위에 세워진 것이기 때문입니다. ‘주랑’은 나본의 《삼국지통속연의》로 인해 주유를 대표하는 별명이 되었습니다. 나본이 ‘주랑’에 꽂힌 까닭은 분명하지 않습니다. 하지만 이것도 나본이 처음은 아닙니다. ‘주랑’이라는 칭호는 송대의 문학 작품에서 이미 찾아볼 수 있고, 송나라 문인들은 주유를 풍류와 신선의 아이콘으로 활용했습니다. 여기에서 수당시대로, 남북조시대로 더 거슬러 올라가 보면 하나의 계보를 찾을 수 있을 것 같지만, 이미 글이 너무 길어졌으므로 다음 기회로 미루겠습니다. 그래도 손책의 고운 얼굴과 주유의 튼튼한 몸을 알아주세요! 원문 및 주석:       策爲人，美姿顔，好笑語，性闊達聽受，善於用人，是以士民見者，莫不盡心，樂爲致死。 &#8617;        瑜長壯有姿貌。 &#8617;        術常歎曰：“使術有子如孫郎，死復何恨！” &#8617;        或叛告融曰：“孫郎被箭已死。” &#8617;        策因往到融營下，令左右大呼曰：“孫郎竟云何！” &#8617;        策時年少，雖有位號，而士民皆呼爲孫郎。 &#8617;        百姓聞孫郎至，皆失魂魄； &#8617;        瑜時年二十四，吳中皆呼爲周郎。 &#8617;        瑜少精意於音樂，雖三爵之後，其闕誤，瑜必知之，知之必顧，故時人謡曰：“曲有誤，周郎顧。” &#8617;        年十一，華歆行風俗，見而異之，因呼曰：“沈郎，可登車語乎？” &#8617;        績年六歲，於九江見袁術。術出橘，績懷三枚，去，拜辭墮地，術謂曰：“陸郎作賓客而懷橘乎？” &#8617;        策營背後伏兵起，軍馬擁出，策高叫一聲：孫郎在此！ &#8617;        但内事不决，可問張昭，外事不决，可問周郎。 &#8617;        普大驚曰：吾素欺周郎懦弱，不足爲將，今日論大事如此，真將材也，吾如何不服？ &#8617;        操怒曰：軍若練熟，首級獻於周郎矣。 &#8617;        指江南而言曰：周郎，周郎，尅期必亡。 &#8617;        前有周郎，後有魯肅、吕蒙繼之。今吕蒙已亡，無人與孤分憂也。 &#8617;        不在周郎之下。前破關公，皆伯言之謀也。 &#8617;        陸遜之才，不亞周郎，未可輕敵也。 &#8617;        Some Japanese writers such as Fumihiko Koide believe that this was a later invention by Japanese storytellers such as Eiji Yoshikawa.  &#8617;        だから当時、呉の人はこの年少紅顔の将軍を、軍中の美周郎と呼んだり、周郎周郎と持てはやしたりしたものだった。 &#8617;    ",
+                "tags": "삼국지 삼국지통속연의 삼국연의 손책 주유 손랑 주랑 미주랑 요시카와 에이지"
+            }, 
+        
+    
+        
+            {
+                "id": 7,
                 "url": "https://zyahan.blog/tianyinbuyu/",
                 "title": "생성형 AI의 한시 해설 실력은?",
                 "subtitle": "天陰不雨: 하늘이 어둡되 비는 오지 않을 때",
@@ -182,7 +195,7 @@ var documents = [
     
         
             {
-                "id": 7,
+                "id": 8,
                 "url": "https://zyahan.blog/inkstones/",
                 "title": "한나라 벼루의 크기와 모양",
                 "subtitle": "",
@@ -193,7 +206,7 @@ var documents = [
     
         
             {
-                "id": 8,
+                "id": 9,
                 "url": "https://zyahan.blog/drawing-on-the-ground/",
                 "title": "손견이 땅에 그림을 그린 까닭은?",
                 "subtitle": "畵地成圖: 땅에 지도를 그리는 행동의 의미와 평가",
@@ -204,7 +217,7 @@ var documents = [
     
         
             {
-                "id": 9,
+                "id": 10,
                 "url": "https://zyahan.blog/castration/",
                 "title": "궁형은 정말로 사형보다 치욕스러운 형벌이었을까?",
                 "subtitle": "",
@@ -215,7 +228,7 @@ var documents = [
     
         
             {
-                "id": 10,
+                "id": 11,
                 "url": "https://zyahan.blog/nicknames/",
                 "title": "‘맹하후’의 선례: 모욕적인 별명에 대처한 두흠",
                 "subtitle": "",
@@ -226,7 +239,7 @@ var documents = [
     
         
             {
-                "id": 11,
+                "id": 12,
                 "url": "https://zyahan.blog/how-to-write-grape-in-chinese/",
                 "title": "‘포도’를 한자로 쓰는 여러 가지 방법",
                 "subtitle": "",
@@ -237,7 +250,7 @@ var documents = [
     
         
             {
-                "id": 12,
+                "id": 13,
                 "url": "https://zyahan.blog/zhengshi/",
                 "title": "정사(正史), 삼국지, 대정사시대",
                 "subtitle": "《수서》 〈경적지〉에서 말하는 ‘정사’",
@@ -248,7 +261,7 @@ var documents = [
     
         
             {
-                "id": 13,
+                "id": 14,
                 "url": "https://zyahan.blog/duangexing-mc/",
                 "title": "조조 〈단가행〉 (중고한어 낭독)",
                 "subtitle": "",
@@ -259,7 +272,7 @@ var documents = [
     
         
             {
-                "id": 14,
+                "id": 15,
                 "url": "https://zyahan.blog/regional-food-and-water-illness/",
                 "title": "삼국시대 음식의 지역별 차이",
                 "subtitle": "",
@@ -270,7 +283,7 @@ var documents = [
     
         
             {
-                "id": 15,
+                "id": 16,
                 "url": "https://zyahan.blog/imperial-titles-for-sun-quan/",
                 "title": "토로장군 손권을 황제로 칭한 신하들",
                 "subtitle": "",
@@ -281,7 +294,7 @@ var documents = [
     
         
             {
-                "id": 16,
+                "id": 17,
                 "url": "https://zyahan.blog/women-s-style-names-in-the-chat-of-the-three-kingdoms/",
                 "title": "《삼국지톡》 리뷰 한 조각 (1) 자(字)",
                 "subtitle": "자의 사용과 언급, 여성 캐릭터의 자에 관해",
@@ -292,7 +305,7 @@ var documents = [
     
         
             {
-                "id": 17,
+                "id": 18,
                 "url": "https://zyahan.blog/another-bronze-dildo-and-lesbians/",
                 "title": "또 하나의 청동 딜도와 대식(對食): 한나라의 레즈비언들?",
                 "subtitle": "",
@@ -303,7 +316,7 @@ var documents = [
     
         
             {
-                "id": 18,
+                "id": 19,
                 "url": "https://zyahan.blog/human-swine/",
                 "title": "인간돼지 사건을 서술하는 두 가지 방법",
                 "subtitle": "《사기》 〈여태후본기〉와 《한서》 〈외척전〉의 비교",
@@ -314,7 +327,7 @@ var documents = [
     
         
             {
-                "id": 19,
+                "id": 20,
                 "url": "https://zyahan.blog/bronze-dildo/",
                 "title": "청동 딜도의 주인은?",
                 "subtitle": "",
@@ -325,7 +338,7 @@ var documents = [
     
         
             {
-                "id": 20,
+                "id": 21,
                 "url": "https://zyahan.blog/how-to-translate-professor/",
                 "title": "professor는 왜 교수(敎授)가 되었을까?",
                 "subtitle": "",
@@ -336,7 +349,7 @@ var documents = [
     
         
             {
-                "id": 21,
+                "id": 22,
                 "url": "https://zyahan.blog/nine-chapters-and-euclidean-algorithm/",
                 "title": "《구장산술》, 유클리드 호제법, 파이선",
                 "subtitle": "",
@@ -347,7 +360,7 @@ var documents = [
     
         
             {
-                "id": 22,
+                "id": 23,
                 "url": "https://zyahan.blog/change-vs-henge/",
                 "title": "‘월궁항아’의 이름에 얽힌 수수께끼",
                 "subtitle": "‘항아’는 과연 피휘 때문에 ‘상아’가 되었나?",
@@ -358,7 +371,7 @@ var documents = [
     
         
             {
-                "id": 23,
+                "id": 24,
                 "url": "https://zyahan.blog/fragrance-villain-cao-pi/",
                 "title": "향 빌런이 된 황제 조비",
                 "subtitle": "",
@@ -369,7 +382,7 @@ var documents = [
     
         
             {
-                "id": 24,
+                "id": 25,
                 "url": "https://zyahan.blog/cao-cao-13/",
                 "title": "13. 로즈마리를 키운 오관중랑장 조비와 건안칠자 문인들 (+ 조조의 향 금지령) [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -380,7 +393,7 @@ var documents = [
     
         
             {
-                "id": 25,
+                "id": 26,
                 "url": "https://zyahan.blog/killing-as-atonement/",
                 "title": "살해와 사죄",
                 "subtitle": "VP以謝NP",
@@ -391,7 +404,7 @@ var documents = [
     
         
             {
-                "id": 26,
+                "id": 27,
                 "url": "https://zyahan.blog/body-washing/",
                 "title": "한나라 사람들의 세정제",
                 "subtitle": "",
@@ -402,7 +415,7 @@ var documents = [
     
         
             {
-                "id": 27,
+                "id": 28,
                 "url": "https://zyahan.blog/membership/",
                 "title": "멤버십 혜택 안내",
                 "subtitle": "",
@@ -413,7 +426,7 @@ var documents = [
     
         
             {
-                "id": 28,
+                "id": 29,
                 "url": "https://zyahan.blog/hua-tuo-s-cream-mask/",
                 "title": "고대 중국의 마스크팩: 화타의 피부과 처방",
                 "subtitle": "",
@@ -424,7 +437,7 @@ var documents = [
     
         
             {
-                "id": 29,
+                "id": 30,
                 "url": "https://zyahan.blog/mi-is-not-rice/",
                 "title": "삼국지 해석의 실수: 米는 rice가 아니다",
                 "subtitle": "",
@@ -435,7 +448,7 @@ var documents = [
     
         
             {
-                "id": 30,
+                "id": 31,
                 "url": "https://zyahan.blog/wansui-and-qiansui/",
                 "title": "황제는 만세, 제후는 천세?",
                 "subtitle": "",
@@ -446,7 +459,7 @@ var documents = [
     
         
             {
-                "id": 31,
+                "id": 32,
                 "url": "https://zyahan.blog/mad-women/",
                 "title": "한나라의 광녀(狂女)들",
                 "subtitle": "",
@@ -457,7 +470,7 @@ var documents = [
     
         
             {
-                "id": 32,
+                "id": 33,
                 "url": "https://zyahan.blog/bronze-characters/",
                 "title": "청동기에 새겨진 아름다운 글자들, 무슨 내용이었을까요?",
                 "subtitle": "",
@@ -468,7 +481,7 @@ var documents = [
     
         
             {
-                "id": 33,
+                "id": 34,
                 "url": "https://zyahan.blog/two-versions-of-misogyny/",
                 "title": "여성혐오의 두 가지 버전: 남자는 여자보다 우월한가, 아니면 존귀한가?",
                 "subtitle": "",
@@ -479,7 +492,7 @@ var documents = [
     
         
             {
-                "id": 34,
+                "id": 35,
                 "url": "https://zyahan.blog/crown-and-carriage/",
                 "title": "면류관과 승여: 후한시대에 황제를 상징한 사물은?",
                 "subtitle": "",
@@ -490,7 +503,7 @@ var documents = [
     
         
             {
-                "id": 35,
+                "id": 36,
                 "url": "https://zyahan.blog/yellow-turban/",
                 "title": "‘황건적’ 말고 그냥 ‘황건’이라고 말해 보기",
                 "subtitle": "",
@@ -501,7 +514,7 @@ var documents = [
     
         
             {
-                "id": 36,
+                "id": 37,
                 "url": "https://zyahan.blog/han-red-flag/",
                 "title": "한나라의 붉은 깃발에는 과연 “漢”이라는 글자가 있었을까?",
                 "subtitle": "",
@@ -512,7 +525,7 @@ var documents = [
     
         
             {
-                "id": 37,
+                "id": 38,
                 "url": "https://zyahan.blog/how-xun-yu-died/",
                 "title": "순욱은 과연 병으로 죽었을까?",
                 "subtitle": "",
@@ -523,7 +536,7 @@ var documents = [
     
         
             {
-                "id": 38,
+                "id": 39,
                 "url": "https://zyahan.blog/xun-yu-s-extraordinary-appearance/",
                 "title": "순욱의 ‘기이한 겉모습’",
                 "subtitle": "",
@@ -534,7 +547,7 @@ var documents = [
     
         
             {
-                "id": 39,
+                "id": 40,
                 "url": "https://zyahan.blog/women-s-names-supplement-2/",
                 "title": "한대 여성의 이름과 자: 4년 뒤의 보충",
                 "subtitle": "",
@@ -545,7 +558,7 @@ var documents = [
     
         
             {
-                "id": 40,
+                "id": 41,
                 "url": "https://zyahan.blog/yuan-shao-s-six-year-mourning/",
                 "title": "원소가 치른 “6년상”의 진상은?",
                 "subtitle": "",
@@ -556,7 +569,7 @@ var documents = [
     
         
             {
-                "id": 41,
+                "id": 42,
                 "url": "https://zyahan.blog/intelligent-women/",
                 "title": "한나라의 똑똑한 여자들은 어떻게 되었을까?",
                 "subtitle": "",
@@ -567,7 +580,7 @@ var documents = [
     
         
             {
-                "id": 42,
+                "id": 43,
                 "url": "https://zyahan.blog/sanguo-yanyi-07/",
                 "title": "《삼국연의》 호칭어 노트 07: 삼국지 정사와 연의의 삼고초려 비교",
                 "subtitle": "",
@@ -578,7 +591,7 @@ var documents = [
     
         
             {
-                "id": 43,
+                "id": 44,
                 "url": "https://zyahan.blog/devoted-husbands/",
                 "title": "장창과 반초: 한나라의 애처가들",
                 "subtitle": "",
@@ -589,7 +602,7 @@ var documents = [
     
         
             {
-                "id": 44,
+                "id": 45,
                 "url": "https://zyahan.blog/buyao/",
                 "title": "보요(步搖)라는 머리 장식",
                 "subtitle": "",
@@ -600,7 +613,7 @@ var documents = [
     
         
             {
-                "id": 45,
+                "id": 46,
                 "url": "https://zyahan.blog/yuan-shao-as-a-lady/",
                 "title": "체장부인(體長婦人)의 미궁: 원소는 도대체 어떻게 자랐나?",
                 "subtitle": "",
@@ -611,7 +624,7 @@ var documents = [
     
         
             {
-                "id": 46,
+                "id": 47,
                 "url": "https://zyahan.blog/too-late-spinoff-hair/",
                 "title": "외전. 《한서》 〈유림전〉에서 〈왕식전〉을 보세요",
                 "subtitle": "",
@@ -622,7 +635,7 @@ var documents = [
     
         
             {
-                "id": 47,
+                "id": 48,
                 "url": "https://zyahan.blog/aweng/",
                 "title": "아옹(阿翁)의 해석 문제: 어린 조간은 과연 맏형 조비를 ‘할아버지’라고 불렀나?",
                 "subtitle": "",
@@ -633,7 +646,7 @@ var documents = [
     
         
             {
-                "id": 48,
+                "id": 49,
                 "url": "https://zyahan.blog/yeyousijun-oc-new/",
                 "title": "《시경》 〈야유사균〉 “들판에는 죽은 노루” 상고한어 노래 새 편곡 [멤버십 전용]",
                 "subtitle": "",
@@ -644,7 +657,7 @@ var documents = [
     
         
             {
-                "id": 49,
+                "id": 50,
                 "url": "https://zyahan.blog/yeyousijun-oc/",
                 "title": "《시경》 〈야유사균〉 “들판에는 죽은 노루” 상고한어 노래 영상",
                 "subtitle": "",
@@ -655,7 +668,7 @@ var documents = [
     
         
             {
-                "id": 50,
+                "id": 51,
                 "url": "https://zyahan.blog/liu-xiang-hated-beautiful-women/",
                 "title": "미녀를 혐오한 남자: 《열녀전》 창시자 유향의 취향",
                 "subtitle": "",
@@ -666,7 +679,7 @@ var documents = [
     
         
             {
-                "id": 51,
+                "id": 52,
                 "url": "https://zyahan.blog/anong/",
                 "title": "농, 농, 아농(阿儂)에서 아농(我儂)까지",
                 "subtitle": "",
@@ -677,7 +690,7 @@ var documents = [
     
         
             {
-                "id": 52,
+                "id": 53,
                 "url": "https://zyahan.blog/taoyao-oc-new/",
                 "title": "《시경》 〈도요〉 “복사나무 소담하니” 상고한어 노래 새 편곡 [멤버십 전용]",
                 "subtitle": "",
@@ -688,7 +701,7 @@ var documents = [
     
         
             {
-                "id": 53,
+                "id": 54,
                 "url": "https://zyahan.blog/taoyao-oc/",
                 "title": "《시경》 〈도요〉 “복사나무 소담하니” 상고한어 노래 영상",
                 "subtitle": "",
@@ -699,7 +712,7 @@ var documents = [
     
         
             {
-                "id": 54,
+                "id": 55,
                 "url": "https://zyahan.blog/dogs-in-later-han/",
                 "title": "후한 말 학자들의 개 이야기",
                 "subtitle": "",
@@ -710,7 +723,7 @@ var documents = [
     
         
             {
-                "id": 55,
+                "id": 56,
                 "url": "https://zyahan.blog/sanguo-pocket-06/",
                 "title": "삼국지포켓북 6. 아이들의 놀이와 노래 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -721,7 +734,7 @@ var documents = [
     
         
             {
-                "id": 56,
+                "id": 57,
                 "url": "https://zyahan.blog/sanguo-pocket-05/",
                 "title": "삼국지포켓북 5. 의사와 음악가의 공통점은? [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -732,7 +745,7 @@ var documents = [
     
         
             {
-                "id": 57,
+                "id": 58,
                 "url": "https://zyahan.blog/sanguo-pocket-04/",
                 "title": "삼국지포켓북 4. 육형 부활 논의에 관한 시론 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -743,7 +756,7 @@ var documents = [
     
         
             {
-                "id": 58,
+                "id": 59,
                 "url": "https://zyahan.blog/sanguo-pocket-03/",
                 "title": "삼국지포켓북 3. 향, 새로운 감각의 개척 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -754,7 +767,7 @@ var documents = [
     
         
             {
-                "id": 59,
+                "id": 60,
                 "url": "https://zyahan.blog/sanguo-pocket-02/",
                 "title": "삼국지포켓북 2. 예의를 버리고 음식을 구하다 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -765,7 +778,7 @@ var documents = [
     
         
             {
-                "id": 60,
+                "id": 61,
                 "url": "https://zyahan.blog/armed-women/",
                 "title": "후한 말 여성의 무장과 무예",
                 "subtitle": "",
@@ -776,7 +789,7 @@ var documents = [
     
         
             {
-                "id": 61,
+                "id": 62,
                 "url": "https://zyahan.blog/sanguo-pocket-01/",
                 "title": "삼국지포켓북 1. 호칭어 가이드 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -787,7 +800,7 @@ var documents = [
     
         
             {
-                "id": 62,
+                "id": 63,
                 "url": "https://zyahan.blog/chengxiangfu/",
                 "title": "승상부 사람들",
                 "subtitle": "",
@@ -798,7 +811,7 @@ var documents = [
     
         
             {
-                "id": 63,
+                "id": 64,
                 "url": "https://zyahan.blog/alcohol-and-sex/",
                 "title": "“주색“ 넘치는 향연",
                 "subtitle": "",
@@ -809,7 +822,7 @@ var documents = [
     
         
             {
-                "id": 64,
+                "id": 65,
                 "url": "https://zyahan.blog/sanguozhi-qna/",
                 "title": "삼국지 질문 응모를 받습니다",
                 "subtitle": "",
@@ -820,7 +833,7 @@ var documents = [
     
         
             {
-                "id": 65,
+                "id": 66,
                 "url": "https://zyahan.blog/on-historical-accuracy-3/",
                 "title": "역사/시대 고증의 목적은 과거의 한 장면을 재연하는 것인가?",
                 "subtitle": "",
@@ -831,7 +844,7 @@ var documents = [
     
         
             {
-                "id": 66,
+                "id": 67,
                 "url": "https://zyahan.blog/greetings-in-han/",
                 "title": "한나라 사람들의 인사와 신체 접촉 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -842,7 +855,7 @@ var documents = [
     
         
             {
-                "id": 67,
+                "id": 68,
                 "url": "https://zyahan.blog/ta-bom/",
                 "title": "👍 ‘따봉’, 엄지척이 중국 전통에도 있었을까?",
                 "subtitle": "",
@@ -853,7 +866,7 @@ var documents = [
     
         
             {
-                "id": 68,
+                "id": 69,
                 "url": "https://zyahan.blog/xiao-wangzhi/",
                 "title": "소망지의 생애",
                 "subtitle": "",
@@ -864,7 +877,7 @@ var documents = [
     
         
             {
-                "id": 69,
+                "id": 70,
                 "url": "https://zyahan.blog/interpret-and-translate/",
                 "title": "통역과 번역이 모두 ‘역’으로 끝나는 까닭: 역(譯)의 의미 확장",
                 "subtitle": "",
@@ -875,7 +888,7 @@ var documents = [
     
         
             {
-                "id": 70,
+                "id": 71,
                 "url": "https://zyahan.blog/yang-as-deceit/",
                 "title": "양동작전의 수수께끼: 중국 고대의 음양 개념 변천",
                 "subtitle": "",
@@ -886,7 +899,7 @@ var documents = [
     
         
             {
-                "id": 71,
+                "id": 72,
                 "url": "https://zyahan.blog/relay-translation/",
                 "title": "중역(重譯)의 환상",
                 "subtitle": "",
@@ -897,7 +910,7 @@ var documents = [
     
         
             {
-                "id": 72,
+                "id": 73,
                 "url": "https://zyahan.blog/cao-cao-12/",
                 "title": "12. 조조의 아명 아만(阿瞞)의 의미는 거짓말쟁이다? [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -908,7 +921,7 @@ var documents = [
     
         
             {
-                "id": 73,
+                "id": 74,
                 "url": "https://zyahan.blog/cao-cao-11/",
                 "title": "11. 조조가 유비를 일컫는 말의 변화: ‘명사군’부터 ‘짚신가게 새끼’까지 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -919,7 +932,7 @@ var documents = [
     
         
             {
-                "id": 74,
+                "id": 75,
                 "url": "https://zyahan.blog/brothers-are-hands/",
                 "title": "형제는 손발, 처자는 의복?: “연의”가 진짜로 “왜곡”한 것",
                 "subtitle": "",
@@ -930,7 +943,7 @@ var documents = [
     
         
             {
-                "id": 75,
+                "id": 76,
                 "url": "https://zyahan.blog/zhuge-liang-s-meal/",
                 "title": "식소사번의 진실: 제갈량은 밥을 얼마나 적게 먹었나?",
                 "subtitle": "",
@@ -941,7 +954,7 @@ var documents = [
     
         
             {
-                "id": 76,
+                "id": 77,
                 "url": "https://zyahan.blog/too-late-spinoff-ginger/",
                 "title": "외전. 만다린 진저 티",
                 "subtitle": "화이트 크리스마스",
@@ -952,7 +965,7 @@ var documents = [
     
         
             {
-                "id": 77,
+                "id": 78,
                 "url": "https://zyahan.blog/too-late-spinoff-bittersweet/",
                 "title": "외전. 달콤쌉쌀한 스몰토크",
                 "subtitle": "",
@@ -963,7 +976,7 @@ var documents = [
     
         
             {
-                "id": 78,
+                "id": 79,
                 "url": "https://zyahan.blog/jijirulvling/",
                 "title": "급급여율령: 동아시아 귀신은 처음부터 인간의 공권력에 복종했는가?",
                 "subtitle": "",
@@ -974,7 +987,7 @@ var documents = [
     
         
             {
-                "id": 79,
+                "id": 80,
                 "url": "https://zyahan.blog/xun-yu-like-zifang/",
                 "title": "순욱은 조조의 ‘자방’이 되기를 싫어했을까?",
                 "subtitle": "",
@@ -985,7 +998,7 @@ var documents = [
     
         
             {
-                "id": 80,
+                "id": 81,
                 "url": "https://zyahan.blog/on-historical-accuracy-2/",
                 "title": "역사/시대 고증은 창작물의 윤리성을 훼손하는가?",
                 "subtitle": "",
@@ -996,7 +1009,7 @@ var documents = [
     
         
             {
-                "id": 81,
+                "id": 82,
                 "url": "https://zyahan.blog/our-orchid-filter/",
                 "title": "현대인의 렌즈에서는 난초와 먹 냄새가 나지요",
                 "subtitle": "",
@@ -1007,7 +1020,7 @@ var documents = [
     
         
             {
-                "id": 82,
+                "id": 83,
                 "url": "https://zyahan.blog/tea-vs-milk/",
                 "title": "🍵 차와 문화승리",
                 "subtitle": "",
@@ -1018,7 +1031,7 @@ var documents = [
     
         
             {
-                "id": 83,
+                "id": 84,
                 "url": "https://zyahan.blog/on-historical-accuracy-1/",
                 "title": "역사/시대 고증은 창작에 필요한 상상력을 방해하는가?",
                 "subtitle": "",
@@ -1029,7 +1042,7 @@ var documents = [
     
         
             {
-                "id": 84,
+                "id": 85,
                 "url": "https://zyahan.blog/white/",
                 "title": "흰색을 표현하는 여러 가지 방법",
                 "subtitle": "",
@@ -1040,7 +1053,7 @@ var documents = [
     
         
             {
-                "id": 85,
+                "id": 86,
                 "url": "https://zyahan.blog/women-s-names-supplement-1/",
                 "title": "한대 여성의 이름과 자: 3년 뒤의 보론",
                 "subtitle": "",
@@ -1051,7 +1064,7 @@ var documents = [
     
         
             {
-                "id": 86,
+                "id": 87,
                 "url": "https://zyahan.blog/seal-ribbons/",
                 "title": "한나라의 도장끈",
                 "subtitle": "",
@@ -1062,7 +1075,7 @@ var documents = [
     
         
             {
-                "id": 87,
+                "id": 88,
                 "url": "https://zyahan.blog/sanguo-girls/",
                 "title": "삼국지 위·촉·오 의인화: 그림 @ionzaion 님",
                 "subtitle": "",
@@ -1073,7 +1086,7 @@ var documents = [
     
         
             {
-                "id": 88,
+                "id": 89,
                 "url": "https://zyahan.blog/geunyeo/",
                 "title": "‘그녀’는 명예롭게 은퇴할 자격이 있다",
                 "subtitle": "",
@@ -1084,7 +1097,7 @@ var documents = [
     
         
             {
-                "id": 89,
+                "id": 90,
                 "url": "https://zyahan.blog/liu-bei-zi-xuande/",
                 "title": "“유비 字 현덕”은 근본있는 표현인가? [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1095,7 +1108,7 @@ var documents = [
     
         
             {
-                "id": 90,
+                "id": 91,
                 "url": "https://zyahan.blog/drinking-culture/",
                 "title": "한나라의 음주 풍경 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1106,7 +1119,7 @@ var documents = [
     
         
             {
-                "id": 91,
+                "id": 92,
                 "url": "https://zyahan.blog/handcuffs-and-shackles/",
                 "title": "한대의 수갑과 족쇄의 형상  [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1117,7 +1130,7 @@ var documents = [
     
         
             {
-                "id": 92,
+                "id": 93,
                 "url": "https://zyahan.blog/too-late-20c-liquor/",
                 "title": "현대AU. 비싼 술의 가치",
                 "subtitle": "세 사람, 20세기 버전.",
@@ -1128,7 +1141,7 @@ var documents = [
     
         
             {
-                "id": 93,
+                "id": 94,
                 "url": "https://zyahan.blog/too-late-spinoff-paradox/",
                 "title": "외전. Z의 역설",
                 "subtitle": "",
@@ -1139,7 +1152,7 @@ var documents = [
     
         
             {
-                "id": 94,
+                "id": 95,
                 "url": "https://zyahan.blog/too-late-spinoff-silver/",
                 "title": "외전. 은그릇과 콩잎장아찌",
                 "subtitle": "《전삼국문》의 조조 파트를 읽다가 어이가 없어져서…",
@@ -1150,7 +1163,7 @@ var documents = [
     
         
             {
-                "id": 95,
+                "id": 96,
                 "url": "https://zyahan.blog/summoning-the-soul/",
                 "title": "초혼의 효과",
                 "subtitle": "",
@@ -1161,7 +1174,7 @@ var documents = [
     
         
             {
-                "id": 96,
+                "id": 97,
                 "url": "https://zyahan.blog/too-late-1-1-revised/",
                 "title": "개작 1-1. 자살하기에는 너무 늦어 버려서",
                 "subtitle": "",
@@ -1172,7 +1185,7 @@ var documents = [
     
         
             {
-                "id": 97,
+                "id": 98,
                 "url": "https://zyahan.blog/imperial-scents/",
                 "title": "삼국지의 바탕, 후한 황실의 향: 환제의 계설향, 영제의 한건녕궁중향, 헌제의 황금향로",
                 "subtitle": "",
@@ -1183,7 +1196,7 @@ var documents = [
     
         
             {
-                "id": 98,
+                "id": 99,
                 "url": "https://zyahan.blog/too-late-spinoff-tianjiu/",
                 "title": "외전. 천구(天灸)",
                 "subtitle": "혹은 동상이몽. 어느 가을 8월 14일.",
@@ -1194,7 +1207,7 @@ var documents = [
     
         
             {
-                "id": 99,
+                "id": 100,
                 "url": "https://zyahan.blog/song-ming-sachets/",
                 "title": "송나라–명나라 시대 향낭에는 무엇을 넣었을까?",
                 "subtitle": "",
@@ -1205,7 +1218,7 @@ var documents = [
     
         
             {
-                "id": 100,
+                "id": 101,
                 "url": "https://zyahan.blog/sanguo-yanyi-06/",
                 "title": "《삼국연의》 호칭어 노트 06: ‘거거’를 주로 쓴 사람은?",
                 "subtitle": "",
@@ -1216,7 +1229,7 @@ var documents = [
     
         
             {
-                "id": 101,
+                "id": 102,
                 "url": "https://zyahan.blog/han-empresses-1/",
                 "title": "한나라의 황후들: 황후와 외척의 탄생 및 시행착오",
                 "subtitle": "",
@@ -1227,7 +1240,7 @@ var documents = [
     
         
             {
-                "id": 102,
+                "id": 103,
                 "url": "https://zyahan.blog/jiuyunchunjiu/",
                 "title": "조조가 헌제에게 바쳤다는 그 술: 구온춘주에 관하여 한국어로 가장 상세한 정보를 제공하고 싶은 오타쿠의 망상",
                 "subtitle": "",
@@ -1238,7 +1251,7 @@ var documents = [
     
         
             {
-                "id": 103,
+                "id": 104,
                 "url": "https://zyahan.blog/bing-in-sanguozhi/",
                 "title": "《삼국지》의 떡[餅] 이야기",
                 "subtitle": "",
@@ -1249,7 +1262,7 @@ var documents = [
     
         
             {
-                "id": 104,
+                "id": 105,
                 "url": "https://zyahan.blog/wu-region/",
                 "title": "한대의 오(吳) 지역에 관하여",
                 "subtitle": "",
@@ -1260,7 +1273,7 @@ var documents = [
     
         
             {
-                "id": 105,
+                "id": 106,
                 "url": "https://zyahan.blog/cao-cao-10/",
                 "title": "10. 조조가 좋아한 음식은? [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1271,7 +1284,7 @@ var documents = [
     
         
             {
-                "id": 106,
+                "id": 107,
                 "url": "https://zyahan.blog/feather-fan/",
                 "title": "제갈량 vs. 주유, 누가 깃털 부채의 원조인가?",
                 "subtitle": "",
@@ -1282,7 +1295,7 @@ var documents = [
     
         
             {
-                "id": 107,
+                "id": 108,
                 "url": "https://zyahan.blog/naming-dogs/",
                 "title": "🐶 강아지 이름 짓기",
                 "subtitle": "",
@@ -1293,7 +1306,7 @@ var documents = [
     
         
             {
-                "id": 108,
+                "id": 109,
                 "url": "https://zyahan.blog/sanguo-yanyi-05/",
                 "title": "《삼국연의》 호칭어 노트 05: 조적과 다른 역적들",
                 "subtitle": "",
@@ -1304,7 +1317,7 @@ var documents = [
     
         
             {
-                "id": 109,
+                "id": 110,
                 "url": "https://zyahan.blog/tea-in-sanguo-yanyi/",
                 "title": "《삼국연의》에서 살펴본 차의 기능",
                 "subtitle": "",
@@ -1315,7 +1328,7 @@ var documents = [
     
         
             {
-                "id": 110,
+                "id": 111,
                 "url": "https://zyahan.blog/too-late-1-2-1-spinoff/",
                 "title": "외전 1-2-1. 평화로운 사람의 날",
                 "subtitle": "건안5년 정월 7일 경신일, 관도에서.",
@@ -1326,7 +1339,7 @@ var documents = [
     
         
             {
-                "id": 111,
+                "id": 112,
                 "url": "https://zyahan.blog/incense-in-sanguo-yanyi/",
                 "title": "《삼국연의》에서 살펴본 향의 기능",
                 "subtitle": "",
@@ -1337,7 +1350,7 @@ var documents = [
     
         
             {
-                "id": 112,
+                "id": 113,
                 "url": "https://zyahan.blog/sanguo-yanyi-04/",
                 "title": "《삼국연의》 호칭어 노트 04: 연인 장익덕, 상산 조자룡, 하동 관운장?",
                 "subtitle": "",
@@ -1348,7 +1361,7 @@ var documents = [
     
         
             {
-                "id": 113,
+                "id": 114,
                 "url": "https://zyahan.blog/sanguo-yanyi-03/",
                 "title": "《삼국연의》 호칭어 노트 03: 조조, 진궁, 백문루",
                 "subtitle": "",
@@ -1359,7 +1372,7 @@ var documents = [
     
         
             {
-                "id": 114,
+                "id": 115,
                 "url": "https://zyahan.blog/sanguo-yanyi-02/",
                 "title": "《삼국연의》 호칭어 노트 02: 손책·손권 형제와 주유의 관계",
                 "subtitle": "",
@@ -1370,7 +1383,7 @@ var documents = [
     
         
             {
-                "id": 115,
+                "id": 116,
                 "url": "https://zyahan.blog/sanguo-yanyi-01/",
                 "title": "《삼국연의》 호칭어 노트 01: ‘논영회’의 그 대사",
                 "subtitle": "",
@@ -1381,7 +1394,7 @@ var documents = [
     
         
             {
-                "id": 116,
+                "id": 117,
                 "url": "https://zyahan.blog/three-excellencies/",
                 "title": "서한의 삼공",
                 "subtitle": "",
@@ -1392,7 +1405,7 @@ var documents = [
     
         
             {
-                "id": 117,
+                "id": 118,
                 "url": "https://zyahan.blog/bronze-knots/",
                 "title": "전국 시대 청동기·옥기 매듭 메모 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1403,7 +1416,7 @@ var documents = [
     
         
             {
-                "id": 118,
+                "id": 119,
                 "url": "https://zyahan.blog/too-late-spinoff-fate/",
                 "title": "외전. 운명의 화살",
                 "subtitle": "",
@@ -1414,7 +1427,7 @@ var documents = [
     
         
             {
-                "id": 119,
+                "id": 120,
                 "url": "https://zyahan.blog/eating-an-egg/",
                 "title": "달걀 먹기의 어려움",
                 "subtitle": "",
@@ -1425,7 +1438,7 @@ var documents = [
     
         
             {
-                "id": 120,
+                "id": 121,
                 "url": "https://zyahan.blog/too-late-spinoff-bell/",
                 "title": "외전. 새벽 종",
                 "subtitle": "새해 복 많이 받으세요",
@@ -1436,7 +1449,7 @@ var documents = [
     
         
             {
-                "id": 121,
+                "id": 122,
                 "url": "https://zyahan.blog/stop-procrastinating/",
                 "title": "Stop Procrastinating",
                 "subtitle": "",
@@ -1447,7 +1460,7 @@ var documents = [
     
         
             {
-                "id": 122,
+                "id": 123,
                 "url": "https://zyahan.blog/too-late-3-1-revised/",
                 "title": "개정 3-1. 물과 물고기와 선물",
                 "subtitle": "건안10년 봄 정월, 업에서.",
@@ -1458,7 +1471,7 @@ var documents = [
     
         
             {
-                "id": 123,
+                "id": 124,
                 "url": "https://zyahan.blog/zhiming/",
                 "title": "전4사에서 지명(知名)의 빈도와 용례 찾기 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1469,7 +1482,7 @@ var documents = [
     
         
             {
-                "id": 124,
+                "id": 125,
                 "url": "https://zyahan.blog/cao-cao-09/",
                 "title": "9. 조조의 책 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1480,7 +1493,7 @@ var documents = [
     
         
             {
-                "id": 125,
+                "id": 126,
                 "url": "https://zyahan.blog/zhao-feiyan-02/",
                 "title": "[조각번역] 조비연외전 2 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1491,7 +1504,7 @@ var documents = [
     
         
             {
-                "id": 126,
+                "id": 127,
                 "url": "https://zyahan.blog/zhao-feiyan-01/",
                 "title": "[조각번역] 조비연외전 1 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1502,7 +1515,7 @@ var documents = [
     
         
             {
-                "id": 127,
+                "id": 128,
                 "url": "https://zyahan.blog/shishuo/",
                 "title": "《세설신어(보)》의 호칭어 사용 양상 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1513,7 +1526,7 @@ var documents = [
     
         
             {
-                "id": 128,
+                "id": 129,
                 "url": "https://zyahan.blog/cao-cao-08/",
                 "title": "8. 아직도 끝나지 않은 향 이야기 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1524,7 +1537,7 @@ var documents = [
     
         
             {
-                "id": 129,
+                "id": 130,
                 "url": "https://zyahan.blog/women-s-names/",
                 "title": "한대 여성의 이름과 자 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1535,7 +1548,7 @@ var documents = [
     
         
             {
-                "id": 130,
+                "id": 131,
                 "url": "https://zyahan.blog/a-brief-history-of-cats/",
                 "title": "🐾 고대 중국 고양이의 아주 간략한 역사: 한나라의 고양이를 찾아서",
                 "subtitle": "",
@@ -1546,7 +1559,7 @@ var documents = [
     
         
             {
-                "id": 131,
+                "id": 132,
                 "url": "https://zyahan.blog/real-zongjiao/",
                 "title": "총각머리의 실제 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1557,7 +1570,7 @@ var documents = [
     
         
             {
-                "id": 132,
+                "id": 133,
                 "url": "https://zyahan.blog/rulvling/",
                 "title": "율령과 같이 처리하소서",
                 "subtitle": "",
@@ -1568,7 +1581,7 @@ var documents = [
     
         
             {
-                "id": 133,
+                "id": 134,
                 "url": "https://zyahan.blog/new-xing/",
                 "title": "《한서》에서 새로운 성씨를 만든 사례 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1579,7 +1592,7 @@ var documents = [
     
         
             {
-                "id": 134,
+                "id": 135,
                 "url": "https://zyahan.blog/zongjiao/",
                 "title": "손책과 주유의 총각지호(總角之好)",
                 "subtitle": "",
@@ -1590,7 +1603,7 @@ var documents = [
     
         
             {
-                "id": 135,
+                "id": 136,
                 "url": "https://zyahan.blog/xing-and-shi-in-ancient-china/",
                 "title": "고대 중국의 성(姓)과 씨(氏) 구별 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1601,7 +1614,7 @@ var documents = [
     
         
             {
-                "id": 136,
+                "id": 137,
                 "url": "https://zyahan.blog/too-late-2-2-1-spinoff/",
                 "title": "외전 2-2-1. 납일",
                 "subtitle": "건안7년 겨울 12월, 관도에서.",
@@ -1612,7 +1625,7 @@ var documents = [
     
         
             {
-                "id": 137,
+                "id": 138,
                 "url": "https://zyahan.blog/birthday-party-in-ancient-china/",
                 "title": "한대의 생일 파티 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1623,7 +1636,7 @@ var documents = [
     
         
             {
-                "id": 138,
+                "id": 139,
                 "url": "https://zyahan.blog/musical-instruments-in-battle/",
                 "title": "전투 중에 사용하는 악기의 변화 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1634,7 +1647,7 @@ var documents = [
     
         
             {
-                "id": 139,
+                "id": 140,
                 "url": "https://zyahan.blog/summer-vacations/",
                 "title": "한대의 여름 휴가 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1645,7 +1658,7 @@ var documents = [
     
         
             {
-                "id": 140,
+                "id": 141,
                 "url": "https://zyahan.blog/promise/",
                 "title": "향로 위의 약속",
                 "subtitle": "",
@@ -1656,7 +1669,7 @@ var documents = [
     
         
             {
-                "id": 141,
+                "id": 142,
                 "url": "https://zyahan.blog/too-late-1-5-1-spinoff/",
                 "title": "외전 1-5-1. 낭고의 상",
                 "subtitle": "건안6년 봄 1월. 관도에서.",
@@ -1667,7 +1680,7 @@ var documents = [
     
         
             {
-                "id": 142,
+                "id": 143,
                 "url": "https://zyahan.blog/cao-cao-07/",
                 "title": "7. 조조가 가족들에게 금지시킨 것 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1678,7 +1691,7 @@ var documents = [
     
         
             {
-                "id": 143,
+                "id": 144,
                 "url": "https://zyahan.blog/knives-and-swords-in-hanshu/",
                 "title": "《한서》에서 도(刀)와 검(劍)의 용례 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1689,7 +1702,7 @@ var documents = [
     
         
             {
-                "id": 144,
+                "id": 145,
                 "url": "https://zyahan.blog/cao-cao-06/",
                 "title": "6. 조조가 옷 속에 넣은 것 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1700,7 +1713,7 @@ var documents = [
     
         
             {
-                "id": 145,
+                "id": 146,
                 "url": "https://zyahan.blog/cao-cao-05/",
                 "title": "5. 조조의 손 씻기[盥] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1711,7 +1724,7 @@ var documents = [
     
         
             {
-                "id": 146,
+                "id": 147,
                 "url": "https://zyahan.blog/cao-cao-04/",
                 "title": "4. 조조가 특히 좋아한 음악 장르는? [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1722,7 +1735,7 @@ var documents = [
     
         
             {
-                "id": 147,
+                "id": 148,
                 "url": "https://zyahan.blog/cao-cao-03/",
                 "title": "3. 서역의 보석을 좋아한 조조(와 아빠의 보석을 탐낸 조비) [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1733,7 +1746,7 @@ var documents = [
     
         
             {
-                "id": 148,
+                "id": 149,
                 "url": "https://zyahan.blog/too-late-3-1-1-spinoff/",
                 "title": "외전 3-1-1. 너에게 죽은 새를 선물할게",
                 "subtitle": "건안10년 4월, 업에서.",
@@ -1744,7 +1757,7 @@ var documents = [
     
         
             {
-                "id": 149,
+                "id": 150,
                 "url": "https://zyahan.blog/new-year-in-later-han/",
                 "title": "[조각번역] 후한 궁정의 새해맞이 행사",
                 "subtitle": "",
@@ -1755,7 +1768,7 @@ var documents = [
     
         
             {
-                "id": 150,
+                "id": 151,
                 "url": "https://zyahan.blog/cao-cao-02/",
                 "title": "2. 《한서》 〈곽광전〉을 열심히 읽은 조조 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1766,7 +1779,7 @@ var documents = [
     
         
             {
-                "id": 151,
+                "id": 152,
                 "url": "https://zyahan.blog/titles-for-women/",
                 "title": "한대 여성의 작위",
                 "subtitle": "",
@@ -1777,7 +1790,7 @@ var documents = [
     
         
             {
-                "id": 152,
+                "id": 153,
                 "url": "https://zyahan.blog/idioms-20/",
                 "title": "20. 돌사람, 나무 인형 [石人, 木偶人] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1788,7 +1801,7 @@ var documents = [
     
         
             {
-                "id": 153,
+                "id": 154,
                 "url": "https://zyahan.blog/idioms-19/",
                 "title": "19. 인끈이 늘어져 [綬若] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1799,7 +1812,7 @@ var documents = [
     
         
             {
-                "id": 154,
+                "id": 155,
                 "url": "https://zyahan.blog/idioms-18/",
                 "title": "18. 반쪽짜리 [半通] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1810,7 +1823,7 @@ var documents = [
     
         
             {
-                "id": 155,
+                "id": 156,
                 "url": "https://zyahan.blog/idioms-17/",
                 "title": "17. 명아줏잎과 콩잎 [藜藿] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1821,7 +1834,7 @@ var documents = [
     
         
             {
-                "id": 156,
+                "id": 157,
                 "url": "https://zyahan.blog/idioms-16/",
                 "title": "16. 밥 한 그릇 먹을 동안 [食頃] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1832,7 +1845,7 @@ var documents = [
     
         
             {
-                "id": 157,
+                "id": 158,
                 "url": "https://zyahan.blog/idioms-15/",
                 "title": "15. 죽을 죄를 짓다 ×2 [死罪死罪] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1843,7 +1856,7 @@ var documents = [
     
         
             {
-                "id": 158,
+                "id": 159,
                 "url": "https://zyahan.blog/idioms-14/",
                 "title": "14. 머리 감기 [沐] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1854,7 +1867,7 @@ var documents = [
     
         
             {
-                "id": 159,
+                "id": 160,
                 "url": "https://zyahan.blog/idioms-13/",
                 "title": "13. 배와 가슴 [腹心] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1865,7 +1878,7 @@ var documents = [
     
         
             {
-                "id": 160,
+                "id": 161,
                 "url": "https://zyahan.blog/cao-cao-01/",
                 "title": "1. 알록달록한 것을 좋아하는 조조 [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1876,7 +1889,7 @@ var documents = [
     
         
             {
-                "id": 161,
+                "id": 162,
                 "url": "https://zyahan.blog/idioms-12/",
                 "title": "12. 현미밥을 먹다 [糲食] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1887,7 +1900,7 @@ var documents = [
     
         
             {
-                "id": 162,
+                "id": 163,
                 "url": "https://zyahan.blog/too-late-references/",
                 "title": "참고 문헌",
                 "subtitle": "공대를 괴롭히는 데 사용한 재료들",
@@ -1898,7 +1911,7 @@ var documents = [
     
         
             {
-                "id": 163,
+                "id": 164,
                 "url": "https://zyahan.blog/idioms-11/",
                 "title": "11. 고깃살 [魚肉] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1909,7 +1922,7 @@ var documents = [
     
         
             {
-                "id": 164,
+                "id": 165,
                 "url": "https://zyahan.blog/idioms-10/",
                 "title": "10. 억지로라도 밥을 먹어라 [強食, 強飯, 彊食, 彊飯] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1920,7 +1933,7 @@ var documents = [
     
         
             {
-                "id": 165,
+                "id": 166,
                 "url": "https://zyahan.blog/idioms-09/",
                 "title": "9. 주후혜문 [柱後惠文] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1931,7 +1944,7 @@ var documents = [
     
         
             {
-                "id": 166,
+                "id": 167,
                 "url": "https://zyahan.blog/idioms-08/",
                 "title": "8. 죽음을 무릅쓰다 [昧死] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1942,7 +1955,7 @@ var documents = [
     
         
             {
-                "id": 167,
+                "id": 168,
                 "url": "https://zyahan.blog/idioms-07/",
                 "title": "7. 파랑과 보라 [靑紫] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1953,7 +1966,7 @@ var documents = [
     
         
             {
-                "id": 168,
+                "id": 169,
                 "url": "https://zyahan.blog/idioms-06/",
                 "title": "6. 물동이를 이고서 어떻게 하늘을 바라보나 [戴盆何以望天] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1964,7 +1977,7 @@ var documents = [
     
         
             {
-                "id": 169,
+                "id": 170,
                 "url": "https://zyahan.blog/idioms-05/",
                 "title": "5. 흰 망아지가 틈을 지나듯 [如白駒過隙] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1975,7 +1988,7 @@ var documents = [
     
         
             {
-                "id": 170,
+                "id": 171,
                 "url": "https://zyahan.blog/idioms-04/",
                 "title": "4. 붉은 수레바퀴 [朱輪] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1986,7 +1999,7 @@ var documents = [
     
         
             {
-                "id": 171,
+                "id": 172,
                 "url": "https://zyahan.blog/idioms-03/",
                 "title": "3. 바닷가 [海濱, 海瀕, 海濵] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -1997,7 +2010,7 @@ var documents = [
     
         
             {
-                "id": 172,
+                "id": 173,
                 "url": "https://zyahan.blog/idioms-02/",
                 "title": "2. 죄 짓기를/처벌 받기를 기다리다 [待罪] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -2008,7 +2021,7 @@ var documents = [
     
         
             {
-                "id": 173,
+                "id": 174,
                 "url": "https://zyahan.blog/idioms-01/",
                 "title": "1. 백 년 뒤 [百歲後] [🔒 무료 미리보기]",
                 "subtitle": "",
@@ -2019,7 +2032,7 @@ var documents = [
     
         
             {
-                "id": 174,
+                "id": 175,
                 "url": "https://zyahan.blog/too-late-3-8/",
                 "title": "3-8. 적벽 [완결] [🔒 무료 미리보기]",
                 "subtitle": "건안13년 봄 정월, 업에서.",
@@ -2030,7 +2043,7 @@ var documents = [
     
         
             {
-                "id": 175,
+                "id": 176,
                 "url": "https://zyahan.blog/too-late-3-7/",
                 "title": "3-7. 손님  [🔒 무료 미리보기]",
                 "subtitle": "건안13년 봄 정월, 업에서.",
@@ -2041,7 +2054,7 @@ var documents = [
     
         
             {
-                "id": 176,
+                "id": 177,
                 "url": "https://zyahan.blog/too-late-3-6/",
                 "title": "3-6. 매뉴얼 작성자의 정체와 색다른 제안",
                 "subtitle": "건안12년 가을 8월, 업에서.",
@@ -2052,7 +2065,7 @@ var documents = [
     
         
             {
-                "id": 177,
+                "id": 178,
                 "url": "https://zyahan.blog/too-late-3-5/",
                 "title": "3-5. 모주의 마지막 식사와 마지막 계책",
                 "subtitle": "건안12년 봄 2월, 동무양에서.",
@@ -2063,7 +2076,7 @@ var documents = [
     
         
             {
-                "id": 178,
+                "id": 179,
                 "url": "https://zyahan.blog/too-late-3-4/",
                 "title": "3-4. 자루의 새로운 기능을 발견하기",
                 "subtitle": "건안12년 봄 2월, 순우에서 업으로 가는 길에.",
@@ -2074,7 +2087,7 @@ var documents = [
     
         
             {
-                "id": 179,
+                "id": 180,
                 "url": "https://zyahan.blog/too-late-3-3/",
                 "title": "3-3. 흰머리가 없는 까닭",
                 "subtitle": "건안11년 가을 8월, 순우에서.",
@@ -2085,7 +2098,7 @@ var documents = [
     
         
             {
-                "id": 180,
+                "id": 181,
                 "url": "https://zyahan.blog/too-late-3-2/",
                 "title": "3-2. 관찰과 계량에 근거한 예측",
                 "subtitle": "건안10년 겨울 12월, 업에서.",
@@ -2096,7 +2109,7 @@ var documents = [
     
         
             {
-                "id": 181,
+                "id": 182,
                 "url": "https://zyahan.blog/too-late-3-1/",
                 "title": "3-1. 거울을 보는 사이에",
                 "subtitle": "건안10년 봄 정월, 업에서.",
@@ -2107,7 +2120,7 @@ var documents = [
     
         
             {
-                "id": 182,
+                "id": 183,
                 "url": "https://zyahan.blog/too-late-2-8/",
                 "title": "2-8. 귀신을 쫓아내는 방법",
                 "subtitle": "건안9년 가을 9월, 업에서.",
@@ -2118,7 +2131,7 @@ var documents = [
     
         
             {
-                "id": 183,
+                "id": 184,
                 "url": "https://zyahan.blog/too-late-2-7/",
                 "title": "2-7. 끈질긴 사람들",
                 "subtitle": "건안9년 봄 2월, 업 근처에서.",
@@ -2129,7 +2142,7 @@ var documents = [
     
         
             {
-                "id": 184,
+                "id": 185,
                 "url": "https://zyahan.blog/too-late-2-6/",
                 "title": "2-6. 포상",
                 "subtitle": "건안9년 봄 1월, 허도에서.",
@@ -2140,7 +2153,7 @@ var documents = [
     
         
             {
-                "id": 185,
+                "id": 186,
                 "url": "https://zyahan.blog/too-late-2-5/",
                 "title": "2-5. 허리를 조심하세요",
                 "subtitle": "건안8년 겨울 10월, 허도에서.",
@@ -2151,7 +2164,7 @@ var documents = [
     
         
             {
-                "id": 186,
+                "id": 187,
                 "url": "https://zyahan.blog/too-late-2-4/",
                 "title": "2-4. 징벌",
                 "subtitle": "건안8년 가을 9월, 허도에서.",
@@ -2162,7 +2175,7 @@ var documents = [
     
         
             {
-                "id": 187,
+                "id": 188,
                 "url": "https://zyahan.blog/fingertip/",
                 "title": "손끝의 감각",
                 "subtitle": "",
@@ -2173,7 +2186,7 @@ var documents = [
     
         
             {
-                "id": 188,
+                "id": 189,
                 "url": "https://zyahan.blog/too-late-2-3/",
                 "title": "2-3. 복숭아나무 소담하고",
                 "subtitle": "건안8년 여름 5월, 허도에서.",
@@ -2184,7 +2197,7 @@ var documents = [
     
         
             {
-                "id": 189,
+                "id": 190,
                 "url": "https://zyahan.blog/too-late-2-2/",
                 "title": "2-2. 상아",
                 "subtitle": "건안7년 가을 8월, 관도에서.",
@@ -2195,7 +2208,7 @@ var documents = [
     
         
             {
-                "id": 190,
+                "id": 191,
                 "url": "https://zyahan.blog/too-late-2-1/",
                 "title": "2-1. 바질 향기",
                 "subtitle": "건안7년 여름 5월, 관도에서.",
@@ -2206,7 +2219,7 @@ var documents = [
     
         
             {
-                "id": 191,
+                "id": 192,
                 "url": "https://zyahan.blog/too-late-1-8/",
                 "title": "1-8. 선조에게 지내는 제사",
                 "subtitle": "건안7년 봄 정월, 허도에서.",
@@ -2217,7 +2230,7 @@ var documents = [
     
         
             {
-                "id": 192,
+                "id": 193,
                 "url": "https://zyahan.blog/too-late-1-7/",
                 "title": "1-7. 욕심 많고 잔인한 사람",
                 "subtitle": "건안6년 가을 9월, 허도에서.",
@@ -2228,7 +2241,7 @@ var documents = [
     
         
             {
-                "id": 193,
+                "id": 194,
                 "url": "https://zyahan.blog/too-late-1-6/",
                 "title": "1-6. 세 사람",
                 "subtitle": "건안6년 봄 3월, 허도에서.",
@@ -2239,7 +2252,7 @@ var documents = [
     
         
             {
-                "id": 194,
+                "id": 195,
                 "url": "https://zyahan.blog/too-late-1-5/",
                 "title": "1-5. 관도",
                 "subtitle": "건안5년 가을 8월, 관도에서.",
@@ -2250,7 +2263,7 @@ var documents = [
     
         
             {
-                "id": 195,
+                "id": 196,
                 "url": "https://zyahan.blog/too-late-1-4/",
                 "title": "1-4. 갈 곳이 있는 사람",
                 "subtitle": "건안5년 여름 6월, 관도에서.",
@@ -2261,7 +2274,7 @@ var documents = [
     
         
             {
-                "id": 196,
+                "id": 197,
                 "url": "https://zyahan.blog/too-late-1-3/",
                 "title": "1-3. 붉어진 얼굴",
                 "subtitle": "건안5년 봄 정월, 관도에서.",
@@ -2272,7 +2285,7 @@ var documents = [
     
         
             {
-                "id": 197,
+                "id": 198,
                 "url": "https://zyahan.blog/too-late-1-2/",
                 "title": "1-2. 복날",
                 "subtitle": "건안4년 여름, 허도에서.",
@@ -2283,7 +2296,7 @@ var documents = [
     
         
             {
-                "id": 198,
+                "id": 199,
                 "url": "https://zyahan.blog/too-late-1-1/",
                 "title": "1-1. 자살하기에는 너무 늦어 버려서",
                 "subtitle": "건안3년 12월에 백문루에서 조조가 진궁을 살리는 데 성공한 이야기. 이른바 정사 《삼국지》 기반이지만 《사기》와 《한서》와 《진서》가 더 많이 들어간.",
@@ -2294,7 +2307,7 @@ var documents = [
     
         
             {
-                "id": 199,
+                "id": 200,
                 "url": "https://zyahan.blog/beau/",
                 "title": "한서팸플릿4 〈미남전〉 서문",
                 "subtitle": "",
@@ -2305,7 +2318,7 @@ var documents = [
     
         
             {
-                "id": 200,
+                "id": 201,
                 "url": "https://zyahan.blog/zh/too-late-1-1/",
                 "title": "1-1. 自杀为时已晚",
                 "subtitle": "建安三年十二月在白门楼上曹操成功救活陈宫的故事。所谓正史《三国志》为基础，但《史记》、《汉书》和《晋书》的内容更多。",
@@ -2316,7 +2329,7 @@ var documents = [
     
         
             {
-                "id": 201,
+                "id": 202,
                 "url": "https://zyahan.blog/zh/too-late-1-2/",
                 "title": "1-2. 伏日",
                 "subtitle": "建安四年夏天，许都。",
@@ -2327,7 +2340,7 @@ var documents = [
     
         
             {
-                "id": 202,
+                "id": 203,
                 "url": "https://zyahan.blog/zh/too-late-1-3/",
                 "title": "1-3. 变红的脸",
                 "subtitle": "建安五年春正月，官渡。",
@@ -2338,7 +2351,7 @@ var documents = [
     
         
             {
-                "id": 203,
+                "id": 204,
                 "url": "https://zyahan.blog/zh/too-late-1-4/",
                 "title": "1-4. 有去处的人",
                 "subtitle": "建安五年夏六月，官渡。",
@@ -2349,7 +2362,7 @@ var documents = [
     
         
             {
-                "id": 204,
+                "id": 205,
                 "url": "https://zyahan.blog/zh/too-late-1-5/",
                 "title": "1-5. 官渡",
                 "subtitle": "建安五年秋八月，官渡。",
@@ -2360,7 +2373,7 @@ var documents = [
     
         
             {
-                "id": 205,
+                "id": 206,
                 "url": "https://zyahan.blog/zh/too-late-1-6/",
                 "title": "1-6. 三人",
                 "subtitle": "建安六年春三月，许都。",
@@ -2371,7 +2384,7 @@ var documents = [
     
         
             {
-                "id": 206,
+                "id": 207,
                 "url": "https://zyahan.blog/zh/too-late-1-7/",
                 "title": "1-7. 贪心残忍的人",
                 "subtitle": "建安六年秋九月，许都。",
@@ -2382,7 +2395,7 @@ var documents = [
     
         
             {
-                "id": 207,
+                "id": 208,
                 "url": "https://zyahan.blog/zh/too-late-1-8/",
                 "title": "1-8. 祭祀先祖",
                 "subtitle": "建安七年春正月，许都。",
@@ -2393,7 +2406,7 @@ var documents = [
     
         
             {
-                "id": 208,
+                "id": 209,
                 "url": "https://zyahan.blog/zh/too-late-2-1/",
                 "title": "2-1. 罗勒香气",
                 "subtitle": "建安七年夏五月，官渡。",
@@ -2404,7 +2417,7 @@ var documents = [
     
         
             {
-                "id": 209,
+                "id": 210,
                 "url": "https://zyahan.blog/zh/too-late-2-2/",
                 "title": "2-2. 嫦娥",
                 "subtitle": "建安七年秋八月，官渡。",
@@ -2415,7 +2428,7 @@ var documents = [
     
         
             {
-                "id": 210,
+                "id": 211,
                 "url": "https://zyahan.blog/zh/too-late-2-3/",
                 "title": "2-3. 桃之夭夭",
                 "subtitle": "建安八年夏五月，许都。",
@@ -2426,7 +2439,7 @@ var documents = [
     
         
             {
-                "id": 211,
+                "id": 212,
                 "url": "https://zyahan.blog/zh/too-late-2-4/",
                 "title": "2-4. 惩罚",
                 "subtitle": "建安八年秋九月，许都。",
@@ -2437,7 +2450,7 @@ var documents = [
     
         
             {
-                "id": 212,
+                "id": 213,
                 "url": "https://zyahan.blog/zh/too-late-2-5/",
                 "title": "2-5. 小心腰间",
                 "subtitle": "建安八年冬十月，许都。",
@@ -2448,7 +2461,7 @@ var documents = [
     
         
             {
-                "id": 213,
+                "id": 214,
                 "url": "https://zyahan.blog/zh/too-late-2-6/",
                 "title": "2-6. 奖赏",
                 "subtitle": "建安九年春一月，许都。",
@@ -2459,7 +2472,7 @@ var documents = [
     
         
             {
-                "id": 214,
+                "id": 215,
                 "url": "https://zyahan.blog/zh/too-late-2-7/",
                 "title": "2-7. 执着的人们",
                 "subtitle": "建安九年春二月，邺城附近。",
@@ -2470,7 +2483,7 @@ var documents = [
     
         
             {
-                "id": 215,
+                "id": 216,
                 "url": "https://zyahan.blog/zh/too-late-2-8/",
                 "title": "2-8. 驱鬼的方法",
                 "subtitle": "建安九年秋九月，邺城。",
@@ -2481,7 +2494,7 @@ var documents = [
     
         
             {
-                "id": 216,
+                "id": 217,
                 "url": "https://zyahan.blog/zh/too-late-3-1/",
                 "title": "3-1. 照镜子之间",
                 "subtitle": "建安十年春正月，邺城。",
@@ -2492,7 +2505,7 @@ var documents = [
     
         
             {
-                "id": 217,
+                "id": 218,
                 "url": "https://zyahan.blog/zh/too-late-3-2/",
                 "title": "3-2. 基于观察与计量的预测",
                 "subtitle": "建安十年冬十二月，邺城。",
@@ -2503,7 +2516,7 @@ var documents = [
     
         
             {
-                "id": 218,
+                "id": 219,
                 "url": "https://zyahan.blog/zh/too-late-3-3/",
                 "title": "3-3. 没有白发的缘故",
                 "subtitle": "建安十一年秋八月，淳于。",
@@ -2514,7 +2527,7 @@ var documents = [
     
         
             {
-                "id": 219,
+                "id": 220,
                 "url": "https://zyahan.blog/zh/too-late-3-4/",
                 "title": "3-4. 发现口袋的新功能",
                 "subtitle": "建安十二年春二月，从淳于前往邺城途中。",
@@ -2525,7 +2538,7 @@ var documents = [
     
         
             {
-                "id": 220,
+                "id": 221,
                 "url": "https://zyahan.blog/zh/too-late-3-5/",
                 "title": "3-5. 谋主的最后一餐与最后一计",
                 "subtitle": "建安十二年春二月，东武阳。",
@@ -2536,7 +2549,7 @@ var documents = [
     
         
             {
-                "id": 221,
+                "id": 222,
                 "url": "https://zyahan.blog/zh/too-late-3-6/",
                 "title": "3-6. 手册编写者的身份与不同寻常的提议",
                 "subtitle": "建安十二年秋八月，邺城。",
@@ -2547,7 +2560,7 @@ var documents = [
     
         
             {
-                "id": 222,
+                "id": 223,
                 "url": "https://zyahan.blog/zh/duangexing-mc/",
                 "title": "曹操 《短歌行》 (中古音)",
                 "subtitle": "",
@@ -2695,13 +2708,26 @@ function lunr_search(term) {
 
                 var listItem = document.createElement("li");
 
-                // 제목
+                // 제목과 부제목
                 var link = document.createElement("a");
                 link.href = item.url;
-                link.innerHTML = highlightSearchTerms(item.title, terms);
                 link.style.display = "block";
                 link.style.fontWeight = "bold";
                 link.style.fontSize = "1rem";
+                
+                // 제목 추가
+                link.innerHTML = highlightSearchTerms(item.title, terms);
+                
+                // 부제목이 있으면 같은 링크 안에 추가
+                if (item.subtitle && item.subtitle.trim() !== "") {
+                    var subtitleSpan = document.createElement("span");
+                    subtitleSpan.innerHTML = " — " + highlightSearchTerms(item.subtitle, terms);
+                    subtitleSpan.style.fontWeight = "bold";
+                    subtitleSpan.style.fontSize = "0.9rem";
+                    subtitleSpan.style.color = "rgba(0, 0, 0, .7);";
+                    link.appendChild(subtitleSpan);
+                }
+                
                 listItem.appendChild(link);
 
                 // URL 표시

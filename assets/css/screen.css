@@ -51,6 +51,35 @@ License: https://www.wowthemes.net/freebies-license/
     text-align: right;
 }
 
+/* postbox 제목 */
+.post-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis; /* 말줄임표 추가 */
+}
+
+/* postbox 부제목 */
+.post-subtitle {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis; /* 말줄임표 추가 */
+  margin-bottom: 0.5rem;
+}
+
+/* postbox 요약문 */
+.post-excerpt {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.5em; /* 줄 높이 명시적 설정 */
+  text-overflow: ellipsis; /* 말줄임표 추가 */
+}
+
 /* 한자 위첨자 */
 .hanja-word::after {
     content: attr(data-hanja);
@@ -452,6 +481,14 @@ section.recent-posts {
     line-height: 1.25;
 }
 
+.listfeaturedtag h3.card-subtitle,
+.listrecent h3.card-subtitle {
+    color: rgba(0, 0, 0, .77);
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
 .listfeaturedtag h4.card-text,
 .listrecent h4.card-text {
     color: rgba(0, 0, 0, .66);
@@ -663,12 +700,10 @@ span.post-read-more a:hover {
     margin-bottom: 1rem;
 }
 
-.post-subtitle {
-    font-size: 1.1rem;
-    color: rgba(0, 0, 0, .66);
-    /* margin-top: -0.5rem; */
+.mainheading h2.post-subtitle {
+    font-size: 1.4rem;
+    font-weight: 500;
     margin-bottom: 1rem;
-    /* font-style: italic; */
 }
 
 .footer {
@@ -1483,10 +1518,11 @@ iframe {
       margin-top: 0.5rem;
       margin-bottom: 0.5rem;
     }
-  
-    .post-subtitle {
-      font-size: 1rem;
-      margin-bottom: 0.5rem;
+
+    .mainheading h2.post-subtitle {
+        font-size: 1.3rem;
+        color: rgba(0, 0, 0, .66);
+        margin-bottom: 1rem;
     }
   
     .article-post {
