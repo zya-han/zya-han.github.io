@@ -62,7 +62,7 @@ License: https://www.wowthemes.net/freebies-license/
 }
 
 /* postbox 제목 */
-.post-title {
+.post-title:lang(ko) {
   display: -webkit-box;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
@@ -71,13 +71,16 @@ License: https://www.wowthemes.net/freebies-license/
 }
 
 /* postbox 부제목 */
-.post-subtitle {
+.post-subtitle:lang(ko) {
   display: -webkit-box;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis; /* 말줄임표 추가 */
-  margin-bottom: 0.5rem;
+}
+
+.post-subtitle {
+    margin-bottom: 0.5rem;
 }
 
 /* postbox 요약문 */
@@ -710,6 +713,7 @@ span.post-read-more a:hover {
     font-family: "Song Myung", "ZCOOL XiaoWei", serif;
 } */
 
+
 .mainheading .sitetitle:lang(ko) {
     font-family:"Song Myung", serif;
 }
@@ -718,13 +722,21 @@ span.post-read-more a:hover {
     font-family: "ZCOOL XiaoWei", serif;
 }
 
+.mainheading .sitetitle:lang(en) {
+    font-family: "Cormorant Garamond", serif;
+}
 
 .mainheading a.sitetitle {
     color: black;
 }
 
-.mainheading p.lead {
+.mainheading p.lead:lang(ko) {
     font-family: "42dot Sans", sans-serif;
+    font-weight: 300;
+}
+
+.mainheading p.lead:lang(en) {
+    font-family: "Lato", sans-serif;
     font-weight: 300;
 }
 
