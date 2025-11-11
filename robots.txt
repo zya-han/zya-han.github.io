@@ -20,31 +20,24 @@ User-agent: Slurp
 Allow: /
 
 User-agent: Claude-Web
-Disallow: /
-Allow: /castration/
+Allow: /
 
 User-agent: AnthropicBot
 Disallow: /
-Allow: /castration/
 
 User-agent: ChatGPT
 Disallow: /
-Allow: /castration/
 
 User-agent: GPTBot
 Disallow: /
-Allow: /castration/
 
 User-agent: CCBot
 Disallow: /
-Allow: /castration/
 
 User-agent: anthropic-ai
 Disallow: /
-Allow: /castration/
 
 User-agent: cohere-ai
 Disallow: /
-Allow: /castration/
 
 Sitemap: https://zyahan.blog/sitemap.xml
