@@ -702,15 +702,19 @@ span.post-read-more a:hover {
     margin-right: 5px;
 }
 
+.mainheading .sitetitle {
+    font-size: 2.5rem
+}
+
 /* .mainheading h1.sitetitle {
     font-family: "Song Myung", "ZCOOL XiaoWei", serif;
 } */
 
-.mainheading h1.sitetitle:lang(ko) {
+.mainheading .sitetitle:lang(ko) {
     font-family:"Song Myung", serif;
 }
 
-.mainheading h1.sitetitle:lang(zh) {
+.mainheading .sitetitle:lang(zh) {
     font-family: "ZCOOL XiaoWei", serif;
 }
 
@@ -726,6 +730,7 @@ span.post-read-more a:hover {
 
 .mainheading h1.posttitle {
     font-weight: 700;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -1496,7 +1501,7 @@ iframe {
       padding-bottom: 1.2rem;
     }
   
-    .mainheading h1.sitetitle {
+    .mainheading .sitetitle {
       font-size: 2.1rem;
       margin-bottom: 0.3rem;
     }
