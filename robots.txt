@@ -10,6 +10,9 @@ Allow: /
 User-agent: Yeti
 Allow: /
 
+User-agent: NaverBot
+Allow: /
+
 User-agent: Daumoa
 Allow: /
 
@@ -32,7 +35,15 @@ User-agent: GPTBot
 Disallow: /
 Allow: /castration/
 
-User-agent: *
+User-agent: CCBot
+Disallow: /
+Allow: /castration/
+
+User-agent: anthropic-ai
+Disallow: /
+Allow: /castration/
+
+User-agent: cohere-ai
 Disallow: /
 Allow: /castration/
 
