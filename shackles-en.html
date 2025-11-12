@@ -88,15 +88,16 @@
 ================================================== -->
 <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
 
-    <div class="container pr-0 d-flex align-items-center justify-content-between flex-nowrap">
-      <div class="navbar-mobile-wrapper align-items-center w-100">
+    <div class="container pr-0">
+      <!-- 모바일 헤더 -->
+      <div class="navbar-mobile-wrapper align-items-center w-100 d-lg-none">
 
         <a class="navbar-brand" href="https://zyahan.blog">
           <img src="https://zyahan.blog/assets/images/logo.png" alt="미남과 오컬트와 자살">
         </a>
 
-        <!-- 모바일 메뉴 (로고 바로 옆) -->
-        <div class="d-lg-none mobile-nav-menu align-self-end">
+        <!-- 모바일 메뉴 -->
+        <div class="mobile-nav-menu align-self-end">
           
           
           
@@ -129,48 +130,77 @@
           </ul>
         </div>
 
-        <!-- 검색 버튼 (오른쪽 끝) -->
-        <button class="search-toggle d-lg-none ml-auto" onclick="toggleSearchBar()" aria-label="검색 열기">
-            <i class="fas fa-search"></i>
-        </button>
+        <!-- 모바일 언어 선택 + 검색 버튼 wrapper -->
+        <div class="d-flex align-items-center ml-auto">
+          <!-- 모바일 언어 선택 -->
+          <div class="language-switcher">
+            
+            <a href="/" class="lang-link ">한국어</a>
+            <span class="lang-separator">|</span>
+            <a href="/zh/" class="lang-link ">中文</a>
+            <span class="lang-separator">|</span>
+            <a href="/en/" class="lang-link active">English</a>
+          </div>
+
+          <!-- 검색 버튼 -->
+          <button class="search-toggle" onclick="toggleSearchBar()" aria-label="검색 열기">
+              <i class="fas fa-search"></i>
+          </button>
+        </div>
 
       </div>
 
-      <!-- 데스크톱 메뉴 (원래대로) -->
-      <div class="collapse navbar-collapse" id="navbarMediumish">
+      <!-- 데스크톱 헤더 -->
+      <div class="d-none d-lg-flex align-items-center w-100">
+        <a class="navbar-brand" href="https://zyahan.blog">
+          <img src="https://zyahan.blog/assets/images/logo.png" alt="미남과 오컬트와 자살">
+        </a>
 
+        <!-- 데스크톱 메뉴 -->
+        
+        
+        
+        <ul class="navbar-nav">
           
+            
+            
+            <li class="nav-item">
+              <a class="nav-link text-nowrap" href="/en/" >
+                Blog
+              </a>
+            </li>
           
+            
+            
+            <li class="nav-item">
+              <a class="nav-link text-nowrap" href="/en/about" >
+                About
+              </a>
+            </li>
           
-          <ul class="navbar-nav ml-auto">
             
-              
-              
-              <li class="nav-item">
-                <a class="nav-link text-nowrap" href="/en/" >
-                  Blog
-                </a>
-              </li>
             
-              
-              
-              <li class="nav-item">
-                <a class="nav-link text-nowrap" href="/en/about" >
-                  About
-                </a>
-              </li>
-            
-              
-              
-              <li class="nav-item">
-                <a class="nav-link text-nowrap" href="https://buymeacoffee.com/zya.han/membership" target="_blank">
-                  Membership
-                </a>
-              </li>
-            
+            <li class="nav-item">
+              <a class="nav-link text-nowrap" href="https://buymeacoffee.com/zya.han/membership" target="_blank">
+                Membership
+              </a>
+            </li>
           
-            <li class="nav-item d-none d-lg-block">
-              
+        </ul>
+
+        <!-- 데스크톱 언어 선택 (검색창 왼쪽) -->
+        <div class="language-switcher ml-auto">
+          
+          <a href="/" class="lang-link ">한국어</a>
+          <span class="lang-separator">|</span>
+          <a href="/zh/" class="lang-link ">中文</a>
+          <span class="lang-separator">|</span>
+          <a href="/en/" class="lang-link active">English</a>
+        </div>
+
+        <!-- 데스크톱 검색 -->
+        <div class="ml-1">
+          
 
 
 
@@ -248,11 +278,9 @@
   }
 </style>
 
-            </li>
-          
-          </ul>
-          
+        </div>
       </div>
+
     </div>
 </nav>
 <!-- End Navigation
@@ -470,7 +498,7 @@ Guard: Hmm.</p>
 </blockquote>
 
 <h3 id="a1-answers-generated">A1. Answers generated</h3>
-<ul id="q1" class="tab" data-tab="ceff86f5-fcad-4048-a173-a016cb8b902f" data-name="q1">
+<ul id="q1" class="tab" data-tab="df545077-b992-4c99-8602-50e75ee45ca3" data-name="q1">
   
       <li class="active" id="q1-claude-sonnet-4">
           <a href="#">Claude Sonnet 4 </a>
@@ -497,7 +525,7 @@ Guard: Hmm.</p>
       </li>
   
 </ul>
-<ul class="tab-content" id="ceff86f5-fcad-4048-a173-a016cb8b902f" data-name="q1">
+<ul class="tab-content" id="df545077-b992-4c99-8602-50e75ee45ca3" data-name="q1">
   
       <li class="active">
 <p>In this conversation, there are two layers of meaning at play:</p>
@@ -635,7 +663,7 @@ The guard is momentarily stumped. He doesn’t immediately respond to Zhang’s 
 
 <h3 id="a2-answers-generated">A2. Answers generated</h3>
 
-<ul id="q2" class="tab" data-tab="ea0dd754-16ba-4fbd-b2d1-ceb1aed9c60b" data-name="q2">
+<ul id="q2" class="tab" data-tab="fa61c564-c1da-49c3-bd48-a7d2485d41b2" data-name="q2">
   
       <li class="active" id="q2-claude-sonnet-4">
           <a href="#">Claude Sonnet 4 </a>
@@ -662,7 +690,7 @@ The guard is momentarily stumped. He doesn’t immediately respond to Zhang’s 
       </li>
   
 </ul>
-<ul class="tab-content" id="ea0dd754-16ba-4fbd-b2d1-ceb1aed9c60b" data-name="q2">
+<ul class="tab-content" id="fa61c564-c1da-49c3-bd48-a7d2485d41b2" data-name="q2">
   
       <li class="active">
 <p>Based on the contextual clues in the story, Zhang appears to have been a corrupt government official who was executed for his crimes. Here’s what we can infer:</p>
@@ -888,7 +916,7 @@ Zhang thought of Wei.<br />
 
 <h3 id="a3-answers-generated">A3. Answers generated</h3>
 
-<ul id="q3" class="tab" data-tab="05d5db76-0ca4-4327-9e0e-c4fa2083532e" data-name="q3">
+<ul id="q3" class="tab" data-tab="38d6771e-5f30-4beb-9e50-50aeca52125e" data-name="q3">
   
       <li class="active" id="q3-claude-sonnet-4">
           <a href="#">Claude Sonnet 4 </a>
@@ -915,7 +943,7 @@ Zhang thought of Wei.<br />
       </li>
   
 </ul>
-<ul class="tab-content" id="05d5db76-0ca4-4327-9e0e-c4fa2083532e" data-name="q3">
+<ul class="tab-content" id="38d6771e-5f30-4beb-9e50-50aeca52125e" data-name="q3">
   
       <li class="active">
 <p>Based on this brief but telling moment, I believe <strong>Wei was likely Zhang’s romantic partner or spouse</strong> - someone deeply important to him personally rather than professionally.</p>
@@ -1147,7 +1175,7 @@ Without more details, this remains speculative, but Wei likely represents someon
 
 <h3 id="a4-answers-generated">A4. Answers generated</h3>
 
-<ul id="q4" class="tab" data-tab="9556f9de-b474-4114-9b4b-cf17411cc6ab" data-name="q4">
+<ul id="q4" class="tab" data-tab="e280dbaa-0d1d-499a-9b17-a4a51f055b35" data-name="q4">
   
       <li class="active" id="q4-claude-sonnet-4">
           <a href="#">Claude Sonnet 4 </a>
@@ -1174,7 +1202,7 @@ Without more details, this remains speculative, but Wei likely represents someon
       </li>
   
 </ul>
-<ul class="tab-content" id="9556f9de-b474-4114-9b4b-cf17411cc6ab" data-name="q4">
+<ul class="tab-content" id="e280dbaa-0d1d-499a-9b17-a4a51f055b35" data-name="q4">
   
       <li class="active">
 <p>I see several possible symbolic and psychological reasons why Zhang might choose this particular historical text:</p>
@@ -1425,7 +1453,7 @@ Zhang’s choice of a historical text about a formidable adversary to the Han st
 
 <h3 id="a5-answers-generated">A5. Answers generated</h3>
 
-<ul id="q5" class="tab" data-tab="17f40d41-5176-42f4-bfd1-33577aafa3d0" data-name="q5">
+<ul id="q5" class="tab" data-tab="83d2faa2-2afb-443e-bfe0-59f701415683" data-name="q5">
   
       <li class="active" id="q5-claude-sonnet-4">
           <a href="#">Claude Sonnet 4 </a>
@@ -1452,7 +1480,7 @@ Zhang’s choice of a historical text about a formidable adversary to the Han st
       </li>
   
 </ul>
-<ul class="tab-content" id="17f40d41-5176-42f4-bfd1-33577aafa3d0" data-name="q5">
+<ul class="tab-content" id="83d2faa2-2afb-443e-bfe0-59f701415683" data-name="q5">
   
       <li class="active">
 <p>Based on the text, it’s highly unlikely that the warden actually donated the ring to a legitimate museum. The quotation marks around “museum display” suggest skepticism or sarcasm from the speaker.</p>

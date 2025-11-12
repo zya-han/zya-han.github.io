@@ -51,15 +51,216 @@ License: https://www.wowthemes.net/freebies-license/
     text-align: right;
 }
 
-/* 모바일 메뉴 스타일 */
-.mobile-nav-menu .navbar-nav {
-  gap: 0.5rem;
+/* 언어 선택 스타일 */
+.language-switcher {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+  font-size: 0.85rem;
 }
 
-.mobile-nav-menu .nav-link {
-  font-size: 0.875rem;
-  padding: 0.25rem 0.5rem;
+.language-switcher .lang-link {
+  text-decoration: none;
+  color: #666;
+  transition: color 0.2s;
+  white-space: nowrap;
 }
+
+.language-switcher .lang-link:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+.language-switcher .lang-link.active {
+  color: #333;
+  font-weight: 600;
+}
+
+.language-switcher .lang-separator {
+  color: #ccc;
+  font-size: 0.75rem;
+}
+
+/* 576px ~ 991px (일반 모바일/태블릿) */
+@media (max-width: 991px) {
+    /* navbar 자체 padding 조정 */
+    .navbar {
+      padding-top: 0.3rem !important;
+      padding-bottom: 0.3rem !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+
+    /* 컨테이너 padding 제거 */
+    .navbar .container {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+
+    .navbar-mobile-wrapper {
+      display: flex;
+      align-items: center !important;
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+      min-height: 40px !important;
+      height: 40px !important;
+      position: relative;
+      max-width: 100%;
+    }
+
+    /* 로고 크기 더 줄이기 */
+    .navbar-brand {
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+
+    .navbar-brand img {
+      max-height: 28px !important;
+      height: 28px !important;
+      display: block !important;
+    }
+
+    /* 모바일 메뉴 */
+    .mobile-nav-menu {
+      display: flex !important;
+      align-items: center !important;
+      height: 100% !important;
+      margin-left: 0.5rem !important;
+    }
+
+    .mobile-nav-menu .navbar-nav {
+      gap: 0.2rem !important;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+    .mobile-nav-menu .nav-item {
+      margin: 0 !important;
+    }
+
+    .mobile-nav-menu .nav-link {
+      font-size: 0.8rem !important;
+      padding: 0.15rem 0.3rem !important;
+      line-height: 1.2 !important;
+      white-space: nowrap;
+    }
+
+    /* 언어와 검색 버튼 사이 간격 확보 */
+    .language-switcher {
+      margin-right: 0.8rem !important;  /* 간격 증가 */
+    }
+
+    .search-toggle {
+      font-size: 1.2rem !important;
+      padding: 0.5rem !important;
+      line-height: 1 !important;
+      height: auto !important;
+    }
+  
+    .search-toggle {
+      right: 1rem;
+      background: none;
+      border: none;
+      color: #333 !important;
+    }
+
+    .search-toggle svg {
+      fill: #333 !important;
+      stroke: #333 !important;
+      color: #333 !important;
+    }
+}
+
+/* 575px 이하 (매우 작은 모바일) */
+@media (max-width: 575px) {
+    /* navbar 좌우 padding 제거 */
+    .navbar {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+
+    /* 컨테이너 padding 제거 */
+    .navbar .container {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+
+    .navbar-mobile-wrapper {
+      padding-top: 0.3rem !important;
+      padding-bottom: 0.3rem !important;
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+      min-height: 30px !important;
+    }
+
+    .navbar-brand {
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+
+    .navbar-brand img {
+      max-height: 32px !important;
+      display: block !important;
+    }
+
+    /* 작은 모바일에서 메뉴 간격 줄이기 */
+    .mobile-nav-menu .navbar-nav {
+      gap: 0.1rem !important;
+    }
+
+    .mobile-nav-menu .nav-link {
+      font-size: 0.85rem !important;
+      padding: 0.2rem 0.25rem !important;
+    }
+
+    /* 작은 모바일에서 언어 선택 크기 조정 */
+    .language-switcher {
+      font-size: 0.75rem !important;
+      gap: 0.2rem !important;
+      margin-right: 0.5rem !important;  /* 검색 버튼과의 간격 */
+    }
+
+    .language-switcher .lang-separator {
+      font-size: 0.7rem !important;
+    }
+
+    /* 검색 버튼 */
+    .search-toggle {
+      font-size: 1.3rem !important;
+    }
+}
+
+/* 360px 이하 (매우 작은 모바일) */
+@media (max-width: 360px) {
+    .navbar-mobile-wrapper {
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+    }
+
+    /* 메뉴 간격 더 줄이기 */
+    .mobile-nav-menu .navbar-nav {
+      gap: 0 !important;
+    }
+
+    .mobile-nav-menu .nav-link {
+      font-size: 0.8rem !important;
+      padding: 0.2rem 0.2rem !important;
+    }
+
+    /* 언어 선택 크기 더 줄이기 */
+    .language-switcher {
+      font-size: 0.7rem !important;
+      gap: 0.15rem !important;
+      margin-right: 0.3rem !important;
+    }
+
+    .search-toggle {
+      font-size: 1.2rem !important;
+    }
+}
+
 
 /* postbox 제목 */
 .post-title:lang(ko) {
@@ -1649,144 +1850,6 @@ iframe {
     .pagination-inline .current {
       padding: 0.3em 0.5em;
       font-size: 1.0rem;
-    }
-}
-
-/* 576px ~ 991px (일반 모바일/태블릿) */
-@media (max-width: 991px) {
-    /* navbar 자체 padding 조정 */
-    .navbar {
-      padding-top: 0.3rem !important;
-      padding-bottom: 0.3rem !important;
-      padding-left: 0 !important;
-      padding-right: 0 !important;
-    }
-
-    /* 컨테이너 padding 제거 */
-    .navbar .container {
-      padding-left: 0 !important;
-      padding-right: 0 !important;
-    }
-
-    .navbar-mobile-wrapper {
-      display: flex;
-      align-items: center !important;  /* 중앙 정렬 */
-      padding-top: 0 !important;
-      padding-bottom: 0 !important;
-      padding-left: 15px !important;
-      padding-right: 15px !important;
-      min-height: 40px !important;
-      height: 40px !important;
-      position: relative;
-      max-width: 100%;
-    }
-
-    /* 로고 크기 더 줄이기 */
-    .navbar-brand {
-      padding: 0 !important;
-      margin: 0 !important;
-    }
-
-    .navbar-brand img {
-      max-height: 28px !important;
-      height: 28px !important;
-      display: block !important;
-    }
-
-    /* 모바일 메뉴 */
-    .mobile-nav-menu {
-      display: flex !important;
-      align-items: center !important;
-      height: 100% !important;
-      margin-left: 0.5rem !important;
-      padding-bottom: 2px !important;  /* 로고 하단과 맞추기 */
-    }
-
-    .mobile-nav-menu .navbar-nav {
-      gap: 0.2rem !important;
-      margin: 0 !important;
-      padding: 0 !important;
-    }
-
-    .mobile-nav-menu .nav-item {
-      margin: 0 !important;
-    }
-
-    .mobile-nav-menu .nav-link {
-      font-size: 0.8rem !important;
-      padding: 0.15rem 0.3rem !important;
-      line-height: 1 !important;  /* 텍스트 높이 조정 */
-      white-space: nowrap;
-    }
-
-    .search-toggle {
-      font-size: 1.2rem !important;
-      padding: 0 !important;
-      line-height: 1 !important;
-      height: auto !important;
-    }
-  
-    .search-toggle {
-      right: 1rem;
-      background: none;
-      border: none;
-      color: #333 !important;
-    }
-
-    .search-toggle svg {
-      fill: #333 !important;
-      stroke: #333 !important;
-      color: #333 !important;
-    }
-}
-
-/* 575px 이하 (매우 작은 모바일) */
-@media (max-width: 575px) {
-    /* navbar 좌우 padding 제거 */
-    .navbar {
-      padding-left: 0 !important;
-      padding-right: 0 !important;
-    }
-
-    /* 컨테이너 padding 제거 */
-    .navbar .container {
-      padding-left: 0 !important;
-      padding-right: 0 !important;
-    }
-
-    .navbar-mobile-wrapper {
-      padding-top: 0.3rem !important;
-      padding-bottom: 0.3rem !important;
-      padding-left: 15px !important;
-      padding-right: 15px !important;
-      min-height: 30px !important;
-    }
-
-    .navbar-brand {
-      padding: 0 !important;
-      margin: 0 !important;
-    }
-
-    .navbar-brand img {
-      max-height: 32px !important;
-      max-width: 32px !important;
-      display: block !important;
-    }
-
-    /* 모바일 메뉴를 로고 하단에 정렬 */
-    .mobile-nav-menu {
-      padding-bottom: 2px !important;  /* 로고 하단과 맞추기 */
-    }
-
-    .mobile-nav-menu .nav-link {
-      font-size: 0.85rem !important;
-      padding: 0.2rem 0.4rem !important;
-      line-height: 1 !important;  /* 텍스트 높이 조정 */
-    }
-
-    .search-toggle {
-      font-size: 1.3rem !important;
-      padding: 0.2rem 0.5rem !important;
     }
 }
 

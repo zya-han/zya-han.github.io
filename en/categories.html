@@ -88,15 +88,16 @@
 ================================================== -->
 <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
 
-    <div class="container pr-0 d-flex align-items-center justify-content-between flex-nowrap">
-      <div class="navbar-mobile-wrapper align-items-center w-100">
+    <div class="container pr-0">
+      <!-- 모바일 헤더 -->
+      <div class="navbar-mobile-wrapper align-items-center w-100 d-lg-none">
 
         <a class="navbar-brand" href="https://zyahan.blog">
           <img src="https://zyahan.blog/assets/images/logo.png" alt="미남과 오컬트와 자살">
         </a>
 
-        <!-- 모바일 메뉴 (로고 바로 옆) -->
-        <div class="d-lg-none mobile-nav-menu align-self-end">
+        <!-- 모바일 메뉴 -->
+        <div class="mobile-nav-menu align-self-end">
           
           
           
@@ -129,48 +130,77 @@
           </ul>
         </div>
 
-        <!-- 검색 버튼 (오른쪽 끝) -->
-        <button class="search-toggle d-lg-none ml-auto" onclick="toggleSearchBar()" aria-label="검색 열기">
-            <i class="fas fa-search"></i>
-        </button>
+        <!-- 모바일 언어 선택 + 검색 버튼 wrapper -->
+        <div class="d-flex align-items-center ml-auto">
+          <!-- 모바일 언어 선택 -->
+          <div class="language-switcher">
+            
+            <a href="/" class="lang-link ">한국어</a>
+            <span class="lang-separator">|</span>
+            <a href="/zh/" class="lang-link ">中文</a>
+            <span class="lang-separator">|</span>
+            <a href="/en/" class="lang-link active">English</a>
+          </div>
+
+          <!-- 검색 버튼 -->
+          <button class="search-toggle" onclick="toggleSearchBar()" aria-label="검색 열기">
+              <i class="fas fa-search"></i>
+          </button>
+        </div>
 
       </div>
 
-      <!-- 데스크톱 메뉴 (원래대로) -->
-      <div class="collapse navbar-collapse" id="navbarMediumish">
+      <!-- 데스크톱 헤더 -->
+      <div class="d-none d-lg-flex align-items-center w-100">
+        <a class="navbar-brand" href="https://zyahan.blog">
+          <img src="https://zyahan.blog/assets/images/logo.png" alt="미남과 오컬트와 자살">
+        </a>
 
+        <!-- 데스크톱 메뉴 -->
+        
+        
+        
+        <ul class="navbar-nav">
           
+            
+            
+            <li class="nav-item">
+              <a class="nav-link text-nowrap" href="/en/" >
+                Blog
+              </a>
+            </li>
           
+            
+            
+            <li class="nav-item">
+              <a class="nav-link text-nowrap" href="/en/about" >
+                About
+              </a>
+            </li>
           
-          <ul class="navbar-nav ml-auto">
             
-              
-              
-              <li class="nav-item">
-                <a class="nav-link text-nowrap" href="/en/" >
-                  Blog
-                </a>
-              </li>
             
-              
-              
-              <li class="nav-item">
-                <a class="nav-link text-nowrap" href="/en/about" >
-                  About
-                </a>
-              </li>
-            
-              
-              
-              <li class="nav-item">
-                <a class="nav-link text-nowrap" href="https://buymeacoffee.com/zya.han/membership" target="_blank">
-                  Membership
-                </a>
-              </li>
-            
+            <li class="nav-item">
+              <a class="nav-link text-nowrap" href="https://buymeacoffee.com/zya.han/membership" target="_blank">
+                Membership
+              </a>
+            </li>
           
-            <li class="nav-item d-none d-lg-block">
-              
+        </ul>
+
+        <!-- 데스크톱 언어 선택 (검색창 왼쪽) -->
+        <div class="language-switcher ml-auto">
+          
+          <a href="/" class="lang-link ">한국어</a>
+          <span class="lang-separator">|</span>
+          <a href="/zh/" class="lang-link ">中文</a>
+          <span class="lang-separator">|</span>
+          <a href="/en/" class="lang-link active">English</a>
+        </div>
+
+        <!-- 데스크톱 검색 -->
+        <div class="ml-1">
+          
 
 
 
@@ -248,11 +278,9 @@
   }
 </style>
 
-            </li>
-          
-          </ul>
-          
+        </div>
       </div>
+
     </div>
 </nav>
 <!-- End Navigation
