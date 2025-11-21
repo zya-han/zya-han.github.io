@@ -295,8 +295,7 @@ License: https://www.wowthemes.net/freebies-license/
 }
 
 /* 한자 위첨자 */
-.hanja-word::after {
-    content: attr(data-hanja);
+.hanja-text {
     font-size: 80%;
     vertical-align: super;
     color: inherit;
