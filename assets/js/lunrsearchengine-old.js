@@ -47,162 +47,162 @@ var documents = [{
     }, {
     "id": 9,
     "url": "https://zyahan.blog/page2/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 2",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 10,
     "url": "https://zyahan.blog/page3/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 3",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 11,
     "url": "https://zyahan.blog/page4/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 4",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 12,
     "url": "https://zyahan.blog/page5/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 5",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 13,
     "url": "https://zyahan.blog/page6/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 6",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 14,
     "url": "https://zyahan.blog/page7/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 7",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 15,
     "url": "https://zyahan.blog/page8/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 8",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 16,
     "url": "https://zyahan.blog/page9/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 9",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 17,
     "url": "https://zyahan.blog/page10/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 10",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 18,
     "url": "https://zyahan.blog/page11/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 11",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 19,
     "url": "https://zyahan.blog/page12/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 12",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 20,
     "url": "https://zyahan.blog/page13/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 13",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 21,
     "url": "https://zyahan.blog/page14/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 14",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 22,
     "url": "https://zyahan.blog/page15/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 15",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 23,
     "url": "https://zyahan.blog/page16/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 16",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 24,
     "url": "https://zyahan.blog/page17/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 17",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 25,
     "url": "https://zyahan.blog/page18/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 18",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 26,
     "url": "https://zyahan.blog/page19/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 19",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 27,
     "url": "https://zyahan.blog/page20/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 20",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 28,
     "url": "https://zyahan.blog/page21/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 21",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 29,
     "url": "https://zyahan.blog/page22/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 22",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 30,
     "url": "https://zyahan.blog/page23/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 23",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 31,
     "url": "https://zyahan.blog/page24/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 24",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 32,
     "url": "https://zyahan.blog/page25/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 25",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 33,
     "url": "https://zyahan.blog/page26/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 26",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 34,
     "url": "https://zyahan.blog/page27/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 27",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 35,
     "url": "https://zyahan.blog/page28/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 28",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 36,
     "url": "https://zyahan.blog/page29/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 29",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 37,
     "url": "https://zyahan.blog/page30/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 30",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 38,
     "url": "https://zyahan.blog/page31/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 31",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 39,
     "url": "https://zyahan.blog/page32/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 32",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 40,
     "url": "https://zyahan.blog/page33/index.html",
-    "title": "미남과 오컬트와 자살 by 주아 - page 33",
+    "title": "미남과 오컬트와 자살 by 주아",
     "body": "{% if page. lang == “ko” %}    {% assign featured_posts = site. posts | where: “featured”, true | where: “locale”, “ko” %}  {% if featured_posts. size &gt; 0 %}  &lt;section class= featured-posts &gt;  &lt;div class= section-title &gt;    &lt;h2&gt;주목할 포스트&lt;/h2&gt;  &lt;/div&gt;  &lt;div class= row &gt;    {% for post in featured_posts %}    {% include featuredbox. html %}    {% endfor %}  &lt;/div&gt;  &lt;/section&gt;  {% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 41,
