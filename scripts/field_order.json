@@ -1,0 +1,25 @@
+{
+  "field_order": [
+    "layout",
+    "title",
+    "subtitle",
+    "author",
+    "lang",
+    "locale",
+    "baseurl",
+    "categories",
+    "tags",
+    "date",
+    "image",
+    "insertimage",
+    "description",
+    "featured",
+    "hidden",
+    "comments",
+    "slug",
+    "popular",
+    "popular_rank",
+    "popular_views",
+    "popular_updated"
+  ]
+}

@@ -17,6 +17,26 @@ POSTS_DIRS = [
     "_en_posts",  # 필요시 추가
 ]
 
+
+class FlowList(list):
+    """Flow style (inline)로 덤프될 리스트"""
+    pass
+
+
+class QuotedStr(str):
+    """큰따옴표로 감싸져서 덤프될 문자열"""
+    pass
+
+
+def represent_flow_list(dumper, data):
+    """리스트를 [item1, item2] 형식으로 출력"""
+    return dumper.represent_sequence('tag:yaml.org,2002:seq', data, flow_style=True)
+
+
+def represent_quoted_str(dumper, data):
+    """문자열을 "value" 형식으로 출력"""
+    return dumper.represent_scalar('tag:yaml.org,2002:str', data, style='"')
+
 def load_field_order():
     """field_order.json에서 필드 순서 로드"""
     # 스크립트 파일 위치 기준으로 JSON 파일 찾기
@@ -49,17 +69,21 @@ def load_field_order():
         print(f"❌ field_order.json 파싱 에러: {e}")
         return []
 
+
 # 필드 순서 로드
 FIELD_ORDER = load_field_order()
 
-filename_pattern = re.compile(r"^\d{4}-\d{2}-\d{2}-(.+)\.md$")
-
+# YAML representer 등록
 def represent_ordereddict(dumper, data):
     """OrderedDict를 순서 유지하면서 YAML로 변환"""
     return dumper.represent_dict(data.items())
 
-# YAML 덤퍼 설정
+
 yaml.add_representer(OrderedDict, represent_ordereddict)
+yaml.add_representer(FlowList, represent_flow_list)
+yaml.add_representer(QuotedStr, represent_quoted_str)
+
+filename_pattern = re.compile(r"^\d{4}-\d{2}-\d{2}-(.+)\.md$")
 
 def parse_frontmatter(content):
     """
@@ -96,12 +120,29 @@ def order_frontmatter(data):
     # 1. 지정된 순서대로 필드 추가
     for field in FIELD_ORDER:
         if field in data:
-            ordered[field] = data[field]
+            value = data[field]
+            
+            # categories와 tags는 FlowList로 변환 (inline 표시: [item1, item2])
+            if field in ['categories', 'tags'] and isinstance(value, list):
+                ordered[field] = FlowList(value)
+            # title, subtitle, description은 QuotedStr로 변환 (큰따옴표로 감싸기)
+            elif field in ['title', 'subtitle', 'description'] and isinstance(value, str):
+                ordered[field] = QuotedStr(value)
+            else:
+                ordered[field] = value
     
     # 2. 순서에 없는 필드는 뒤에 추가 (알파벳순)
     remaining_fields = sorted(set(data.keys()) - set(FIELD_ORDER))
     for field in remaining_fields:
-        ordered[field] = data[field]
+        value = data[field]
+        
+        # 순서에 없는 필드도 동일한 규칙 적용
+        if field in ['categories', 'tags'] and isinstance(value, list):
+            ordered[field] = FlowList(value)
+        elif field in ['title', 'subtitle', 'description'] and isinstance(value, str):
+            ordered[field] = QuotedStr(value)
+        else:
+            ordered[field] = value
     
     return ordered
 
@@ -119,6 +160,17 @@ def dump_frontmatter(data, body):
         indent=2,
         width=1000  # 긴 줄 자동 줄바꿈 방지
     )
+    
+    # categories/tags 라인에만 대괄호 안쪽 공백 추가
+    lines = yaml_text.split('\n')
+    for i, line in enumerate(lines):
+        if line.startswith('categories:') or line.startswith('tags:'):
+            # 해당 라인의 대괄호에만 공백 추가
+            line = re.sub(r'\[(?! )', '[ ', line)  # [ 뒤에 공백 추가
+            line = re.sub(r'(?<! )\]', ' ]', line)  # ] 앞에 공백 추가
+            lines[i] = line
+    
+    yaml_text = '\n'.join(lines)
     
     return f"---\n{yaml_text}---\n{body}"
 
