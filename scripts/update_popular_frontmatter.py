@@ -43,7 +43,7 @@ def represent_quoted_str(dumper, data):
 # 환경 변수에서 설정 값 가져오기
 GA4_PROPERTY_ID = os.environ.get('GA4_PROPERTY_ID', '482435885')
 DAYS_AGO = int(os.environ.get('DAYS_AGO', '7'))
-TOP_N = int(os.environ.get('TOP_N', '4'))
+TOP_N = int(os.environ.get('TOP_N', '10'))
 
 # 포스트 디렉토리 (다국어 지원)
 POSTS_DIRS = [
