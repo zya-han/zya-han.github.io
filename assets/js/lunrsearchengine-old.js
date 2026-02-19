@@ -21,13 +21,13 @@ var documents = [{
     "body": "✍️ 저자 소개: 취미로 전4사(《사기》, 《한서》, 《후한서》, 《삼국지》)를 읽고 떠듭니다. 본업은 언어학자입니다. 전4사 텍스트에서 언어 표현을 수집하고 패턴을 발견하는 일을 좋아합니다.  2015년부터 《한서》를 파기 시작했습니다.  2019년부터 주아周雅라는 필명으로 고대 중국 한나라에 관한 글을 쓰고 있습니다.      주된 관심사는 당시 사람들과 역사서 저자들이 어떤 말을 썼는지입니다.    기본적으로 전4사 텍스트를 (역사 자료라기보다는) 언어 자료이자 문학 작품으로 받아들입니다.     2025년 《한서팸플릿10: 일하는 여성》을 끝으로 크라우드펀딩을 통한 개인출판을 마무리하고, 현재는 블로그 포스트에 집중하고 있습니다. 📝 블로그 소개: 이 블로그 제목 《미남과 오컬트와 자살》은 《한서》를 대표하는 주제로 아雅가 꼽은 세 가지 키워드입니다. 《한서》의 세계에서 사람들은 공적인 자리에서도 미남을 우대했습니다. 중요한 선택을 할 때는 물론이고 사소한 일상생활에서도 오컬트를 진지하게 받아들였습니다. 치욕을 피하겠다는 이유 하나만으로도 자살하는 일이 많았습니다. 바로 이런 세계관을 가진 《한서》 세계 사람들의 생활방식과 사고방식을 추적하는 것이 이 블로그의 주된 용도입니다. 이 블로그에서 아雅는 한문 원문의 단어 하나, 글자 하나에 집착하고, 돌에서 기름을 짜낼 듯이 착즙해서 떡밥을 캐냅니다. 아雅는 역사학자가 아닙니다. 무엇이 있었는지보다 무엇이 말해졌는지를 묻습니다. 역사책의 내용이 어느만큼 사실인지를 따지기보다 어떻게 표현되었는지를 따집니다. 이렇게 텍스트에서 뽑아낸 정보를 가능한 한 쉽게 읽고 창작에 바로 활용할 수 있도록 가공해서 포스트를 씁니다. (적어도 아雅에게는) 재미있는 사실을 소개합니다. ‘따봉’의 유래와 같은 스몰토크 소재부터 삼국지 조조의 구온춘주처럼 ‘씹덕’스러운 내용까지 폭넓은 범위를 커버합니다. 📑 추천 포스트: 이 블로그의 포스트는 현재 197개입니다. 처음 오셨다면 아래의 대표 포스트부터 읽어 보세요! 한나라 설정집 🐾 한나라의 고양이를 찾아서: 고대 중국 고양이의 아주 간략한 역사 (2020-08-18) 조조가 헌제에게 바쳤다는 그 술: 구온춘주에 관하여 한국어로 가장 상세한 정보를 제공하고 싶은 오타쿠의 망상 (2021-09-03) 흰색을 표현하는 여러 가지 방법 (2023-08-03) 통역과 번역이 모두 ‘역’으로 끝나는 까닭: 역(譯)의 의미 확장 (2024-03-10) 궁형은 정말로 사형보다 치욕스러운 형벌이었을까? (2025-07-04)삼국연의 읽기 제갈량 vs. 주유, 깃털 부채의 원조는?: 동진 《어림》, 북송 《적벽회고》, 원대 《격강투지》의 기록을 종합하여 (2021-08-08) 형제는 손발, 처자는 의복?: “연의”가 진짜로 “왜곡”한 것 (2024-02-09) ‘손랑’과 ‘주랑’, 두 미인의 엇갈린 운명: 주랑周郎의 변천사 (2025-11-09)삼국지 질의응답 후한 말 여성의 무장과 무예 (2024-06-30) 한나라 사람들의 세정제 (2025-04-05)잡담 송나라 사람들과 명나라 사람들은 향낭에 무엇을 넣었을까? (2022-07-02) 🍵 차와 문화승리: 남조와 북조의 자존심 싸움 (2023-08-15) 👍 ‘따봉’, 엄지척이 중국 전통에도 있었을까? (2024-03-30) 고대 중국의 마스크팩: 화타의 피부과 처방 (2025-03-27)📚 출판물:  한나라 설정집 시리즈: 《한서팸플릿 1–10》, 《삼국지포켓북 1—6》 (개인출판)     텀블벅 프로젝트 (2019) — 목표금액 807% 달성         《한서팸플릿1: 자칭·호칭·지칭》     《한서팸플릿2: 땅 위의 점술》     《한서팸플릿3: 포박과 감금》     《한서팸플릿4: 미남전》     《한서팸플릿5: 곽거병은 과연 포도를 먹었을까?》     《한서팸플릿6 특별판: 사람들이 일은 게을리 하면서도 먹는 것은 반드시 때에 맞추어 먹습니다》 [구매하기]          텀블벅 프로젝트 (2021) — 목표금액 990% 달성         《삼국지포켓북1: 호칭어 가이드》 [구매하기]     《삼국지포켓북2: 예의를 버리고 음식을 구하다》 [구매하기]          텀블벅 프로젝트 (2022) — 목표금액 686% 달성         《삼국지포켓북3: 향, 새로운 감각의 개척》 [구매하기]     《삼국지포켓북4: 육형 부활 논의에 관한 시론》 [구매하기]          텀블벅 프로젝트 (2023) — 목표금액 853% 달성         《한서팸플릿7 특별판: 수레와 복식》     《삼국지포켓북5: 의사와 음악가의 공통점은?》 [구매하기]          텀블벅 프로젝트 (2024) — 목표금액 378% 달성         《삼국지포켓북6: 아이들의 놀이와 노래》 [구매하기]          텀블벅 프로젝트 (2024) — 목표금액 415% 달성         《한서팸플릿8: 강아지와 망아지》     《한서팸플릿9: 도검》          텀블벅 프로젝트 (2025) — 목표금액 286% 달성         《한서팸플릿10: 일하는 여성》           《한서 열전》 서평     주아 (2022), 〈동아시아 역사 서술의 질서 정연한 전통〉, 《교차 3: 전기, 삶에서 글로》, 읻다.    ✉️ 문의: zya. han. writer _at_ gmail _dot_ com 💸 구매 및 후원: https://buymeacoffee. com/zya. han (최종수정일 2025-11-11) "
     }, {
     "id": 4,
-    "url": "https://zyahan.blog/zh/categories",
-    "title": "所有分类",
+    "url": "https://zyahan.blog/en/categories",
+    "title": "All Categories",
     "body": ""
     }, {
     "id": 5,
-    "url": "https://zyahan.blog/en/categories",
-    "title": "All Categories",
+    "url": "https://zyahan.blog/zh/categories",
+    "title": "所有分类",
     "body": ""
     }, {
     "id": 6,
@@ -206,28 +206,28 @@ var documents = [{
     "body": "{% if page. lang == “ko” and paginator. page == 1 %} 12345678910111213141516171819202122232425262728293031&lt;!-- Featured================================================== --&gt;{% assign featured_posts = site. posts | where:  featured , true | where:  locale ,  ko  %}{% if featured_posts. size &gt; 0 %}&lt;section class= featured-posts &gt;&lt;div class= section-title &gt;  &lt;h2&gt;&lt;span&gt;주목할 포스트&lt;/span&gt;&lt;/h2&gt;&lt;/div&gt;&lt;div class= row &gt;  {% for post in featured_posts %}    {% include featuredbox. html %}  {% endfor %}&lt;/div&gt;&lt;/section&gt;{% endif %}&lt;!-- Popular================================================== --&gt;{% assign popular_posts = site. posts | where:  popular , true | sort:  popular_rank  %}{% if popular_posts. size &gt; 0 %}&lt;section class= popular-posts &gt;&lt;div class= section-title &gt;  &lt;h2&gt;&lt;span&gt;인기 포스트&lt;/span&gt;&lt;/h2&gt;&lt;/div&gt;&lt;div class= row &gt;  {% for post in popular_posts limit: 4 %}    {% include featuredbox. html %}  {% endfor %}&lt;/div&gt;&lt;/section&gt;{% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 41,
+    "url": "https://zyahan.blog/en/index.html",
+    "title": "Beauty, Mystery, and Death",
+    "body": "      {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
+    }, {
+    "id": 42,
     "url": "https://zyahan.blog/zh/index.html",
     "title": "美男与神秘与自杀 by 周雅",
     "body": "      {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
-    "id": 42,
+    "id": 43,
     "url": "https://zyahan.blog/zh/page2/index.html",
     "title": "美男与神秘与自杀 by 周雅 - page 2",
     "body": "      {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
-    "id": 43,
+    "id": 44,
     "url": "https://zyahan.blog/zh/page3/index.html",
     "title": "美男与神秘与自杀 by 周雅 - page 3",
     "body": "      {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
-    "id": 44,
+    "id": 45,
     "url": "https://zyahan.blog/zh/page4/index.html",
     "title": "美男与神秘与自杀 by 周雅 - page 4",
-    "body": "      {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
-    }, {
-    "id": 45,
-    "url": "https://zyahan.blog/en/index.html",
-    "title": "Beauty, Mystery, and Death",
     "body": "      {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 46,
