@@ -176,7 +176,8 @@ def dump_frontmatter(data, body):
     
     yaml_text = '\n'.join(lines)
     
-    return f"---\n{yaml_text}---\n{body}"
+    body_stripped = body.lstrip('\n')
+    return f"---\n{yaml_text}---\n\n{body_stripped}"
 
 
 def get_top_post_paths():

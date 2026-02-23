@@ -172,7 +172,8 @@ def dump_frontmatter(data, body):
     
     yaml_text = '\n'.join(lines)
     
-    return f"---\n{yaml_text}---\n{body}"
+    body_stripped = body.lstrip('\n')
+    return f"---\n{yaml_text}---\n\n{body_stripped}"
 
 total_added = 0
 total_existing = 0
