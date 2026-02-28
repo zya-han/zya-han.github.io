@@ -1,4 +1,369 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://zyahan.blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zyahan.blog/" rel="alternate" type="text/html" hreflang="ko" /><updated>2026-02-28T15:26:38+09:00</updated><id>https://zyahan.blog/feed.xml</id><title type="html">미남과 오컬트와 자살</title><subtitle>《한서》 이야기를 합니다.</subtitle><entry xml:lang="ko"><title type="html">체장부인(體長婦人)의 뒷이야기</title><link href="https://zyahan.blog/yuan-shao-raised-up-by-women/" rel="alternate" type="text/html" title="체장부인(體長婦人)의 뒷이야기" /><published>2026-01-03T12:42:00+09:00</published><updated>2026-01-03T12:42:00+09:00</updated><id>https://zyahan.blog/yuan-shao-raised-up-by-women</id><content type="html" xml:base="https://zyahan.blog/yuan-shao-raised-up-by-women/"><![CDATA[<p>이 블로그에서는 예전에 〈<a href="/yuan-shao-as-a-lady/">체장부인의 수수께끼</a>〉라는 글을 통해 《삼국지》 주석에 나오는 체장부인體長婦人이라는 문구를 발견하고 해석을 고민한 적이 있습니다. 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://zyahan.blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zyahan.blog/" rel="alternate" type="text/html" hreflang="ko" /><updated>2026-02-28T19:47:27+09:00</updated><id>https://zyahan.blog/feed.xml</id><title type="html">미남과 오컬트와 자살</title><subtitle>《한서》 이야기를 합니다.</subtitle><entry xml:lang="ko"><title type="html">매화? 그거 먹는 건가요?</title><link href="https://zyahan.blog/mei-flower-or-fruit/" rel="alternate" type="text/html" title="매화? 그거 먹는 건가요?" /><published>2026-02-28T19:46:00+09:00</published><updated>2026-02-28T19:46:00+09:00</updated><id>https://zyahan.blog/mei-flower-or-fruit</id><content type="html" xml:base="https://zyahan.blog/mei-flower-or-fruit/"><![CDATA[<p>梅(매)라는 한자에서 가장 먼저 떠오르는 이미지는 무엇인가요? 나무 전체? 열매? 꽃?</p>
+
+<p>문인화의 주요 소재인 사군자四君子 ‘매난국죽’(중국어로는 국화와 대나무의 순서가 바뀌어 梅蘭竹菊)에서 매梅는 꽃을 가리킵니다. 
+‘<a href="https://encykorea.aks.ac.kr/Article/E0019314">묵매墨梅</a>’의 매梅 또한 매화꽃입니다. 
+‘매향梅香’도 매화의 향기고, ‘탐매探梅’도 매화를 찾는 것입니다. 
+이렇게 “동양풍” 분위기를 내는 소재로서 매梅는 열매보다 꽃의 이미지로 존재하는 것 같습니다.</p>
+
+<p>그렇다면 매梅는 중국에서 처음부터 꽃으로 주목받았을까요? 
+이 질문에 대한 답을 구하기 위해 이 글에서는 한나라 및 이전의 문헌에서 한자 梅(매)가 어떻게 쓰였는지 찾아보고, 당시 사람들이 이 식물을 어떻게 인식했는지 알아보겠습니다.</p>
+
+<p><a href="https://ctext.org">Chinese Text Project</a> 데이터베이스 라이브러리에서 검색해 보면 <a href="https://ctext.org/pre-qin-and-han">중국 한나라 때까지의 문헌을 통틀어</a> 梅(매)가 나온 것은 132회에 불과합니다. 
+수량이 많지 않기 때문에 용례를 하나씩 확인하고 분류해 보았습니다.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>용례</th>
+      <th style="text-align: right">건수</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>나무</td>
+      <td style="text-align: right">46</td>
+    </tr>
+    <tr>
+      <td>열매</td>
+      <td style="text-align: right">38</td>
+    </tr>
+    <tr>
+      <td>인명</td>
+      <td style="text-align: right">27</td>
+    </tr>
+    <tr>
+      <td>지명</td>
+      <td style="text-align: right">13</td>
+    </tr>
+    <tr>
+      <td>작품명</td>
+      <td style="text-align: right">5</td>
+    </tr>
+    <tr>
+      <td>의태어</td>
+      <td style="text-align: right">2</td>
+    </tr>
+    <tr>
+      <td>기타</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td><strong>합계</strong></td>
+      <td style="text-align: right"><strong>132</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>심지어 132건 중 40건 이상이 인명과 같은 고유명사입니다. 
+결국 梅(매)가 단독으로 식물 실물을 가리키는 것은 나무 46건, 열매 38건으로 84건뿐이고, 그나마도 꽃은 한 건도 없습니다. 
+범위가 더욱 좁아졌으니 이제 시대와 장르별로 주요 문헌을 검토해 보겠습니다.</p>
+
+<h3 id="진秦나라-이전의-매梅">진秦나라 이전의 매梅</h3>
+
+<h4 id="자연물">자연물</h4>
+
+<h5 id="-나무를-노래한-시인들-시경">🌳 나무를 노래한 시인들: 《시경》</h5>
+
+<p>梅(매)라는 한자를 자세히 보면 왼쪽에 木(나무 목)이 들어있습니다. 
+즉, 기본적으로 이 한자는 봄에 매화가 피고 여름에 매실이 열리는 나무 자체를 뜻합니다. 
+중국에서 가장 오래된 노래를 모은 《시경》에서 매梅가 나오는 시는 총 다섯 편인데, 이 가운데 네 편이 나무를 읊고 있습니다. 
+한 구절씩 살펴봅시다.</p>
+
+<blockquote>
+  <p>종남산終南山에 뭐가 있나, 조條가 있고 <strong>매梅</strong>가 있지.<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
+
+  <p><cite>《시경詩經·국풍國風·진풍秦風》 〈<a href="https://ctext.org/book-of-poetry/zhong-nan">종남終南</a>〉</cite></p>
+</blockquote>
+
+<p>첫 번째 시 〈종남終南〉에서 언급하는 매梅가 매실나무가 아니라 남楠, 녹나무라는 설도 있습니다(<a href="https://ctext.org/wiki.pl?if=en&amp;chapter=95893#p23">《모시정의毛詩正義》 권6 〈6지4〉</a>). 
+매실나무든 녹나무든 이 시에서 매梅가 종남산에서 자라는 나무를 가리키는 것은 확실합니다.</p>
+
+<p><a href="https://ctext.org/wiki.pl?if=en&amp;chapter=191#p60">《모시정의毛詩正義》 권7 〈7지1〉</a>에 따르면 두 번째 시인 〈묘문墓門〉에 나오는 매梅 역시 녹나무일 수 있습니다.</p>
+
+<blockquote>
+  <p>무덤 문에 <strong>매梅</strong>가 있어, 부엉이가 모여드네.<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup></p>
+
+  <p><cite>《시경詩經·국풍國風·진풍陳風》<a href="https://ctext.org/book-of-poetry/mu-men">〈묘문墓門</a>〉</cite></p>
+</blockquote>
+
+<p>세 번째 시 〈시구鳲鳩〉와 네 번째 시 〈사월四月〉의 경우 매梅는 매실나무로 해석됩니다.</p>
+
+<blockquote>
+  <p>뻐꾸기는 뽕나무에 있는데 새끼는 <strong>매실나무</strong>에 있구나.<sup id="fnref:3"><a href="#fn:3" class="footnote" rel="footnote" role="doc-noteref">3</a></sup></p>
+
+  <p><cite>《시경詩經·국풍國風·조풍曹風》 〈<a href="https://ctext.org/book-of-poetry/shi-jiu">시구鳲鳩</a>〉</cite></p>
+</blockquote>
+
+<blockquote>
+  <p>산에 아름다운 나무가 있으니 바로 밤나무와 <strong>매실나무</strong>로다.<sup id="fnref:4"><a href="#fn:4" class="footnote" rel="footnote" role="doc-noteref">4</a></sup></p>
+
+  <p><cite>《시경詩經·소아小雅·소민지습小旻之什》 〈<a href="https://ctext.org/book-of-poetry/si-yue">사월四月</a>〉</cite></p>
+</blockquote>
+
+<p>다섯 번째 〈표유매摽有梅〉는 《시경》 전체에서 매梅가 유일하게 열매를 가리키는 시입니다.</p>
+
+<blockquote>
+  <p><strong>매실</strong>이 떨어졌네, 일곱 알이 남았네.<sup id="fnref:5"><a href="#fn:5" class="footnote" rel="footnote" role="doc-noteref">5</a></sup></p>
+
+  <p><cite>《시경詩經·국풍國風·소남召南》 〈<a href="https://ctext.org/book-of-poetry/piao-you-mei">표유매摽有梅</a>〉</cite></p>
+</blockquote>
+
+<p>정리하자면 《시경》에서 매梅는 나무로 네 번, 열매로 한 번 쓰였고, 매화꽃은 한 번도 나오지 않았습니다. 
+삼백 편에 달하는 시 중 매화를 읊은 것이 하나도 없다는 것은 뜻밖입니다.</p>
+
+<p>혹시 《시경》에 매화뿐만 아니라 꽃 자체가 희귀했던 것일까요? 
+그렇지는 않습니다. 
+꽃을 뜻하는 華(화)로 검색해 보면 
+〈<a href="https://ctext.org/book-of-poetry/tao-yao">도요桃夭</a>〉의 복숭아꽃,
+〈<a href="https://ctext.org/book-of-poetry/he-bi-nong-yi">하피농의何彼襛矣</a>〉에 나오는 채진목[당체唐棣] 꽃, 
+〈<a href="https://ctext.org/book-of-poetry/you-nu-tong-che">유녀동거有女同車</a>〉의 무궁화[순화舜華], 
+〈<a href="https://ctext.org/book-of-poetry/shan-you-fu-su">산유부소山有扶蘇</a>〉의 연꽃, 그 외에도
+〈<a href="https://ctext.org/book-of-poetry/xi-you-chang-chu">습유장초隰有萇楚</a>〉, 
+〈<a href="https://ctext.org/book-of-poetry/huang-huang-zhe-hua">황황자화皇皇者華</a>〉, 
+〈<a href="https://ctext.org/book-of-poetry/chang-di">상체常棣</a>〉, 
+〈<a href="https://ctext.org/book-of-poetry/cai-wei">채미采薇</a>〉, 
+〈<a href="https://ctext.org/book-of-poetry/shang-shang-zhe-hua">상상자화裳裳者華</a>〉, 
+〈<a href="https://ctext.org/book-of-poetry/bai-hua">백화白華</a>〉, 
+〈<a href="https://ctext.org/book-of-poetry/tiao-zhi-hua">초지화苕之華</a>〉 
+등 여러 시에서 다양한 꽃이 등장합니다. 
+그런데도 매화는 없었습니다. 
+아무래도 고대인들은 매실나무를 보고 꽃보다는 다른 것을 떠올렸던 것 같습니다.</p>
+
+<h4 id="오컬트-상징">오컬트 상징</h4>
+
+<h5 id="️-겨울에-열린-열매-춘추-희공33년">❄️ 겨울에 열린 열매: 《춘추》 희공33년</h5>
+
+<p>매실나무에 매실이 열리는 것은 당연합니다. 
+그런데 이 당연한 자연현상이 역사책에 특별히 기록된 적이 있습니다. 
+공자가 춘추시대 노魯나라의 역사를 편집한 《춘추》에 따르면, 희공 33년(기원전 627년) 겨울 12월 매실나무에 매실이 열렸다고 합니다.
+《춘추》에 대한 주석서로 “춘추3전”이라고 알려진 《좌전》, 《곡량전》, 《공양전》에서 이 일을 어떻게 다루었는지를 살펴보겠습니다.</p>
+
+<p>먼저 《좌전》에서는 《춘추》의 본문을 그대로 옮겼습니다.</p>
+
+<blockquote>
+  <p>12월, […] 자두나무와 <strong>매실나무</strong>가 실實했다. <sup id="fnref:6"><a href="#fn:6" class="footnote" rel="footnote" role="doc-noteref">6</a></sup></p>
+
+  <p><cite>《춘추좌전春秋左傳》 〈<a href="https://ctext.org/chun-qiu-zuo-zhuan/xi-gong-san-shi-san-nian">희공33년僖公三十三年</a>〉</cite></p>
+</blockquote>
+
+<p>《곡량전》에서는 實(실)이라는 한자의 의미를 풀이했습니다.</p>
+
+<blockquote>
+  <p>자두나무와 <strong>매실나무</strong>가 실實했다. ‘실’이라고 말한 것은 말 그대로 열매가 열렸다는 것이다. <sup id="fnref:7"><a href="#fn:7" class="footnote" rel="footnote" role="doc-noteref">7</a></sup></p>
+
+  <p><cite>《춘추곡량전春秋穀梁傳》 〈<a href="https://ctext.org/guliang-zhuan/xi-gong-san-shi-san-nian">희공33년僖公三十三年</a>〉</cite></p>
+</blockquote>
+
+<p>《공양전》에서는 더 나아가서 이 일이 《춘추》에 왜 기록되었는지를 설명했습니다.</p>
+
+<blockquote>
+  <p>자두나무와 <strong>매실나무</strong>가 실實했다. 왜 이것을 글로 남겼는가? 이변을 기록한 것이다. 왜 이것을 이변으로 여겼는가? 때에 어긋난 것이다. <sup id="fnref:8"><a href="#fn:8" class="footnote" rel="footnote" role="doc-noteref">8</a></sup></p>
+
+  <p><cite>《춘추공양전春秋公羊傳》 〈<a href="https://ctext.org/gongyang-zhuan/xi-gong-san-shi-san-nian">희공33년僖公三十三年</a>〉</cite></p>
+</blockquote>
+
+<p>12월에 자두와 매실이 열린 것은 단순한 해프닝에 그치지 않았습니다. 
+이 일은 500여 년이 지난 뒤 한나라 유교맨들에게도 관심을 끌었습니다. 
+동중서를 비롯한 한나라 유교맨들은 하늘과 인간이 서로 감응한다고 주장했고, 이들은 제철이 아닐 때 열매가 열린 것이 하늘이 인간에게 보내는 이변의 신호라고 믿었습니다. 
+그래서 이 사건에 관한 해석이 《한서》 〈오행지〉에서 한 문단을 차지하고 있을 정도입니다. 
+재미있는 사실은 전한시대 말기의 재이災異 전문가 유향이 꽃과 열매의 중요성에 차등을 두었다는 것입니다.</p>
+
+<blockquote>
+  <p>꽃이 먼저 피고 열매가 나중에 열리는데도 꽃을 글로 남기지 않은 것은 중요한 쪽을 거론한 것이다.<sup id="fnref:9"><a href="#fn:9" class="footnote" rel="footnote" role="doc-noteref">9</a></sup></p>
+
+  <p><cite>
+《한서漢書》 〈<a href="https://ctext.org/han-shu/wu-xing-zhi-zhong-zhi-xia">오행지五行志 중지하中之下</a>〉
+</cite></p>
+</blockquote>
+
+<p>즉, 유향은 매실나무에 꽃이 핀 것보다 열매가 열린 것을 더 중대한 이변으로 여긴 것입니다. 
+이렇게 매화꽃은 제때에 피든 엉뚱한 시기에 피든 좀처럼 식자들의 관심을 받지 못했습니다.</p>
+
+<h3 id="한나라의-매梅">한나라의 매梅</h3>
+
+<p>앞서 살펴본 《시경》과 《춘추》는 한나라 사람들에게도 이미 수백 년 된 고전이었습니다. 
+한나라 사람들이 쓴 책은 어떨까요? 
+매梅가 좀 더 많이 나올까요?</p>
+
+<p>한나라 문헌에서 梅(매)가 식물 실물을 가리키는 경우를 살펴보면, 진나라 이전과 비교해서 두 가지 특징을 찾을 수 있습니다. 
+첫 번째는 매실이 나무에 열려 있는 데 그치지 않고 인간이 먹을 수 있는 식품으로 인식된다는 것입니다. 
+두 번째는 점괘에서 매실나무와 매실이 상징적 소재로 쓰인다는 것입니다.</p>
+
+<h4 id="식품">식품</h4>
+
+<h5 id="-다양한-용도의-식재료-예기">🍒 다양한 용도의 식재료: 《예기》</h5>
+
+<p>매실이 한나라 이전에도 중요한 식품이기는 했습니다. 
+《춘추》보다도 오래된 《상서(서경)》의 〈<a href="https://ctext.org/shang-shu/charge-to-yue-iii">열명하說命下</a>〉에서 이미 맛있는 국을 끓이려면 소금과 매실로 간을 해야 한다[若作和羹，爾惟鹽梅]고 했고, 《<a href="https://ctext.org/yanzi-chun-qiu/jing-gong-wei-liang-qiu-ju">안자춘추</a>》에도 비슷한 말이 나왔습니다. 
+고대 중국에서 매실은 식초가 보급되기 전 신맛을 내는 조미료로 쓰였던 것 같습니다. 
+하지만 책 속에서 이런 용례는 모두 조화의 미덕을 강조하기 위한 비유였지, 진짜로 음식을 만들거나 먹는 상황을 가리키는 것이 아니었습니다.</p>
+
+<p>전한시대 중반에 편집된 《예기》 〈<a href="https://ctext.org/liji/nei-ze">내칙內則</a>〉은 이 점에서 이전 시기 문헌과 완전히 다른 양상을 보여줍니다. 
+〈내칙〉 한 편에서만 해도 매梅라는 글자가 세 번 나오는데, 3회가 각기 다른 세 종류의 음식을 가리킵니다.</p>
+
+<ol>
+  <li>도저桃諸와 매저梅諸: 가공식품</li>
+  <li>복숭아[桃], 자두[李], 매실[梅] 살구[杏]: 과일</li>
+  <li>들짐승 고기에는 매실즙을 쓴다[獸用梅]: 양념</li>
+</ol>
+
+<p>이 덕분에 우리는 한나라 사람들이 매실을 어떻게 섭취했는지를 구체적으로 알 수 있게 되었습니다.</p>
+
+<h5 id="-황실의-과일-서경잡기">👑 황실의 과일: 《서경잡기》</h5>
+
+<p>더 나아가서 황제는 매실을 품종별로 골라 먹는 사치까지 누릴 수 있었습니다. 
+《<a href="https://ctext.org/xijing-zaji/1">서경잡기</a>》에서는 황제의 동산 상림원上林苑에 심은 갖가지 과일나무의 목록을 소개했는데, 그중에서 7종이 매실나무였습니다.</p>
+
+<ul>
+  <li>매실나무 일곱: 주매朱梅, 자엽매紫葉梅, 자화매紫華梅, 동심매同心梅, 여지매麗枝梅, 연매燕梅, 후매猴梅.</li>
+</ul>
+
+<p>《서경잡기》에 따르면 여기 열거된 매실 중 동심매同心梅는 성제의 후궁 조합덕이 언니 조비연의 황후 책봉을 축하하기 위해 보내는 예물이기도 했습니다. 
+매실나무를 잎 색깔(자엽매), 꽃 색깔(자화매), 가지 모양(동심매, 여지매) 등으로 구별한 것을 보면 황제는 매실을 먹는 것뿐만 아니라 나무를 감상하는 것도 즐겼나 봅니다.</p>
+
+<h5 id="-약재-상한론-금궤요략">💊 약재: 《상한론》, 《금궤요략》</h5>
+
+<p>한편 한나라 사람들은 매실을 약으로도 활용했습니다. 
+후한시대 의학서인 《<a href="https://ctext.org/shang-han-lun/bian-jue-yin-bing-mai-zheng">상한론</a>》과 《<a href="https://ctext.org/jinkui-yaolue/19">금궤요략</a>》에는 환자가 회충으로 인해 회궐蚘厥이라는 병에 걸린 경우 오매烏梅를 복용하라는 처방이 나옵니다. 
+여기에서 ‘오매’는 ‘검은 매실’이라는 뜻으로, 매실을 연기에 쬐어 말린 약재입니다.
+이렇게 한나라 서적에서 매실은 식품, 사치품, 의약품 등 구체적인 사물로 나타납니다.</p>
+
+<h4 id="오컬트">오컬트</h4>
+
+<h5 id="-시적인-점괘-초씨역림">🔮 시적인 점괘: 《초씨역림》</h5>
+
+<p>매실 먹기를 좋아한 한나라 사람들은 점을 치는 것도 좋아했습니다. 
+고대 중국의 점술서로는 《주역(역경)》이 유명한데, 《주역》에서 사용하는 점술 기호는 아래 표와 같이 8개의 괘卦로 이루어져 있습니다. 
+대한민국 국기인 태극기에도 일부가 나옵니다.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">이진수</th>
+      <th style="text-align: center">괘상</th>
+      <th style="text-align: center">명칭</th>
+      <th style="text-align: center">상징</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">7=111</td>
+      <td style="text-align: center">☰</td>
+      <td style="text-align: center">건乾</td>
+      <td style="text-align: center">하늘</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">6=110</td>
+      <td style="text-align: center">☱</td>
+      <td style="text-align: center">태兌</td>
+      <td style="text-align: center">못</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">5=101</td>
+      <td style="text-align: center">☲</td>
+      <td style="text-align: center">리離</td>
+      <td style="text-align: center">불</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">4=100</td>
+      <td style="text-align: center">☳</td>
+      <td style="text-align: center">진震</td>
+      <td style="text-align: center">번개</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">3=011</td>
+      <td style="text-align: center">☴</td>
+      <td style="text-align: center">손巽</td>
+      <td style="text-align: center">바람</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2=010</td>
+      <td style="text-align: center">☵</td>
+      <td style="text-align: center">감坎</td>
+      <td style="text-align: center">물</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1=001</td>
+      <td style="text-align: center">☶</td>
+      <td style="text-align: center">간艮</td>
+      <td style="text-align: center">산</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">0=000</td>
+      <td style="text-align: center">☷</td>
+      <td style="text-align: center">곤坤</td>
+      <td style="text-align: center">땅</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>8괘 두 개를 위아래로 조합하면 64괘가 됩니다(8×8=64). 
+그리고 이 64괘의 앞뒤 변화를 통해 모두 4096가지의 경우의 수가 나옵니다(64×64=4096). 
+전한시대 중반의 유학자 초연수는 《<a href="https://ctext.org/jiaoshi-yilin">초씨역림</a>》이라는 책에서 주역점으로 나올 수 있는 4096가지 결과를 일일이 설명했습니다. 
+이때 먼저 시적인 비유를 사용한 뒤 의미를 풀이하는 것이 《초씨역림》의 패턴입니다. 
+바로 이 패턴에서 梅(매)가 반복해서 등장합니다. 
+크게 세 가지 유형이 있습니다.</p>
+
+<ol>
+  <li><strong>매실나무</strong>와 오얏나무가 겨울에 열매를 맺는도다. 나라에 도적이 많다. [梅李冬實，國多寇賊。]</li>
+  <li><strong>매실나무</strong>가 뒤엉켜 가지가 꺾이는도다. 어머니와 이별하고 소식이 끊어져 알 길이 없다. [蟠梅折枝，與母別離，絕不相知。]</li>
+  <li><strong>매실</strong>이 우박에 맞아 꼭지까지 떨어지는도다. 마음이 뒤숭숭하고 정신이 어지럽다. [雹梅零蔕，心思憒憒，亂我靈氣。]</li>
+</ol>
+
+<p>매실나무나 매실이 들어간 점괘는 왠지 모르게 모두 부정적입니다. 
+한나라 사람들은 매실나무 가지가 꺾이고 매실 열매가 떨어지는 것을 매우 안타까운 일로 여겼던 것 같습니다. 😢</p>
+
+<h3 id="결론과-광고">결론과 광고</h3>
+
+<p>지금까지 한나라 및 이전의 문헌에서 梅(매)가 어떻게 쓰였는지 알아보았습니다. 
+고유명사와 의태어를 제외하고 식물 자체를 가리키는 용례를 살펴보았을 때, 나무와 열매에 대한 언급은 있었지만 꽃은 거의 주목받지 못했습니다. 
+현대인인 우리는 매화를 “동양풍”에서 매우 중요한 소재로 여기지만, 적어도 한나라에서 책을 읽고 쓰는 사람들은 매화에 관해 기록할 가치를 크게 느끼지 못했던 것 같습니다.</p>
+
+<p>그렇다면 동아시아에서 매화는 도대체 언제, 어디서부터 문화인들의 사랑을 받게 되었을까요? 
+힌트는 오吳나라와 남조입니다. 
+자세한 내용은 다음 포스트에서 본격적으로 다루도록 하겠습니다.</p>
+
+<p>양력 2월에서 3월로 넘어가는 지금, 매화가 피는 시기가 다가오고 있습니다. 
+비록 고대 중국인들은 매화에 관심이 덜했지만, 중세 이후의 중국에서, 또 한국에서 매화를 어떻게 즐겼는지 궁금하지 않으신가요? 
+이 의문에 답하기 위해 아雅가 “매화사보: 소매 끝에서 풍기는 매화의 냉향”이라는 텀블벅 프로젝트를 준비하고 있습니다. 
+2026년 2월 28일 현재 공개신청 중에 있으니 아래 링크에서 자세한 내용을 확인해 보세요!</p>
+
+<p>🌼 텀블벅 프로젝트 링크: <a href="https://tumblbug.com/four-treasures-of-plum">https://tumblbug.com/four-treasures-of-plum</a></p>
+
+<hr />
+
+<h3 id="원문">원문</h3>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p>終南何有、有條有梅。 <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>墓門有梅、有鴞萃止。 <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>鳲鳩在桑、其子在梅。 <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:4">
+      <p>山有嘉卉、侯栗侯梅。 <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:5">
+      <p>摽有梅、其實七兮。 <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:6">
+      <p>十有二月，[…]李梅實。 <a href="#fnref:6" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:7">
+      <p>李梅實。實之為言，猶實也。 <a href="#fnref:7" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:8">
+      <p>隕霜不殺草，李、梅實。何以書？記異也。何異爾？不時也。 <a href="#fnref:8" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:9">
+      <p>先華而後實，不書華，舉重者也。 <a href="#fnref:9" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>zya</name></author><category term="한나라 설정집" /><category term="정보" /><category term="매화" /><category term="매실" /><category term="매화나무" /><category term="매실나무" /><category term="사군자" /><category term="시경" /><category term="소남" /><category term="표유매" /><category term="춘추" /><category term="희공33년" /><category term="좌전" /><category term="곡량전" /><category term="공양전" /><category term="한서" /><category term="오행지" /><category term="유향" /><category term="서경잡기" /><category term="조비연" /><category term="조합덕" /><category term="상한론" /><category term="금궤요략" /><category term="오매" /><category term="초씨역림" /><category term="주역" /><summary type="html"><![CDATA[사군자의 매梅는 원래부터 꽃이었을까요? 《시경》부터 《한서》까지, 고대 문헌 속 梅의 용례를 추적하면 의외의 답이 나옵니다.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://zyahan.blog/assets/images/cards/white-plum-blossoms.jpeg" /><media:content medium="image" url="https://zyahan.blog/assets/images/cards/white-plum-blossoms.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ko"><title type="html">체장부인(體長婦人)의 뒷이야기</title><link href="https://zyahan.blog/yuan-shao-raised-up-by-women/" rel="alternate" type="text/html" title="체장부인(體長婦人)의 뒷이야기" /><published>2026-01-03T12:42:00+09:00</published><updated>2026-01-03T12:42:00+09:00</updated><id>https://zyahan.blog/yuan-shao-raised-up-by-women</id><content type="html" xml:base="https://zyahan.blog/yuan-shao-raised-up-by-women/"><![CDATA[<p>이 블로그에서는 예전에 〈<a href="/yuan-shao-as-a-lady/">체장부인의 수수께끼</a>〉라는 글을 통해 《삼국지》 주석에 나오는 체장부인體長婦人이라는 문구를 발견하고 해석을 고민한 적이 있습니다. 
 이번 글에서는 《삼국지》와 《진서陳書》에서 근거를 확충하고 ‘체장부인’에 대한 결론을 내리고자 합니다.</p>
 
 <p>우선 ‘체장부인’이 나온 문장을 다시 한번 살펴봅시다.</p>
@@ -1896,60 +2261,4 @@ DOI: <a href="https://doi.org/10.35374/dyha.42.42.201510.006">10.35374/dyha.42.4
       <p>顧頡剛領銜點校本 1959年中華書局出版, 《武英殿二十四史》本. <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>zya</name></author><category term="잡담" /><category term="정보" /><category term="정사" /><category term="포도" /><category term="蒲陶" /><category term="蒲陶" /><category term="葡萄" /><category term="한자" /><category term="역사언어학" /><category term="사기" /><category term="한서" /><category term="후한서" /><category term="삼국지" /><category term="예문유취" /><category term="태평어람" /><category term="고려사" /><category term="조선왕조실록" /><category term="서유기" /><category term="금병매" /><category term="홍루몽" /><summary type="html"><![CDATA[이제는 널리 알려진 사실이지만, 한국어 ‘포도’는 고유어가 아니라 한자어입니다. 그리고 그 한자는 葡(포도 포)와 萄(포도 도)입니다. 이 두 한자는 오직 포도를 나타내는 데만 쓰입니다. 포도 전용 한자는 대체 어쩌다가 생겨난 것일까요? 포도가 처음부터 포도 전용 한자인 葡와 萄로 시작한 것은 아닙니다. 고전 한문 자료에서 찾을 수 있는 포도의 한자 표기로는 최소한 네 가지 버전이 있습니다.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://zyahan.blog/assets/images/cards/putao-podo.jpg" /><media:content medium="image" url="https://zyahan.blog/assets/images/cards/putao-podo.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ko"><title type="html">정사(正史), 삼국지, 대정사시대</title><link href="https://zyahan.blog/zhengshi/" rel="alternate" type="text/html" title="정사(正史), 삼국지, 대정사시대" /><published>2025-05-08T09:00:00+09:00</published><updated>2025-05-08T09:00:00+09:00</updated><id>https://zyahan.blog/zhengshi</id><content type="html" xml:base="https://zyahan.blog/zhengshi/"><![CDATA[<p>한국어 사용자가 삼국지 이야기에 관심을 가지고 즐겨 보려고 하면 절대로 피할 수 없는 두 글자가 있으니 바로 ‘정사’입니다.
-삼국지 팬덤 용어로 정사란 대체로 서진 사람 진수가 지은 역사책 《삼국지》를 가리키는데, ‘정사 삼국지’보다 그냥 ‘정사’가 더 활발히 쓰이고 있으니 마치 진수가 《정사》라는 책을 쓴 듯합니다.</p>
-
-<p>삼국지 팬덤에서 정사正史는 ‘정사 삼국지’의 단순한 줄임말이 아니라 상당한 가치판단을 담고 있는 표현입니다.
-특히 한자로 ‘바를 정正’을 써서인지 ‘올바른 역사’ 비슷한 의미로 통하는 경우가 많습니다.
-무엇보다 연의演義(소설책 《삼국지통속연의》)와 대비되는, ‘조작되지 않은 순수한 진실’이라는 뜻을 담고 있는 것 같습니다.
-그러다 보니 “구라”에 불과한 연의를 버리고 억지로라도 정사를 읽어야 한다는 인식도 퍼져 있습니다. 😭</p>
-
-<blockquote class="twitter-tweet"><p lang="ko" dir="ltr">“정사 삼국지 노잼에 그게뭔데 얘가 누군데의 연속인데 쭉 읽어야하나 연의로 가기엔 연의는 구라래서 꺼려짐” 😭 여러 모로 슬픔…</p>&mdash; 쉭릯 (@chiclix) <a href="https://twitter.com/chiclix/status/1647018076930723840?ref_src=twsrc%5Etfw">April 14, 2023</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>심지어 연의를 비롯한 소설이 “왜곡”과 “선동”이라고 믿는 사람도 존재합니다. 😵</p>
-
-<blockquote class="twitter-tweet"><p lang="ko" dir="ltr">역사를 있는그대로 직시 못하고 왜곡 하는순간 소설이 되죠.<br />그리고 소설은 대중 선동하기 쉽고요<br />중국 삼국정사 보단 삼국연의 선동이 딱 그런 케이스죠</p>&mdash; 블루팬서 (@beullupaenseo) <a href="https://twitter.com/beullupaenseo/status/1825104394033172536?ref_src=twsrc%5Etfw">August 18, 2024</a></blockquote>
-
-<p>왠지 모르게 (특히 역사를 좋아한다고 자부하는 경우) 자기가 소설을 안 읽는다는 (그래서 선동에 넘어가지 않는다는) 것을 자랑거리로 삼는 이들이 있는데요, 참고로 <a href="https://doi.org/10.1075/ssol.20014.hol">소설을 읽는 사람이야말로 비판적 사고를 가능하게 하는 추론에 더 강하다는 연구 결과</a>가 2021년에 발표된 바 있습니다.</p>
-
-<p>아무튼 정사는 정말로 ‘올바른 역사’일까요?
-‘정사’의 올바른 역사는 대체 무엇일까요?</p>
-
-<p>정사라는 용어는 수나라의 도서 목록을 담은 《수서》 〈경적지〉에서 비롯했습니다.
-사史라는 대분류 아래에 정사正史, 고사古史, 잡사雜史, 패사霸史 등의 소분류를 둔 것입니다.</p>
-
-<p>《수서》 〈경적지〉에서 소개하는 정사의 유래를 살펴보면 진수의 《삼국지》가 나옵니다.
-《삼국지》는 황제의 〈기紀〉와 신하의 〈전傳〉으로 이루어진 기전체 역사서였습니다.</p>
-
-<blockquote>
-  <p>진나라 때 파서 사람 진수가 세 나라의 사적을 편집했다. 위魏 황제만 기紀로 만들고, 위나라 공신들과 오吳·촉蜀 군주는 모두 전傳으로 만들었다. 나라마다 인물을 유형별로 모아서 제목을 《삼국지》라고 지었다.<br />
-<span class="hanja">[晉時，巴西陳壽刪集三國之事，唯魏帝為紀，其功臣及吳、蜀之主，並皆為傳，仍各依其國，部類相從，謂之三國志。]</span></p>
-
-  <p>진수가 죽은 뒤 양주 대중정 범영이 그의 작업을 황제에게 보고했다. 황제는 하남윤과 낙양령에게 조서를 내려 진수의 집에 가서 《삼국지》를 필사해 오게 했다.<br />
-<span class="hanja">[壽卒後，梁州大中正范穎表奏其事，帝詔河南尹、洛陽令，就壽家寫之。]</span></p>
-</blockquote>
-
-<p>황제의 명령으로 진수의 《삼국지》가 빛을 보자, 사람들이 앞다투어 ‘정사’를 쓰게 되었습니다.</p>
-
-<blockquote>
-  <p>이로부터 세간의 저술은 모두 반마班馬—반고의 《한서》와 사마천의 《사기》—를 본받으며 <span class="hanja-word" data-hanja="正史"><span class="topic">정사</span></span>라고 했고 글을 짓는 자가 아주 많았다. 왕조 하나의 역사가 수십 가지 버전으로 나올 정도였다.<br />
-<span class="hanja">[自是世有著述，皆擬班、馬，以為正史 ，作者尤廣。一代之史，至數十家。]</span></p>
-</blockquote>
-
-<p>그야말로 ‘대정사시대’라고 불러도 되겠습니다.</p>
-
-<p>위의 인용문을 다시 읽어 보면, 정사의 요건은 바로 《한서》와 《사기》를 본받는 것이었음을 알 수 있습니다.
-진수가 《삼국지》를 기전체로 쓴 것도 《한서》와 《사기》를 본받았기 때문입니다.
-《수서》 〈경적지〉에서는 《사기》와 《한서》를 본받은 기전체 역사서를 정사正史, 《춘추》를 본받은 편년체 역사서를 고사古史로 분류했고, 정사와 고사의 우열을 따지지 않았습니다.</p>
-
-<p>이런 맥락을 고려할 때, 진수의 《삼국지》가 ‘올바른 역사’로서 우월한 지위를 독점했다고 보기는 어렵습니다.
-오히려 진수는 《삼국지》를 통해 동시대 사람들에게 “야, 너두 정사 쓸 수 있어.” 하는 깨달음을 주었으며, 남북조시대에 기전체 저술 붐을 일으킨 선구자가 된 것입니다.
-《후한서》도 이 유행에 편승해서 여러 종 나왔고, 그중 마지막까지 살아남은 것은 남조 송나라 사람 범엽의 책입니다.
-범엽의 《후한서》는 심지어 후한시대 정부에서 직접 편찬한 역사책인 《동관한기》를 제치고 《사기》 및 《한서》와 나란히 ‘3사史’의 반열에 오를 정도로 권위를 얻었습니다.</p>
-
-<p>정사의 범위는 이후 시간이 지나면서 바뀌고, 《삼국지》와 《후한서》 이후의 시대를 기록한 《진서》부터는 국가에서 공식적으로 이전 왕조의 역사책을 편찬하게 됩니다.
-하지만 적어도 정사의 출발점에 있어서는, 세상에 없었던 새로운 역사책 《사기》와 당시의 유일한 기전체 단대사였던 《한서》의 독보적인 위치에 압도되지 않고 이들의 체계를 새로운 세 나라의 역사 서술에 적용한 일개인 진수의 《삼국지》가 중요한 역할을 맡았습니다.
-역사책으로서 《삼국지》가 《사기》와 《한서》만한 대작에는 못 미친다고 볼 수도 있습니다.
-그렇다고 하더라도 《삼국지》의 완성은 당시 사람들에게 기전체가 먼 옛날뿐만 아니라 지금 이 시대를 서술하는 데 활용될 수 있다는 증거가 되었습니다.
-이를 계기로 위진남북조시대의 개인들이 너도나도 기전체 역사서를 써 보며 축적된 ‘사찬사서’의 경험이 충분히 쌓여서 이후 당나라 때부터 국가에서 편찬하게 되는 ‘관찬사서’의 토양이 되었을지도 모릅니다.</p>]]></content><author><name>zya</name></author><category term="잡담" /><category term="정보" /><category term="정사" /><category term="사기" /><category term="한서" /><category term="삼국지" /><category term="후한서" /><category term="수서" /><category term="진수" /><category term="기전체" /><category term="사마천" /><category term="반고" /><category term="반마" /><summary type="html"><![CDATA[정사는 정말로 ‘올바른 역사’일까요? ‘정사’의 올바른 역사는 대체 무엇일까요? 정사라는 용어는 수나라의 도서 목록을 담은 《수서》 〈경적지〉에서 비롯했습니다. 사史라는 대분류 아래에 정사正史, 고사古史, 잡사雜史, 패사霸史 등의 소분류를 둔 것입니다. 《수서》 〈경적지〉에서 소개하는 정사의 유래를 살펴보면 진수의 《삼국지》가 나옵니다.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://zyahan.blog/assets/images/cards/bamboo-slips.jpg" /><media:content medium="image" url="https://zyahan.blog/assets/images/cards/bamboo-slips.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+</div>]]></content><author><name>zya</name></author><category term="잡담" /><category term="정보" /><category term="정사" /><category term="포도" /><category term="蒲陶" /><category term="蒲陶" /><category term="葡萄" /><category term="한자" /><category term="역사언어학" /><category term="사기" /><category term="한서" /><category term="후한서" /><category term="삼국지" /><category term="예문유취" /><category term="태평어람" /><category term="고려사" /><category term="조선왕조실록" /><category term="서유기" /><category term="금병매" /><category term="홍루몽" /><summary type="html"><![CDATA[이제는 널리 알려진 사실이지만, 한국어 ‘포도’는 고유어가 아니라 한자어입니다. 그리고 그 한자는 葡(포도 포)와 萄(포도 도)입니다. 이 두 한자는 오직 포도를 나타내는 데만 쓰입니다. 포도 전용 한자는 대체 어쩌다가 생겨난 것일까요? 포도가 처음부터 포도 전용 한자인 葡와 萄로 시작한 것은 아닙니다. 고전 한문 자료에서 찾을 수 있는 포도의 한자 표기로는 최소한 네 가지 버전이 있습니다.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://zyahan.blog/assets/images/cards/putao-podo.jpg" /><media:content medium="image" url="https://zyahan.blog/assets/images/cards/putao-podo.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
