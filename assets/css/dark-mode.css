@@ -1,0 +1,823 @@
+/*
+ * Dark Mode for zyahan.blog
+ * 기존 CSS를 건드리지 않고 [data-theme="dark"] 선택자로 오버라이드
+ */
+
+/* ============================================
+   1. CSS 변수 정의
+   ============================================ */
+:root {
+  --bg-primary: #fff;
+  --bg-secondary: #fafafa;
+  --bg-card: #fff;
+  --bg-nav: rgba(255, 255, 255, .97);
+  --bg-code: #fff;
+  --bg-blockquote: #fafafa;
+  --bg-tag: rgba(0, 0, 0, .05);
+  --bg-tag-hover: rgba(0, 0, 0, .07);
+  --bg-input: #fff;
+
+  --text-primary: rgba(0, 0, 0, .8);
+  --text-secondary: rgba(0, 0, 0, .66);
+  --text-muted: rgba(0, 0, 0, .5);
+  --text-heading: #333;
+  --text-link: #00ab6b;
+  --text-link-hover: #038252;
+  --text-blockquote: rgba(0, 0, 0, .88);
+  --text-cite: rgba(0, 0, 0, .66);
+
+  --border-light: rgba(0, 0, 0, .125);
+  --border-medium: #ddd;
+  --border-code: #E3EDF3;
+  --border-table: rgba(0, 0, 0, .15);
+  --border-table-head: #333;
+
+  --shadow-nav: 0 2px 2px -2px rgba(0, 0, 0, .15);
+  --shadow-card: 0 1px 7px rgba(0, 0, 0, .05);
+
+  --accent-green: #00ab6b;
+  --accent-green-hover: #00c583;
+  --highlight-link-bg: lemonchiffon;
+
+  --bg-jumbotron-overlay: rgba(0, 0, 0, 0.75);
+  --bg-search-container: white;
+  --bg-pagination-hover: #f0f0f0;
+
+  --person-color: crimson;
+  --spoiler-bg: #222;
+}
+
+[data-theme="dark"] {
+  --bg-primary: #1a1a2e;
+  --bg-secondary: #16213e;
+  --bg-card: #1f2940;
+  --bg-nav: rgba(26, 26, 46, .97);
+  --bg-code: #0f1626;
+  --bg-blockquote: #16213e;
+  --bg-tag: rgba(255, 255, 255, .08);
+  --bg-tag-hover: rgba(255, 255, 255, .12);
+  --bg-input: #1f2940;
+
+  --text-primary: rgba(230, 230, 240, .9);
+  --text-secondary: rgba(200, 200, 215, .7);
+  --text-muted: rgba(180, 180, 200, .5);
+  --text-heading: #e0e0ec;
+  --text-link: #2fc98b;          /* #00ab6b 밝기 올림 — 다크 배경 위 텍스트 가독성 확보 */
+  --text-link-hover: #5ddba8;
+  --text-blockquote: rgba(220, 220, 235, .88);
+  --text-cite: rgba(180, 180, 200, .7);
+
+  --border-light: rgba(255, 255, 255, .1);
+  --border-medium: rgba(255, 255, 255, .15);
+  --border-code: rgba(255, 255, 255, .1);
+  --border-table: rgba(255, 255, 255, .1);
+  --border-table-head: rgba(255, 255, 255, .3);
+
+  --shadow-nav: 0 2px 8px rgba(0, 0, 0, .4);
+  --shadow-card: 0 2px 10px rgba(0, 0, 0, .3);
+
+  --accent-green: #00ab6b;       /* 원래 브랜드 초록 유지 */
+  --accent-green-hover: #00c583;
+  --highlight-link-bg: rgba(0, 171, 107, .15);
+
+  --bg-jumbotron-overlay: rgba(26, 26, 46, 0.85);
+  --bg-search-container: #1a1a2e;
+  --bg-pagination-hover: rgba(255, 255, 255, .08);
+
+  --person-color: #ff6b6b;
+  --spoiler-bg: #0f1626;
+}
+
+
+/* ============================================
+   2. 기본 배경·텍스트
+   ============================================ */
+[data-theme="dark"] body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .site-content {
+  background-color: var(--bg-primary);
+}
+
+/* ============================================
+   3. 네비게이션 (헤더)
+   ============================================ */
+[data-theme="dark"] .mediumnavigation {
+  background: var(--bg-nav);
+  box-shadow: var(--shadow-nav);
+}
+
+[data-theme="dark"] .mediumnavigation .nav-link {
+  color: var(--text-secondary) !important;
+}
+
+[data-theme="dark"] .mediumnavigation .nav-link:hover {
+  color: var(--text-primary) !important;
+}
+
+[data-theme="dark"] .navbar-brand img {
+  filter: brightness(1.2);
+}
+
+/* 모바일 검색 버튼 */
+[data-theme="dark"] .search-toggle {
+  color: var(--text-secondary) !important;
+}
+
+[data-theme="dark"] .search-toggle svg,
+[data-theme="dark"] .search-toggle i {
+  fill: var(--text-secondary) !important;
+  stroke: var(--text-secondary) !important;
+  color: var(--text-secondary) !important;
+}
+
+/* 언어 선택 */
+[data-theme="dark"] .language-switcher .lang-link {
+  color: var(--text-muted);
+}
+
+[data-theme="dark"] .language-switcher .lang-link:hover {
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .language-switcher .lang-link.active {
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .language-switcher .lang-separator {
+  color: var(--text-muted);
+}
+
+[data-theme="dark"] .language-switcher .fa-globe {
+  color: var(--text-muted) !important;
+}
+
+/* ============================================
+   4. 사이트 제목 영역
+   ============================================ */
+[data-theme="dark"] .mainheading a.sitetitle {
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .mainheading p.lead {
+  color: var(--text-secondary);
+}
+
+[data-theme="dark"] .mainheading h1.posttitle {
+  color: var(--text-heading);
+}
+
+[data-theme="dark"] .mainheading h2.post-subtitle {
+  color: var(--text-secondary);
+}
+
+/* ============================================
+   5. 본문 (article-post)
+   ============================================ */
+[data-theme="dark"] .article-post {
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .article-post h1,
+[data-theme="dark"] .article-post h2,
+[data-theme="dark"] .article-post h3,
+[data-theme="dark"] .article-post h4,
+[data-theme="dark"] .article-post h5,
+[data-theme="dark"] .article-post h6 {
+  color: var(--text-heading);
+}
+
+/* 본문 링크 */
+[data-theme="dark"] .article-post a,
+[data-theme="dark"] .translation-note a {
+  color: var(--text-link);
+  background-color: var(--highlight-link-bg);
+  text-decoration-color: var(--border-medium);
+}
+
+/* TOC 링크 */
+[data-theme="dark"] .toc a {
+  background-color: transparent;
+  color: var(--text-link);
+}
+
+/* 인물명 */
+[data-theme="dark"] .person {
+  color: var(--person-color);
+}
+
+/* ============================================
+   6. 블록요소: blockquote, pre, code, table
+   ============================================ */
+[data-theme="dark"] blockquote {
+  background-color: var(--bg-blockquote);
+  color: var(--text-blockquote);
+}
+
+[data-theme="dark"] blockquote cite {
+  color: var(--text-cite);
+}
+
+[data-theme="dark"] blockquote::before {
+  color: var(--accent-green);
+}
+
+[data-theme="dark"] blockquote::after {
+  color: var(--accent-green);
+}
+
+[data-theme="dark"] pre {
+  background: var(--bg-code);
+  border-color: var(--border-code);
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] code {
+  color: var(--text-link);
+  background-color: var(--bg-tag);
+}
+
+/* pre 안의 code는 배경 제거 */
+[data-theme="dark"] pre code {
+  background-color: transparent;
+}
+
+[data-theme="dark"] table thead {
+  background: rgba(255, 255, 255, .05);
+}
+
+[data-theme="dark"] table thead th {
+  border-bottom-color: var(--border-table-head);
+  color: var(--text-heading);
+}
+
+[data-theme="dark"] table tbody tr {
+  border-bottom-color: var(--border-table);
+}
+
+[data-theme="dark"] th,
+[data-theme="dark"] td {
+  color: var(--text-primary);
+}
+
+/* ============================================
+   7. 카드 & 포스트 목록
+   ============================================ */
+[data-theme="dark"] .card,
+[data-theme="dark"] .listfeaturedtag,
+[data-theme="dark"] .listrelated .card {
+  background-color: var(--bg-card);
+  border-color: var(--border-light);
+  box-shadow: var(--shadow-card);
+}
+
+[data-theme="dark"] .listfeaturedtag h2.card-title,
+[data-theme="dark"] .listrecent h2.card-title {
+  color: var(--text-heading);
+}
+
+[data-theme="dark"] .listfeaturedtag h2.card-title a,
+[data-theme="dark"] .listrecent h2.card-title a {
+  color: var(--text-heading);
+}
+
+[data-theme="dark"] .listfeaturedtag h3.card-subtitle,
+[data-theme="dark"] .listrecent h3.card-subtitle {
+  color: var(--text-secondary);
+}
+
+[data-theme="dark"] .listfeaturedtag h4.card-text,
+[data-theme="dark"] .listrecent h4.card-text {
+  color: var(--text-secondary);
+}
+
+[data-theme="dark"] .post-title a {
+  color: var(--text-heading) !important;
+}
+
+[data-theme="dark"] .post-subtitle {
+  color: var(--text-secondary) !important;
+}
+
+[data-theme="dark"] .post-excerpt {
+  color: var(--text-secondary) !important;
+}
+
+/* 관련 포스트 카드 */
+[data-theme="dark"] .related-post-card {
+  background: var(--bg-card);
+  border-color: var(--border-light);
+}
+
+[data-theme="dark"] .related-post-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, .4);
+}
+
+[data-theme="dark"] .related-post-title {
+  color: var(--text-heading);
+}
+
+[data-theme="dark"] h4.related-post-subtitle {
+  color: var(--text-secondary);
+}
+
+[data-theme="dark"] .related-post-excerpt {
+  color: var(--text-muted);
+}
+
+/* 카테고리 카드 */
+[data-theme="dark"] .category-card {
+  background-color: var(--bg-card);
+  border-color: var(--border-light);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .2);
+}
+
+[data-theme="dark"] .category-card-text p {
+  color: var(--text-secondary);
+}
+
+[data-theme="dark"] .category-posts a {
+  color: var(--text-heading);
+}
+
+[data-theme="dark"] .category-posts a:hover {
+  color: var(--text-link);
+}
+
+/* ============================================
+   8. 메타 정보 (작성자, 날짜 등)
+   ============================================ */
+[data-theme="dark"] .wrapfooter {
+  color: var(--text-secondary);
+}
+
+[data-theme="dark"] span.post-date,
+[data-theme="dark"] span.post-comments,
+[data-theme="dark"] span.post-read {
+  color: var(--text-secondary) !important;
+}
+
+[data-theme="dark"] span.post-comments a {
+  color: var(--text-secondary) !important;
+}
+
+[data-theme="dark"] span.post-read-more a {
+  color: var(--text-secondary);
+}
+
+[data-theme="dark"] span.post-name a,
+[data-theme="dark"] span.post-read-more a:hover {
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .post-top-meta span {
+  color: var(--text-secondary);
+}
+
+[data-theme="dark"] .post-top-meta .author-description {
+  color: var(--text-muted);
+}
+
+[data-theme="dark"] .post-top-meta .author-text .link-dark {
+  color: var(--text-heading);
+}
+
+[data-theme="dark"] .link-dark {
+  color: var(--text-heading);
+}
+
+/* ============================================
+   9. figcaption, 한자
+   ============================================ */
+[data-theme="dark"] figcaption {
+  color: var(--text-secondary);
+}
+
+[data-theme="dark"] .hanja-text {
+  color: inherit;
+}
+
+/* ============================================
+   10. 링크
+   ============================================ */
+[data-theme="dark"] a {
+  color: var(--text-link);
+}
+
+[data-theme="dark"] a:hover {
+  color: var(--text-link-hover);
+}
+
+/* ============================================
+   11. 태그
+   ============================================ */
+[data-theme="dark"] ul.tags li a {
+  background: var(--bg-tag);
+  color: var(--text-secondary);
+}
+
+[data-theme="dark"] ul.tags li a:hover {
+  background: var(--bg-tag-hover);
+}
+
+/* ============================================
+   12. 구분선, 섹션 제목
+   ============================================ */
+[data-theme="dark"] .section-title h2 {
+  border-bottom-color: var(--border-light);
+  color: var(--text-heading);
+}
+
+[data-theme="dark"] .section-title span {
+  border-bottom-color: var(--text-secondary);
+}
+
+[data-theme="dark"] .sep {
+  background: var(--text-muted);
+}
+
+/* ============================================
+   13. 푸터
+   ============================================ */
+[data-theme="dark"] .footer {
+  background: var(--bg-primary);
+  border-top-color: var(--border-light) !important;
+  color: var(--text-secondary);
+}
+
+[data-theme="dark"] .footer a {
+  color: var(--text-link);
+}
+
+/* ============================================
+   14. 점보트론 (카테고리 영역)
+   ============================================ */
+[data-theme="dark"] .jumbotron.fortags {
+  background-color: var(--bg-secondary);
+}
+
+[data-theme="dark"] .jumbotron.fortags a {
+  background: var(--accent-green);
+  color: #fff;
+}
+
+[data-theme="dark"] .transpdark {
+  background: var(--bg-jumbotron-overlay);
+}
+
+@media (min-width:768px) {
+  [data-theme="dark"] .jumbotron.fortags .col-md-4 {
+    background: var(--bg-jumbotron-overlay);
+  }
+}
+
+/* ============================================
+   15. 페이지네이션
+   ============================================ */
+[data-theme="dark"] .pagination-inline a {
+  color: var(--text-secondary);
+}
+
+[data-theme="dark"] .pagination-inline a:hover {
+  background: var(--bg-pagination-hover);
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .pagination-inline .ellipsis {
+  color: var(--text-muted);
+}
+
+[data-theme="dark"] .bottompagination span.navigation {
+  color: var(--text-muted);
+  border-top-color: var(--border-light);
+}
+
+[data-theme="dark"] .pointerup i.fa {
+  color: var(--border-light);
+}
+
+/* ============================================
+   16. 검색
+   ============================================ */
+[data-theme="dark"] #mobile-search-container {
+  background-color: var(--bg-search-container);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .4);
+}
+
+[data-theme="dark"] .search-wrapper button {
+  background-color: var(--accent-green);
+  color: #fff !important;
+}
+
+[data-theme="dark"] .search-wrapper button:hover {
+  background-color: var(--accent-green-hover);
+  color: #fff !important;
+}
+
+[data-theme="dark"] .mediumnavigation .form-control {
+  background-color: var(--bg-input);
+  border-color: var(--border-light);
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .form-control {
+  background-color: var(--bg-input);
+  border-color: var(--border-light);
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .form-control::placeholder {
+  color: var(--text-muted);
+}
+
+/* 검색 결과 모달 */
+[data-theme="dark"] #lunrsearchresults .modal-content {
+  background-color: var(--bg-primary);
+  border-color: var(--border-light);
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] #lunrsearchresults .modal-header {
+  border-bottom-color: var(--border-light);
+}
+
+[data-theme="dark"] #lunrsearchresults .modal-footer {
+  border-top-color: var(--border-light);
+}
+
+/* ============================================
+   17. 버튼 (텍스트는 반드시 흰색 유지)
+   ============================================ */
+[data-theme="dark"] .buy-button a {
+  background-color: var(--accent-green);
+  color: #fff !important;
+}
+
+[data-theme="dark"] .buy-button a:hover {
+  background-color: var(--accent-green-hover);
+  color: #fff !important;
+}
+
+[data-theme="dark"] .card-button .btn-card {
+  background: var(--accent-green);
+  color: #fff !important;
+}
+
+[data-theme="dark"] .card-button .btn-card:hover {
+  background: var(--accent-green-hover);
+  color: #fff !important;
+}
+
+[data-theme="dark"] .btn.follow {
+  border-color: var(--accent-green);
+  color: var(--accent-green);
+}
+
+[data-theme="dark"] .btn.subscribe {
+  background-color: var(--accent-green);
+  border-color: var(--accent-green);
+  color: #fff !important;
+}
+
+/* 점보트론 카테고리 태그 */
+[data-theme="dark"] .jumbotron.fortags a {
+  background: var(--accent-green);
+  color: #fff !important;
+}
+
+/* 페이지네이션 현재 페이지 */
+[data-theme="dark"] .pagination-inline .current {
+  background-color: var(--accent-green);
+  color: #fff !important;
+}
+
+/* ============================================
+   18. 공유 버튼
+   ============================================ */
+[data-theme="dark"] .share,
+[data-theme="dark"] .share a,
+[data-theme="dark"] .share-category,
+[data-theme="dark"] .share-category a {
+  color: var(--text-secondary);
+  fill: var(--text-secondary);
+}
+
+[data-theme="dark"] .share ul li i.fa {
+  border-color: var(--border-medium);
+}
+
+/* sociallinks (프로필 SNS 아이콘) */
+[data-theme="dark"] .sociallinks a {
+  color: #fff !important;
+}
+
+/* ============================================
+   19. 스포일러
+   ============================================ */
+[data-theme="dark"] .spoiler {
+  text-shadow: 0 0 10px rgba(255, 255, 255, .2);
+}
+
+[data-theme="dark"] .spoiler:after {
+  background: var(--spoiler-bg);
+}
+
+/* ============================================
+   20. Alert bar
+   ============================================ */
+[data-theme="dark"] .alertbar {
+  background-color: var(--bg-card);
+  box-shadow: 0 -3px 10px 0 rgba(0, 0, 0, .3);
+}
+
+[data-theme="dark"] .alertbar input[type="submit"] {
+  background-color: var(--accent-green);
+  border-color: var(--accent-green);
+  color: #fff !important;
+}
+
+/* ============================================
+   21. Lazy images 배경
+   ============================================ */
+[data-theme="dark"] .lazyimg {
+  background: var(--bg-secondary);
+}
+
+/* ============================================
+   22. graybg 섹션
+   ============================================ */
+[data-theme="dark"] .graybg {
+  background-color: var(--bg-secondary);
+}
+
+[data-theme="dark"] .graybg.authorpage {
+  border-top-color: var(--border-light);
+}
+
+/* ============================================
+   23. Bootstrap 오버라이드
+   ============================================ */
+[data-theme="dark"] .bg-white {
+  background-color: var(--bg-nav) !important;
+}
+
+[data-theme="dark"] .card-body {
+  color: var(--text-primary);
+}
+
+/* ============================================
+   24. 이미지 밝기 조절
+   ============================================ */
+[data-theme="dark"] .article-post img:not(.author-thumb) {
+  filter: brightness(.88) contrast(1.05);
+  transition: filter 0.3s ease;
+}
+
+[data-theme="dark"] .article-post img:not(.author-thumb):hover {
+  filter: brightness(1) contrast(1);
+}
+
+/* ============================================
+   25. 다크 모드 토글 버튼
+   ============================================ */
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.2rem;
+  font-size: 0.85rem;
+  line-height: 1;
+  color: #666;
+  transition: color 0.2s ease, transform 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.3rem;
+}
+
+.theme-toggle:hover {
+  color: #333;
+  transform: rotate(15deg);
+}
+
+[data-theme="dark"] .theme-toggle {
+  color: var(--text-secondary);
+}
+
+[data-theme="dark"] .theme-toggle:hover {
+  color: var(--text-primary);
+}
+
+.theme-toggle:focus {
+  outline: none;
+}
+
+/* 모바일 크기 조정 */
+@media (max-width: 575px) {
+  .theme-toggle {
+    font-size: 0.8rem;
+    padding: 0.15rem;
+    margin-left: 0.2rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .theme-toggle {
+    font-size: 0.75rem;
+    margin-left: 0.1rem;
+  }
+}
+
+/* 해/달 아이콘 전환 */
+.theme-toggle .icon-sun,
+.theme-toggle .icon-moon {
+  display: none;
+}
+
+/* 라이트 모드: 달 아이콘 (클릭하면 다크로) */
+.theme-toggle .icon-moon {
+  display: inline;
+}
+
+.theme-toggle .icon-sun {
+  display: none;
+}
+
+[data-theme="dark"] .theme-toggle .icon-moon {
+  display: none;
+}
+
+[data-theme="dark"] .theme-toggle .icon-sun {
+  display: inline;
+}
+
+/* ============================================
+   26. 부드러운 전환 (색상 변경 시 깜빡임 방지)
+   ============================================ */
+html.theme-transition,
+html.theme-transition *,
+html.theme-transition *::before,
+html.theme-transition *::after {
+  transition: background-color 0.3s ease,
+              color 0.3s ease,
+              border-color 0.3s ease,
+              box-shadow 0.3s ease !important;
+  transition-delay: 0s !important;
+}
+
+/* ============================================
+   27. 모바일 보정
+   ============================================ */
+@media (max-width: 480px) {
+  [data-theme="dark"] blockquote {
+    background-color: var(--bg-blockquote);
+    color: var(--text-blockquote);
+  }
+
+  [data-theme="dark"] .post-top-meta .author-text .link-dark {
+    color: var(--text-heading);
+  }
+
+  [data-theme="dark"] .post-top-meta .author-text .author-description {
+    color: var(--text-muted);
+  }
+
+  [data-theme="dark"] .mainheading h2.post-subtitle {
+    color: var(--text-secondary);
+  }
+}
+
+/* ============================================
+   28. 다크 모드 스크롤바
+   ============================================ */
+[data-theme="dark"] ::-webkit-scrollbar {
+  width: 8px;
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, .15);
+  border-radius: 4px;
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, .25);
+}
+
+/* ============================================
+   29. ::selection 텍스트 선택 색상
+   ============================================ */
+[data-theme="dark"] ::selection {
+  background-color: rgba(0, 171, 107, .35);
+  color: #fff;
+}
+
+[data-theme="dark"] ::-moz-selection {
+  background-color: rgba(0, 171, 107, .35);
+  color: #fff;
+}

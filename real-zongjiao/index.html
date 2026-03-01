@@ -4,6 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+<!-- ⬛ 다크 모드: FOUC 방지를 위해 <head>에서 즉시 테마 적용 -->
+<script>
+(function(){var t=localStorage.getItem('zyahan-theme');if(!t){t=(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)?'dark':'light'}if(t==='dark'){document.documentElement.setAttribute('data-theme','dark')}})();
+</script>
+
 
 <title>총각머리의 실제 [🔒 무료 미리보기] | 미남과 오컬트와 자살</title>
 
@@ -72,6 +77,9 @@
 <link href="https://zyahan.blog/assets/css/button.css" rel="stylesheet">
 <link href="https://zyahan.blog/assets/css/main.css" rel="stylesheet">
 
+<!-- ⬛ 다크 모드 CSS -->
+<link href="https://zyahan.blog/assets/css/dark-mode.css" rel="stylesheet">
+
 <script src="https://zyahan.blog/assets/js/jquery.min.js"></script>
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2500321598693721" crossorigin="anonymous"></script>
@@ -99,6 +107,10 @@
 <!-- Begin Menu Navigation
 ================================================== -->
 <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+
+    
+    
+    
 
     <div class="container pr-0">
       <!-- 모바일 헤더 -->
@@ -137,7 +149,7 @@
           </ul>
         </div>
 
-        <!-- 모바일 언어 선택 + 검색 버튼 wrapper -->
+        <!-- 모바일 언어 선택 + 다크모드 + 검색 버튼 wrapper -->
         <div class="d-flex align-items-center ml-auto">
           <!-- 모바일 언어 선택 -->
           <div class="language-switcher">
@@ -149,6 +161,12 @@
             <span class="lang-separator">|</span>
             <a href="/en/" class="lang-link ">English</a>
           </div>
+
+          <!-- 다크 모드 토글 (모바일) -->
+          <button class="theme-toggle" aria-label="다크 모드 전환" title="다크 모드 전환">
+            <i class="fas fa-moon icon-moon"></i>
+            <i class="fas fa-sun icon-sun"></i>
+          </button>
 
           <!-- 검색 버튼 -->
           <button class="search-toggle" onclick="toggleSearchBar()" aria-label="검색 열기">
@@ -198,6 +216,12 @@
           <span class="lang-separator">|</span>
           <a href="/en/" class="lang-link ">English</a>
         </div>
+
+        <!-- 다크 모드 토글 (데스크톱) -->
+        <button class="theme-toggle ml-2" aria-label="다크 모드 전환" title="다크 모드 전환">
+          <i class="fas fa-moon icon-moon"></i>
+          <i class="fas fa-sun icon-sun"></i>
+        </button>
 
         <!-- 데스크톱 검색 -->
         <div class="ml-1">
@@ -284,6 +308,7 @@
 
     </div>
 </nav>
+
 <!-- End Navigation
 ================================================== -->
 
@@ -803,7 +828,8 @@ https://search.google.com/structured-data/testing-tool/u/0/
 <script id="dsq-count-scr" src="https://zya-han.disqus.com/count.js"></script>
 
 
-
+<!-- ⬛ 다크 모드 JS (토글 + OS 설정 감지) -->
+<script src="https://zyahan.blog/assets/js/dark-mode.js"></script>
 
 <!-- 스크립트들 -->
 <script>
