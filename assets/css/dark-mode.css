@@ -581,9 +581,9 @@
   color: #fff !important;
 }
 
-/* 점보트론 카테고리 태그 */
+/* 점보트론 카테고리 태그 — 라이트 모드의 무채색 스타일 유지 */
 [data-theme="dark"] .jumbotron.fortags a {
-  background: var(--accent-green);
+  background: rgba(0, 0, 0, .7);
   color: #fff !important;
 }
 
