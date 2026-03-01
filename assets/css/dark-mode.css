@@ -719,14 +719,14 @@
   .theme-toggle {
     font-size: 0.8rem;
     padding: 0.15rem;
-    margin-left: 0.2rem;
+    margin-left: 0;
   }
 }
 
 @media (max-width: 360px) {
   .theme-toggle {
     font-size: 0.75rem;
-    margin-left: 0.1rem;
+    margin-left: 0;
   }
 }
 
