@@ -607,9 +607,9 @@
 
 <script src="https://zyahan.blog/assets/js/ie10-viewport-bug-workaround.js"></script> 
 
-
-<script id="dsq-count-scr" src="https://zya-han.disqus.com/count.js"></script>
-
+<!-- 
+<script id="dsq-count-scr" src="https://.disqus.com/count.js"></script>
+ -->
 
 <!-- ⬛ 다크 모드 JS (토글 + OS 설정 감지) -->
 <script src="https://zyahan.blog/assets/js/dark-mode.js"></script>
@@ -735,5 +735,23 @@
 <script src="/assets/js/lunrsearchengine.js"></script>
 
 <script src="/assets/js/tabs.js"></script>
+
+
+  
+
+
+<script>
+  var remark_config = {
+    host: "https://comments.zyahan.blog",
+    site_id: "zyahan",
+    components: ["counter"]
+  };
+</script>
+<script>
+  !function(e,n){for(var o=0;o<e.length;o++){var r=n.createElement("script"),c=".js",d=n.head||n.body;"noModule"in r?(r.type="module",c=".mjs"):r.async=!0,r.defer=!0,r.src=remark_config.host+"/web/"+e[o]+c,d.appendChild(r)}}(remark_config.components||["counter"],document);
+</script>
+
+
+
 </body>
 </html>
