@@ -41,6 +41,40 @@ License: https://www.wowthemes.net/freebies-license/
   text-rendering: optimizeLegibility !important;
 }
 
+/* ==========================================================================
+   Remark42 brand color override (zyahan.blog)
+   Default Remark42 teal (#00AAAA) → brand green (#00ab6b)
+   ========================================================================== */
+
+#remark42 {
+  /* 주요 버튼: 로그인, 댓글 작성, 답글 작성 등 */
+  .auth-button,
+  .comment-form__button {
+    background-color: #00ab6b !important;
+    border-color: #00ab6b !important;
+    color: #fff !important;
+  }
+
+  .auth-button:hover,
+  .auth-button:focus,
+  .comment-form__button:hover,
+  .comment-form__button:focus {
+    background-color: #00c583 !important;
+    border-color: #00c583 !important;
+  }
+
+  /* 링크류 */
+  .comment-form__markdown-link,
+  a[class*="__link"] {
+    color: #00ab6b !important;
+  }
+
+  .comment-form__markdown-link:hover,
+  a[class*="__link"]:hover {
+    color: #00c583 !important;
+  }
+}
+
 
 /* 파이썬 코드 */
 .language-python{
