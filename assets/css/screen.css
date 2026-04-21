@@ -44,6 +44,7 @@ License: https://www.wowthemes.net/freebies-license/
 /* ==========================================================================
    Remark42 brand color override (zyahan.blog)
    Default Remark42 teal (#00AAAA) → brand green (#00ab6b)
+   Dark mode aligned with site-wide --text-link / --text-link-hover
    ========================================================================== */
 
 #remark42 {
@@ -59,8 +60,8 @@ License: https://www.wowthemes.net/freebies-license/
   .auth-button:focus,
   .comment-form__button:hover,
   .comment-form__button:focus {
-    background-color: #00c583 !important;
-    border-color: #00c583 !important;
+    background-color: #008a57 !important;
+    border-color: #008a57 !important;
   }
 
   /* 링크류 */
@@ -71,10 +72,37 @@ License: https://www.wowthemes.net/freebies-license/
 
   .comment-form__markdown-link:hover,
   a[class*="__link"]:hover {
-    color: #00c583 !important;
+    color: #008a57 !important;
   }
 }
 
+/* 다크 모드: 사이트 전역 --text-link / --text-link-hover와 동일한 그린 셰이드 */
+html[data-theme="dark"] #remark42 {
+  .auth-button,
+  .comment-form__button {
+    background-color: #2fc98b !important;
+    border-color: #2fc98b !important;
+    color: #fff !important;
+  }
+
+  .auth-button:hover,
+  .auth-button:focus,
+  .comment-form__button:hover,
+  .comment-form__button:focus {
+    background-color: #5ddba8 !important;
+    border-color: #5ddba8 !important;
+  }
+
+  .comment-form__markdown-link,
+  a[class*="__link"] {
+    color: #2fc98b !important;
+  }
+
+  .comment-form__markdown-link:hover,
+  a[class*="__link"]:hover {
+    color: #5ddba8 !important;
+  }
+}
 
 /* 파이썬 코드 */
 .language-python{
