@@ -631,6 +631,43 @@
         <div id="comments" class="row justify-content-center mb-5">
             <div class="col-md-8">
                 
+                    
+                        
+
+<section class="remark42">
+  <div id="remark42"></div>
+
+  <script>
+    var remark_config = {
+      host: "https://comments.zyahan.blog",
+      site_id: "zyahan",
+      url: "https://zyahan.blog/cao-cao-01/",
+      components: ["embed"],
+      locale: "ko",
+      theme: document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light",
+      max_shown_comments: 10
+    };
+
+    // Sync theme with site-wide dark mode toggle
+    new MutationObserver(function () {
+      var theme = document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light";
+      if (window.REMARK42 && window.REMARK42.changeTheme) {
+        window.REMARK42.changeTheme(theme);
+      }
+    }).observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ["data-theme"]
+    });
+  </script>
+
+  <script>
+    !function(e,n){for(var o=0;o<e.length;o++){var r=n.createElement("script"),c=".js",d=n.head||n.body;"noModule"in r?(r.type="module",c=".mjs"):r.async=!0,r.defer=!0,r.src=remark_config.host+"/web/"+e[o]+c,d.appendChild(r)}}(remark_config.components||["embed"],document);
+  </script>
+
+  <noscript>댓글을 보려면 JavaScript를 활성화해 주세요.</noscript>
+</section>
+                    
+                
             </div>
         </div>
     </div>
