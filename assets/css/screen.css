@@ -47,61 +47,21 @@ License: https://www.wowthemes.net/freebies-license/
    Dark mode aligned with site-wide --text-link / --text-link-hover
    ========================================================================== */
 
+/* ==========================================================================
+   Remark42 brand color override (zyahan.blog)
+   Remark42 uses --primary-color and --white-color internally.
+   Overriding them is the cleanest way to re-theme the widget.
+   ========================================================================== */
+
 #remark42 {
-  /* 주요 버튼: 로그인, 댓글 작성, 답글 작성 등 */
-  .auth-button,
-  .comment-form__button {
-    background-color: #00ab6b !important;
-    border-color: #00ab6b !important;
-    color: #fff !important;
-  }
-
-  .auth-button:hover,
-  .auth-button:focus,
-  .comment-form__button:hover,
-  .comment-form__button:focus {
-    background-color: #008a57 !important;
-    border-color: #008a57 !important;
-  }
-
-  /* 링크류 */
-  .comment-form__markdown-link,
-  a[class*="__link"] {
-    color: #00ab6b !important;
-  }
-
-  .comment-form__markdown-link:hover,
-  a[class*="__link"]:hover {
-    color: #008a57 !important;
-  }
+  /* `rgb(var(--primary-color))` 형식이라는 점에 주목:
+     변수값은 "0 171 107"처럼 공백 구분 RGB 삼중항이어야 합니다 */
+  --primary-color: 0 171 107;       /* #00ab6b */
+  --white-color: 255 255 255;       /* #ffffff */
 }
 
-/* 다크 모드: 사이트 전역 --text-link / --text-link-hover와 동일한 그린 셰이드 */
 html[data-theme="dark"] #remark42 {
-  .auth-button,
-  .comment-form__button {
-    background-color: #2fc98b !important;
-    border-color: #2fc98b !important;
-    color: #fff !important;
-  }
-
-  .auth-button:hover,
-  .auth-button:focus,
-  .comment-form__button:hover,
-  .comment-form__button:focus {
-    background-color: #5ddba8 !important;
-    border-color: #5ddba8 !important;
-  }
-
-  .comment-form__markdown-link,
-  a[class*="__link"] {
-    color: #2fc98b !important;
-  }
-
-  .comment-form__markdown-link:hover,
-  a[class*="__link"]:hover {
-    color: #5ddba8 !important;
-  }
+  --primary-color: 47 201 139;      /* #2fc98b — 다크모드용 --text-link와 동일 */
 }
 
 /* 파이썬 코드 */
