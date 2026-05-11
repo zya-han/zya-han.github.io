@@ -825,11 +825,15 @@ html.theme-transition *::after {
 /* 댓글 로드 버튼 */
 
 [data-theme="dark"] .comments-load-btn {
-  color: #4ade80;
-  border-color: #4ade80;
+  color: #2fc98b;
+  border-color: #2fc98b;
 
   &:hover {
-    background: #4ade80;
+    background: #2fc98b;
     color: #1a1a1a;
+  }
+
+  &:focus-visible {
+    outline-color: #2fc98b;
   }
 }
