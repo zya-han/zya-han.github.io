@@ -634,8 +634,100 @@
             </div>
             <!-- End Categories -->
 
-            <!-- 관련 글 추천 -->
-            
+        </div>
+        <!-- End Post -->
+
+    </div>
+</div>
+<!-- End Article
+================================================== -->
+
+<!-- Begin Comments
+================================================== -->
+
+    <div class="container">
+        <div id="comments" class="row justify-content-center mb-5">
+            <div class="col-md-8">
+                
+                    
+                        <section class="remark42">
+  <button type="button" id="remark42-loader" class="comments-load-btn" aria-controls="remark42">
+    💬 댓글 보기
+  </button>
+  <div id="remark42"></div>
+
+  <script>
+    (function () {
+      var loaded = false;
+      var btn = document.getElementById("remark42-loader");
+
+      function loadRemark42() {
+        if (loaded) return;
+        loaded = true;
+        if (btn) btn.style.display = "none";
+
+        window.remark_config = {
+          host: "https://comments.zyahan.blog",
+          site_id: "zyahan",
+          url: "https://zyahan.blog/yang-as-deceit/",
+          components: ["embed"],
+          locale: "ko",
+          theme: document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light",
+          max_shown_comments: 10
+        };
+
+        var components = window.remark_config.components;
+        for (var i = 0; i < components.length; i++) {
+          var s = document.createElement("script");
+          var ext = ".js";
+          if ("noModule" in s) {
+            s.type = "module";
+            ext = ".mjs";
+          } else {
+            s.async = true;
+            s.defer = true;
+          }
+          s.src = window.remark_config.host + "/web/" + components[i] + ext;
+          (document.head || document.body).appendChild(s);
+        }
+
+        // Sync theme with site-wide dark mode toggle (after widget loads)
+        new MutationObserver(function () {
+          var theme = document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light";
+          if (window.REMARK42 && window.REMARK42.changeTheme) {
+            window.REMARK42.changeTheme(theme);
+          }
+        }).observe(document.documentElement, {
+          attributes: true,
+          attributeFilter: ["data-theme"]
+        });
+      }
+
+      if (btn) {
+        btn.addEventListener("click", loadRemark42);
+      }
+
+      // Auto-load when user arrives at a direct comment anchor
+      // (e.g., from email notifications: /post/#remark42 or /post/#remark42__comment-xxx)
+      if (window.location.hash && window.location.hash.indexOf("remark42") !== -1) {
+        loadRemark42();
+      }
+    })();
+  </script>
+
+  <noscript>댓글을 보려면 JavaScript를 활성화해 주세요.</noscript>
+</section>
+                    
+                
+            </div>
+        </div>
+    </div>
+
+<!--End Comments
+================================================== -->
+
+<!-- 관련 글 추천 -->
+
 
 
 
@@ -732,97 +824,6 @@
   </section>
 
 
-        </div>
-        <!-- End Post -->
-
-    </div>
-</div>
-<!-- End Article
-================================================== -->
-
-<!-- Begin Comments
-================================================== -->
-
-    <div class="container">
-        <div id="comments" class="row justify-content-center mb-5">
-            <div class="col-md-8">
-                
-                    
-                        <section class="remark42">
-  <button type="button" id="remark42-loader" class="comments-load-btn" aria-controls="remark42">
-    💬 댓글 보기
-  </button>
-  <div id="remark42"></div>
-
-  <script>
-    (function () {
-      var loaded = false;
-      var btn = document.getElementById("remark42-loader");
-
-      function loadRemark42() {
-        if (loaded) return;
-        loaded = true;
-        if (btn) btn.style.display = "none";
-
-        window.remark_config = {
-          host: "https://comments.zyahan.blog",
-          site_id: "zyahan",
-          url: "https://zyahan.blog/yang-as-deceit/",
-          components: ["embed"],
-          locale: "ko",
-          theme: document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light",
-          max_shown_comments: 10
-        };
-
-        var components = window.remark_config.components;
-        for (var i = 0; i < components.length; i++) {
-          var s = document.createElement("script");
-          var ext = ".js";
-          if ("noModule" in s) {
-            s.type = "module";
-            ext = ".mjs";
-          } else {
-            s.async = true;
-            s.defer = true;
-          }
-          s.src = window.remark_config.host + "/web/" + components[i] + ext;
-          (document.head || document.body).appendChild(s);
-        }
-
-        // Sync theme with site-wide dark mode toggle (after widget loads)
-        new MutationObserver(function () {
-          var theme = document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light";
-          if (window.REMARK42 && window.REMARK42.changeTheme) {
-            window.REMARK42.changeTheme(theme);
-          }
-        }).observe(document.documentElement, {
-          attributes: true,
-          attributeFilter: ["data-theme"]
-        });
-      }
-
-      if (btn) {
-        btn.addEventListener("click", loadRemark42);
-      }
-
-      // Auto-load when user arrives at a direct comment anchor
-      // (e.g., from email notifications: /post/#remark42 or /post/#remark42__comment-xxx)
-      if (window.location.hash && window.location.hash.indexOf("remark42") !== -1) {
-        loadRemark42();
-      }
-    })();
-  </script>
-
-  <noscript>댓글을 보려면 JavaScript를 활성화해 주세요.</noscript>
-</section>
-                    
-                
-            </div>
-        </div>
-    </div>
-
-<!--End Comments
-================================================== -->
 
 <!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first: 
 https://search.google.com/structured-data/testing-tool/u/0/

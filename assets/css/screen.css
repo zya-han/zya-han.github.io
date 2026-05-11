@@ -64,6 +64,30 @@ html[data-theme="dark"] #remark42 {
   --primary-color: 47 201 139;      /* #2fc98b — 다크모드용 --text-link와 동일 */
 }
 
+.comments-load-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 0.6rem 1.4rem;
+  background: transparent;
+  color: #00ab6b;
+  border: 1.5px solid #00ab6b;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.15s ease;
+
+  &:hover {
+    background: #00ab6b;
+    color: #fff;
+  }
+
+  &:focus-visible {
+    outline: 2px solid #00ab6b;
+    outline-offset: 2px;
+  }
+}
+
 /* 파이썬 코드 */
 .language-python{
     font-family: 'Courier New', Courier, monospace, sans-serif;
