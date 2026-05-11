@@ -821,3 +821,15 @@ html.theme-transition *::after {
   background-color: rgba(0, 171, 107, .35);
   color: #fff;
 }
+
+/* 댓글 로드 버튼 */
+
+[data-theme="dark"] .comments-load-btn {
+  color: #4ade80;
+  border-color: #4ade80;
+
+  &:hover {
+    background: #4ade80;
+    color: #1a1a1a;
+  }
+}
