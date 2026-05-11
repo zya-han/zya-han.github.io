@@ -402,36 +402,69 @@ Google Analytics에 저장된 데이터는 Google의 정책에 따릅니다.</p>
         <div class="col-md-8">
             
                 
-                    
-
-<section class="remark42">
+                    <section class="remark42">
+  <button type="button" id="remark42-loader" class="comments-load-btn" aria-controls="remark42">
+    💬 댓글 보기
+  </button>
   <div id="remark42"></div>
 
   <script>
-    var remark_config = {
-      host: "https://comments.zyahan.blog",
-      site_id: "zyahan",
-      url: "https://zyahan.blog/privacy-policy",
-      components: ["embed"],
-      locale: "ko",
-      theme: document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light",
-      max_shown_comments: 10
-    };
+    (function () {
+      var loaded = false;
+      var btn = document.getElementById("remark42-loader");
 
-    // Sync theme with site-wide dark mode toggle
-    new MutationObserver(function () {
-      var theme = document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light";
-      if (window.REMARK42 && window.REMARK42.changeTheme) {
-        window.REMARK42.changeTheme(theme);
+      function loadRemark42() {
+        if (loaded) return;
+        loaded = true;
+        if (btn) btn.style.display = "none";
+
+        window.remark_config = {
+          host: "https://comments.zyahan.blog",
+          site_id: "zyahan",
+          url: "https://zyahan.blog/privacy-policy",
+          components: ["embed"],
+          locale: "ko",
+          theme: document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light",
+          max_shown_comments: 10
+        };
+
+        var components = window.remark_config.components;
+        for (var i = 0; i < components.length; i++) {
+          var s = document.createElement("script");
+          var ext = ".js";
+          if ("noModule" in s) {
+            s.type = "module";
+            ext = ".mjs";
+          } else {
+            s.async = true;
+            s.defer = true;
+          }
+          s.src = window.remark_config.host + "/web/" + components[i] + ext;
+          (document.head || document.body).appendChild(s);
+        }
+
+        // Sync theme with site-wide dark mode toggle (after widget loads)
+        new MutationObserver(function () {
+          var theme = document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light";
+          if (window.REMARK42 && window.REMARK42.changeTheme) {
+            window.REMARK42.changeTheme(theme);
+          }
+        }).observe(document.documentElement, {
+          attributes: true,
+          attributeFilter: ["data-theme"]
+        });
       }
-    }).observe(document.documentElement, {
-      attributes: true,
-      attributeFilter: ["data-theme"]
-    });
-  </script>
 
-  <script>
-    !function(e,n){for(var o=0;o<e.length;o++){var r=n.createElement("script"),c=".js",d=n.head||n.body;"noModule"in r?(r.type="module",c=".mjs"):r.async=!0,r.defer=!0,r.src=remark_config.host+"/web/"+e[o]+c,d.appendChild(r)}}(remark_config.components||["embed"],document);
+      if (btn) {
+        btn.addEventListener("click", loadRemark42);
+      }
+
+      // Auto-load when user arrives at a direct comment anchor
+      // (e.g., from email notifications: /post/#remark42 or /post/#remark42__comment-xxx)
+      if (window.location.hash && window.location.hash.indexOf("remark42") !== -1) {
+        loadRemark42();
+      }
+    })();
   </script>
 
   <noscript>댓글을 보려면 JavaScript를 활성화해 주세요.</noscript>
