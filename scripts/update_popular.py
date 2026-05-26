@@ -39,6 +39,7 @@ EXCLUDE_PATHS = {
     "/about", "/about/",
     "/contact", "/contact/",
     "/archive", "/archive/",
+    "/privacy-policy", "/privacy-policy/",
 }
 
 
