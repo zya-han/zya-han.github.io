@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zyahan.blog/sanguozhi-word2vec/</loc>
+    <lastmod>2026-06-11T15:33:00+09:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://zyahan.blog/playing-emperor/</loc>
     <lastmod>2026-05-31T09:44:00+09:00</lastmod>
     <changefreq>daily</changefreq>
