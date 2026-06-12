@@ -40,6 +40,10 @@ EXCLUDE_PATHS = {
     "/contact", "/contact/",
     "/archive", "/archive/",
     "/privacy-policy", "/privacy-policy/",
+    "/shiji-word-explorer", "/shiji-word-explorer/",
+    "/hanshu-word-explorer", "/hanshu-word-explorer/",
+    "/houhanshu-word-explorer", "/houhanshu-word-explorer/",
+    "/sanguozhi-word-explorer", "/sanguozhi-word-explorer/",
 }
 
 
