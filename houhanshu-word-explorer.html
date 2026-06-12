@@ -53,6 +53,7 @@
   --accent-dk: #b5532a;
   --accent-soft: #2a1d10;     /* ghost 배경(다크 — 밝은 글자 유지) */
   --accent-soft-dk: #38260f;  /* ghost·내보내기 hover */
+  --target-ink: #e0a35a;      /* 비교 상대 단어 강조 글자(다크 — 밝은 호박) */
   --pill: #1f1810;            /* 탭 알약 배경 */
   --chip-border: #4a3820;     /* 스파이 칩 테두리 */
   --row-hover: #241a10;       /* 막대 행 hover */
@@ -69,13 +70,13 @@
   --gold: #e8c07a;            /* 스파이 이름(밝은 호박금) */
   --gold-soft: #f0d49a;       /* 스파이 이름 독음 */
   /* 양쪽 공통 단어 색(따뜻한 다크 톤 — bg는 짙은 색, bar는 밝은 색띠) */
-  --cm1-bg: #3a2410;  --cm1-bar: #e0a35a;   /* 호박 */
+  --cm1-bg: #0f2b34;  --cm1-bar: #2fc6d8;   /* 시안(대비) */
   --cm2-bg: #3a1c10;  --cm2-bar: #e07a3d;   /* 주황 */
   --cm3-bg: #3a1410;  --cm3-bar: #d9542f;   /* 진홍(火) */
   --cm4-bg: #332810;  --cm4-bar: #d4a72f;   /* 금 */
   --cm5-bg: #2e2410;  --cm5-bar: #b89a4c;   /* 황토 */
   --cm6-bg: #14291d;  --cm6-bar: #4caf6a;   /* 초록(대비) */
-  --cm7-bg: #0f2b34;  --cm7-bar: #2fc6d8;   /* 시안(대비) */
+  --cm7-bg: #3a2410;  --cm7-bar: #e0a35a;   /* 호박 */
   --cm8-bg: #1c2148;  --cm8-bar: #6f6cf0;   /* 인디고(대비) */
   --cm9-bg: #2a1730;  --cm9-bar: #c456b0;   /* 마젠타(대비) */
   --cm10-bg: #1b2330; --cm10-bar: #6f86b8;  /* 슬레이트(대비) */
@@ -109,6 +110,9 @@ body {
 h1 { font-size: 2rem; margin: 0 0 .35em; letter-spacing: .01em; }
 .subtitle { color: var(--muted); margin: 0 auto .5em; max-width: 640px; }
 .subtitle strong { color: var(--accent); }
+.post-link { margin: 0 auto .5em; font-size: .9rem; }
+.post-link a { color: var(--accent); text-decoration: none; font-weight: 600; }
+.post-link a:hover { text-decoration: underline; }
 .meta { color: var(--meta); font-size: .86rem; margin: 0; }
 .series-nav { color: var(--muted); font-size: .86rem; margin: 2px 0 16px; }
 .series-nav .current { color: var(--ink); font-weight: 600; }
@@ -238,6 +242,9 @@ button.ghost:hover { background: var(--accent-soft-dk); }
 }
 .bar-row:hover { background: var(--row-hover); }
 .bar-row.has-rank { grid-template-columns: auto minmax(80px, auto) 1fr auto auto; }
+/* 비교 상대 단어 행 — 공통 이웃(배경 채움)과 혼동되지 않게 배경 없이 테두리 링+볼드로 강조 */
+.bar-row.target { box-shadow: inset 0 0 0 2px var(--accent); }
+.bar-row.target .bw { font-weight: 700; color: var(--target-ink, var(--accent-dk)); }
 .bar-rank { font-size: .82rem; color: var(--muted); min-width: 30px; text-align: right;
   font-variant-numeric: tabular-nums; font-family: system-ui, sans-serif; }
 .bar-label { white-space: nowrap; }
@@ -288,10 +295,11 @@ button.ghost:hover { background: var(--accent-soft-dk); }
 <body>
 <header class="site-head">
   <a class="blog-link" href="https://zyahan.blog" rel="noopener">미남과 오컬트와 자살</a>
-  <nav class="series-nav"><span class="han">前四史</span> 단어 탐색기 · <a href="https://zyahan.blog/sishi-word-explorer">통합</a> · <a href="https://zyahan.blog/shiji-word-explorer">《사기》</a> · <a href="https://zyahan.blog/hanshu-word-explorer">《한서》</a> · <strong class="current">《후한서》</strong> · <a href="https://zyahan.blog/sanguozhi-word-explorer">《삼국지》</a></nav>
+  <nav class="series-nav">전4사 단어 탐색기 · <a href="https://zyahan.blog/sishi-word-explorer">통합</a> · <a href="https://zyahan.blog/shiji-word-explorer">《사기》</a> · <a href="https://zyahan.blog/hanshu-word-explorer">《한서》</a> · <strong class="current">《후한서》</strong> · <a href="https://zyahan.blog/sanguozhi-word-explorer">《삼국지》</a></nav>
   <h1>《후한서》 단어 탐색기</h1>
   <p class="subtitle">범엽의 《후한서》 本文에서 학습한 Word2Vec 모델로 한문 단어의 쓰임을 비교합니다.
   <strong>한글 독음으로도 검색</strong>할 수 있어요.</p>
+  <p class="post-link"><a href="https://zyahan.blog/sanguozhi-word2vec/" rel="noopener">📝 관련 블로그 포스트 — 탐색기의 원리와 해석 방법</a></p>
   <p class="meta">vector_size=100 · skip-gram · 어휘 <span id="vocabCount">…</span>개 · <span class="ver">v1.0.0</span></p>
 </header>
 
@@ -527,15 +535,16 @@ function josaText(text, withB, noB) {
 }
 
 // 막대 행들 (정규화: 최댓값 = 100%). colorMap: token→{bg,bar} (양쪽 공통 단어 색칠).
-// withRank=true면 좌측에 순위(1위·2위…) 표시.
-function bars(list, colorMap, withRank) {
+// withRank=true면 좌측에 순위(1위·2위…) 표시. partner: 비교 상대 단어 → 해당 행 강조(target).
+function bars(list, colorMap, withRank, partner) {
   const max = list.length ? list[0][1] : 1;
   return list.map(([t, s], i) => {
     const pct = Math.max(5, Math.round((s / max) * 100));
     const c = colorMap && colorMap.get(t);
     const style = c ? ` style="background:${c.bg};box-shadow:inset 5px 0 0 ${c.bar}"` : '';
     const rank = withRank ? `<span class="bar-rank">${i + 1}위<\/span>` : '';
-    return `<div class="bar-row${withRank ? ' has-rank' : ''}${c ? ' common' : ''}" data-token="${esc(t)}"${style}>
+    const tgt = (partner && t === partner) ? ' target' : '';
+    return `<div class="bar-row${withRank ? ' has-rank' : ''}${c ? ' common' : ''}${tgt}" data-token="${esc(t)}"${style}>
       ${rank}<span class="bar-label"><span class="bw han">${esc(t)}<\/span>${rdSpan(t)}<\/span>
       <span class="bar-track"><span class="bar-cover" style="width:${100 - pct}%"><\/span><\/span>
       <span class="bar-freq">${freqOf(t).toLocaleString()}회<\/span>
@@ -598,10 +607,10 @@ function runCmp() {
       <\/div>
       <div class="simlabel">코사인 유사도<\/div>
       <div class="num">${sim.toFixed(3)}<\/div><\/div>
-    <p class="common-note">양쪽 목록에 모두 나오는 단어는 같은 색으로 표시됩니다.<\/p>
+    <p class="common-note">양쪽 목록에 모두 나오는 단어는 같은 색으로, 비교한 상대 단어는 <strong>굵게<\/strong> 표시됩니다.<\/p>
     <div class="cols">
-      <div><div class="col-head">${head(ta)}<\/div><div class="bars">${bars(la, colorMap, true)}<\/div><\/div>
-      <div><div class="col-head">${head(tb)}<\/div><div class="bars">${bars(lb, colorMap, true)}<\/div><\/div>
+      <div><div class="col-head">${head(ta)}<\/div><div class="bars">${bars(la, colorMap, true, tb)}<\/div><\/div>
+      <div><div class="col-head">${head(tb)}<\/div><div class="bars">${bars(lb, colorMap, true, ta)}<\/div><\/div>
     <\/div>`;
   setURL({ task: 'compare', cmpA: ta, cmpB: tb });
 }
@@ -808,7 +817,3 @@ load().then(() => { wire(); applyURL(); }).catch(err => {
   const s = document.getElementById('loadStatus');
   if (s) s.textContent = '데이터 로드 실패: ' + err.message;
 });
-
-</script>
-</body>
-</html>

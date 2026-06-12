@@ -3,21 +3,21 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>前四史 통합 단어 탐색기</title>
-<meta name="description" content="사기·한서·후한서·삼국지 — 전사사(前四史) 본문을 하나로 통합 학습한 Word2Vec 임베딩 탐색기. 전한·후한·삼국을 가로질러 한자 단어의 쓰임을 코사인 유사도로 비교하고, 비슷한 단어·스파이를 찾아보세요.">
+<title>전4사 통합 단어 탐색기</title>
+<meta name="description" content="사기·한서·후한서·삼국지 — 전4사 본문을 하나로 통합 학습한 Word2Vec 임베딩 탐색기. 전한·후한·삼국을 가로질러 한자 단어의 쓰임을 코사인 유사도로 비교하고, 비슷한 단어·스파이를 찾아보세요.">
 <!-- Open Graph / SNS 공유 카드 -->
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="前四史 통합 단어 탐색기">
-<meta property="og:title" content="前四史 통합 단어 탐색기">
+<meta property="og:site_name" content="전4사 통합 단어 탐색기">
+<meta property="og:title" content="전4사 통합 단어 탐색기">
 <meta property="og:description" content="사기·한서·후한서·삼국지 네 정사 본문을 하나로 통합 학습한 Word2Vec 임베딩 탐색기 — 전한·후한·삼국을 가로질러 한자 단어의 쓰임을 비교하고, 비슷한 단어·스파이를 찾아보세요.">
 <meta property="og:url" content="https://zyahan.blog/sishi-word-explorer">
 <meta property="og:image" content="https://zyahan.blog/assets/images/sishi-explorer-og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="前四史 통합 단어 탐색기 — Word2Vec 임베딩 탐색기">
+<meta property="og:image:alt" content="전4사 통합 단어 탐색기 — Word2Vec 임베딩 탐색기">
 <meta property="og:locale" content="ko_KR">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="前四史 통합 단어 탐색기">
+<meta name="twitter:title" content="전4사 통합 단어 탐색기">
 <meta name="twitter:description" content="사기·한서·후한서·삼국지 네 정사 본문을 하나로 통합 학습한 Word2Vec 임베딩 탐색기 — 전한·후한·삼국을 가로질러 한자 단어의 쓰임을 비교하고, 비슷한 단어·스파이를 찾아보세요.">
 <meta name="twitter:image" content="https://zyahan.blog/assets/images/sishi-explorer-og-image.png">
 <!-- Canonical -->
@@ -67,10 +67,10 @@
   --gold: #d9a93e;           /* 스파이 이름(금색 — 자색 배경 대비) */
   --gold-soft: #ecd18f;       /* 스파이 이름 독음 */
   /* 양쪽 공통 단어 색(보라·자홍·인디고 보석 계열, 서로 구분) — bg(연한 배경)·bar(좌측 색띠) */
-  --cm1-bg: #e3d9f3;  --cm1-bar: #6a44c0;   /* 보라 */
+  --cm1-bg: #f0d6e6;  --cm1-bar: #b03473;   /* 로즈 마젠타 */
   --cm2-bg: #e9d6ef;  --cm2-bar: #9c39ad;   /* 자홍 */
   --cm3-bg: #dcd9f0;  --cm3-bar: #5350c0;   /* 인디고 */
-  --cm4-bg: #f0d6e6;  --cm4-bar: #b03473;   /* 로즈 마젠타 */
+  --cm4-bg: #e3d9f3;  --cm4-bar: #6a44c0;   /* 보라 */
   --cm5-bg: #dee0f2;  --cm5-bar: #46569e;   /* 블루 바이올렛 */
   --cm6-bg: #ecd9ec;  --cm6-bar: #8c3a9e;   /* 퍼플 */
   --cm7-bg: #e6dcef;  --cm7-bar: #7a4aa8;   /* 라벤더 퍼플 */
@@ -107,6 +107,9 @@ body {
 h1 { font-size: 2rem; margin: 0 0 .35em; letter-spacing: .01em; }
 .subtitle { color: var(--muted); margin: 0 auto .5em; max-width: 640px; }
 .subtitle strong { color: var(--accent); }
+.post-link { margin: 0 auto .5em; font-size: .9rem; }
+.post-link a { color: var(--accent); text-decoration: none; font-weight: 600; }
+.post-link a:hover { text-decoration: underline; }
 .meta { color: var(--meta); font-size: .86rem; margin: 0; }
 .series-nav { color: var(--muted); font-size: .86rem; margin: 2px 0 16px; }
 .series-nav .current { color: var(--ink); font-weight: 600; }
@@ -236,6 +239,9 @@ button.ghost:hover { background: var(--accent-soft-dk); }
 }
 .bar-row:hover { background: var(--row-hover); }
 .bar-row.has-rank { grid-template-columns: auto minmax(80px, auto) 1fr auto auto; }
+/* 비교 상대 단어 행 — 공통 이웃(배경 채움)과 혼동되지 않게 배경 없이 테두리 링+볼드로 강조 */
+.bar-row.target { box-shadow: inset 0 0 0 2px var(--accent); }
+.bar-row.target .bw { font-weight: 700; color: var(--target-ink, var(--accent-dk)); }
 .bar-rank { font-size: .82rem; color: var(--muted); min-width: 30px; text-align: right;
   font-variant-numeric: tabular-nums; font-family: system-ui, sans-serif; }
 .bar-label { white-space: nowrap; }
@@ -286,11 +292,12 @@ button.ghost:hover { background: var(--accent-soft-dk); }
 <body>
 <header class="site-head">
   <a class="blog-link" href="https://zyahan.blog" rel="noopener">미남과 오컬트와 자살</a>
-  <nav class="series-nav"><span class="han">前四史</span> 단어 탐색기 · <strong class="current">통합</strong> · <a href="https://zyahan.blog/shiji-word-explorer">《사기》</a> · <a href="https://zyahan.blog/hanshu-word-explorer">《한서》</a> · <a href="https://zyahan.blog/houhanshu-word-explorer">《후한서》</a> · <a href="https://zyahan.blog/sanguozhi-word-explorer">《삼국지》</a></nav>
-  <h1>前四史 통합 단어 탐색기</h1>
+  <nav class="series-nav">전4사 단어 탐색기 · <strong class="current">통합</strong> · <a href="https://zyahan.blog/shiji-word-explorer">《사기》</a> · <a href="https://zyahan.blog/hanshu-word-explorer">《한서》</a> · <a href="https://zyahan.blog/houhanshu-word-explorer">《후한서》</a> · <a href="https://zyahan.blog/sanguozhi-word-explorer">《삼국지》</a></nav>
+  <h1>전4사 통합 단어 탐색기</h1>
   <p class="subtitle">사기·한서·후한서·삼국지 네 정사의 본문을 <strong>하나로 통합 학습</strong>한 Word2Vec 모델로 한문 단어의 쓰임을 비교합니다.
   한 모델 안에서 전한·후한·삼국을 가로질러 — 예컨대 <span class="han">高祖</span>(전한 창업)와 <span class="han">世祖</span>(후한 창업)를 — 견줄 수 있어요.
   <strong>한글 독음으로도 검색</strong>할 수 있어요.</p>
+  <p class="post-link"><a href="https://zyahan.blog/sanguozhi-word2vec/" rel="noopener">📝 관련 블로그 포스트 — 탐색기의 원리와 해석 방법</a></p>
   <p class="meta">vector_size=150 · skip-gram · 어휘 <span id="vocabCount">…</span>개 · <span class="ver">v1.0.0</span></p>
 </header>
 
@@ -307,7 +314,7 @@ button.ghost:hover { background: var(--accent-soft-dk); }
     <summary>📖 처음이신가요? — 결과 읽는 법과 한계 (코사인 유사도란?)</summary>
     <div class="guide-body">
       <h4>이 도구는 무엇을 보여주나요?</h4>
-      <p>네 정사(前四史) 본문에서 각 단어가 <strong>어떤 말들과 함께 등장하는지</strong>(문맥)를 컴퓨터가 학습한 것입니다.
+      <p>네 정사(전4사) 본문에서 각 단어가 <strong>어떤 말들과 함께 등장하는지</strong>(문맥)를 컴퓨터가 학습한 것입니다.
       낱말의 ‘뜻’을 아는 게 아니라, <strong>쓰임새가 닮은 단어</strong>를 찾아 줍니다. 그래서
       <span class="han">荀彧</span>(순욱)의 이웃으로 <span class="han">程昱</span>(정욱)·<span class="han">郭嘉</span>(곽가) 같은
       조조 진영 문관들이 떠오르고, ‘승상’ 옆에는 전한·삼국의 역대 승상과 그 속관 벼슬들이 함께 모입니다.</p>
@@ -327,7 +334,7 @@ button.ghost:hover { background: var(--accent-soft-dk); }
       <strong>수십~수백 회 이상</strong> 등장한 단어일수록 결과를 믿을 만합니다.</p>
 
       <h4>그 밖에 알아둘 점</h4>
-      <p>· 이 모델은 <strong>사기·한서·후한서·삼국지(前四史)의 본문</strong>을 하나로 합쳐 학습했습니다.
+      <p>· 이 모델은 <strong>사기·한서·후한서·삼국지(전4사)의 본문</strong>을 하나로 합쳐 학습했습니다.
       당·송대 주석(<span class="han">史記</span> 三家注·<span class="han">漢書</span> 顏師古注·<span class="han">後漢書</span> 李賢注)은 제외하고,
       <span class="han">三國志</span> 배송지(裴松之) 주는 본문의 일부로 포함했습니다. 《삼국지연의》(소설)나 역사적 사실 전체가 아니라,
       네 사서 원문의 서술 습관·치우침이 그대로 담깁니다.<br>
@@ -529,15 +536,16 @@ function josaText(text, withB, noB) {
 }
 
 // 막대 행들 (정규화: 최댓값 = 100%). colorMap: token→{bg,bar} (양쪽 공통 단어 색칠).
-// withRank=true면 좌측에 순위(1위·2위…) 표시.
-function bars(list, colorMap, withRank) {
+// withRank=true면 좌측에 순위(1위·2위…) 표시. partner: 비교 상대 단어 → 해당 행 강조(target).
+function bars(list, colorMap, withRank, partner) {
   const max = list.length ? list[0][1] : 1;
   return list.map(([t, s], i) => {
     const pct = Math.max(5, Math.round((s / max) * 100));
     const c = colorMap && colorMap.get(t);
     const style = c ? ` style="background:${c.bg};box-shadow:inset 5px 0 0 ${c.bar}"` : '';
     const rank = withRank ? `<span class="bar-rank">${i + 1}위<\/span>` : '';
-    return `<div class="bar-row${withRank ? ' has-rank' : ''}${c ? ' common' : ''}" data-token="${esc(t)}"${style}>
+    const tgt = (partner && t === partner) ? ' target' : '';
+    return `<div class="bar-row${withRank ? ' has-rank' : ''}${c ? ' common' : ''}${tgt}" data-token="${esc(t)}"${style}>
       ${rank}<span class="bar-label"><span class="bw han">${esc(t)}<\/span>${rdSpan(t)}<\/span>
       <span class="bar-track"><span class="bar-cover" style="width:${100 - pct}%"><\/span><\/span>
       <span class="bar-freq">${freqOf(t).toLocaleString()}회<\/span>
@@ -600,10 +608,10 @@ function runCmp() {
       <\/div>
       <div class="simlabel">코사인 유사도<\/div>
       <div class="num">${sim.toFixed(3)}<\/div><\/div>
-    <p class="common-note">양쪽 목록에 모두 나오는 단어는 같은 색으로 표시됩니다.<\/p>
+    <p class="common-note">양쪽 목록에 모두 나오는 단어는 같은 색으로, 비교한 상대 단어는 <strong>굵게<\/strong> 표시됩니다.<\/p>
     <div class="cols">
-      <div><div class="col-head">${head(ta)}<\/div><div class="bars">${bars(la, colorMap, true)}<\/div><\/div>
-      <div><div class="col-head">${head(tb)}<\/div><div class="bars">${bars(lb, colorMap, true)}<\/div><\/div>
+      <div><div class="col-head">${head(ta)}<\/div><div class="bars">${bars(la, colorMap, true, tb)}<\/div><\/div>
+      <div><div class="col-head">${head(tb)}<\/div><div class="bars">${bars(lb, colorMap, true, ta)}<\/div><\/div>
     <\/div>`;
   setURL({ task: 'compare', cmpA: ta, cmpB: tb });
 }
