@@ -108,7 +108,7 @@ h1 { font-size: 2rem; margin: 0 0 .35em; letter-spacing: .01em; }
 .subtitle { color: var(--muted); margin: 0 auto .5em; max-width: 640px; }
 .subtitle strong { color: var(--accent); }
 .meta { color: var(--meta); font-size: .86rem; margin: 0; }
-.series-nav { color: var(--muted); font-size: .86rem; margin: 10px 0 0; }
+.series-nav { color: var(--muted); font-size: .86rem; margin: 2px 0 16px; }
 .series-nav .current { color: var(--ink); font-weight: 600; }
 .series-nav a { color: var(--accent); text-decoration: none; }
 .series-nav a:hover { text-decoration: underline; }
@@ -156,7 +156,7 @@ main { max-width: 880px; margin: 0 auto; padding: 0 18px; }
 .field label { display: block; font-size: .82rem; color: var(--muted); margin-bottom: 5px; }
 input[type=text] {
   width: 100%; padding: 13px 15px; font-size: 1.15rem;
-  border: 1px solid var(--line); border-radius: 11px; background: #fff; color: var(--ink);
+  border: 1px solid var(--line); border-radius: 11px; background: var(--field-bg, #fff); color: var(--ink);
 }
 input[type=text]:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
 .slider { display: flex; align-items: center; gap: 10px; font-size: .9rem; color: var(--muted); margin: 4px 0 16px; }
@@ -178,7 +178,7 @@ button.ghost:hover { background: var(--accent-soft-dk); }
 /* 자동완성 */
 .suggest {
   position: absolute; z-index: 30; left: 0; right: 0; top: calc(100% + 4px);
-  background: #fff; border: 1px solid var(--line); border-radius: 11px;
+  background: var(--field-bg, #fff); border: 1px solid var(--line); border-radius: 11px;
   box-shadow: 0 10px 28px rgba(0,0,0,.12); overflow: hidden; max-height: 320px; overflow-y: auto;
 }
 .sg { padding: 9px 15px; cursor: pointer; display: flex; align-items: baseline; gap: 9px; }
@@ -286,11 +286,11 @@ button.ghost:hover { background: var(--accent-soft-dk); }
 <body>
 <header class="site-head">
   <a class="blog-link" href="https://zyahan.blog" rel="noopener">미남과 오컬트와 자살</a>
+  <nav class="series-nav"><span class="han">前四史</span> 단어 탐색기 · <a href="https://zyahan.blog/shiji-word-explorer">《사기》</a> · <a href="https://zyahan.blog/hanshu-word-explorer">《한서》</a> · <strong class="current">《삼국지》</strong></nav>
   <h1>《삼국지》 단어 탐색기</h1>
-  <p class="subtitle">진수의 《삼국지》 원문과 배송지의 주석 텍스트에서 학습한 Word2Vec 모델로 한문 단어의 쓰임을 비교합니다. 
+  <p class="subtitle">진수의 《삼국지》 원문과 배송지의 주석 텍스트에서 학습한 Word2Vec 모델로 한문 단어의 쓰임을 비교합니다.
   <strong>한글 독음으로도 검색</strong>할 수 있어요.</p>
   <p class="meta">vector_size=100 · skip-gram · 어휘 <span id="vocabCount">…</span>개</p>
-  <nav class="series-nav"><span class="han">前四史</span> 단어 탐색기 · <a href="https://zyahan.blog/shiji-word-explorer" rel="noopener">《사기》</a> · <strong class="current">《삼국지》</strong></nav>
 </header>
 
 <nav class="tabs" id="tabs">
