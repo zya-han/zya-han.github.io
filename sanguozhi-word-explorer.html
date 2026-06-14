@@ -294,6 +294,23 @@ button.ghost:hover { background: var(--accent-soft-dk); }
 .credits { margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--line); color: var(--meta); }
 .ver { font-variant-numeric: tabular-nums; font-weight: 600; color: var(--muted); }
 
+/* 변경 기록 — 푸터 안 접이식 (네이티브 details, JS 불필요) */
+.changelog { margin-top: 10px; }
+.changelog > summary { cursor: pointer; list-style: none; display: inline-flex;
+  align-items: center; gap: 4px; color: var(--accent); }
+.changelog > summary::-webkit-details-marker { display: none; }
+.changelog > summary::after { content: '▾'; color: var(--muted); font-size: .85em;
+  transition: transform .2s; }
+.changelog[open] > summary::after { transform: rotate(180deg); }
+.changelog ul { list-style: none; max-width: 480px; margin: 12px auto 0; padding: 0;
+  text-align: left; }
+.changelog li { padding: 7px 0; border-top: 1px solid var(--line); line-height: 1.65;
+  color: var(--ink-soft); }
+.changelog li:first-child { border-top: 0; }
+.changelog .v { font-variant-numeric: tabular-nums; font-weight: 600; color: var(--ink);
+  margin-right: 6px; }
+.changelog .d { color: var(--muted); margin-right: 2px; }
+
 </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-BGPF88VHK2"></script>
@@ -414,6 +431,20 @@ button.ghost:hover { background: var(--accent-soft-dk); }
   <p class="credits">제작 <a href="https://zyahan.blog" rel="noopener">주아</a> &amp; Claude Code ·
   모델 저장소 <a href="https://github.com/zya-han/sishi-w2v" rel="noopener">github.com/zya-han/sishi-w2v</a> ·
   최종 수정 2026-06-14</p>
+  <details class="changelog">
+    <summary>변경 기록</summary>
+    <ul>
+      <li><span class="v">v2.0.0</span><span class="d">· 2026-06-14</span> — 모델을 새로 학습했어요. 더 오래 학습해 결과가 한결 또렷해졌어요.</li>
+      <li><span class="v">v1.7.0</span><span class="d">· 2026-06-12</span> — 인물·지명 사전을 손봐 다시 학습했어요.</li>
+      <li><span class="v">v1.6.0</span><span class="d">· 2026-06-12</span> — 모델을 새로 학습했어요.</li>
+      <li><span class="v">v1.5.0</span><span class="d">· 2026-06-11</span> — 이름을 ‘삼국지 단어 탐색기’로 바꾸고 예시를 새로 골랐어요.</li>
+      <li><span class="v">v1.4.0</span><span class="d">· 2026-06-10</span> — 링크로 결과를 공유·복사하는 기능을 더했어요.</li>
+      <li><span class="v">v1.3.0</span><span class="d">· 2026-06-10</span> — 블로그 링크와 공유 카드(SNS 미리보기)를 더했어요.</li>
+      <li><span class="v">v1.2.0</span><span class="d">· 2026-06-10</span> — 간체·번체와 이체자 표기를 하나로 통일했어요.</li>
+      <li><span class="v">v1.1.0</span><span class="d">· 2026-06-10</span> — 글자체·빈도 표시 등 화면을 다듬었어요.</li>
+      <li><span class="v">v1.0.0</span><span class="d">· 2026-06-10</span> — 삼국지 단어 탐색기 첫 공개 — 이 프로젝트의 첫 탐색기예요.</li>
+    </ul>
+  </details>
 </footer>
 
 <script>
@@ -502,17 +533,19 @@ function doesntMatch(indices) {
   });
   return { worst, scored };
 }
-// 평행사변형(유추): a:b = c:? → 타깃 = normalize(b − a + c) 와 코사인 최대(입력 3개 제외).
+// 평행사변형(유추): a:b = c:? → 3CosMul (Levy & Goldberg 2014). 입력 3개 제외.
+//   score(d) = sim(d,b)·sim(d,c) / (sim(d,a)+ε),  sim(x,y) = (cos(x,y)+1)/2
+// 덧셈식(b−a+c)은 랭킹이 cos(d,c)+cos(d,b)−cos(d,a)와 동치라, c와 매우 가까운 한 단어
+// (先主↔曹公 등)의 cos(d,c)항이 합을 지배해 a·b 관계가 묻힘 → 곱셈으로 세 항을 균형.
+// (cos+1)/2 시프트는 음수 코사인에서 곱/몫이 깨지는 것 방지(gensim most_similar_cosmul과 동일).
 function analogy(ia, ib, ic, topn) {
-  const t = new Float32Array(DIM), A = ia * DIM, B = ib * DIM, C = ic * DIM;
-  for (let k = 0; k < DIM; k++) t[k] = V[B + k] - V[A + k] + V[C + k];
-  let nrm = 0; for (let k = 0; k < DIM; k++) nrm += t[k] * t[k];
-  nrm = Math.sqrt(nrm) || 1; for (let k = 0; k < DIM; k++) t[k] /= nrm;
+  const A = ia * DIM, B = ib * DIM, C = ic * DIM, EPS = 1e-6;
   const skip = new Set([ia, ib, ic]), out = [];
   for (let j = 0; j < COUNT; j++) {
     if (skip.has(j)) continue;
-    let s = 0; const off = j * DIM;
-    for (let k = 0; k < DIM; k++) s += V[off + k] * t[k];
+    let ca = 0, cb = 0, cc = 0; const off = j * DIM;
+    for (let k = 0; k < DIM; k++) { const v = V[off + k]; ca += v * V[A + k]; cb += v * V[B + k]; cc += v * V[C + k]; }
+    const s = ((cb + 1) / 2) * ((cc + 1) / 2) / ((ca + 1) / 2 + EPS);
     out.push([j, s]);
   }
   out.sort((a, b) => b[1] - a[1]);
@@ -695,7 +728,7 @@ function runAnalogy() {
   if (!ta) return notFound(box, rawA);
   if (!tb) return notFound(box, rawB);
   if (!tc) return notFound(box, rawC);
-  const N = 20;
+  const N = 10;
   const list = analogy(tokenToIndex.get(ta), tokenToIndex.get(tb), tokenToIndex.get(tc), N);
   const w = tok => `<span class="han">${esc(tok)}<\/span>${rdSpan(tok)}`;
   box.innerHTML = `${exportBtn()}
