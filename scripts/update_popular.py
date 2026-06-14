@@ -44,6 +44,7 @@ EXCLUDE_PATHS = {
     "/hanshu-word-explorer", "/hanshu-word-explorer/",
     "/houhanshu-word-explorer", "/houhanshu-word-explorer/",
     "/sanguozhi-word-explorer", "/sanguozhi-word-explorer/",
+    "/sishi-word-explorer", "/sishi-word-explorer/",
 }
 
 
