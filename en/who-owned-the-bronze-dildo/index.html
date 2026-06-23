@@ -59,12 +59,50 @@
 
 <!-- Schema.org (Google 검색용) -->
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "@id": "https://zyahan.blog/#website",
+      "url": "https://zyahan.blog/",
+      "name": "Beauty, Mystery, and Death",
+      "description": "Stories from the Book of Han.",
+      "inLanguage": "en",
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zyahan.blog/#person",
+      "name": "Zya",
+      "url": "https://zyahan.blog/",
+      "image": "https://zyahan.blog/assets/images/logo_circle.png",
+      "sameAs": [
+        "https://buymeacoffee.com/zya.han",
+        "https://tumblbug.com/u/zya"
+      ]
+    },
+    {
       "@type": "Organization",
-      "url": "https://zyahan.blog",
+      "@id": "https://zyahan.blog/#organization",
+      "name": "Beauty, Mystery, and Death",
+      "url": "https://zyahan.blog/",
       "logo": "https://zyahan.blog/assets/images/logo_circle.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zyahan.blog/en/who-owned-the-bronze-dildo/#article",
+      "mainEntityOfPage": { "@id": "https://zyahan.blog/en/who-owned-the-bronze-dildo/" },
+      "headline": "Who Owned the Bronze Dildo?",
+      "description": "The bronze dildo was a burial object excavated in 2011 from a Han dynasty tomb at Mount Dayun in Xuyi County, Jiangsu Province. The tomb's occupant was Liu Fei (劉非), the first King of Jiangdu and son of Emperor Jing of the Western Han. What kind of person was Liu Fei, buried alongside this bronze dildo?",
+      "image": "https://zyahan.blog/assets/images/cards/bronze-dildo.jpg",
+      "datePublished": "2025-04-16T20:50:00+09:00",
+      "inLanguage": "en",
+      "author": { "@id": "https://zyahan.blog/#person" },
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
     }
+  ]
+}
 </script>
 
 <!-- Canonical tag -->

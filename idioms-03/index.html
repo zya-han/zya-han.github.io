@@ -59,12 +59,50 @@
 
 <!-- Schema.org (Google 검색용) -->
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "@id": "https://zyahan.blog/#website",
+      "url": "https://zyahan.blog/",
+      "name": "미남과 오컬트와 자살",
+      "description": "《한서》 이야기를 합니다.",
+      "inLanguage": "ko",
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zyahan.blog/#person",
+      "name": "주아",
+      "url": "https://zyahan.blog/",
+      "image": "https://zyahan.blog/assets/images/logo_circle.png",
+      "sameAs": [
+        "https://buymeacoffee.com/zya.han",
+        "https://tumblbug.com/u/zya"
+      ]
+    },
+    {
       "@type": "Organization",
-      "url": "https://zyahan.blog",
+      "@id": "https://zyahan.blog/#organization",
+      "name": "미남과 오컬트와 자살",
+      "url": "https://zyahan.blog/",
       "logo": "https://zyahan.blog/assets/images/logo_circle.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zyahan.blog/idioms-03/#article",
+      "mainEntityOfPage": { "@id": "https://zyahan.blog/idioms-03/" },
+      "headline": "3. 바닷가 [海濱, 海瀕, 海濵] [🔒 무료 미리보기]",
+      "description": "현대한국어에서 바닷가는 한자어로 해변(海邊)이라고 하지만, 상고한어에서 주로 사용하는 단어는 해빈(海濱·海瀕·海濵)입니다. 한자가 다르지만 뜻은 거의 같습니다. 해변(海邊)이나 해빈(海濱)이나 바닷가는 바닷가지요. 육지 한가운데도 아니고 바다 한가운데도 아닙니다. 그러면 이 단어를 왜 《한나라 숙어 수첩》에서 굳이 다루게 되었을까요?",
+      "image": "https://zyahan.blog/assets/images/cards/beach.jpeg",
+      "datePublished": "2020-01-08T16:42:00+09:00",
+      "inLanguage": "ko",
+      "author": { "@id": "https://zyahan.blog/#person" },
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
     }
+  ]
+}
 </script>
 
 <!-- Canonical tag -->

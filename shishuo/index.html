@@ -59,12 +59,50 @@
 
 <!-- Schema.org (Google 검색용) -->
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "@id": "https://zyahan.blog/#website",
+      "url": "https://zyahan.blog/",
+      "name": "미남과 오컬트와 자살",
+      "description": "《한서》 이야기를 합니다.",
+      "inLanguage": "ko",
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zyahan.blog/#person",
+      "name": "주아",
+      "url": "https://zyahan.blog/",
+      "image": "https://zyahan.blog/assets/images/logo_circle.png",
+      "sameAs": [
+        "https://buymeacoffee.com/zya.han",
+        "https://tumblbug.com/u/zya"
+      ]
+    },
+    {
       "@type": "Organization",
-      "url": "https://zyahan.blog",
+      "@id": "https://zyahan.blog/#organization",
+      "name": "미남과 오컬트와 자살",
+      "url": "https://zyahan.blog/",
       "logo": "https://zyahan.blog/assets/images/logo_circle.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zyahan.blog/shishuo/#article",
+      "mainEntityOfPage": { "@id": "https://zyahan.blog/shishuo/" },
+      "headline": "《세설신어(보)》의 호칭어 사용 양상 [🔒 무료 미리보기]",
+      "description": "《세설신어》는 후한 말부터 서진 건국까지를 배경으로 하는 《삼국지》와 시대가 일부 겹치기도 하지만, 주로 그 이후인 서진과 동진의 인물을 다룹니다. 그리고 인물 사이의 대화를 위주로 하고 있습니다. 그러다 보니 《삼국지》의 사람들과 비교해서 호칭어를 어떻게 다르게 썼는지가 눈에 띕니다.",
+      "image": "https://zyahan.blog/assets/images/cards/woman-figurine.png",
+      "datePublished": "2020-09-13T11:45:00+09:00",
+      "inLanguage": "ko",
+      "author": { "@id": "https://zyahan.blog/#person" },
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
     }
+  ]
+}
 </script>
 
 <!-- Canonical tag -->

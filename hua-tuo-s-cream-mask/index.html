@@ -59,12 +59,50 @@
 
 <!-- Schema.org (Google 검색용) -->
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "@id": "https://zyahan.blog/#website",
+      "url": "https://zyahan.blog/",
+      "name": "미남과 오컬트와 자살",
+      "description": "《한서》 이야기를 합니다.",
+      "inLanguage": "ko",
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zyahan.blog/#person",
+      "name": "주아",
+      "url": "https://zyahan.blog/",
+      "image": "https://zyahan.blog/assets/images/logo_circle.png",
+      "sameAs": [
+        "https://buymeacoffee.com/zya.han",
+        "https://tumblbug.com/u/zya"
+      ]
+    },
+    {
       "@type": "Organization",
-      "url": "https://zyahan.blog",
+      "@id": "https://zyahan.blog/#organization",
+      "name": "미남과 오컬트와 자살",
+      "url": "https://zyahan.blog/",
       "logo": "https://zyahan.blog/assets/images/logo_circle.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zyahan.blog/hua-tuo-s-cream-mask/#article",
+      "mainEntityOfPage": { "@id": "https://zyahan.blog/hua-tuo-s-cream-mask/" },
+      "headline": "고대 중국의 마스크팩",
+      "description": "삼국지 이야기에서 제일 유명한 의사가 누구인지 묻는다면 모두들 화타를 꼽을 것입니다. 그런데, 이 화타가 피부에 생기를 돋우는 마스크팩을 개발했다고 하면 믿으시겠어요?",
+      "image": "https://zyahan.blog/assets/images/cards/sheet-mask.jpeg",
+      "datePublished": "2025-03-27T12:50:00+09:00",
+      "inLanguage": "ko",
+      "author": { "@id": "https://zyahan.blog/#person" },
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
     }
+  ]
+}
 </script>
 
 <!-- Canonical tag -->

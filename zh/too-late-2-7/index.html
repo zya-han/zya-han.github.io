@@ -59,12 +59,50 @@
 
 <!-- Schema.org (Google 검색용) -->
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "@id": "https://zyahan.blog/#website",
+      "url": "https://zyahan.blog/",
+      "name": "美男与神秘与自杀",
+      "description": "讲述《汉书》的故事。",
+      "inLanguage": "zh",
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zyahan.blog/#person",
+      "name": "周雅",
+      "url": "https://zyahan.blog/",
+      "image": "https://zyahan.blog/assets/images/logo_circle.png",
+      "sameAs": [
+        "https://buymeacoffee.com/zya.han",
+        "https://tumblbug.com/u/zya"
+      ]
+    },
+    {
       "@type": "Organization",
-      "url": "https://zyahan.blog",
+      "@id": "https://zyahan.blog/#organization",
+      "name": "美男与神秘与自杀",
+      "url": "https://zyahan.blog/",
       "logo": "https://zyahan.blog/assets/images/logo_circle.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zyahan.blog/zh/too-late-2-7/#article",
+      "mainEntityOfPage": { "@id": "https://zyahan.blog/zh/too-late-2-7/" },
+      "headline": "2-7. 执着的人们",
+      "description": "陈宫趴在床上，抬头向曹操打招呼。曹操责备他：“公台，这是接待主人的态度吗？”",
+      "image": "https://zyahan.blog/assets/images/cards/toolate.jpg",
+      "datePublished": "2019-10-18T22:47:00+09:00",
+      "inLanguage": "zh",
+      "author": { "@id": "https://zyahan.blog/#person" },
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
     }
+  ]
+}
 </script>
 
 <!-- Canonical tag -->

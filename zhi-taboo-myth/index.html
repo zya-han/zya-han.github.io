@@ -59,12 +59,50 @@
 
 <!-- Schema.org (Google 검색용) -->
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "@id": "https://zyahan.blog/#website",
+      "url": "https://zyahan.blog/",
+      "name": "미남과 오컬트와 자살",
+      "description": "《한서》 이야기를 합니다.",
+      "inLanguage": "ko",
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zyahan.blog/#person",
+      "name": "주아",
+      "url": "https://zyahan.blog/",
+      "image": "https://zyahan.blog/assets/images/logo_circle.png",
+      "sameAs": [
+        "https://buymeacoffee.com/zya.han",
+        "https://tumblbug.com/u/zya"
+      ]
+    },
+    {
       "@type": "Organization",
-      "url": "https://zyahan.blog",
+      "@id": "https://zyahan.blog/#organization",
+      "name": "미남과 오컬트와 자살",
+      "url": "https://zyahan.blog/",
       "logo": "https://zyahan.blog/assets/images/logo_circle.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zyahan.blog/zhi-taboo-myth/#article",
+      "mainEntityOfPage": { "@id": "https://zyahan.blog/zhi-taboo-myth/" },
+      "headline": "彘(돼지 체)와 인간돼지 괴담",
+      "description": "나무위키 彘(돼지 체) 문서에서는 이 글자가 여 태후의 인간돼지 사건 때문에 쓰이지 않게 되었다는 설을 언급합니다. 과연 믿을 만한 이야기일까요?",
+      "image": "https://zyahan.blog/assets/images/cards/haozhi-tu.jpg",
+      "datePublished": "2026-05-22T14:04:00+09:00",
+      "inLanguage": "ko",
+      "author": { "@id": "https://zyahan.blog/#person" },
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
     }
+  ]
+}
 </script>
 
 <!-- Canonical tag -->

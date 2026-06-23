@@ -59,12 +59,50 @@
 
 <!-- Schema.org (Google 검색용) -->
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "@id": "https://zyahan.blog/#website",
+      "url": "https://zyahan.blog/",
+      "name": "미남과 오컬트와 자살",
+      "description": "《한서》 이야기를 합니다.",
+      "inLanguage": "ko",
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zyahan.blog/#person",
+      "name": "주아",
+      "url": "https://zyahan.blog/",
+      "image": "https://zyahan.blog/assets/images/logo_circle.png",
+      "sameAs": [
+        "https://buymeacoffee.com/zya.han",
+        "https://tumblbug.com/u/zya"
+      ]
+    },
+    {
       "@type": "Organization",
-      "url": "https://zyahan.blog",
+      "@id": "https://zyahan.blog/#organization",
+      "name": "미남과 오컬트와 자살",
+      "url": "https://zyahan.blog/",
       "logo": "https://zyahan.blog/assets/images/logo_circle.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zyahan.blog/idioms-09/#article",
+      "mainEntityOfPage": { "@id": "https://zyahan.blog/idioms-09/" },
+      "headline": "9. 주후혜문 [柱後惠文] [🔒 무료 미리보기]",
+      "description": "서한 선제 때의 인물인 장창은 경조윤으로서 수도 장안의 치안을 바로잡아 명성을 떨쳤습니다. 후대에는 다른 일화로 더 잘 알려져 있는데, 바로 부인의 눈썹을 손수 그려 준 “경조화미”입니다.",
+      "image": "https://zyahan.blog/assets/images/cards/jin-midi-card.jpeg",
+      "datePublished": "2020-01-26T16:09:00+09:00",
+      "inLanguage": "ko",
+      "author": { "@id": "https://zyahan.blog/#person" },
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
     }
+  ]
+}
 </script>
 
 <!-- Canonical tag -->

@@ -59,12 +59,50 @@
 
 <!-- Schema.org (Google 검색용) -->
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "@id": "https://zyahan.blog/#website",
+      "url": "https://zyahan.blog/",
+      "name": "미남과 오컬트와 자살",
+      "description": "《한서》 이야기를 합니다.",
+      "inLanguage": "ko",
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zyahan.blog/#person",
+      "name": "주아",
+      "url": "https://zyahan.blog/",
+      "image": "https://zyahan.blog/assets/images/logo_circle.png",
+      "sameAs": [
+        "https://buymeacoffee.com/zya.han",
+        "https://tumblbug.com/u/zya"
+      ]
+    },
+    {
       "@type": "Organization",
-      "url": "https://zyahan.blog",
+      "@id": "https://zyahan.blog/#organization",
+      "name": "미남과 오컬트와 자살",
+      "url": "https://zyahan.blog/",
       "logo": "https://zyahan.blog/assets/images/logo_circle.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zyahan.blog/yang-as-deceit/#article",
+      "mainEntityOfPage": { "@id": "https://zyahan.blog/yang-as-deceit/" },
+      "headline": "양동작전의 수수께끼",
+      "description": "최근 트위터에서 마사토끼 님의 만화를 보고 찔렸습니다. “이쪽인 것처럼 해 놓고 저쪽에서 공격한다, 이런 기만 전술을 [양동작전]이라고 하죠. … 기만전술을 일컫는 명칭에 어떻게 陽자를 붙입니까?” 사실 아(雅)도 ‘양동작전’의 ‘양’이 兩이라고 생각했었거든요…",
+      "image": "https://zyahan.blog/assets/images/cards/mirror.jpeg",
+      "datePublished": "2024-03-09T20:13:00+09:00",
+      "inLanguage": "ko",
+      "author": { "@id": "https://zyahan.blog/#person" },
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
     }
+  ]
+}
 </script>
 
 <!-- Canonical tag -->

@@ -59,12 +59,50 @@
 
 <!-- Schema.org (Google 검색용) -->
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "@id": "https://zyahan.blog/#website",
+      "url": "https://zyahan.blog/",
+      "name": "미남과 오컬트와 자살",
+      "description": "《한서》 이야기를 합니다.",
+      "inLanguage": "ko",
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zyahan.blog/#person",
+      "name": "주아",
+      "url": "https://zyahan.blog/",
+      "image": "https://zyahan.blog/assets/images/logo_circle.png",
+      "sameAs": [
+        "https://buymeacoffee.com/zya.han",
+        "https://tumblbug.com/u/zya"
+      ]
+    },
+    {
       "@type": "Organization",
-      "url": "https://zyahan.blog",
+      "@id": "https://zyahan.blog/#organization",
+      "name": "미남과 오컬트와 자살",
+      "url": "https://zyahan.blog/",
       "logo": "https://zyahan.blog/assets/images/logo_circle.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zyahan.blog/idioms-06/#article",
+      "mainEntityOfPage": { "@id": "https://zyahan.blog/idioms-06/" },
+      "headline": "6. 물동이를 이고서 어떻게 하늘을 바라보나 [戴盆何以望天] [🔒 무료 미리보기]",
+      "description": "“머리에 물동이를 이고서 어떻게 하늘을 바라보겠어?” 기록상 이 말은 《사기》를 쓴 사마천이 곧 사형을 받게 될 친구 임안에게 보낸 편지에 처음 나옵니다. 사마천이 창작했을 수도 있지만 아마 당시의 속담이었겠지요.",
+      "image": "https://zyahan.blog/assets/images/cards/jin-midi-card.jpeg",
+      "datePublished": "2020-01-15T08:58:00+09:00",
+      "inLanguage": "ko",
+      "author": { "@id": "https://zyahan.blog/#person" },
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
     }
+  ]
+}
 </script>
 
 <!-- Canonical tag -->

@@ -59,12 +59,50 @@
 
 <!-- Schema.org (Google 검색용) -->
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "@id": "https://zyahan.blog/#website",
+      "url": "https://zyahan.blog/",
+      "name": "Beauty, Mystery, and Death",
+      "description": "Stories from the Book of Han.",
+      "inLanguage": "en",
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zyahan.blog/#person",
+      "name": "Zya",
+      "url": "https://zyahan.blog/",
+      "image": "https://zyahan.blog/assets/images/logo_circle.png",
+      "sameAs": [
+        "https://buymeacoffee.com/zya.han",
+        "https://tumblbug.com/u/zya"
+      ]
+    },
+    {
       "@type": "Organization",
-      "url": "https://zyahan.blog",
+      "@id": "https://zyahan.blog/#organization",
+      "name": "Beauty, Mystery, and Death",
+      "url": "https://zyahan.blog/",
       "logo": "https://zyahan.blog/assets/images/logo_circle.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zyahan.blog/en/jijirulvling-original-meaning/#article",
+      "mainEntityOfPage": { "@id": "https://zyahan.blog/en/jijirulvling-original-meaning/" },
+      "headline": "Jíjí Rúlǜlìng: The Original Meaning of Rúlǜlìng",
+      "description": "Interpreting 'rúlǜlìng' in Han dynasty land purchase contracts (買地券) and tomb-quelling texts (鎭墓文)",
+      "image": "https://zyahan.blog/assets/images/cards/jijirulvling.jpeg",
+      "datePublished": "2023-10-15T21:44:00+09:00",
+      "inLanguage": "en",
+      "author": { "@id": "https://zyahan.blog/#person" },
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
     }
+  ]
+}
 </script>
 
 <!-- Canonical tag -->

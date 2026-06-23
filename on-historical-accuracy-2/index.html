@@ -59,12 +59,50 @@
 
 <!-- Schema.org (Google 검색용) -->
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "@id": "https://zyahan.blog/#website",
+      "url": "https://zyahan.blog/",
+      "name": "미남과 오컬트와 자살",
+      "description": "《한서》 이야기를 합니다.",
+      "inLanguage": "ko",
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zyahan.blog/#person",
+      "name": "주아",
+      "url": "https://zyahan.blog/",
+      "image": "https://zyahan.blog/assets/images/logo_circle.png",
+      "sameAs": [
+        "https://buymeacoffee.com/zya.han",
+        "https://tumblbug.com/u/zya"
+      ]
+    },
+    {
       "@type": "Organization",
-      "url": "https://zyahan.blog",
+      "@id": "https://zyahan.blog/#organization",
+      "name": "미남과 오컬트와 자살",
+      "url": "https://zyahan.blog/",
       "logo": "https://zyahan.blog/assets/images/logo_circle.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zyahan.blog/on-historical-accuracy-2/#article",
+      "mainEntityOfPage": { "@id": "https://zyahan.blog/on-historical-accuracy-2/" },
+      "headline": "역사/시대 고증은 창작물의 윤리성을 훼손하는가?",
+      "description": "정말로 온전한 시대 고증을 위해서는 소수자에게 차별과 폭력을 가하는 수밖에 없을까요? 작품의 “윤리적인” 측면을 중시한다면 (그리고 작품의 “윤리성”에 대한 개념이 적당히 합의되어 있다고 가정한다면) 반드시 시대 고증의 일부를 포기해야만 할까요?",
+      "image": "https://zyahan.blog/assets/images/cards/research.jpeg",
+      "datePublished": "2023-09-29T19:51:00+09:00",
+      "inLanguage": "ko",
+      "author": { "@id": "https://zyahan.blog/#person" },
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
     }
+  ]
+}
 </script>
 
 <!-- Canonical tag -->

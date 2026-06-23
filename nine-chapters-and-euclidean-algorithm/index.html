@@ -59,12 +59,50 @@
 
 <!-- Schema.org (Google 검색용) -->
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "@id": "https://zyahan.blog/#website",
+      "url": "https://zyahan.blog/",
+      "name": "미남과 오컬트와 자살",
+      "description": "《한서》 이야기를 합니다.",
+      "inLanguage": "ko",
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zyahan.blog/#person",
+      "name": "주아",
+      "url": "https://zyahan.blog/",
+      "image": "https://zyahan.blog/assets/images/logo_circle.png",
+      "sameAs": [
+        "https://buymeacoffee.com/zya.han",
+        "https://tumblbug.com/u/zya"
+      ]
+    },
+    {
       "@type": "Organization",
-      "url": "https://zyahan.blog",
+      "@id": "https://zyahan.blog/#organization",
+      "name": "미남과 오컬트와 자살",
+      "url": "https://zyahan.blog/",
       "logo": "https://zyahan.blog/assets/images/logo_circle.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zyahan.blog/nine-chapters-and-euclidean-algorithm/#article",
+      "mainEntityOfPage": { "@id": "https://zyahan.blog/nine-chapters-and-euclidean-algorithm/" },
+      "headline": "《구장산술》, 유클리드 호제법, 파이선",
+      "description": "《한서》에서 온갖 것을 찾아대던 시절이었습니다. 갑자기 한나라에 프로그래밍에 상응하는 것이 있었는지가 궁금해졌습니다. 그러다가 《구장산술》이 떠올랐습니다. 《구장산술》이란 어떤 책일까요? 《구장산술》은 제목 그대로 9장으로 이루어진 산술에 관한 책입니다.",
+      "image": "https://zyahan.blog/assets/images/cards/python-algorithm.png",
+      "datePublished": "2025-04-11T09:15:00+09:00",
+      "inLanguage": "ko",
+      "author": { "@id": "https://zyahan.blog/#person" },
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
     }
+  ]
+}
 </script>
 
 <!-- Canonical tag -->

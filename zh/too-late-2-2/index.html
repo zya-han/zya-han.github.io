@@ -59,12 +59,50 @@
 
 <!-- Schema.org (Google 검색용) -->
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "@id": "https://zyahan.blog/#website",
+      "url": "https://zyahan.blog/",
+      "name": "美男与神秘与自杀",
+      "description": "讲述《汉书》的故事。",
+      "inLanguage": "zh",
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zyahan.blog/#person",
+      "name": "周雅",
+      "url": "https://zyahan.blog/",
+      "image": "https://zyahan.blog/assets/images/logo_circle.png",
+      "sameAs": [
+        "https://buymeacoffee.com/zya.han",
+        "https://tumblbug.com/u/zya"
+      ]
+    },
+    {
       "@type": "Organization",
-      "url": "https://zyahan.blog",
+      "@id": "https://zyahan.blog/#organization",
+      "name": "美男与神秘与自杀",
+      "url": "https://zyahan.blog/",
       "logo": "https://zyahan.blog/assets/images/logo_circle.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zyahan.blog/zh/too-late-2-2/#article",
+      "mainEntityOfPage": { "@id": "https://zyahan.blog/zh/too-late-2-2/" },
+      "headline": "2-2. 嫦娥",
+      "description": "陈宫通常日落后就直接躺在床上。若想读书照亮房间，就得让侍者带来灯火。一旦点灯，侍者就守在灯旁不离开。",
+      "image": "https://zyahan.blog/assets/images/cards/toolate.jpg",
+      "datePublished": "2019-09-13T23:24:00+09:00",
+      "inLanguage": "zh",
+      "author": { "@id": "https://zyahan.blog/#person" },
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
     }
+  ]
+}
 </script>
 
 <!-- Canonical tag -->

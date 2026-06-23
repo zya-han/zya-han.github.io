@@ -59,12 +59,50 @@
 
 <!-- Schema.org (Google 검색용) -->
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "@id": "https://zyahan.blog/#website",
+      "url": "https://zyahan.blog/",
+      "name": "미남과 오컬트와 자살",
+      "description": "《한서》 이야기를 합니다.",
+      "inLanguage": "ko",
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zyahan.blog/#person",
+      "name": "주아",
+      "url": "https://zyahan.blog/",
+      "image": "https://zyahan.blog/assets/images/logo_circle.png",
+      "sameAs": [
+        "https://buymeacoffee.com/zya.han",
+        "https://tumblbug.com/u/zya"
+      ]
+    },
+    {
       "@type": "Organization",
-      "url": "https://zyahan.blog",
+      "@id": "https://zyahan.blog/#organization",
+      "name": "미남과 오컬트와 자살",
+      "url": "https://zyahan.blog/",
       "logo": "https://zyahan.blog/assets/images/logo_circle.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zyahan.blog/cao-cao-10/#article",
+      "mainEntityOfPage": { "@id": "https://zyahan.blog/cao-cao-10/" },
+      "headline": "10. 조조가 좋아한 음식은? [🔒 무료 미리보기]",
+      "description": "남북조의 책 《안씨가훈》을 읽다가 뜬금없이 〈위무사시식제魏武四時食制〉라는 글이 인용된 것을 발견했습니다. ‘위무魏武’는 위 무제 조조를 가리키고, ‘사시식제四時食制’는 사계절의 음식 제도라는 뜻이니까 조조가 쓴 제철 음식 이야기라는 것을 짐작할 수 있습니다. 조조가 음식에 관한 글도 썼나 봅니다. 사실 놀랍지는 않습니다. 조조가 뭔들 안 썼겠어요…",
+      "image": "https://zyahan.blog/assets/images/cards/steamed-fish.jpeg",
+      "datePublished": "2021-08-12T20:52:00+09:00",
+      "inLanguage": "ko",
+      "author": { "@id": "https://zyahan.blog/#person" },
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
     }
+  ]
+}
 </script>
 
 <!-- Canonical tag -->

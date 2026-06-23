@@ -59,12 +59,50 @@
 
 <!-- Schema.org (Google 검색용) -->
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "@id": "https://zyahan.blog/#website",
+      "url": "https://zyahan.blog/",
+      "name": "미남과 오컬트와 자살",
+      "description": "《한서》 이야기를 합니다.",
+      "inLanguage": "ko",
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zyahan.blog/#person",
+      "name": "주아",
+      "url": "https://zyahan.blog/",
+      "image": "https://zyahan.blog/assets/images/logo_circle.png",
+      "sameAs": [
+        "https://buymeacoffee.com/zya.han",
+        "https://tumblbug.com/u/zya"
+      ]
+    },
+    {
       "@type": "Organization",
-      "url": "https://zyahan.blog",
+      "@id": "https://zyahan.blog/#organization",
+      "name": "미남과 오컬트와 자살",
+      "url": "https://zyahan.blog/",
       "logo": "https://zyahan.blog/assets/images/logo_circle.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zyahan.blog/brothers-are-hands/#article",
+      "mainEntityOfPage": { "@id": "https://zyahan.blog/brothers-are-hands/" },
+      "headline": "형제는 손발, 처자는 의복?",
+      "description": "소설 《삼국연의》에서 중요한 주제 중 하나는 유비·관우·장비 사이의 의리입니다. 특히 유비의 대사로 다음과 같은 말이 유명합니다. “형제는 손발과 같고, 처자는 의복과 같다.” 이 대사는 장비가 술에 취해 서주성을 빼앗기고 유비의 아내를 잃은 죄를 자책하며 스스로 목숨을 끊으려는 것을 말리면서 나온 말입니다. 유비는 자기의 아내를 잃은 것은 의복이 해진 정도의 사소한 일이지만 의형제인 장비를 잃는 것은 손발이 끊어지는 것과 같은 중대한 일이라고 선언한 것입니다. 그런데 이 비유는 유비가 처음 만들어 낸 것이 아닙니다.",
+      "image": "https://zyahan.blog/assets/images/cards/brothers.jpeg",
+      "datePublished": "2024-02-09T13:04:00+09:00",
+      "inLanguage": "ko",
+      "author": { "@id": "https://zyahan.blog/#person" },
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
     }
+  ]
+}
 </script>
 
 <!-- Canonical tag -->

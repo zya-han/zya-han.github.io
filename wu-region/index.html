@@ -59,12 +59,50 @@
 
 <!-- Schema.org (Google 검색용) -->
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "@id": "https://zyahan.blog/#website",
+      "url": "https://zyahan.blog/",
+      "name": "미남과 오컬트와 자살",
+      "description": "《한서》 이야기를 합니다.",
+      "inLanguage": "ko",
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zyahan.blog/#person",
+      "name": "주아",
+      "url": "https://zyahan.blog/",
+      "image": "https://zyahan.blog/assets/images/logo_circle.png",
+      "sameAs": [
+        "https://buymeacoffee.com/zya.han",
+        "https://tumblbug.com/u/zya"
+      ]
+    },
+    {
       "@type": "Organization",
-      "url": "https://zyahan.blog",
+      "@id": "https://zyahan.blog/#organization",
+      "name": "미남과 오컬트와 자살",
+      "url": "https://zyahan.blog/",
       "logo": "https://zyahan.blog/assets/images/logo_circle.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zyahan.blog/wu-region/#article",
+      "mainEntityOfPage": { "@id": "https://zyahan.blog/wu-region/" },
+      "headline": "한대의 오(吳) 지역에 관하여",
+      "description": "한대의 오(吳)는 《사기》 〈화식열전〉과 《한서》 〈지리지〉에서 손꼽는 장강 동쪽의 대도시입니다. 이 도시는 하루아침에 이루어진 것이 아니라 오래된 역사와 전통이 있습니다. 춘추 시대에는 오왕 합려, 전국 시대에는 초나라의 춘신군 황헐, 서한 때는 오왕 유비(劉濞)가 작정하고 전국에서 혈기 넘치는 젊은이들을 불러모아 세력을 키웠던 것입니다.",
+      "image": "https://zyahan.blog/assets/images/cards/mirror.jpeg",
+      "datePublished": "2021-08-17T21:16:00+09:00",
+      "inLanguage": "ko",
+      "author": { "@id": "https://zyahan.blog/#person" },
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
     }
+  ]
+}
 </script>
 
 <!-- Canonical tag -->

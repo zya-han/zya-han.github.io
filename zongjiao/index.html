@@ -59,12 +59,50 @@
 
 <!-- Schema.org (Google 검색용) -->
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "@id": "https://zyahan.blog/#website",
+      "url": "https://zyahan.blog/",
+      "name": "미남과 오컬트와 자살",
+      "description": "《한서》 이야기를 합니다.",
+      "inLanguage": "ko",
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zyahan.blog/#person",
+      "name": "주아",
+      "url": "https://zyahan.blog/",
+      "image": "https://zyahan.blog/assets/images/logo_circle.png",
+      "sameAs": [
+        "https://buymeacoffee.com/zya.han",
+        "https://tumblbug.com/u/zya"
+      ]
+    },
+    {
       "@type": "Organization",
-      "url": "https://zyahan.blog",
+      "@id": "https://zyahan.blog/#organization",
+      "name": "미남과 오컬트와 자살",
+      "url": "https://zyahan.blog/",
       "logo": "https://zyahan.blog/assets/images/logo_circle.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zyahan.blog/zongjiao/#article",
+      "mainEntityOfPage": { "@id": "https://zyahan.blog/zongjiao/" },
+      "headline": "손책과 주유의 총각지호(總角之好)",
+      "description": "표준국어대사전에 따르면 한국어 총각(總角)은 '결혼하지 않은 성년 남자'를 가리키는 말입니다. 하지만 고대 중국에서 ‘총각’은 훨씬 어린 나이였고, 남성만을 가리키는 것도 아니었습니다. 머리 모양도 달랐습니다. 한국어에서 말하는 총각머리는 머리를 땋아 늘어뜨린 것이지만, 고대 중국어에서 ‘총각’이라고 하는 머리 모양은 머리카락을 양의 두 뿔[角]처럼 만든 것이었습니다.",
+      "image": "https://zyahan.blog/assets/images/cards/chinese-girl.jpeg",
+      "datePublished": "2020-08-09T12:13:00+09:00",
+      "inLanguage": "ko",
+      "author": { "@id": "https://zyahan.blog/#person" },
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
     }
+  ]
+}
 </script>
 
 <!-- Canonical tag -->

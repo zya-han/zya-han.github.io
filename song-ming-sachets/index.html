@@ -59,12 +59,50 @@
 
 <!-- Schema.org (Google 검색용) -->
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "@id": "https://zyahan.blog/#website",
+      "url": "https://zyahan.blog/",
+      "name": "미남과 오컬트와 자살",
+      "description": "《한서》 이야기를 합니다.",
+      "inLanguage": "ko",
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zyahan.blog/#person",
+      "name": "주아",
+      "url": "https://zyahan.blog/",
+      "image": "https://zyahan.blog/assets/images/logo_circle.png",
+      "sameAs": [
+        "https://buymeacoffee.com/zya.han",
+        "https://tumblbug.com/u/zya"
+      ]
+    },
+    {
       "@type": "Organization",
-      "url": "https://zyahan.blog",
+      "@id": "https://zyahan.blog/#organization",
+      "name": "미남과 오컬트와 자살",
+      "url": "https://zyahan.blog/",
       "logo": "https://zyahan.blog/assets/images/logo_circle.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zyahan.blog/song-ming-sachets/#article",
+      "mainEntityOfPage": { "@id": "https://zyahan.blog/song-ming-sachets/" },
+      "headline": "송나라 사람들과 명나라 사람들은 향낭에 무엇을 넣었을까?",
+      "description": "허리에서 은은하게 코를 자극하는 향기를 풍기는 향낭은 중국에서도 한국에서도 중요한 장식품이었고, 창작물에서도 매력적인 장치로 자주 사용됩니다. 단순히 향낭이라는 아이템을 등장시킬 뿐만 아니라, 향낭에서 어떤 향기가 나는지를 묘사할 수 있다면 더욱 즐거운 창작이 되지 않을까요? 여러 창작물에서 가장 자주 쓰이는 것은 매화 꽃잎인 것 같습니다. 그렇다면 실제로 옛날 사람들은 향낭에 어떤 향을 넣었을까요?",
+      "image": "https://zyahan.blog/assets/images/cards/sachets.jpeg",
+      "datePublished": "2022-07-02T11:53:00+09:00",
+      "inLanguage": "ko",
+      "author": { "@id": "https://zyahan.blog/#person" },
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
     }
+  ]
+}
 </script>
 
 <!-- Canonical tag -->

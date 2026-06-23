@@ -59,12 +59,50 @@
 
 <!-- Schema.org (Google 검색용) -->
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "@id": "https://zyahan.blog/#website",
+      "url": "https://zyahan.blog/",
+      "name": "미남과 오컬트와 자살",
+      "description": "《한서》 이야기를 합니다.",
+      "inLanguage": "ko",
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zyahan.blog/#person",
+      "name": "주아",
+      "url": "https://zyahan.blog/",
+      "image": "https://zyahan.blog/assets/images/logo_circle.png",
+      "sameAs": [
+        "https://buymeacoffee.com/zya.han",
+        "https://tumblbug.com/u/zya"
+      ]
+    },
+    {
       "@type": "Organization",
-      "url": "https://zyahan.blog",
+      "@id": "https://zyahan.blog/#organization",
+      "name": "미남과 오컬트와 자살",
+      "url": "https://zyahan.blog/",
       "logo": "https://zyahan.blog/assets/images/logo_circle.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zyahan.blog/interpret-and-translate/#article",
+      "mainEntityOfPage": { "@id": "https://zyahan.blog/interpret-and-translate/" },
+      "headline": "통역과 번역이 모두 ‘역’으로 끝나는 까닭",
+      "description": "한국어를 비롯한 한자문화권에서 통역(通譯)과 번역(飜譯)은 서로 다른 의미를 가진 단어이지만, 역(譯)이라는 한자를 공유합니다. 두 작업 모두 이 언어를 저 언어로 옮기는 과정을 포함한다는 공통점을 가지고 있기 때문입니다. 그런데 유럽어에서는 ‘통역’이라는 말과 ‘번역’이라는 말이 독립적으로 존재하는 경우가 많습니다. 예를 들면 영어로 통역에 해당하는 동사는 ‘interpret’, 번역에 해당하는 동사는 ‘translate’입니다. 두 단어 사이에 겹치는 요소가 없습니다.",
+      "image": "https://zyahan.blog/assets/images/cards/mirror.jpeg",
+      "datePublished": "2024-03-10T19:26:00+09:00",
+      "inLanguage": "ko",
+      "author": { "@id": "https://zyahan.blog/#person" },
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
     }
+  ]
+}
 </script>
 
 <!-- Canonical tag -->

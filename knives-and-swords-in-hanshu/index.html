@@ -59,12 +59,50 @@
 
 <!-- Schema.org (Google 검색용) -->
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "@id": "https://zyahan.blog/#website",
+      "url": "https://zyahan.blog/",
+      "name": "미남과 오컬트와 자살",
+      "description": "《한서》 이야기를 합니다.",
+      "inLanguage": "ko",
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zyahan.blog/#person",
+      "name": "주아",
+      "url": "https://zyahan.blog/",
+      "image": "https://zyahan.blog/assets/images/logo_circle.png",
+      "sameAs": [
+        "https://buymeacoffee.com/zya.han",
+        "https://tumblbug.com/u/zya"
+      ]
+    },
+    {
       "@type": "Organization",
-      "url": "https://zyahan.blog",
+      "@id": "https://zyahan.blog/#organization",
+      "name": "미남과 오컬트와 자살",
+      "url": "https://zyahan.blog/",
       "logo": "https://zyahan.blog/assets/images/logo_circle.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zyahan.blog/knives-and-swords-in-hanshu/#article",
+      "mainEntityOfPage": { "@id": "https://zyahan.blog/knives-and-swords-in-hanshu/" },
+      "headline": "《한서》에서 도(刀)와 검(劍)의 용례 [🔒 무료 미리보기]",
+      "description": "잘 아시다시피 도刀는 한쪽이 날, 다른 쪽이 등으로 이루어진 칼이며 검劍은 양쪽 모두 날로 이루어진 칼입니다. 《한서》에서도 이 두 가지를 구별하여 서술하며, 두 단어의 용례가 다른 것을 확인할 수 있습니다.",
+      "image": "https://zyahan.blog/assets/images/cards/bronze-scraper.jpeg",
+      "datePublished": "2020-06-30T17:26:00+09:00",
+      "inLanguage": "ko",
+      "author": { "@id": "https://zyahan.blog/#person" },
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
     }
+  ]
+}
 </script>
 
 <!-- Canonical tag -->

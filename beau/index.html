@@ -59,12 +59,50 @@
 
 <!-- Schema.org (Google 검색용) -->
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "@id": "https://zyahan.blog/#website",
+      "url": "https://zyahan.blog/",
+      "name": "미남과 오컬트와 자살",
+      "description": "《한서》 이야기를 합니다.",
+      "inLanguage": "ko",
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zyahan.blog/#person",
+      "name": "주아",
+      "url": "https://zyahan.blog/",
+      "image": "https://zyahan.blog/assets/images/logo_circle.png",
+      "sameAs": [
+        "https://buymeacoffee.com/zya.han",
+        "https://tumblbug.com/u/zya"
+      ]
+    },
+    {
       "@type": "Organization",
-      "url": "https://zyahan.blog",
+      "@id": "https://zyahan.blog/#organization",
+      "name": "미남과 오컬트와 자살",
+      "url": "https://zyahan.blog/",
       "logo": "https://zyahan.blog/assets/images/logo_circle.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zyahan.blog/beau/#article",
+      "mainEntityOfPage": { "@id": "https://zyahan.blog/beau/" },
+      "headline": "한서팸플릿4 〈미남전〉 서문",
+      "description": "아! 나는 일찌기 서한(西漢) 사람 한영(韓嬰)의 《한시외전(韓詩外傳》을 읽다가 선비의 다섯 가지 덕목을 논하는 데 이르면 책을 덮고 탄식하지 않은 적이 없었다. 영(嬰)은 ‘용모가 아름다운 자로서 그 아름다움을 조정을 통솔하고 백성을 돌보는 데 쓰지 않고 도리어 여자들을 유혹하고 욕망을 좇는 데 쓰는 사람’을 꾸짖었으니, 이는 실로 여자들을 유혹하는 남자의 아름다움이 나라를 다스리는 데 도움이 된다고 믿은 것이다.",
+      "image": "https://zyahan.blog/assets/images/cards/beau3.png",
+      "datePublished": "2019-06-19T15:16:00+09:00",
+      "inLanguage": "ko",
+      "author": { "@id": "https://zyahan.blog/#person" },
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
     }
+  ]
+}
 </script>
 
 <!-- Canonical tag -->

@@ -59,12 +59,50 @@
 
 <!-- Schema.org (Google 검색용) -->
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "@id": "https://zyahan.blog/#website",
+      "url": "https://zyahan.blog/",
+      "name": "미남과 오컬트와 자살",
+      "description": "《한서》 이야기를 합니다.",
+      "inLanguage": "ko",
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zyahan.blog/#person",
+      "name": "주아",
+      "url": "https://zyahan.blog/",
+      "image": "https://zyahan.blog/assets/images/logo_circle.png",
+      "sameAs": [
+        "https://buymeacoffee.com/zya.han",
+        "https://tumblbug.com/u/zya"
+      ]
+    },
+    {
       "@type": "Organization",
-      "url": "https://zyahan.blog",
+      "@id": "https://zyahan.blog/#organization",
+      "name": "미남과 오컬트와 자살",
+      "url": "https://zyahan.blog/",
       "logo": "https://zyahan.blog/assets/images/logo_circle.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zyahan.blog/summer-vacations/#article",
+      "mainEntityOfPage": { "@id": "https://zyahan.blog/summer-vacations/" },
+      "headline": "한대의 여름 휴가 [🔒 무료 미리보기]",
+      "description": "대표적인 여름 휴일은 24절기에 속하는 하지夏至와 절기 바깥의 복날[伏日]로, 각각 겨울의 동지冬至와 납일臘日에 대응합니다. 하지夏至는 1년 중 낮이 가장 긴 날로, 앞뒤로 이틀씩을 합쳐서 닷새 동안 군사들과 관리들을 쉬게 하는 큰 연휴입니다.",
+      "image": "https://zyahan.blog/assets/images/cards/summer-sky.jpeg",
+      "datePublished": "2020-07-18T20:23:00+09:00",
+      "inLanguage": "ko",
+      "author": { "@id": "https://zyahan.blog/#person" },
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
     }
+  ]
+}
 </script>
 
 <!-- Canonical tag -->

@@ -59,12 +59,50 @@
 
 <!-- Schema.org (Google 검색용) -->
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "@id": "https://zyahan.blog/#website",
+      "url": "https://zyahan.blog/",
+      "name": "미남과 오컬트와 자살",
+      "description": "《한서》 이야기를 합니다.",
+      "inLanguage": "ko",
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zyahan.blog/#person",
+      "name": "주아",
+      "url": "https://zyahan.blog/",
+      "image": "https://zyahan.blog/assets/images/logo_circle.png",
+      "sameAs": [
+        "https://buymeacoffee.com/zya.han",
+        "https://tumblbug.com/u/zya"
+      ]
+    },
+    {
       "@type": "Organization",
-      "url": "https://zyahan.blog",
+      "@id": "https://zyahan.blog/#organization",
+      "name": "미남과 오컬트와 자살",
+      "url": "https://zyahan.blog/",
       "logo": "https://zyahan.blog/assets/images/logo_circle.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zyahan.blog/feather-fan/#article",
+      "mainEntityOfPage": { "@id": "https://zyahan.blog/feather-fan/" },
+      "headline": "제갈량 vs. 주유, 깃털 부채의 원조는?",
+      "description": "제갈량 하면 떠오르는 깃털 부채가 원래 주유의 아이템이었다는 설도 있습니다. 이 설은 얼마만큼의 진실을 담고 있을까요? 이 글에서는 이러한 의문을 해결하기 위해 《삼국연의》 이전에 제갈량이나 주유의 깃털 부채를 묘사한 기록이 담긴 문헌을 찾아보고, 각 문헌의 기록이 《삼국연의》에 어떤 영향을 주었는지를 추측하고자 합니다.",
+      "image": "https://zyahan.blog/assets/images/cards/feather-fan.jpeg",
+      "datePublished": "2021-08-08T18:27:00+09:00",
+      "inLanguage": "ko",
+      "author": { "@id": "https://zyahan.blog/#person" },
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
     }
+  ]
+}
 </script>
 
 <!-- Canonical tag -->

@@ -59,12 +59,50 @@
 
 <!-- Schema.org (Google 검색용) -->
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "@id": "https://zyahan.blog/#website",
+      "url": "https://zyahan.blog/",
+      "name": "미남과 오컬트와 자살",
+      "description": "《한서》 이야기를 합니다.",
+      "inLanguage": "ko",
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zyahan.blog/#person",
+      "name": "주아",
+      "url": "https://zyahan.blog/",
+      "image": "https://zyahan.blog/assets/images/logo_circle.png",
+      "sameAs": [
+        "https://buymeacoffee.com/zya.han",
+        "https://tumblbug.com/u/zya"
+      ]
+    },
+    {
       "@type": "Organization",
-      "url": "https://zyahan.blog",
+      "@id": "https://zyahan.blog/#organization",
+      "name": "미남과 오컬트와 자살",
+      "url": "https://zyahan.blog/",
       "logo": "https://zyahan.blog/assets/images/logo_circle.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zyahan.blog/devoted-husbands/#article",
+      "mainEntityOfPage": { "@id": "https://zyahan.blog/devoted-husbands/" },
+      "headline": "장창과 반초",
+      "description": "한나라 때 장창이 아내의 눈썹을 그려주었다가 다른 신하들의 탄핵을 받은 적이 있다고 압니다. 그 사유는 남자가 화장품 같은 여성적이라고 인식된 물건에 손을 대서인가요, 혹은 아내에게 지나치게 격의 없이 굴어서인가요? 후자라면 동아시아 다른 나라 다른 시대에도 그러했을 것 같은데 부부 사이 ‘과한’ 친밀함이나 애정 행각을 지양해서인가요?",
+      "image": "https://zyahan.blog/assets/images/cards/dahuting-women.jpg",
+      "datePublished": "2024-10-28T21:00:00+09:00",
+      "inLanguage": "ko",
+      "author": { "@id": "https://zyahan.blog/#person" },
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
     }
+  ]
+}
 </script>
 
 <!-- Canonical tag -->

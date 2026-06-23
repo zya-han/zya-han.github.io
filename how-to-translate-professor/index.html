@@ -59,12 +59,50 @@
 
 <!-- Schema.org (Google 검색용) -->
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "@id": "https://zyahan.blog/#website",
+      "url": "https://zyahan.blog/",
+      "name": "미남과 오컬트와 자살",
+      "description": "《한서》 이야기를 합니다.",
+      "inLanguage": "ko",
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zyahan.blog/#person",
+      "name": "주아",
+      "url": "https://zyahan.blog/",
+      "image": "https://zyahan.blog/assets/images/logo_circle.png",
+      "sameAs": [
+        "https://buymeacoffee.com/zya.han",
+        "https://tumblbug.com/u/zya"
+      ]
+    },
+    {
       "@type": "Organization",
-      "url": "https://zyahan.blog",
+      "@id": "https://zyahan.blog/#organization",
+      "name": "미남과 오컬트와 자살",
+      "url": "https://zyahan.blog/",
       "logo": "https://zyahan.blog/assets/images/logo_circle.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zyahan.blog/how-to-translate-professor/#article",
+      "mainEntityOfPage": { "@id": "https://zyahan.blog/how-to-translate-professor/" },
+      "headline": "professor는 왜 교수(敎授)가 되었을까?",
+      "description": "‘교수’라는 단어를 이루는 한자는 바로 敎(가르치다)와 授(주다)입니다. 둘 다 동사입니다. 그런데 어떻게 동사 자체가 직업의 명칭이 되었을까요? 아(雅)가 추측하기로는 아마도 중국의 어느 시기부터 교수(敎授·教授)라는 관직명이 존재해 왔고, 이것이 근대에 유럽어 professor의 번역어로 채택되었을 것입니다.",
+      "image": "https://zyahan.blog/assets/images/cards/instant-noodle-teacher.jpeg",
+      "datePublished": "2025-04-15T11:15:00+09:00",
+      "inLanguage": "ko",
+      "author": { "@id": "https://zyahan.blog/#person" },
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
     }
+  ]
+}
 </script>
 
 <!-- Canonical tag -->

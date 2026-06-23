@@ -59,12 +59,50 @@
 
 <!-- Schema.org (Google 검색용) -->
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "@id": "https://zyahan.blog/#website",
+      "url": "https://zyahan.blog/",
+      "name": "미남과 오컬트와 자살",
+      "description": "《한서》 이야기를 합니다.",
+      "inLanguage": "ko",
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zyahan.blog/#person",
+      "name": "주아",
+      "url": "https://zyahan.blog/",
+      "image": "https://zyahan.blog/assets/images/logo_circle.png",
+      "sameAs": [
+        "https://buymeacoffee.com/zya.han",
+        "https://tumblbug.com/u/zya"
+      ]
+    },
+    {
       "@type": "Organization",
-      "url": "https://zyahan.blog",
+      "@id": "https://zyahan.blog/#organization",
+      "name": "미남과 오컬트와 자살",
+      "url": "https://zyahan.blog/",
       "logo": "https://zyahan.blog/assets/images/logo_circle.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zyahan.blog/how-to-write-grape-in-chinese/#article",
+      "mainEntityOfPage": { "@id": "https://zyahan.blog/how-to-write-grape-in-chinese/" },
+      "headline": "‘포도’를 한자로 쓰는 여러 가지 방법",
+      "description": "이제는 널리 알려진 사실이지만, 한국어 ‘포도’는 고유어가 아니라 한자어입니다. 그리고 그 한자는 葡(포도 포)와 萄(포도 도)입니다. 이 두 한자는 오직 포도를 나타내는 데만 쓰입니다. 포도 전용 한자는 대체 어쩌다가 생겨난 것일까요? 포도가 처음부터 포도 전용 한자인 葡와 萄로 시작한 것은 아닙니다. 고전 한문 자료에서 찾을 수 있는 포도의 한자 표기로는 최소한 네 가지 버전이 있습니다.",
+      "image": "https://zyahan.blog/assets/images/cards/putao-podo.jpg",
+      "datePublished": "2025-05-10T12:26:00+09:00",
+      "inLanguage": "ko",
+      "author": { "@id": "https://zyahan.blog/#person" },
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
     }
+  ]
+}
 </script>
 
 <!-- Canonical tag -->

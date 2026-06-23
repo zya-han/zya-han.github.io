@@ -59,12 +59,50 @@
 
 <!-- Schema.org (Google 검색용) -->
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "@id": "https://zyahan.blog/#website",
+      "url": "https://zyahan.blog/",
+      "name": "미남과 오컬트와 자살",
+      "description": "《한서》 이야기를 합니다.",
+      "inLanguage": "ko",
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zyahan.blog/#person",
+      "name": "주아",
+      "url": "https://zyahan.blog/",
+      "image": "https://zyahan.blog/assets/images/logo_circle.png",
+      "sameAs": [
+        "https://buymeacoffee.com/zya.han",
+        "https://tumblbug.com/u/zya"
+      ]
+    },
+    {
       "@type": "Organization",
-      "url": "https://zyahan.blog",
+      "@id": "https://zyahan.blog/#organization",
+      "name": "미남과 오컬트와 자살",
+      "url": "https://zyahan.blog/",
       "logo": "https://zyahan.blog/assets/images/logo_circle.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zyahan.blog/han-red-flag/#article",
+      "mainEntityOfPage": { "@id": "https://zyahan.blog/han-red-flag/" },
+      "headline": "한나라의 붉은 깃발에는 과연 “漢”이라는 글자가 있었을까?",
+      "description": "한나라를 나타낼 깃발을 고민하다가, 마왕퇴한묘 1호 무덤에서 나온 칠기 무늬를 바탕으로 君幸食(군행식)이라는 글자를 넣었습니다. 한나라를 상징한다고 하면서 왜 漢(한)이라는 글자를 쓰지 않았을까요? 그 까닭은 아(雅)가 한나라에 그런 깃발이 있었다고 확신하지 못했기 때문입니다.",
+      "image": "https://zyahan.blog/assets/images/cards/junxingshi.jpg",
+      "datePublished": "2025-01-12T15:19:00+09:00",
+      "inLanguage": "ko",
+      "author": { "@id": "https://zyahan.blog/#person" },
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
     }
+  ]
+}
 </script>
 
 <!-- Canonical tag -->

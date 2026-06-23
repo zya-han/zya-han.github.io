@@ -59,12 +59,50 @@
 
 <!-- Schema.org (Google 검색용) -->
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "@id": "https://zyahan.blog/#website",
+      "url": "https://zyahan.blog/",
+      "name": "미남과 오컬트와 자살",
+      "description": "《한서》 이야기를 합니다.",
+      "inLanguage": "ko",
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zyahan.blog/#person",
+      "name": "주아",
+      "url": "https://zyahan.blog/",
+      "image": "https://zyahan.blog/assets/images/logo_circle.png",
+      "sameAs": [
+        "https://buymeacoffee.com/zya.han",
+        "https://tumblbug.com/u/zya"
+      ]
+    },
+    {
       "@type": "Organization",
-      "url": "https://zyahan.blog",
+      "@id": "https://zyahan.blog/#organization",
+      "name": "미남과 오컬트와 자살",
+      "url": "https://zyahan.blog/",
       "logo": "https://zyahan.blog/assets/images/logo_circle.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zyahan.blog/inkstones/#article",
+      "mainEntityOfPage": { "@id": "https://zyahan.blog/inkstones/" },
+      "headline": "한나라 벼루의 크기와 모양",
+      "description": "잘 알려져 있듯이 한나라 사람들은 펜과 잉크가 아닌 붓과 먹물로 글씨를 썼습니다. 먹을 갈아서 먹물을 내기 위한 도구가 바로 벼루입니다. 흔히 벼루라고 하면 네모난 돌의 윗면을 파서 오목하게 만든 모양을 떠올립니다. 과연 한나라 사람들도 이렇게 생긴 벼루를 썼을까요? 이 글에서는 다양한 유물을 참고하여 한나라 벼루의 모양을 알아보겠습니다.",
+      "image": "https://zyahan.blog/assets/images/cards/han-inkstone-turtoise.jpg",
+      "datePublished": "2025-08-07T18:36:00+09:00",
+      "inLanguage": "ko",
+      "author": { "@id": "https://zyahan.blog/#person" },
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
     }
+  ]
+}
 </script>
 
 <!-- Canonical tag -->

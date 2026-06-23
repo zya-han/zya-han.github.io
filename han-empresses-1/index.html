@@ -59,12 +59,50 @@
 
 <!-- Schema.org (Google 검색용) -->
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "@id": "https://zyahan.blog/#website",
+      "url": "https://zyahan.blog/",
+      "name": "미남과 오컬트와 자살",
+      "description": "《한서》 이야기를 합니다.",
+      "inLanguage": "ko",
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zyahan.blog/#person",
+      "name": "주아",
+      "url": "https://zyahan.blog/",
+      "image": "https://zyahan.blog/assets/images/logo_circle.png",
+      "sameAs": [
+        "https://buymeacoffee.com/zya.han",
+        "https://tumblbug.com/u/zya"
+      ]
+    },
+    {
       "@type": "Organization",
-      "url": "https://zyahan.blog",
+      "@id": "https://zyahan.blog/#organization",
+      "name": "미남과 오컬트와 자살",
+      "url": "https://zyahan.blog/",
       "logo": "https://zyahan.blog/assets/images/logo_circle.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zyahan.blog/han-empresses-1/#article",
+      "mainEntityOfPage": { "@id": "https://zyahan.blog/han-empresses-1/" },
+      "headline": "한나라의 황후들",
+      "description": "다들 알고 계시듯이 황후皇后는 황제皇帝의 정실부인을 말합니다. 하지만 황제라는 지위가 생겨났을 때부터 바로 황후가 존재했던 것은 아닙니다. 최초의 황제는 진 시황이지만, 그의 부인에 대해서는 알려진 바가 없습니다. 진의 2세 황제 호해, 3세 황제 자영에 대해서도 마찬가지입니다. 중국 역사상 최초의 황후가 되는 것은 한 태조 고제 유방의 정실부인 여씨입니다. 즉, 서한은 중국에서 황후가 존재했던 첫 번째 왕조입니다.",
+      "image": "https://zyahan.blog/assets/images/cards/mirror.jpeg",
+      "datePublished": "2021-09-30T17:31:00+09:00",
+      "inLanguage": "ko",
+      "author": { "@id": "https://zyahan.blog/#person" },
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
     }
+  ]
+}
 </script>
 
 <!-- Canonical tag -->

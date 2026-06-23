@@ -59,12 +59,50 @@
 
 <!-- Schema.org (Google 검색용) -->
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "@id": "https://zyahan.blog/#website",
+      "url": "https://zyahan.blog/",
+      "name": "미남과 오컬트와 자살",
+      "description": "《한서》 이야기를 합니다.",
+      "inLanguage": "ko",
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zyahan.blog/#person",
+      "name": "주아",
+      "url": "https://zyahan.blog/",
+      "image": "https://zyahan.blog/assets/images/logo_circle.png",
+      "sameAs": [
+        "https://buymeacoffee.com/zya.han",
+        "https://tumblbug.com/u/zya"
+      ]
+    },
+    {
       "@type": "Organization",
-      "url": "https://zyahan.blog",
+      "@id": "https://zyahan.blog/#organization",
+      "name": "미남과 오컬트와 자살",
+      "url": "https://zyahan.blog/",
       "logo": "https://zyahan.blog/assets/images/logo_circle.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://zyahan.blog/alcohol-and-sex/#article",
+      "mainEntityOfPage": { "@id": "https://zyahan.blog/alcohol-and-sex/" },
+      "headline": "“주색“ 넘치는 향연",
+      "description": "양부전을 보면, 조홍이 잔치 자리에 무희들을 불러 선정적인 춤을 추게 하자 양부가 ‘남녀가 유별한데 이런 건 부적절하다’라고 대놓고 지적한 일이 그의 강직한 성품을 반영하는 일화로 언급되어 있습니다. 후한까지만 해도 드물었지만 현대엔 동양풍 하면 쉽게 떠올리는 ‘기녀들이 술시중 드는 잔치’ 문화가 실제로 생겨나는 데에 조조와 조홍 등의 행태가 기여했을 가능성이 있을까요?",
+      "image": "https://zyahan.blog/assets/images/cards/junxingjiu.jpg",
+      "datePublished": "2024-06-02T15:16:00+09:00",
+      "inLanguage": "ko",
+      "author": { "@id": "https://zyahan.blog/#person" },
+      "publisher": { "@id": "https://zyahan.blog/#organization" }
     }
+  ]
+}
 </script>
 
 <!-- Canonical tag -->
