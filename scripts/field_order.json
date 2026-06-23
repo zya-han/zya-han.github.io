@@ -16,10 +16,6 @@
     "featured",
     "hidden",
     "comments",
-    "slug",
-    "popular",
-    "popular_rank",
-    "popular_views",
-    "popular_updated"
+    "slug"
   ]
 }
