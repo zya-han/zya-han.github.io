@@ -196,13 +196,19 @@
           <div class="language-switcher">
             <i class="fas fa-globe" style="margin-right: 0.2rem; color: #666;"></i>
             
-            <a href="/" class="lang-link ">한국어</a>
+            <a href="/" class="lang-link ">
+              <span class="d-none d-md-inline">한국어</span><span class="d-md-none">한</span>
+            </a>
             <span class="lang-separator">|</span>
-            <a href="/zh/" class="lang-link active">中文</a>
+            <a href="/zh/" class="lang-link active">
+              <span class="d-none d-md-inline">中文</span><span class="d-md-none">中</span>
+            </a>
             <span class="lang-separator">|</span>
-            <a href="/en/" class="lang-link ">English</a>
+            <a href="/en/" class="lang-link ">
+              <span class="d-none d-md-inline">English</span><span class="d-md-none">EN</span>
+            </a>
           </div>
-
+          
           <!-- 다크 모드 토글 (모바일) -->
           <button class="theme-toggle" aria-label="切换深色模式" title="切换深色模式">
             <i class="fas fa-moon icon-moon"></i>
@@ -847,10 +853,11 @@ https://search.google.com/structured-data/testing-tool/u/0/
 <footer class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-sm-6 text-center text-lg-left">
-                Copyright © 2026 미남과 오컬트와 자살 | <a href="/privacy-policy">개인정보 처리방침</a>
+            <div class="col-md-6 col-sm-12 text-center text-md-left">
+                <div>Copyright © 2026 미남과 오컬트와 자살</div>
+                <div><a href="https://zyahan.blog/feed.xml" target="_blank" rel="noopener"><i class="fas fa-rss"></i> RSS</a> | <a href="/privacy-policy">개인정보 처리방침</a></div>
             </div>
-            <div class="col-md-6 col-sm-6 text-center text-lg-right">    
+            <div class="col-md-6 col-sm-12 text-center text-md-right">
                 <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> by WowThemes.net
             </div>
         </div>
