@@ -153,18 +153,18 @@ html[data-theme="dark"] #remark42 {
 
 .language-switcher .lang-link {
   text-decoration: none;
-  color: #666;
+  color: var(--text-secondary);
   transition: color 0.2s;
   white-space: nowrap;
 }
 
 .language-switcher .lang-link:hover {
-  color: #333;
+  color: var(--text-heading);
   text-decoration: underline;
 }
 
 .language-switcher .lang-link.active {
-  color: #333;
+  color: var(--text-heading);
   font-weight: 600;
 }
 
@@ -245,23 +245,20 @@ html[data-theme="dark"] #remark42 {
     }
 
     .search-toggle {
-      font-size: 1.2rem !important;
-      padding: 0.5rem !important;
-      line-height: 1 !important;
-      height: auto !important;
-    }
-  
-    .search-toggle {
       right: 1rem;
       background: none;
       border: none;
-      color: #333 !important;
+      font-size: 0.95rem !important;
+      padding: 0.35rem !important;
+      line-height: 1 !important;
+      height: auto !important;
+      color: var(--text-secondary) !important;
     }
 
     .search-toggle svg {
-      fill: #333 !important;
-      stroke: #333 !important;
-      color: #333 !important;
+      fill: var(--text-secondary) !important;
+      stroke: var(--text-secondary) !important;
+      color: var(--text-secondary) !important;
     }
 }
 
@@ -320,7 +317,7 @@ html[data-theme="dark"] #remark42 {
 
     /* 검색 버튼 */
     .search-toggle {
-      font-size: 1.3rem !important;
+      font-size: 0.85rem !important;
     }
 }
 
@@ -349,7 +346,7 @@ html[data-theme="dark"] #remark42 {
     }
 
     .search-toggle {
-      font-size: 1.2rem !important;
+      font-size: 0.75rem !important;
     }
 }
 
@@ -2018,13 +2015,13 @@ iframe {
   
     .search-toggle {
       right: 0rem;
-      color: #333 !important;
+      color: var(--text-secondary) !important;
     }
 
     .search-toggle svg {
-      fill: #333 !important;
-      stroke: #333 !important;
-      color: #333 !important;
+      fill: var(--text-secondary) !important;
+      stroke: var(--text-secondary) !important;
+      color: var(--text-secondary) !important;
     }
   }
 
