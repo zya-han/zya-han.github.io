@@ -26,13 +26,13 @@ var documents = [{
     "body": ""
     }, {
     "id": 5,
-    "url": "https://zyahan.blog/zh/categories",
-    "title": "所有分类",
+    "url": "https://zyahan.blog/en/categories",
+    "title": "All Categories",
     "body": ""
     }, {
     "id": 6,
-    "url": "https://zyahan.blog/en/categories",
-    "title": "All Categories",
+    "url": "https://zyahan.blog/zh/categories",
+    "title": "所有分类",
     "body": ""
     }, {
     "id": 7,
@@ -246,28 +246,28 @@ var documents = [{
     "body": "{% if page. lang == “ko” and paginator. page == 1 %} 12345678910111213141516171819202122232425262728293031323334&lt;!-- Featured================================================== --&gt;{% assign featured_posts = site. posts | where:  featured , true | where:  locale ,  ko  %}{% if featured_posts. size &gt; 0 %}&lt;section class= featured-posts &gt;&lt;div class= section-title &gt;  &lt;h2&gt;&lt;span&gt;주목할 포스트&lt;/span&gt;&lt;/h2&gt;&lt;/div&gt;&lt;div class= row &gt;  {% for post in featured_posts %}    {% include featuredbox. html %}  {% endfor %}&lt;/div&gt;&lt;/section&gt;{% endif %}&lt;!-- Popular================================================== --&gt;{% assign popular_data = site. data. popular. posts %}{% if popular_data and popular_data. size &gt; 0 %}&lt;section class= popular-posts &gt;&lt;div class= section-title &gt;  &lt;h2&gt;&lt;span&gt;인기 포스트&lt;/span&gt;&lt;/h2&gt;&lt;/div&gt;&lt;div class= row &gt;  {% for item in popular_data limit: 4 %}    {% assign post = site. posts | where:  url , item. url | first %}    {% if post %}      {% include featuredbox. html %}    {% endif %}  {% endfor %}&lt;/div&gt;&lt;/section&gt;{% endif %}{% endif %}       {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 49,
+    "url": "https://zyahan.blog/en/index.html",
+    "title": "Beauty, Mystery, and Death",
+    "body": "      {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
+    }, {
+    "id": 50,
     "url": "https://zyahan.blog/zh/index.html",
     "title": "美男与神秘与自杀 by 周雅",
     "body": "      {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
-    "id": 50,
+    "id": 51,
     "url": "https://zyahan.blog/zh/page2/index.html",
     "title": "美男与神秘与自杀 by 周雅 - page 2",
     "body": "      {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
-    "id": 51,
+    "id": 52,
     "url": "https://zyahan.blog/zh/page3/index.html",
     "title": "美男与神秘与自杀 by 周雅 - page 3",
     "body": "      {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
-    "id": 52,
+    "id": 53,
     "url": "https://zyahan.blog/zh/page4/index.html",
     "title": "美男与神秘与自杀 by 周雅 - page 4",
-    "body": "      {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
-    }, {
-    "id": 53,
-    "url": "https://zyahan.blog/en/index.html",
-    "title": "Beauty, Mystery, and Death",
     "body": "      {% assign lang = page. lang | default:  ko  %}    {% assign t = site. data. strings[lang] %}     {{ t. all_posts }}:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
     }, {
     "id": 54,
