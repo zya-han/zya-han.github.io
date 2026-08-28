@@ -496,7 +496,7 @@
                 <!-- Toc if any -->
                 
                 <!-- End Toc -->
-                <h2 id="-삼국지-단어-탐색기-소개">🔎 《삼국지》 단어 탐색기 소개</h2>
+                <h3 id="-삼국지-단어-탐색기-소개">🔎 《삼국지》 단어 탐색기 소개</h3>
 
 <p>최근 “《삼국지》 단어 탐색기”라는 것을 만들어서 웹에 공개했습니다.</p>
 
@@ -513,7 +513,7 @@
 
 <p>진수의 《삼국지》와 배송지의 주석 한문 원문에 등장하는 한자와 고유명사의 쓰임을 컴퓨터에게 학습시킨 모델을 통해 특정 단어와 비슷한 단어를 찾아보는 도구입니다.</p>
 
-<h2 id="-컴퓨터가-잡아낼-수-있는-단어의-의미">🤖 컴퓨터가 잡아낼 수 있는 단어의 의미</h2>
+<h3 id="-컴퓨터가-잡아낼-수-있는-단어의-의미">🤖 컴퓨터가 잡아낼 수 있는 단어의 의미</h3>
 
 <p>한국어를 사용하는 사람들은 “<span class="hanja-word">차<span class="hanja-text" aria-hidden="true">茶</span></span>”라는 단어와 “커피”라는 단어 사이에 비슷한 점이 있다는 사실을 알고 있습니다. 둘 다 음료의 명칭이기 때문입니다. 그런데 컴퓨터가 이 사실을 알 수 있을까요?</p>
 
@@ -538,7 +538,7 @@
 
 <p>《삼국지》 단어 탐색기는 이 코사인 유사도를 이용해서 《삼국지》에 나타난 단어들의 의미를 비교할 수 있게 만든 도구입니다.</p>
 
-<h2 id="️-두-단어-비교-예시-유비-vs-선주">⚖️ 두 단어 비교 예시: “유비” vs. “선주”</h2>
+<h3 id="️-두-단어-비교-예시-유비-vs-선주">⚖️ 두 단어 비교 예시: “유비” vs. “선주”</h3>
 
 <p>《삼국지》 단어 탐색기를 활용해서 “<span class="hanja-word">유비<span class="hanja-text" aria-hidden="true">劉備</span></span>”와 “<span class="hanja-word">선주<span class="hanja-text" aria-hidden="true">先主</span></span>”를 비교해 봅시다. 아시다시피 이 두 단어는 모두 유비를 가리킵니다. 하지만 《삼국지》 텍스트에서 두 단어의 쓰임은 상당히 다릅니다. <a href="https://zyahan.blog/sanguozhi-word-explorer?task=compare&amp;cmpA=%E5%8A%89%E5%82%99&amp;cmpB=%E5%85%88%E4%B8%BB">아래의 결과</a>를 살펴봅시다.</p>
 
@@ -559,7 +559,7 @@
 
 <p>Word2Vec 모델에서 계산한 코사인 유사도 기준으로는 “유비”와 “조공”이 서로 비슷하고, “선주”와 “태조”가 서로 비슷합니다. 전자는 다른 진영에서 비교적 중립적으로 쓴 칭호고, 후자는 《촉지》와 《위지》 내에서 각기 유비와 조조를 개국 군주로 높인 칭호입니다. 전자와 후자의 차이가 코사인 유사도 수치로도 드러나는 셈입니다.</p>
 
-<h2 id="️-스파이-찾기-예시-주유노숙여몽육손-vs-제갈량">🕵️ 스파이 찾기 예시: 주유·노숙·여몽·육손 vs. 제갈량</h2>
+<h3 id="️-스파이-찾기-예시-주유노숙여몽육손-vs-제갈량">🕵️ 스파이 찾기 예시: 주유·노숙·여몽·육손 vs. 제갈량</h3>
 
 <p>또 다른 예시로 “<span class="hanja-word">주유<span class="hanja-text" aria-hidden="true">周瑜</span></span>”, “<span class="hanja-word">노숙<span class="hanja-text" aria-hidden="true">魯肅</span></span>”, “<span class="hanja-word">여몽<span class="hanja-text" aria-hidden="true">呂蒙</span></span>”, “<span class="hanja-word">육손<span class="hanja-text" aria-hidden="true">陸遜</span></span>”, “<span class="hanja-word">제갈량<span class="hanja-text" aria-hidden="true">諸葛亮</span></span>” 다섯 단어를 비교해 봅시다. 주유, 노숙, 여몽, 육손은 모두 오나라의 도독이고, 제갈량은 촉나라의 승상입니다. 컴퓨터가 이들의 차이를 잡아낼 수 있을까요? <a href="https://zyahan.blog/sanguozhi-word-explorer?task=spy&amp;spy=%E5%91%A8%E7%91%9C%C2%B7%E9%AD%AF%E8%82%85%C2%B7%E5%91%82%E8%92%99%C2%B7%E9%99%B8%E9%81%9C%C2%B7%E8%AB%B8%E8%91%9B%E4%BA%AE">아래의 결과</a>를 살펴봅시다.</p>
 
@@ -574,7 +574,7 @@
 
 <p>세 개 이상의 단어를 넣으면, 컴퓨터는 각 단어 벡터의 평균을 구합니다. 그리고 그 평균에서 가장 멀리 떨어진 단어를 ‘스파이’로 간주합니다. 위의 결과에서는 “제갈량”이 스파이로 잡혔습니다. 《삼국지》 텍스트에서 오나라 도독들의 성명이 서로 비슷한 패턴으로 쓰였고 제갈량은 다른 문맥에서 주로 쓰였다는 사실을 컴퓨터가 잘 학습했음을 알 수 있습니다.</p>
 
-<h2 id="️-주의사항">⚠️ 주의사항</h2>
+<h3 id="️-주의사항">⚠️ 주의사항</h3>
 
 <p>컴퓨터가 단어의 사용 패턴을 학습하기 위해서는 단어가 자료에 충분히 등장해야 합니다. 단어가 《삼국지》 텍스트에 출현한 횟수가 매우 적은 경우 모델이 제대로 학습하지 못했을 가능성이 높으므로, 해당 단어의 유사도는 신뢰하기 어려울 수 있습니다.</p>
 
@@ -582,7 +582,7 @@
 
 <hr>
 
-<h2 id="주석">주석</h2>
+<h3 id="주석">주석</h3>
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:1">
@@ -720,6 +720,8 @@
             
             <a class="prev d-block col-md-6" href="/playing-emperor/"> &laquo; 후한 말 군벌들의 황제 흉내</a>
             
+            
+            <a class="next d-block col-md-6 text-lg-right" href="/sun-quan-and-maritime-silk-road/">손권과 동남아시아, 해상 실크로드 &raquo; </a>
             
             <div class="clearfix"></div>
             </div>
@@ -918,7 +920,7 @@ https://search.google.com/structured-data/testing-tool/u/0/
                     
                     
                     
-                        <a class="mt-1 mb-1" href="/category/정보/">정보 (150)</a>
+                        <a class="mt-1 mb-1" href="/category/정보/">정보 (151)</a>
                     
                 
                     
@@ -936,7 +938,7 @@ https://search.google.com/structured-data/testing-tool/u/0/
                     
                     
                     
-                        <a class="mt-1 mb-1" href="/category/한나라-설정집/">한나라 설정집 (67)</a>
+                        <a class="mt-1 mb-1" href="/category/한나라-설정집/">한나라 설정집 (68)</a>
                     
                 
                     
