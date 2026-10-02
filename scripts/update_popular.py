@@ -36,6 +36,8 @@ OUTPUT_FILE = "_data/popular.yml"
 
 EXCLUDE_PATHS = {
     "/", "/zya.han/posts",
+    "/zh", "/zh/",          # 중국어 인덱스 페이지
+    "/en", "/en/",          # 영어 인덱스 페이지
     "/about", "/about/",
     "/contact", "/contact/",
     "/archive", "/archive/",
